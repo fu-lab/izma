@@ -7,17 +7,17 @@
         <String>ft-rus@VVF-F-1957</String>
         <String>ft-eng@VVF-F-1957</String>
         <String>note(ref)@VVF-F-1957</String>
-        <String>ref@NTP-M-1986</String>
-        <String>orth@NTP-M-1986</String>
-        <String>ft-rus@NTP-M-1986</String>
-        <String>ft-eng@NTP-M-1986</String>
-        <String>note(ref)@NTP-M-1986</String>
         <String>ref@MMU-F-19XX</String>
         <String>orth@MMU-F-19XX</String>
         <String>word@MMU-F-19XX</String>
         <String>ft-rus@MMU-F-19XX</String>
         <String>ft-eng@MMU-F-19XX</String>
         <String>note(ref)@MMU-F-19XX</String>
+        <String>ref@NTP-M-1986</String>
+        <String>orth@NTP-M-1986</String>
+        <String>ft-rus@NTP-M-1986</String>
+        <String>ft-eng@NTP-M-1986</String>
+        <String>note(ref)@NTP-M-1986</String>
         <String>part</String>
         <String>geo</String>
         <String>note(geo)</String>
@@ -28,13 +28,13 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <prefGroup key="BAS - WebMAUS Basic">
-        <pref key="ServiceName">
-            <String>runMAUSBasic</String>
-        </pref>
+        <prefGroup key="TierUrl"/>
         <pref key="LANGUAGE">
             <String>deu</String>
         </pref>
-        <prefGroup key="TierUrl"/>
+        <pref key="ServiceName">
+            <String>runMAUSBasic</String>
+        </pref>
         <pref key="SignalParamName">
             <String>SIGNAL</String>
         </pref>
@@ -58,11 +58,11 @@
         <pref key="ref@NTP-M-1986">
             <Object class="java.awt.Color">0,90,160</Object>
         </pref>
-        <pref key="ref@MMU-F-19XX">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="ref@MMU-F-19XX">
+            <Object class="java.awt.Color">90,0,160</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">160,0,90</Object>
