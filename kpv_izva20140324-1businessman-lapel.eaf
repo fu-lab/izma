@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-06-11T17:21:44+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-06-12T18:03:53+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_fieldwork_2014/kpv_izva20140324-1businessman/kpv_izva20140324-1businessman-lapel.WAV" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../Documents/kpv_izva/kpv_fieldwork_2014/kpv_izva20140324-1businessman/kpv_izva20140324-1businessman-lapel.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:fd470753-fc3b-49a9-89e0-25a9f004d862</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">2204</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">2236</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="310"/>
@@ -7440,36 +7440,171 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2202" ANNOTATION_REF="a1169">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>there were many fire accidents. And, let's say, it became difficult to build school or open a kindergarten,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2203" ANNOTATION_REF="a1170">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>well to Izhma the Culture House.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2204" ANNOTATION_REF="a1171">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And we didn't have that kind of level in electricity works</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a609" ANNOTATION_REF="a543">
+                <ANNOTATION_VALUE>to install there wasn't, to automatize there wasn't, in the region, right?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2205" ANNOTATION_REF="a1172">
+                <ANNOTATION_VALUE>I brought those people</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2206" ANNOTATION_REF="a1173">
+                <ANNOTATION_VALUE>from Severodvinsk,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2207" ANNOTATION_REF="a1174">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a610" ANNOTATION_REF="a544">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>hm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2208" ANNOTATION_REF="a1175">
+                <ANNOTATION_VALUE>ships, submarines to Severodvinsk, well they had some kind of a ??? ???, there was no work, so they came</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2209" ANNOTATION_REF="a1176">
+                <ANNOTATION_VALUE>and they installed,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2210" ANNOTATION_REF="a1177">
+                <ANNOTATION_VALUE>???, my school, difficult school.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2211" ANNOTATION_REF="a1178">
+                <ANNOTATION_VALUE>I put between them my engineer, still a student, and the workers, ???.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2212" ANNOTATION_REF="a1179">
+                <ANNOTATION_VALUE>They learned, and now I don't need the engineers from Severodvinsk.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1437" ANNOTATION_REF="a1180">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Now the Krasnoborians install, people from Izhma do all that.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2213" ANNOTATION_REF="a1181">
+                <ANNOTATION_VALUE>One always has to learn</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2214" ANNOTATION_REF="a1182">
+                <ANNOTATION_VALUE>from those who</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2215" ANNOTATION_REF="a1183">
+                <ANNOTATION_VALUE>and with that example, who how, well to have a characteristic example.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a611" ANNOTATION_REF="a545">
+                <ANNOTATION_VALUE>How one needs, so that</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2216" ANNOTATION_REF="a1184">
+                <ANNOTATION_VALUE>khm ... without us somewhere in Germany, Holland, Finland they know how to do, one has to bring here and take that to oneself, to learn.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2217" ANNOTATION_REF="a1185">
+                <ANNOTATION_VALUE>Well kind of completely, well Iz'vatas, Komi-Iz'vatas have a skill to very</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2218" ANNOTATION_REF="a1186">
+                <ANNOTATION_VALUE>well, as the older, what as younger -</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2219" ANNOTATION_REF="a1187">
+                <ANNOTATION_VALUE>to learn very easily,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2220" ANNOTATION_REF="a1188">
+                <ANNOTATION_VALUE>to learn fast,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2221" ANNOTATION_REF="a1189">
+                <ANNOTATION_VALUE>to take new things fast.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2222" ANNOTATION_REF="a1190">
+                <ANNOTATION_VALUE>It is even in our genetics,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2223" ANNOTATION_REF="a1191">
+                <ANNOTATION_VALUE>when our ancestorcs came here, and</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2224" ANNOTATION_REF="a1192">
+                <ANNOTATION_VALUE>how fast the reidneer</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2225" ANNOTATION_REF="a1193">
+                <ANNOTATION_VALUE>was understood, reindeer herding, right?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2226" ANNOTATION_REF="a1194">
+                <ANNOTATION_VALUE>It is in our genes.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2227" ANNOTATION_REF="a1195">
+                <ANNOTATION_VALUE>It is so that the Izhemchy</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2228" ANNOTATION_REF="a1196">
+                <ANNOTATION_VALUE>is not a clean Komi, not like some well very</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2229" ANNOTATION_REF="a1197">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2230" ANNOTATION_REF="a1198">
+                <ANNOTATION_VALUE>our blood.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2231" ANNOTATION_REF="a1199">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
@@ -7505,32 +7640,57 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1455" ANNOTATION_REF="a1416">
-                <ANNOTATION_VALUE>Реплика М. Фединой </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Thank you very much!</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1456" ANNOTATION_REF="a1417">
-                <ANNOTATION_VALUE>Реплика М. Фединой</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And thank you that you exist!</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1457" ANNOTATION_REF="a1418">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Well …</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1458" ANNOTATION_REF="a1419">
-                <ANNOTATION_VALUE>Накладка 2 </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>The God …</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1459" ANNOTATION_REF="a1420">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Are there still some questions?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1460" ANNOTATION_REF="a1421">
                 <ANNOTATION_VALUE>Некорректная разбивка, поэтому перевод только ответа</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2232" ANNOTATION_REF="a1422">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2233" ANNOTATION_REF="a1122">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2234" ANNOTATION_REF="a1123">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2235" ANNOTATION_REF="a1124">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2236" ANNOTATION_REF="a1125">
+                <ANNOTATION_VALUE>Shall we go now?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -10845,7 +11005,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a788" ANNOTATION_REF="a714">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Right, how one has to do the things?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
