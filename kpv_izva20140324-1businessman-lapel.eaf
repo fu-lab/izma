@@ -1155,7 +1155,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts1147" TIME_VALUE="1806960"/>
         <TIME_SLOT TIME_SLOT_ID="ts1148" TIME_VALUE="1807430"/>
     </TIME_ORDER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" TIER_ID="ref@OMT">
+    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" TIER_ID="ref@OMT-M-1961">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts5">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -3622,7 +3622,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@OMT" TIER_ID="orth@OMT">
+    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@OMT-M-1961" TIER_ID="orth@OMT-M-1961">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a515" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>мм…</ANNOTATION_VALUE>
@@ -6089,7 +6089,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@OMT" TIER_ID="word@OMT">
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@OMT-M-1961" TIER_ID="word@OMT-M-1961">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a548" ANNOTATION_REF="a515">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -6231,7 +6231,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@OMT" TIER_ID="ft-eng@OMT">
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@OMT-M-1961" TIER_ID="ft-eng@OMT-M-1961">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a581" ANNOTATION_REF="a515">
                 <ANNOTATION_VALUE>Mm.</ANNOTATION_VALUE>
@@ -8698,7 +8698,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@OMT" TIER_ID="ft-rus@OMT">
+    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@OMT-M-1961" TIER_ID="ft-rus@OMT-M-1961">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a614" ANNOTATION_REF="a515">
                 <ANNOTATION_VALUE>мм…</ANNOTATION_VALUE>
@@ -11165,7 +11165,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" TIER_ID="ref@MSF">
+    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" TIER_ID="ref@MSF-F-1969">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a647" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts3">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -11457,7 +11457,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@MSF" TIER_ID="orth@MSF">
+    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@MSF-F-1969" TIER_ID="orth@MSF-F-1969">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a684" ANNOTATION_REF="a647">
                 <ANNOTATION_VALUE>И ми Изьва керкаас мӧдам ӧні мыйке карны , выль сборник лэдзны -</ANNOTATION_VALUE>
@@ -11749,7 +11749,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@MSF" TIER_ID="word@MSF">
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@MSF-F-1969" TIER_ID="word@MSF-F-1969">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a721" ANNOTATION_REF="a684">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -11931,7 +11931,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@MSF" TIER_ID="ft-eng@MSF">
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@MSF-F-1969" TIER_ID="ft-eng@MSF-F-1969">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a758" ANNOTATION_REF="a684">
                 <ANNOTATION_VALUE>In the Iz'va House we will now do something, to publish a new book.</ANNOTATION_VALUE>
@@ -12223,7 +12223,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@MSF" TIER_ID="ft-rus@MSF">
+    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@MSF-F-1969" TIER_ID="ft-rus@MSF-F-1969">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a795" ANNOTATION_REF="a684">
                 <ANNOTATION_VALUE>И мы сейчас в Ижемском доме будем новый сборник выпускать -</ANNOTATION_VALUE>
@@ -12505,7 +12505,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" TIER_ID="ref@Vasja">
+    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" TIER_ID="ref@VPC-M-1993">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a832" TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts50">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -12547,7 +12547,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@Vasja" TIER_ID="orth@Vasja">
+    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@VPC-M-1993" TIER_ID="orth@VPC-M-1993">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a839" ANNOTATION_REF="a832">
                 <ANNOTATION_VALUE>Олег Михайлович , расскажитэ , кытэн рӧдитчинныд,</ANNOTATION_VALUE>
@@ -12589,7 +12589,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@Vasja" TIER_ID="word@Vasja">
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@VPC-M-1993" TIER_ID="word@VPC-M-1993">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a846" ANNOTATION_REF="a839">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -12626,7 +12626,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@Vasja" TIER_ID="ft-eng@Vasja">
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@VPC-M-1993" TIER_ID="ft-eng@VPC-M-1993">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a853" ANNOTATION_REF="a839">
                 <ANNOTATION_VALUE>Oleg Mihailovich, please tell where you were born,</ANNOTATION_VALUE>
@@ -12668,7 +12668,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@Vasja" TIER_ID="ft-rus@Vasja">
+    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@VPC-M-1993" TIER_ID="ft-rus@VPC-M-1993">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a860" ANNOTATION_REF="a839">
                 <ANNOTATION_VALUE>Олег Михайлович , расскажите , где родились ,</ANNOTATION_VALUE>
@@ -12710,7 +12710,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" TIER_ID="ref@NP">
+    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" TIER_ID="ref@NTP-M-1986">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a867" TIME_SLOT_REF1="ts26" TIME_SLOT_REF2="ts29">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -12787,7 +12787,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@NP" TIER_ID="orth@NP">
+    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@NTP-M-1986" TIER_ID="orth@NTP-M-1986">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a882" ANNOTATION_REF="a867">
                 <ANNOTATION_VALUE>Ми дасьӧсь .</ANNOTATION_VALUE>
@@ -12864,7 +12864,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@NP" TIER_ID="word@NP">
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@NTP-M-1986" TIER_ID="word@NTP-M-1986">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a897" ANNOTATION_REF="a882">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -12941,7 +12941,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@NP" TIER_ID="ft-eng@NP">
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@NTP-M-1986" TIER_ID="ft-eng@NTP-M-1986">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a912" ANNOTATION_REF="a882">
                 <ANNOTATION_VALUE>We are ready.</ANNOTATION_VALUE>
@@ -13018,7 +13018,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@NP" TIER_ID="ft-rus@NP">
+    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@NTP-M-1986" TIER_ID="ft-rus@NTP-M-1986">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a927" ANNOTATION_REF="a882">
                 <ANNOTATION_VALUE>Мы готовы .</ANNOTATION_VALUE>
