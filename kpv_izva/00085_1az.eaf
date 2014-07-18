@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-07-18T17:08:16+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-07-18T19:04:44+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/Dropbox/kpv_izva_dropbox/kpv_izva_KOTUS/00085_1az.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../Documents/Dropbox/kpv_izva_dropbox/kpv_izva_KOTUS/00085_1az.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:fb0b65ef-e94c-4fe4-ba0c-cee4765bd490</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">3045</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">3128</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1666"/>
@@ -3984,6 +3984,411 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3045" ANNOTATION_REF="a312">
+                <ANNOTATION_VALUE>A dog gives a big help on our pastures in reindeer herding,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3046" ANNOTATION_REF="a313">
+                <ANNOTATION_VALUE>it is a special dog, it's called laika.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3047" ANNOTATION_REF="a314">
+                <ANNOTATION_VALUE>It helps to gather the reindeer,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3048" ANNOTATION_REF="a315">
+                <ANNOTATION_VALUE>to catch the reindeer,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3049" ANNOTATION_REF="a316">
+                <ANNOTATION_VALUE>to turn the reindeer, if went away from the herd.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3050" ANNOTATION_REF="a317">
+                <ANNOTATION_VALUE>We don't slaughter reindeer whenever,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3051" ANNOTATION_REF="a318">
+                <ANNOTATION_VALUE>but mostly in autumn.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3052" ANNOTATION_REF="a319">
+                <ANNOTATION_VALUE>And we mainly slaughter reindeer calves,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3053" ANNOTATION_REF="a320">
+                <ANNOTATION_VALUE>that means between 4 months and 5 months olds,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3054" ANNOTATION_REF="a321">
+                <ANNOTATION_VALUE>but here, as an example, they slaughter mostly adult reindeer -</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3055" ANNOTATION_REF="a322">
+                <ANNOTATION_VALUE>three or four years old, even five year olds.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3056" ANNOTATION_REF="a323">
+                <ANNOTATION_VALUE>We slaughter the calves born in this year,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3057" ANNOTATION_REF="a324">
+                <ANNOTATION_VALUE>for sixty percent,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3058" ANNOTATION_REF="a325">
+                <ANNOTATION_VALUE>and adult reindeer is slaughtered only for ten percent.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3059" ANNOTATION_REF="a326">
+                <ANNOTATION_VALUE>Why? We get in the autumn</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3060" ANNOTATION_REF="a327">
+                <ANNOTATION_VALUE>from the slaughter of calves more meat and good quality pelt.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3061" ANNOTATION_REF="a328">
+                <ANNOTATION_VALUE>From the pelt we prepare suede, which costs much more than meat.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3062" ANNOTATION_REF="a329">
+                <ANNOTATION_VALUE>Then here it looked like that the reindeer lives free</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3063" ANNOTATION_REF="a330">
+                <ANNOTATION_VALUE>both winter and summer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3064" ANNOTATION_REF="a331">
+                <ANNOTATION_VALUE>They are gathered only when they want to mark the calves,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3065" ANNOTATION_REF="a332">
+                <ANNOTATION_VALUE>and when they want to slaughter for meat</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3066" ANNOTATION_REF="a333">
+                <ANNOTATION_VALUE>generally,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3067" ANNOTATION_REF="a334">
+                <ANNOTATION_VALUE>because here, it looks like, the meat has more importance than the pelt.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3068" ANNOTATION_REF="a335">
+                <ANNOTATION_VALUE>The pelt, when adult reindeer is slaughtered,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3069" ANNOTATION_REF="a336">
+                <ANNOTATION_VALUE>that, it means, is spoiled, so it is bad for us.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3070" ANNOTATION_REF="a337">
+                <ANNOTATION_VALUE>It is spoiled by the gad-fly larva,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3071" ANNOTATION_REF="a338">
+                <ANNOTATION_VALUE>but at us, when we slaughter the calves,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3072" ANNOTATION_REF="a339">
+                <ANNOTATION_VALUE>then the pelt is not yet affected, with this, gad-fly larva.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3073" ANNOTATION_REF="a340">
+                <ANNOTATION_VALUE>According to this we count:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3074" ANNOTATION_REF="a341">
+                <ANNOTATION_VALUE>our reindeer husbandry</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3075" ANNOTATION_REF="a342">
+                <ANNOTATION_VALUE>gives more profit to the men, than here.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3076" ANNOTATION_REF="a343">
+                <ANNOTATION_VALUE>Well,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3077" ANNOTATION_REF="a344">
+                <ANNOTATION_VALUE>we got very much from coming here.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3078" ANNOTATION_REF="a345">
+                <ANNOTATION_VALUE>When we saw here the pastures,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3079" ANNOTATION_REF="a346">
+                <ANNOTATION_VALUE>then</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3080" ANNOTATION_REF="a347">
+                <ANNOTATION_VALUE>the condition of the reindeer in these days:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3081" ANNOTATION_REF="a348">
+                <ANNOTATION_VALUE>the reindeer is very well-nourished.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3082" ANNOTATION_REF="a349">
+                <ANNOTATION_VALUE>We saw the pastures are really good,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3083" ANNOTATION_REF="a350">
+                <ANNOTATION_VALUE>one thing, but another, the reindeer lives with its own will.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3084" ANNOTATION_REF="a351">
+                <ANNOTATION_VALUE>it is not closed (???)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3085" ANNOTATION_REF="a352">
+                <ANNOTATION_VALUE>with man's care and dog's chasing, with this,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3086" ANNOTATION_REF="a353">
+                <ANNOTATION_VALUE>it means, their reindeer's nourishment is better than ours,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3087" ANNOTATION_REF="a354">
+                <ANNOTATION_VALUE>in these days.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3088" ANNOTATION_REF="a355">
+                <ANNOTATION_VALUE>But the calves were worse:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3089" ANNOTATION_REF="a356">
+                <ANNOTATION_VALUE>small, apparently, no kind of work goes on</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3090" ANNOTATION_REF="a357">
+                <ANNOTATION_VALUE>with improving the reindeer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3091" ANNOTATION_REF="a358">
+                <ANNOTATION_VALUE>Well one can notice it right away.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3092" ANNOTATION_REF="a359">
+                <ANNOTATION_VALUE>This, that the calves are smaller this year</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3093" ANNOTATION_REF="a360">
+                <ANNOTATION_VALUE>and weaker.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3094" ANNOTATION_REF="a361">
+                <ANNOTATION_VALUE>Apparently, because of this they don't slaughter the calves, and more, this means that they slaughter adult reindeer</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3095" ANNOTATION_REF="a362">
+                <ANNOTATION_VALUE>and now and then, when they need meat</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3096" ANNOTATION_REF="a363">
+                <ANNOTATION_VALUE>and when they can sell the meat with better price.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3097" ANNOTATION_REF="a364">
+                <ANNOTATION_VALUE>Yes.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3098" ANNOTATION_REF="a365">
+                <ANNOTATION_VALUE>We</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3099" ANNOTATION_REF="a366">
+                <ANNOTATION_VALUE>got to know not only</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3100" ANNOTATION_REF="a367">
+                <ANNOTATION_VALUE>with the reindeer, but we saw, that here is published</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3101" ANNOTATION_REF="a368">
+                <ANNOTATION_VALUE>even though not little bit, but publications about reindeer husbandry.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3102" ANNOTATION_REF="a369">
+                <ANNOTATION_VALUE>Well in Rovaniemi Avaruika gave us a three years old magazine,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3103" ANNOTATION_REF="a370">
+                <ANNOTATION_VALUE>about the reindeer herding</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3104" ANNOTATION_REF="a371">
+                <ANNOTATION_VALUE>where they write.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3105" ANNOTATION_REF="a372">
+                <ANNOTATION_VALUE>Here, that is, they gave us information, well, today professor</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3106" ANNOTATION_REF="a373">
+                <ANNOTATION_VALUE>Syorenki</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3107" ANNOTATION_REF="a374">
+                <ANNOTATION_VALUE>got us know how they study, it is, in Lapland</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3108" ANNOTATION_REF="a375">
+                <ANNOTATION_VALUE>fauna:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3109" ANNOTATION_REF="a376">
+                <ANNOTATION_VALUE>the forest, then ???. Well.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3110" ANNOTATION_REF="a377">
+                <ANNOTATION_VALUE>That the reindeer doesn't damage</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3111" ANNOTATION_REF="a378">
+                <ANNOTATION_VALUE>the forest,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3112" ANNOTATION_REF="a379">
+                <ANNOTATION_VALUE>and what meaning it has,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3113" ANNOTATION_REF="a380">
+                <ANNOTATION_VALUE>it is,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3114" ANNOTATION_REF="a381">
+                <ANNOTATION_VALUE>when you protect the pastures</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3115" ANNOTATION_REF="a382">
+                <ANNOTATION_VALUE>from different kind of damages, let's say, forest fires,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3116" ANNOTATION_REF="a383">
+                <ANNOTATION_VALUE>then about non-rational forest felling and so on,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3117" ANNOTATION_REF="a384">
+                <ANNOTATION_VALUE>and so on.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3118" ANNOTATION_REF="a385">
+                <ANNOTATION_VALUE>Our reindeer is divided according th age to</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3119" ANNOTATION_REF="a386">
+                <ANNOTATION_VALUE>seven groups.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3120" ANNOTATION_REF="a387">
+                <ANNOTATION_VALUE>After the calf is born, when it is</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3121" ANNOTATION_REF="a388">
+                <ANNOTATION_VALUE>small, it is called pyžik.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3122" ANNOTATION_REF="a389">
+                <ANNOTATION_VALUE>After two months it is started to call pemduk,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3123" ANNOTATION_REF="a390">
+                <ANNOTATION_VALUE>after three months ńebl'uj,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3124" ANNOTATION_REF="a391">
+                <ANNOTATION_VALUE>and when four months and half has passed, then calf is ready for malića.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3125" ANNOTATION_REF="a392">
+                <ANNOTATION_VALUE>Calves are divided to khora and važenka.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3126" ANNOTATION_REF="a393">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
@@ -5470,7 +5875,18 @@
     <TIER LINGUISTIC_TYPE_REF="phonet-ipaT" PARENT_REF="ref@S2" PARTICIPANT="S2" TIER_ID="phonet-IPA@S2"/>
     <TIER LINGUISTIC_TYPE_REF="phonol-latT" PARENT_REF="ref@S2" PARTICIPANT="S2" TIER_ID="phonol-LAT@S2"/>
     <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@S2" PARTICIPANT="S2" TIER_ID="word@S2"/>
-    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@S2" PARTICIPANT="S2" TIER_ID="ft-eng@S2"/>
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@S2" PARTICIPANT="S2" TIER_ID="ft-eng@S2">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3127" ANNOTATION_REF="a542">
+                <ANNOTATION_VALUE>Well.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3128" ANNOTATION_REF="a543">
+                <ANNOTATION_VALUE>So.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER LINGUISTIC_TYPE_REF="ft-deuT" PARENT_REF="orth@S2" PARTICIPANT="S2" TIER_ID="ft-deu@S2"/>
     <TIER LINGUISTIC_TYPE_REF="ft-nobT" PARENT_REF="orth@S2" PARTICIPANT="S2" TIER_ID="ft-nob@S2"/>
     <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@S2" PARTICIPANT="S2" TIER_ID="ft-rus@S2">
