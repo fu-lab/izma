@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-04-18T12:59:58+01:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udo20120717PigulinaNS/kpv_udo20120717PigulinaNS-childrens_work.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./kpv_udo20120717PigulinaNS-childrens_work.wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">80</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="534"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="4129"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="5038"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="8503"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="8896"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="9983"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="9995"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="16136"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="16426"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="16823"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="17404"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="18862"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="18976"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="19518"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="19533"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="21167"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="21991"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="27877"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="28258"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="32457"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="32473"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="33541"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="33549"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="34052"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="34258"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="37861"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="37931"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="38870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="38922"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="42457"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="42503"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="43526"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="NSP-F-1956" TIER_ID="ref@NSP-F-1956">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts6" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts14" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts23">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="NTP-M-1986" TIER_ID="ref@NTP-M-1986">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts7">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts9">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts15">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts22" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ft-finT" PARENT_REF="ref@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="ft-fin@NTP-M-1986">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a17" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Aa, kyllä.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a18" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>mm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a19" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Joo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>mm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Kyllä.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a22" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>mm mm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ft-finT" PARENT_REF="ref@NSP-F-1956" PARTICIPANT="NSP-F-1956" TIER_ID="ft-fin@NSP-F-1956">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a23" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Meille se oli taas työ. Meitä ei sinne pakotettu, äiti sanoi</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>olen niittänyt heinät siellä ja siellä, mene ja hae</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Ja me kaikki tiesimme, että päivässä meidän pitää mennä neljästi tai viidesti hakemaan heinää </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Sen jälkeen uit.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Ja jos et tehnyt sitä niin hävetti, miten muka, ei ei, edes puhua moisesta ei voinut.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Että äitisi ja isäsi työskentelevät ja itse vain uit ja kuljeskelet.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Kukaan ei tehnyt täällä niin.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Oli heitä, mutta sellaisia oli hyvin vähän, jotka eivät tehneet mitään.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Työskentelivät niin lapset kuin aikuisetkin, ainoastaan työtä, työtä, työtä.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="ref@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="ft-eng@NTP-M-1986">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Ok.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>mm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Yeah.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>mm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Yes.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>mm mm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="ref@NSP-F-1956" PARTICIPANT="NSP-F-1956" TIER_ID="ft-eng@NSP-F-1956">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>For us that was again our work, we weren't forced there, mom said</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>I made grass there and there, go and get it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>And we all knew that we must go four or five times a day to get the hay.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>After that you swim.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>If you didn't do it, what a shame that was, no, no, that you can't even talk about.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>That your mother and father work and you only swim and go around.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>No one of was like that.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>There were, but there were very few of those who did nothing.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Both the children and adults were working, it was just work, work, work.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@NSP-F-1956" PARTICIPANT="NSP-F-1956" TIER_ID="orth@NSP-F-1956">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>миян сійӧ вӧлі бара жӧ удж, миянсӧ эз тшӧктыны мам шуис</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>турунӧс сэн и сэн менам ытшкӧма тэ вэтлы вай</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>и ми ставӧн тӧдім штӧ миян колӧ луннас нёльысь витысь ветлыны ??? турунла и вайны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>сы вӧрын купайтчан</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>??? ветлан</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>а он кӧ сійӧ вӧч, яндзим вӧлі што не не дажӧ сёрнитны оз позь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>штӧ тэнад мамыд батьыд уджалӧны уджалӧны а тэ тӧлька купайтчан да ветлӧдлан</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>сідзи миян некоді</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>вӧлісны но сэтшӧм зэв этша вӧлісны кодъяс немтор оз вӧчны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>уджалісны челядь и верстӧй йӧз тӧлька удж удж удж</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@NSP-F-1956" PARTICIPANT="NSP-F-1956" TIER_ID="word@NSP-F-1956"/>
+    <TIER LINGUISTIC_TYPE_REF="phonet-ipaT" PARENT_REF="ref@NSP-F-1956" PARTICIPANT="NSP-F-1956" TIER_ID="phonet-IPA@NSP-F-1956">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>mijan sijɘ vɘli bara ʒɘ udʒ mijansɘ ez tʃɘktɨnɨ mam ʃuis</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>turunɘs sen i sen menam ɨtʃkɘma te vetlɨ vaj</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>i mi stavɘn tɘdim ʃtɘ mijan kolɘ lunnas ɲoʎɨɕ vitɨɕ vetlɨnɨ ??? turunla i vajnɨ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>sɨ bɘrɨn kupajtɕːan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>a on kɘ sijɘ vɘtɕ jandʑim vɘli ʃtoː nʲe nʲe daʒe ɕorɲitnɨ oz poʑ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>ʃtɘ tenad mamɨd batɨd udʒalɘnɨ a te tɘʎka kupajtɕːan da vetlɘdlan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>sidʑi mijan ɲekodi</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>vɘlisnɨ no setʃɘm zev etʃːa vɘlisnɨ kodjas ɲemtor oz vɘtʃnɨ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>udʒalisnɨ tɕeʎadʲ i verstɘj jɘz tɘʎka udʒ udʒ udʒ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="phonet-ipaT" PARENT_REF="ref@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="phonet-IPA@NTP-M-1986">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>aa, da da da</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>mm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>da da</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>mm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>a, da da da</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>mm mm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="orth@NTP-M-1986">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>аа, да да да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>да да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>аа, да да да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>мм мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref(spoken)T" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-finT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-engT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="wordT" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonet-ipaT" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
