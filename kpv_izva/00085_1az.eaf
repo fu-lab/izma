@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-07-18T19:04:44+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-07-23T15:36:32+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/Dropbox/kpv_izva_dropbox/kpv_izva_KOTUS/00085_1az.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../Documents/Dropbox/kpv_izva_dropbox/kpv_izva_KOTUS/00085_1az.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:fb0b65ef-e94c-4fe4-ba0c-cee4765bd490</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">3128</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">3159</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1666"/>
@@ -4389,7 +4389,22 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3126" ANNOTATION_REF="a393">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>After one year the calves are called ńaluku khor.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3127" ANNOTATION_REF="a394">
+                <ANNOTATION_VALUE>and ńaluku važenka.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3128" ANNOTATION_REF="a395">
+                <ANNOTATION_VALUE>When they are a year and half</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3129" ANNOTATION_REF="a396">
+                <ANNOTATION_VALUE>and are waiting for calves, then they are called syrica,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4399,6 +4414,81 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2760" ANNOTATION_REF="a412">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3130" ANNOTATION_REF="a419">
+                <ANNOTATION_VALUE>By the fur the reindeer divides into:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3131" ANNOTATION_REF="a420">
+                <ANNOTATION_VALUE>blue reindeer,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3132" ANNOTATION_REF="a421">
+                <ANNOTATION_VALUE>red reindeer,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3133" ANNOTATION_REF="a422">
+                <ANNOTATION_VALUE>pock-marked reindeer,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3134" ANNOTATION_REF="a423">
+                <ANNOTATION_VALUE>one with white marks in face -</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3135" ANNOTATION_REF="a424">
+                <ANNOTATION_VALUE>these are the most</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3136" ANNOTATION_REF="a425">
+                <ANNOTATION_VALUE>visible colourings</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3137" ANNOTATION_REF="a426">
+                <ANNOTATION_VALUE>and marks.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3138" ANNOTATION_REF="a427">
+                <ANNOTATION_VALUE>That's all.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3139" ANNOTATION_REF="a428">
+                <ANNOTATION_VALUE>The reindeer herders here, so that the they profit from reindeer,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3140" ANNOTATION_REF="a429">
+                <ANNOTATION_VALUE>they catch lots of fish.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3141" ANNOTATION_REF="a430">
+                <ANNOTATION_VALUE>The fish, we have especially the tundra types,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3142" ANNOTATION_REF="a431">
+                <ANNOTATION_VALUE>on the Pechora and in the lakes, there is the most peled.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3143" ANNOTATION_REF="a432">
+                <ANNOTATION_VALUE>Peled fish, thymallus, then good fishes in the lakes are pike and salvelinus.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3144" ANNOTATION_REF="a433">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
@@ -4423,13 +4513,63 @@
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a2962" ANNOTATION_REF="a531">
+            <REF_ANNOTATION ANNOTATION_ID="a3145" ANNOTATION_REF="a487">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2962" ANNOTATION_REF="a531">
+                <ANNOTATION_VALUE>And when the tundra is full of snow and when there at the tundra it is cold, specially when it is northern wind,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2963" ANNOTATION_REF="a532">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>then the ptarmigan tends to hide to forest, comes to the forest. And when it comes to the forest, from there it is easier to catch.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3146" ANNOTATION_REF="a533">
+                <ANNOTATION_VALUE>It goes, eats the willow tops. They hang up loops and once, even the children,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3147" ANNOTATION_REF="a534">
+                <ANNOTATION_VALUE>mm, boys, girls, they go,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3148" ANNOTATION_REF="a535">
+                <ANNOTATION_VALUE>they set the loops in hundreds, two, three hundred loops they set and at times every day one gets one hundred, two until three of these ptarmigans.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3149" ANNOTATION_REF="a536">
+                <ANNOTATION_VALUE>This catch they eat directly on the spot, they use and sell, send to the cities, to Moscow,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3150" ANNOTATION_REF="a537">
+                <ANNOTATION_VALUE>the most is sent to Leningrad.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3151" ANNOTATION_REF="a538">
+                <ANNOTATION_VALUE>And especially from these birds the colhose takes large profit,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3152" ANNOTATION_REF="a539">
+                <ANNOTATION_VALUE>the most from ptarmigan and hazel-grouse.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3153" ANNOTATION_REF="a540">
+                <ANNOTATION_VALUE>Hazel-grouse is very tasty</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3154" ANNOTATION_REF="a541">
+                <ANNOTATION_VALUE>and the ptarmigan is tasty as well.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5877,13 +6017,28 @@
     <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@S2" PARTICIPANT="S2" TIER_ID="word@S2"/>
     <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@S2" PARTICIPANT="S2" TIER_ID="ft-eng@S2">
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a3127" ANNOTATION_REF="a542">
+            <REF_ANNOTATION ANNOTATION_ID="a3155" ANNOTATION_REF="a542">
                 <ANNOTATION_VALUE>Well.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <REF_ANNOTATION ANNOTATION_ID="a3128" ANNOTATION_REF="a543">
+            <REF_ANNOTATION ANNOTATION_ID="a3156" ANNOTATION_REF="a543">
                 <ANNOTATION_VALUE>So.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3157" ANNOTATION_REF="a544">
+                <ANNOTATION_VALUE>(…)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3158" ANNOTATION_REF="a545">
+                <ANNOTATION_VALUE>(…)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3159" ANNOTATION_REF="a546">
+                <ANNOTATION_VALUE>Aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
