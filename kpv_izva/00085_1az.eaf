@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-07-25T12:16:39+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-07-25T16:12:02+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/Dropbox/kpv_izva_dropbox/kpv_izva_KOTUS/00085_1az.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../Documents/Dropbox/kpv_izva_dropbox/kpv_izva_KOTUS/00085_1az.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:fb0b65ef-e94c-4fe4-ba0c-cee4765bd490</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">3163</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">3204</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1666"/>
@@ -4414,7 +4414,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3130" ANNOTATION_REF="a398">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>moves into group of namńuku.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4429,12 +4429,92 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3133" ANNOTATION_REF="a401">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>moves into hora group.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3164" ANNOTATION_REF="a402">
+                <ANNOTATION_VALUE>But syrica, when it calves,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3165" ANNOTATION_REF="a403">
+                <ANNOTATION_VALUE>it is called važenka.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3166" ANNOTATION_REF="a404">
+                <ANNOTATION_VALUE>Važenka is the one who</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3167" ANNOTATION_REF="a405">
+                <ANNOTATION_VALUE>every year will give birth to calves.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3168" ANNOTATION_REF="a406">
+                <ANNOTATION_VALUE>Hora - in Russian it is called "producer".</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3169" ANNOTATION_REF="a407">
+                <ANNOTATION_VALUE>Hora is castrated -</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3170" ANNOTATION_REF="a408">
+                <ANNOTATION_VALUE>it will be called byk.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3171" ANNOTATION_REF="a409">
+                <ANNOTATION_VALUE>Byk can</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3172" ANNOTATION_REF="a410">
+                <ANNOTATION_VALUE>be used in work</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3173" ANNOTATION_REF="a411">
+                <ANNOTATION_VALUE>and it can be that the byk doesn't work.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2760" ANNOTATION_REF="a412">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Who doesn't work, it is called minurej,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3174" ANNOTATION_REF="a413">
+                <ANNOTATION_VALUE>and with which they work - working byk,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3175" ANNOTATION_REF="a414">
+                <ANNOTATION_VALUE>tame byk.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3176" ANNOTATION_REF="a415">
+                <ANNOTATION_VALUE>Važenka, who doesn't calve,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3177" ANNOTATION_REF="a416">
+                <ANNOTATION_VALUE>who doesn't give birth to the calves, those we call haptorka.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3178" ANNOTATION_REF="a417">
+                <ANNOTATION_VALUE>Haptos are taught to work, and so they are used as bulls.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3179" ANNOTATION_REF="a418">
+                <ANNOTATION_VALUE>Well this kind of a age-related distinctions we have in Komi language.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4535,6 +4615,121 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3149" ANNOTATION_REF="a487">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3180" ANNOTATION_REF="a508">
+                <ANNOTATION_VALUE>Like that in the northern regions</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3181" ANNOTATION_REF="a509">
+                <ANNOTATION_VALUE>in the Komi Republic is also in</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3182" ANNOTATION_REF="a510">
+                <ANNOTATION_VALUE>earning from the forest birds.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3183" ANNOTATION_REF="a511">
+                <ANNOTATION_VALUE>From the birds the most hunted are the ptarmigan,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3184" ANNOTATION_REF="a512">
+                <ANNOTATION_VALUE>hazel-grouse,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3185" ANNOTATION_REF="a513">
+                <ANNOTATION_VALUE>black-grouse and capercaillie.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3186" ANNOTATION_REF="a514">
+                <ANNOTATION_VALUE>These birds are many in the forest places.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3187" ANNOTATION_REF="a515">
+                <ANNOTATION_VALUE>And particularly much</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3188" ANNOTATION_REF="a516">
+                <ANNOTATION_VALUE>in the forest there is capercaillie,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3189" ANNOTATION_REF="a517">
+                <ANNOTATION_VALUE>black-grouse and hazel-grouse.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3190" ANNOTATION_REF="a518">
+                <ANNOTATION_VALUE>These are hunted with snares and traps.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3191" ANNOTATION_REF="a519">
+                <ANNOTATION_VALUE>Trap, it is a special snare, where it enters, searches with feet, the ground, it is, scratches and then the stump crushes it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3192" ANNOTATION_REF="a520">
+                <ANNOTATION_VALUE>And the loop, it is also set up,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3193" ANNOTATION_REF="a521">
+                <ANNOTATION_VALUE>where still lives more birds: capercaillie, black-grouse and hazel-grouse.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3194" ANNOTATION_REF="a522">
+                <ANNOTATION_VALUE>Other enterpreneurs only in autumn months, in a month and half can get three hundred, four hundred birds.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3195" ANNOTATION_REF="a523">
+                <ANNOTATION_VALUE>And also ptarmigan they catch in very short time very much.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3196" ANNOTATION_REF="a524">
+                <ANNOTATION_VALUE>One enterpreneur in Usva region, as an example, in the last years, when the ptarmigam came in large numbers from the tundra,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3197" ANNOTATION_REF="a525">
+                <ANNOTATION_VALUE>one man catched up to six thousand heads.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3198" ANNOTATION_REF="a526">
+                <ANNOTATION_VALUE>In the time of one month he catched six thousand heads.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3199" ANNOTATION_REF="a527">
+                <ANNOTATION_VALUE>This doesn't happen every year.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3200" ANNOTATION_REF="a528">
+                <ANNOTATION_VALUE>In other years the ptarmigan doesn't come from tundra to our forests,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3201" ANNOTATION_REF="a529">
+                <ANNOTATION_VALUE>and it lives in tundra, when in the tundra the snow is small,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3202" ANNOTATION_REF="a530">
+                <ANNOTATION_VALUE>it eats willow at the tundra and doesn't come to the forest.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -6059,6 +6254,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3163" ANNOTATION_REF="a546">
                 <ANNOTATION_VALUE>Aha.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3203" ANNOTATION_REF="a547">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3204" ANNOTATION_REF="a548">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
