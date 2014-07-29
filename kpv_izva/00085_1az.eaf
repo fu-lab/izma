@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-07-25T16:12:02+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-07-29T14:40:45+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/Dropbox/kpv_izva_dropbox/kpv_izva_KOTUS/00085_1az.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../Documents/Dropbox/kpv_izva_dropbox/kpv_izva_KOTUS/00085_1az.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:fb0b65ef-e94c-4fe4-ba0c-cee4765bd490</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">3204</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">3273</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1666"/>
@@ -3484,7 +3484,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a479" ANNOTATION_REF="a204">
-                <ANNOTATION_VALUE>виялӧны . Да и скӧт вылӧ мукӧддырйи тожӧ уськӧдчыллӧны . .</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>виялӧны . Да и скӧт вылӧ мукӧддырйи тожӧ уськӧдчыллӧны .</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4589,32 +4589,377 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3148" ANNOTATION_REF="a433">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>In the pastures they ???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3205" ANNOTATION_REF="a434">
+                <ANNOTATION_VALUE>on the sledges, on the sledges there are boats,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3206" ANNOTATION_REF="a435">
+                <ANNOTATION_VALUE>drag-net, the other nets ???.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2814" ANNOTATION_REF="a436">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Every time, when they move onward,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2815" ANNOTATION_REF="a437">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>they stop at the lake or river, one that has fish.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2816" ANNOTATION_REF="a438">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>They catch the fish with dragnets,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2817" ANNOTATION_REF="a439">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>and other nets ???, well those who like catch also with the rods.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3207" ANNOTATION_REF="a440">
+                <ANNOTATION_VALUE>With the rod one gets well thymallus on the tundra rivers,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3208" ANNOTATION_REF="a441">
+                <ANNOTATION_VALUE>In one minut or ten one can catch two poods, yes.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3209" ANNOTATION_REF="a442">
+                <ANNOTATION_VALUE>But on the Pechera river,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3210" ANNOTATION_REF="a443">
+                <ANNOTATION_VALUE>then on the sea rivers they catch good fish, also with the drag-nets.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3211" ANNOTATION_REF="a444">
+                <ANNOTATION_VALUE>That is the salmon,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3212" ANNOTATION_REF="a445">
+                <ANNOTATION_VALUE>omul, loach, which are very delicious.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3213" ANNOTATION_REF="a446">
+                <ANNOTATION_VALUE>And mostly these are fished with organisation, not however, but according to the plan.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3214" ANNOTATION_REF="a447">
+                <ANNOTATION_VALUE>Then in certain places,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3215" ANNOTATION_REF="a448">
+                <ANNOTATION_VALUE>where it is evident</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3216" ANNOTATION_REF="a449">
+                <ANNOTATION_VALUE>and the time, fishing</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3217" ANNOTATION_REF="a450">
+                <ANNOTATION_VALUE>time, and into which ??? one can catch that fish from there.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3218" ANNOTATION_REF="a451">
+                <ANNOTATION_VALUE>The fish comes well.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3219" ANNOTATION_REF="a452">
+                <ANNOTATION_VALUE>This year, as an example, before we came they had catched from Pechora ten times more salmon than in previous years.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3220" ANNOTATION_REF="a453">
+                <ANNOTATION_VALUE>But so that our salmon would not disappear,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3221" ANNOTATION_REF="a454">
+                <ANNOTATION_VALUE>we catch salmon with special nets,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3222" ANNOTATION_REF="a455">
+                <ANNOTATION_VALUE>so that small salmon passes through, and only the adults would be catched.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3223" ANNOTATION_REF="a456">
+                <ANNOTATION_VALUE>So that the small ones and middle sized would rise on Pechora to the rivers,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3224" ANNOTATION_REF="a457">
+                <ANNOTATION_VALUE>there, it is, so that it spawns its eggs and new salmon borns</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3225" ANNOTATION_REF="a458">
+                <ANNOTATION_VALUE>more, and would not diminish.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3226" ANNOTATION_REF="a459">
+                <ANNOTATION_VALUE>On the lakes there is supervision as well,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3227" ANNOTATION_REF="a460">
+                <ANNOTATION_VALUE>so that they would not ruin the lakes, but to catch more adult ones, and leave the small ones,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3228" ANNOTATION_REF="a461">
+                <ANNOTATION_VALUE>so that they grow and onward, it is, always there would be fish.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3229" ANNOTATION_REF="a462">
+                <ANNOTATION_VALUE>In Komi our forests</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3230" ANNOTATION_REF="a463">
+                <ANNOTATION_VALUE>are very rich</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3231" ANNOTATION_REF="a464">
+                <ANNOTATION_VALUE>in different kinds of birds and animals.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3232" ANNOTATION_REF="a465">
+                <ANNOTATION_VALUE>Especially big meaning</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3233" ANNOTATION_REF="a466">
+                <ANNOTATION_VALUE>has the squirrel.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3234" ANNOTATION_REF="a467">
+                <ANNOTATION_VALUE>In the northern regions they produce squirrel,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3235" ANNOTATION_REF="a468">
+                <ANNOTATION_VALUE>specially in the Uhta, Troicko-Pechorskoy and other regions.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3236" ANNOTATION_REF="a469">
+                <ANNOTATION_VALUE>In the autumn, when it turns white, or blue, as we say,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3237" ANNOTATION_REF="a470">
+                <ANNOTATION_VALUE>the hunters go to hunt,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3238" ANNOTATION_REF="a471">
+                <ANNOTATION_VALUE>they they with them the dog, small-calibered rifle or shotgun</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3239" ANNOTATION_REF="a472">
+                <ANNOTATION_VALUE>and when they go from home</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3240" ANNOTATION_REF="a473">
+                <ANNOTATION_VALUE>every day to a new area, they walk around it</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3241" ANNOTATION_REF="a474">
+                <ANNOTATION_VALUE>and shoot as an example twenty, twenty five, and some times they get even up to thirty squirrel.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3242" ANNOTATION_REF="a475">
+                <ANNOTATION_VALUE>Also some time</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3243" ANNOTATION_REF="a476">
+                <ANNOTATION_VALUE>they set the traps for beasts, if there are beasts:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3244" ANNOTATION_REF="a477">
+                <ANNOTATION_VALUE>the wolves and wolverines.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3245" ANNOTATION_REF="a478">
+                <ANNOTATION_VALUE>They hunt and in passing also the bad animals, which damage, especially the wolf and wolverine</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3246" ANNOTATION_REF="a479">
+                <ANNOTATION_VALUE>they kill. And at times they also attack livestock.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3247" ANNOTATION_REF="a480">
+                <ANNOTATION_VALUE>Bear as well, if it doesn't, so that if somewhere there is passing a bear nearby, they set up the trap and hunt bears very interestingly here with a loop.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3248" ANNOTATION_REF="a481">
+                <ANNOTATION_VALUE>In the tree where the bear goes, next to the tree they set the bait from meat.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3249" ANNOTATION_REF="a482">
+                <ANNOTATION_VALUE>Then, it is, they close it, and to the side they set the loop.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3250" ANNOTATION_REF="a483">
+                <ANNOTATION_VALUE>To the tree in one meter and the half or to the height of two meter they make a hole and through the hole they set the loop.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3251" ANNOTATION_REF="a484">
+                <ANNOTATION_VALUE>The bear comes to the meat, to the rotten meat,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3252" ANNOTATION_REF="a485">
+                <ANNOTATION_VALUE>and it definitely searches and well then it enters to the loop, and the loop is set up so that from there</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3253" ANNOTATION_REF="a486">
+                <ANNOTATION_VALUE>a lock goes, when you push a bit the loop, and the bear directly rises up.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3149" ANNOTATION_REF="a487">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And so in this way the biggest part of our forest is cleaned from the bears.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3254" ANNOTATION_REF="a488">
+                <ANNOTATION_VALUE>Well. Then big importance in the tundra zone is in</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3255" ANNOTATION_REF="a489">
+                <ANNOTATION_VALUE>production of arctic fox,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3256" ANNOTATION_REF="a490">
+                <ANNOTATION_VALUE>which in Russian is called pesec.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3257" ANNOTATION_REF="a491">
+                <ANNOTATION_VALUE>Arctic fox also learns very well, where the bait is set.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3258" ANNOTATION_REF="a492">
+                <ANNOTATION_VALUE>The Nenetses, as an example, catch very much arctic foxes by the sea.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3259" ANNOTATION_REF="a493">
+                <ANNOTATION_VALUE>They set the traps with seal meat, they put reindeer meat.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3260" ANNOTATION_REF="a494">
+                <ANNOTATION_VALUE>Then they prepare special boxes.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3261" ANNOTATION_REF="a495">
+                <ANNOTATION_VALUE>The arctic foxes enter at times to the boxes in four or five of them.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3262" ANNOTATION_REF="a496">
+                <ANNOTATION_VALUE>The hunter comes, takes from there only special good boxes.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3263" ANNOTATION_REF="a497">
+                <ANNOTATION_VALUE>The arctic fox cannot escape from the side,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3264" ANNOTATION_REF="a498">
+                <ANNOTATION_VALUE>one thing, another, it doesn't spoil in any way its pelt, neither</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3265" ANNOTATION_REF="a499">
+                <ANNOTATION_VALUE>it escapes away.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3266" ANNOTATION_REF="a500">
+                <ANNOTATION_VALUE>The traps can at times be brought somewhere aside.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3267" ANNOTATION_REF="a501">
+                <ANNOTATION_VALUE>But this well now for two or three years they use these boxes, they catch well.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3268" ANNOTATION_REF="a502">
+                <ANNOTATION_VALUE>Well. The arctic fox also has a high value.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3269" ANNOTATION_REF="a503">
+                <ANNOTATION_VALUE>With this production our manufacturers participate to all-Soviet village production, many</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3270" ANNOTATION_REF="a504">
+                <ANNOTATION_VALUE>from Komi, also from Nenets Okrug. This, it is, people who produce from tundra or forest.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3271" ANNOTATION_REF="a505">
+                <ANNOTATION_VALUE>The colhozes take a large profit, which</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3272" ANNOTATION_REF="a506">
+                <ANNOTATION_VALUE>do well, are modern and organised</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3273" ANNOTATION_REF="a507">
+                <ANNOTATION_VALUE>who lead production work in the forest.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
