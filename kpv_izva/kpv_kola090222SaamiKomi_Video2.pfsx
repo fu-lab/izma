@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <pref key="MediaTime">
+        <Long>0</Long>
+    </pref>
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>ref@LK</String>
+        <String>orth@LK</String>
+        <String>ft-eng@LK</String>
+        <String>ft-rus@LK</String>
+        <String>ref@MR</String>
+        <String>orth@MR</String>
+        <String>ft-eng@MR</String>
+        <String>ft-rus@MR</String>
+        <String>ref@ANA</String>
+        <String>orth@ANA</String>
+        <String>word@ANA</String>
+        <String>pos@ANA</String>
+        <String>lg@ANA</String>
+        <String>ft-eng@ANA</String>
+        <String>ft-rus@ANA</String>
+        <String>ft-ling@ANA</String>
+        <String>note@ANA</String>
+        <String>ref@AAZ</String>
+        <String>orth@AAZ</String>
+        <String>word@AAZ</String>
+        <String>pos@AAZ</String>
+        <String>lg@AAZ</String>
+        <String>ft-eng@AAZ</String>
+        <String>ft-rus@AAZ</String>
+        <String>ft-ling@AAZ</String>
+        <String>note@AAZ</String>
+    </prefList>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="orth@ANA">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="orth@AAZ">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-eng@ANA">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="ref@AAZ">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@MR">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="orth@LK">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="ft-eng@AAZ">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-eng@LK">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="ref@ANA">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="ref@LK">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="orth@MR">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ft-eng@MR">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+    </prefGroup>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>2</Int>
+    </pref>
+    <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
+    <prefGroup key="TranscriptionTable.TierMap">
+        <prefList key="ref@MR">
+            <String>orth@MR</String>
+            <String>ft-eng@MR</String>
+        </prefList>
+        <prefList key="ref@AAZ">
+            <String>orth@AAZ</String>
+            <String>ft-eng@AAZ</String>
+        </prefList>
+        <prefList key="ref@LK">
+            <String>orth@LK</String>
+            <String>ft-eng@LK</String>
+        </prefList>
+        <prefList key="ref@ANA">
+            <String>orth@ANA</String>
+            <String>ft-eng@ANA</String>
+        </prefList>
+    </prefGroup>
+    <prefList key="TranscriptionTable.NonEditableTiers"/>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,774</Object>
+    </pref>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
+    </pref>
+    <prefList key="TranscriptionTable.ColumnTypes">
+        <String>orthT</String>
+        <String>textT</String>
+    </prefList>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>4</Int>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="ref@MR">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@AAZ">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@LK">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="ref@ANA">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+    </prefGroup>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,22</Object>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@LK</String>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>0</Long>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>588362</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>2</Int>
+    </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type2">
+            <Int>422</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>423</Int>
+        </pref>
+    </prefGroup>
+    <pref key="SelectionEndTime">
+        <Long>0</Long>
+    </pref>
+</preferences>

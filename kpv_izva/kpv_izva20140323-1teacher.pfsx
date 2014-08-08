@@ -96,6 +96,9 @@
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
     </pref>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@VPC-M-1993</String>
+    </pref>
     <prefGroup key="TierColors">
         <pref key="ref@NTP-M-1986">
             <Object class="java.awt.Color">0,160,0</Object>
@@ -126,10 +129,10 @@
         <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>2</Int>
+        <Int>3</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>0</Long>
+        <Long>582848</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="geo">
@@ -174,7 +177,7 @@
         <Int>2</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>160</Long>
+        <Long>569760</Long>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
         <Int>183</Int>
