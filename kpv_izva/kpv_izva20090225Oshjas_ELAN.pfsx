@@ -81,16 +81,16 @@
         <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>9</Int>
+        <Int>289</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>35215</Long>
+        <Long>777815</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>35215</Long>
+        <Long>777815</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="orth@int1">
@@ -132,7 +132,7 @@
         <String>ref@S1</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>25378</Long>
+        <Long>772945</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type1">
@@ -140,6 +140,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>37501</Long>
+        <Long>779435</Long>
     </pref>
 </preferences>

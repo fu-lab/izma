@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@S1</String>
         <String>orth@S1</String>
@@ -44,11 +45,11 @@
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
-    <pref key="SignalViewer.VerticalZoomLevel">
-        <Int>500</Int>
-    </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>91</Int>
+    </pref>
+    <pref key="SignalViewer.VerticalZoomLevel">
+        <Int>500</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@int1">
@@ -72,11 +73,11 @@
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
     <prefGroup key="TranscriptionTable.ColumnOrder"/>
-    <pref key="TM.SignalViewer.ZoomLevel">
-        <Float>5.0</Float>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>refT</String>
@@ -84,14 +85,11 @@
         <String>textT</String>
         <String>textT</String>
     </prefList>
-    <pref key="LayoutManager.SelectedTabIndex">
-        <Int>4</Int>
-    </pref>
     <pref key="TimeLineViewer.ZoomLevel">
         <Float>164.0</Float>
     </pref>
-    <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@Consultant</String>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>4</Int>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@int1">
@@ -104,21 +102,21 @@
             <Object class="java.awt.Color">0,90,160</Object>
         </pref>
     </prefGroup>
-    <prefGroup key="TierFonts"/>
-    <pref key="FrameLocation">
-        <Object class="java.awt.Point">0,22</Object>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@Consultant</String>
     </pref>
+    <prefGroup key="TierFonts"/>
     <prefGroup key="Interlinear.FontSizes">
-        <pref key="latKSDP@Collector">
-            <Int>12</Int>
-        </pref>
         <pref key="IPA@Collector">
             <Int>12</Int>
         </pref>
-        <pref key="oTranslat@Collector">
+        <pref key="latKSDP@Collector">
             <Int>12</Int>
         </pref>
         <pref key="notes@S1">
+            <Int>12</Int>
+        </pref>
+        <pref key="oTranslat@Collector">
             <Int>12</Int>
         </pref>
         <pref key="IPA@S1">
@@ -136,10 +134,10 @@
         <pref key="gloss@S1">
             <Int>12</Int>
         </pref>
-        <pref key="cyrKSDP@S1">
+        <pref key="language@Collector">
             <Int>12</Int>
         </pref>
-        <pref key="language@Collector">
+        <pref key="cyrKSDP@S1">
             <Int>12</Int>
         </pref>
         <pref key="oTranscr@Collector">
@@ -188,11 +186,17 @@
             <Int>12</Int>
         </pref>
     </prefGroup>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,22</Object>
+    </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>14</Int>
+        <Int>65</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>44216</Long>
+        <Long>133778</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>2</Int>
     </pref>
     <prefList key="Interlinear.TierOrder">
         <String>oTranscr@S1</String>
@@ -222,14 +226,8 @@
         <String>gloss@Collector</String>
         <String>language@Collector</String>
     </prefList>
-    <pref key="LayoutManager.CurrentMode">
-        <Int>2</Int>
-    </pref>
     <pref key="Interlinear.SelectionOnly">
         <Boolean>false</Boolean>
-    </pref>
-    <pref key="MediaTime">
-        <Long>44215</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ft-rus@int2">
@@ -269,18 +267,18 @@
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
     </prefGroup>
-    <pref key="MultiTierViewer.TierSortingMode">
-        <Int>1</Int>
+    <pref key="MediaTime">
+        <Long>133776</Long>
     </pref>
     <prefGroup key="TierHighlightColors">
-        <pref key="PoS@Consultant">
-            <Object class="java.awt.Color">255,204,255</Object>
+        <pref key="oTranslat@Consultant">
+            <Object class="java.awt.Color">204,204,204</Object>
         </pref>
         <pref key="gloss@Consultant">
             <Object class="java.awt.Color">255,204,255</Object>
         </pref>
-        <pref key="oTranslat@Consultant">
-            <Object class="java.awt.Color">204,204,204</Object>
+        <pref key="PoS@Consultant">
+            <Object class="java.awt.Color">255,204,255</Object>
         </pref>
         <pref key="oTranscr@Consultant">
             <Object class="java.awt.Color">204,204,204</Object>
@@ -295,6 +293,9 @@
             <Object class="java.awt.Color">255,204,255</Object>
         </pref>
     </prefGroup>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
     <pref key="SegmentationViewer.ZoomLevel">
         <Float>164.0</Float>
     </pref>
@@ -302,11 +303,11 @@
     <pref key="MediaControlRate">
         <Float>0.7</Float>
     </pref>
-    <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,774</Object>
-    </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>164.0</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,774</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type2 : orthT</String>
@@ -321,52 +322,7 @@
         <Int>255</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>44118</Long>
-    </pref>
-    <prefGroup key="TranscriptionTable.ColumnWidth">
-        <pref key="Type3">
-            <Int>212</Int>
-        </pref>
-        <pref key="Type2">
-            <Int>211</Int>
-        </pref>
-        <pref key="Type4">
-            <Int>211</Int>
-        </pref>
-        <pref key="Type1">
-            <Int>211</Int>
-        </pref>
-    </prefGroup>
-    <prefList key="MultiTierViewer.HiddenTiers">
-        <String>word@S1</String>
-        <String>pos@S1</String>
-        <String>lg@S1</String>
-        <String>ft-swe@S1</String>
-        <String>ft-ling@S1</String>
-        <String>phonol-CYR@S1</String>
-        <String>translit-LAT@S1</String>
-        <String>note@S1</String>
-        <String>word@int1</String>
-        <String>pos@int1</String>
-        <String>lg@int1</String>
-        <String>ft-swe@int1</String>
-        <String>ft-ling@int1</String>
-        <String>phonet-UPA@int1</String>
-        <String>phonol-CYR@int1</String>
-        <String>translit-LAT@int1</String>
-        <String>note@int1</String>
-        <String>word@int2</String>
-        <String>pos@int2</String>
-        <String>lg@int2</String>
-        <String>ft-swe@int2</String>
-        <String>ft-ling@int2</String>
-        <String>phonet-UPA@int2</String>
-        <String>phonol-CYR@int2</String>
-        <String>translit-LAT@int2</String>
-        <String>note@int2</String>
-    </prefList>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>281</Int>
+        <Long>131169</Long>
     </pref>
     <prefList key="Interlinear.VisibleTiers">
         <String>oTranscr@S1</String>
@@ -396,7 +352,25 @@
         <String>gloss@Collector</String>
         <String>language@Collector</String>
     </prefList>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>281</Int>
+    </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>212</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>211</Int>
+        </pref>
+        <pref key="Type4">
+            <Int>211</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>211</Int>
+        </pref>
+    </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>46706</Long>
+        <Long>135025</Long>
     </pref>
 </preferences>
