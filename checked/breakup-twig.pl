@@ -18,6 +18,7 @@ my %trans = (
       "???" => "???",
       "\?" => " ?",
       '"' => ' " ',
+      "…" => " …",
 );
 
 # Actual Translation Logic:
