@@ -64,14 +64,14 @@
         <pref key="ref@VVF-F-1957">
             <Object class="java.awt.Color">160,160,90</Object>
         </pref>
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">0,90,160</Object>
+        <pref key="ref@MMU-F-19XX">
+            <Object class="java.awt.Color">90,0,160</Object>
         </pref>
         <pref key="geo">
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
-        <pref key="ref@MMU-F-19XX">
-            <Object class="java.awt.Color">90,0,160</Object>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">0,90,160</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">160,0,90</Object>
@@ -84,7 +84,7 @@
         <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>2642578</Long>
     </pref>
     <prefList key="Search.HiddenItems">
         <String>ref@VVF-F-1957</String>
@@ -113,8 +113,28 @@
     <prefList key="Search.SelectedTiers">
         <String>Search.Constraint.CustomTiers</String>
     </prefList>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ref@VVF-F-1957">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="ref@MMU-F-19XX">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+    </prefGroup>
     <pref key="MediaTime">
-        <Long>1604531</Long>
+        <Long>2642578</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -136,7 +156,7 @@
         <String>ref@VVF-F-1957</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>1598461</Long>
+        <Long>2638258</Long>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
         <Int>40</Int>
@@ -149,6 +169,6 @@
         <String>BAS - WebMAUS Basic</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>2645298</Long>
     </pref>
 </preferences>

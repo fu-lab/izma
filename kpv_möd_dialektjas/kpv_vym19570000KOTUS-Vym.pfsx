@@ -16,8 +16,8 @@
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@XXX-F-1920">
-            <String>orth@XXX-F-1920-cp</String>
-            <String>phonet-UPA@XXX-F-1920-cp</String>
+            <String>orth@XXX-F-1920</String>
+            <String>phonet-UPA@XXX-F-1920</String>
         </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
@@ -49,13 +49,13 @@
         <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="phonet-UPA@XXX-F-1920-cp">
-            <Object class="java.awt.Color">90,160,160</Object>
-        </pref>
-        <pref key="orth@XXX-F-1920-cp">
-            <Object class="java.awt.Color">90,160,160</Object>
-        </pref>
         <pref key="ref@XXX-F-1920">
+            <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="phonet-UPA@XXX-F-1920">
+            <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="orth@XXX-F-1920">
             <Object class="java.awt.Color">90,160,160</Object>
         </pref>
     </prefGroup>
