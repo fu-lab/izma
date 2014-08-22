@@ -3,42 +3,45 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ref@SXP-M-1910">
-            <Object class="java.awt.Color">160,0,0</Object>
+            <Object class="java.awt.Color">160,0,90</Object>
         </pref>
     </prefGroup>
-    <pref key="MediaTime">
-        <Long>18430</Long>
-    </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@SXP-M-1910</String>
         <String>phonet-UPA@SXP-M-1910</String>
         <String>orth@SXP-M-1910</String>
         <String>word@SXP-M-1910</String>
     </prefList>
+    <pref key="MediaTime">
+        <Long>0</Long>
+    </pref>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
     </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>2</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <prefGroup key="TranscriptionTable.TierMap"/>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
-    <prefGroup key="TranscriptionTable.TierMap"/>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,774</Object>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,774</Object>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@SXP-M-1910">
-            <Object class="java.awt.Color">160,0,0</Object>
+            <Object class="java.awt.Color">160,0,90</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
@@ -48,18 +51,15 @@
         <String>ref@SXP-M-1910</String>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>18430</Long>
-    </pref>
-    <pref key="LayoutManager.ControlPanelWidth">
-        <Int>231</Int>
-    </pref>
-    <pref key="TimeScaleBeginTime">
-        <Long>18270</Long>
+        <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>0</Long>
+    </pref>
     <pref key="SelectionEndTime">
-        <Long>22000</Long>
+        <Long>0</Long>
     </pref>
 </preferences>

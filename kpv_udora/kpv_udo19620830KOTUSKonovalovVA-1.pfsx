@@ -82,68 +82,68 @@
     </pref>
     <prefGroup key="TierColors">
         <pref key="geo">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
-        <pref key="ref@MVP-F-1936">
             <Object class="java.awt.Color">90,160,160</Object>
         </pref>
-        <pref key="ref@XXX-F-18XX">
-            <Object class="java.awt.Color">0,160,0</Object>
-        </pref>
-        <pref key="ref@VAK-M-1880">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
-        <pref key="part">
+        <pref key="bio">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
+        <pref key="ref@MVP-F-1936">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ref@XXX-F-18XX">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@VAK-M-1880">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
         <pref key="ref@AJV-M-1933">
-            <Object class="java.awt.Color">160,90,0</Object>
+            <Object class="java.awt.Color">160,160,0</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>374363</Long>
+        <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
+    <pref key="MediaTime">
+        <Long>0</Long>
+    </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="geo">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
-        <pref key="ref@MVP-F-1936">
             <Object class="java.awt.Color">90,160,160</Object>
         </pref>
-        <pref key="ref@XXX-F-18XX">
-            <Object class="java.awt.Color">0,160,0</Object>
-        </pref>
-        <pref key="ref@VAK-M-1880">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
-        <pref key="part">
+        <pref key="bio">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
+        <pref key="ref@MVP-F-1936">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ref@XXX-F-18XX">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@VAK-M-1880">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
         <pref key="ref@AJV-M-1933">
-            <Object class="java.awt.Color">160,90,0</Object>
+            <Object class="java.awt.Color">160,160,0</Object>
         </pref>
     </prefGroup>
-    <pref key="MediaTime">
-        <Long>507889</Long>
-    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -158,9 +158,9 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>496689</Long>
+        <Long>-100</Long>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>377155</Long>
+        <Long>0</Long>
     </pref>
 </preferences>

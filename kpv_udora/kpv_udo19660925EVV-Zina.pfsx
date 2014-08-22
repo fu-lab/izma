@@ -31,32 +31,35 @@
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@ZXX-F-1960">
-            <Object class="java.awt.Color">0,90,0</Object>
+            <Object class="java.awt.Color">160,90,90</Object>
         </pref>
         <pref key="ref@EVV-M-1933">
-            <Object class="java.awt.Color">0,160,160</Object>
+            <Object class="java.awt.Color">160,90,160</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>155211</Long>
+        <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>155975</Long>
+        <Long>0</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ref@ZXX-F-1960">
-            <Object class="java.awt.Color">0,90,0</Object>
+            <Object class="java.awt.Color">160,90,90</Object>
         </pref>
         <pref key="ref@EVV-M-1933">
-            <Object class="java.awt.Color">0,160,160</Object>
+            <Object class="java.awt.Color">160,90,160</Object>
         </pref>
     </prefGroup>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
@@ -68,9 +71,9 @@
         <String>ref@ZXX-F-1960</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>159577</Long>
+        <Long>13600</Long>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>156740</Long>
+        <Long>0</Long>
     </pref>
 </preferences>

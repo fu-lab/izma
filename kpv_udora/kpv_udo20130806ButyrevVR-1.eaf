@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-05-04T22:14:53+01:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-22T16:27:16+02:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_udora/kpv_udo20130806ButyrevVR/kpv_udo20130806ButyrevVR-1.WAV" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./kpv_udo20130806ButyrevVR-1.WAV"/>
-        <PROPERTY NAME="lastUsedAnnotationId">692</PROPERTY>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_udora/kpv_udo20130806ButyrevVR/kpv_udo20130806ButyrevVR-1.WAV" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../Documents/kpv_udora/kpv_udo20130806ButyrevVR/kpv_udo20130806ButyrevVR-1.WAV"/>
+        <PROPERTY NAME="lastUsedAnnotationId">706</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="697184"/>
@@ -2293,7 +2293,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a598" ANNOTATION_REF="a8">
-                <ANNOTATION_VALUE>бытшкис, но кор визув вылын визув вылын</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>бытшкис , но кор визув вылын визув вылын</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2318,7 +2318,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a603" ANNOTATION_REF="a13">
-                <ANNOTATION_VALUE>гӧгӧрвоан? бергӧдчы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>гӧгӧрвоан ? бергӧдчы</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2338,7 +2338,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a607" ANNOTATION_REF="a17">
-                <ANNOTATION_VALUE>сія мыйкӧ корсьыссьӧ, но мӧд аидрасным босьтіс киас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сія мыйкӧ корсьыссьӧ , но мӧд аидрасным босьтіс киас</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2358,7 +2358,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a611" ANNOTATION_REF="a21">
-                <ANNOTATION_VALUE>ме шуа шӧмгаыс кӧ бытшки, дак месянь аидрастӧ ме тая лэпті и сія бӧрын меным кымынкӧ серавліс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ме шуа шӧмгаыс кӧ бытшки , дак месянь аидрастӧ ме тая лэпті и сія бӧрын меным кымынкӧ серавліс</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2383,7 +2383,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a616" ANNOTATION_REF="a26">
-                <ANNOTATION_VALUE>и всё, а сійӧ аидрассӧ корсис и думсис сьӧмганас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>и всё , а сійӧ аидрассӧ корсис и думсис сьӧмганас</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2393,7 +2393,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a618" ANNOTATION_REF="a28">
-                <ANNOTATION_VALUE>и ми опустітім сійӧс, но месянь водза</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>и ми опустітім сійӧс , но месянь водза</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2418,7 +2418,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a623" ANNOTATION_REF="a257">
-                <ANNOTATION_VALUE>сыкӧд пыжӧн мунім, тожӧ эськӧ дымсьыным</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сыкӧд пыжӧн мунім , тожӧ эськӧ дымсьыным</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2433,7 +2433,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a626" ANNOTATION_REF="a260">
-                <ANNOTATION_VALUE>пӧнимайтан бӧта-, но мыйкӧӧн бӧталаӧн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>пӧнимайтан бӧта- , но мыйкӧӧн бӧталаӧн</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2458,7 +2458,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a631" ANNOTATION_REF="a265">
-                <ANNOTATION_VALUE>тӧдан сійӧс?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>тӧдан сійӧс ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2473,7 +2473,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a634" ANNOTATION_REF="a268">
-                <ANNOTATION_VALUE>машинаӧн нуӧдіс пыжнас, но ми воим, но ваыс зэв уджыд вӧлі</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>машинаӧн нуӧдіс пыжнас , но ми воим , но ваыс зэв уджыд вӧлі</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2518,7 +2518,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a643" ANNOTATION_REF="a277">
-                <ANNOTATION_VALUE>сэтшӧм мыйкӧяс, ситуацияыс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэтшӧм мыйкӧяс , ситуацияыс</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2615,7 +2615,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a655" ANNOTATION_REF="a649">
-                <ANNOTATION_VALUE>аа, аддзи да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>аа , аддзи да</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2639,7 +2639,78 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="phonet-upaT" PARENT_REF="orth@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="word@NTP-M-1986"/>
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="word@NTP-M-1986">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a693" ANNOTATION_REF="a654">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a694" ANNOTATION_REF="a655">
+                <ANNOTATION_VALUE>аа</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a695" ANNOTATION_REF="a655" PREVIOUS_ANNOTATION="a694">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a696" ANNOTATION_REF="a655" PREVIOUS_ANNOTATION="a695">
+                <ANNOTATION_VALUE>аддзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a697" ANNOTATION_REF="a655" PREVIOUS_ANNOTATION="a696">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a698" ANNOTATION_REF="a656">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a699" ANNOTATION_REF="a657">
+                <ANNOTATION_VALUE>гӧгӧрвоа</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a700" ANNOTATION_REF="a658">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a701" ANNOTATION_REF="a658" PREVIOUS_ANNOTATION="a700">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a702" ANNOTATION_REF="a658" PREVIOUS_ANNOTATION="a701">
+                <ANNOTATION_VALUE>сьӧкыдджык</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a703" ANNOTATION_REF="a658" PREVIOUS_ANNOTATION="a702">
+                <ANNOTATION_VALUE>кыбӧм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a704" ANNOTATION_REF="a658" PREVIOUS_ANNOTATION="a703">
+                <ANNOTATION_VALUE>вылӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a705" ANNOTATION_REF="a658" PREVIOUS_ANNOTATION="a704">
+                <ANNOTATION_VALUE>колӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a706" ANNOTATION_REF="a659">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref(spoken)T" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-engT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>

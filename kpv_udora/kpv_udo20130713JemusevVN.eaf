@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-05-05T13:53:52+01:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-22T16:21:51+02:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udo_boat_building/kpv_udo20130713JemushevVN/kom_udo_20130713_Jemushev_Volodja_DAY_1_0717_111110.WAV" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./kom_udo_20130713_Jemushev_Volodja_DAY_1_0717_111110.WAV"/>
-        <PROPERTY NAME="lastUsedAnnotationId">807</PROPERTY>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udo_boat_building/kpv_udo20130713JemushevVN/kom_udo_20130713_Jemushev_Volodja_DAY_1_0717_111110.WAV" MIME_TYPE="audio/x-wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">2025</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="923"/>
@@ -3052,7 +3052,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="ASM-F-1986" TIER_ID="ref@ASM-F-1986">
+    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="ASK-F-1986" TIER_ID="ref@ASK-F-1986">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a501" TIME_SLOT_REF1="ts147" TIME_SLOT_REF2="ts148">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -3149,7 +3149,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="ref@ASM-F-1986" PARTICIPANT="ASM-F-1986" TIER_ID="ft-eng@ASK-F-1986">
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="ref@ASK-F-1986" PARTICIPANT="ASK-F-1986" TIER_ID="ft-eng@ASK-F-1986">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a520" ANNOTATION_REF="a501">
                 <ANNOTATION_VALUE>Mm.</ANNOTATION_VALUE>
@@ -3259,7 +3259,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a541" ANNOTATION_REF="a3">
-                <ANNOTATION_VALUE>кусь неби?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>кусь неби ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3284,17 +3284,17 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a546" ANNOTATION_REF="a8">
-                <ANNOTATION_VALUE>иг, вот сійӧ сідз и локтӧ листана</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>иг , вот сійӧ сідз и локтӧ листана</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a547" ANNOTATION_REF="a9">
-                <ANNOTATION_VALUE>листӧн локтӧ, штукаӧн листӧн небана</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>листӧн локтӧ , штукаӧн листӧн небана</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a548" ANNOTATION_REF="a10">
-                <ANNOTATION_VALUE>ме неби куим лист, два и половино кузя туйыс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ме неби куим лист , два и половино кузя туйыс</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3374,12 +3374,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a564" ANNOTATION_REF="a26">
-                <ANNOTATION_VALUE>тіян абу вон татшӧм жӧ?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>тіян абу вон татшӧм жӧ ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a565" ANNOTATION_REF="a27">
-                <ANNOTATION_VALUE>но но но, изолента</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>но но но , изолента</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3404,7 +3404,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a570" ANNOTATION_REF="a32">
-                <ANNOTATION_VALUE>тайл Ёртӧмаын абу, Благоевоысь кыськӧ бӧкысь ньӧбӧма</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>тайл Ёртӧмаын абу , Благоевоысь кыськӧ бӧкысь ньӧбӧма</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3419,7 +3419,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a573" ANNOTATION_REF="a35">
-                <ANNOTATION_VALUE>за- заклобка, сійӧ комиӧн оз шуйсьӧ сійӧ роч</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>за- заклобка , сійӧ комиӧн оз шуйсьӧ сійӧ роч</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3429,7 +3429,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a575" ANNOTATION_REF="a37">
-                <ANNOTATION_VALUE>заклобка-карантор, заклобла</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>заклобка-карантор , заклобла</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3444,7 +3444,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a578" ANNOTATION_REF="a40">
-                <ANNOTATION_VALUE>заклобка каран да, коминас сійӧ абуджык</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>заклобка каран да , коминас сійӧ абуджык</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3464,12 +3464,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a582" ANNOTATION_REF="a44">
-                <ANNOTATION_VALUE>а сійӧн, распиль, распиль</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а сійӧн , распиль , распиль</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a583" ANNOTATION_REF="a45">
-                <ANNOTATION_VALUE>да сія грубей напильник шуӧнытӧ, рашпиль</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да сія грубей напильник шуӧнытӧ , рашпиль</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3499,7 +3499,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a589" ANNOTATION_REF="a51">
-                <ANNOTATION_VALUE>мм кодӧс?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм кодӧс ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3514,7 +3514,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a592" ANNOTATION_REF="a54">
-                <ANNOTATION_VALUE>мм кӧрт пыдӧс, пыдӧсыс, пыж пыдӧснас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм кӧрт пыдӧс , пыдӧсыс , пыж пыдӧснас</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3926,12 +3926,12 @@
     <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="orth@NTP-M-1986">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a674" ANNOTATION_REF="a136">
-                <ANNOTATION_VALUE>да ті кыдзи ті медводзаысь ті тайӧ кӧрттор кытысь кӧ ньӧбинныд?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да ті кыдзи ті медводзаысь ті тайӧ кӧрттор кытысь кӧ ньӧбинныд ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a675" ANNOTATION_REF="a137">
-                <ANNOTATION_VALUE>кӧрт, тайӧ кӧрт</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>кӧрт , тайӧ кӧрт</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3946,12 +3946,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a678" ANNOTATION_REF="a140">
-                <ANNOTATION_VALUE>тані либо?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>тані либо ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a679" ANNOTATION_REF="a141">
-                <ANNOTATION_VALUE>Благоевоысь?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Благоевоысь ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3966,7 +3966,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a682" ANNOTATION_REF="a144">
-                <ANNOTATION_VALUE>ӧтик ыджыд кӧрт тор, но ті ми аддзим ті сійӧс кыдзи вундалінныд</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ӧтик ыджыд кӧрт тор , но ті ми аддзим ті сійӧс кыдзи вундалінныд</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3976,7 +3976,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a684" ANNOTATION_REF="a146">
-                <ANNOTATION_VALUE>и кымын метра ӧтик лист?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>и кымын метра ӧтик лист ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3986,7 +3986,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a686" ANNOTATION_REF="a148">
-                <ANNOTATION_VALUE>и ті найӧ листъяс ті кыдзи йитчинныд?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>и ті найӧ листъяс ті кыдзи йитчинныд ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4006,12 +4006,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a690" ANNOTATION_REF="a152">
-                <ANNOTATION_VALUE>да и ті замокъяс кыдзи каринныд, ті медводзаысь ті</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да и ті замокъяс кыдзи каринныд , ті медводзаысь ті</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a691" ANNOTATION_REF="a153">
-                <ANNOTATION_VALUE>кутшӧм, кыдзи сійӧс колӧ карны, сійӧс колӧ?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>кутшӧм , кыдзи сійӧс колӧ карны , сійӧс колӧ ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4061,7 +4061,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a701" ANNOTATION_REF="a163">
-                <ANNOTATION_VALUE>и изолента тіян тані важӧн тшӧтш вӧлі?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>и изолента тіян тані важӧн тшӧтш вӧлі ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4071,12 +4071,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a703" ANNOTATION_REF="a165">
-                <ANNOTATION_VALUE>но сійӧс позьӧ татысь Ёртомысь тшӧтш ньӧбны либӧ?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>но сійӧс позьӧ татысь Ёртомысь тшӧтш ньӧбны либӧ ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a704" ANNOTATION_REF="a166">
-                <ANNOTATION_VALUE>Благоевоысь?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Благоевоысь ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4091,7 +4091,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a707" ANNOTATION_REF="a169">
-                <ANNOTATION_VALUE>но изолента пуктӧм бӧрын тіян вӧлісны найӧ, кыдзи найӧ шуӧны комиӧн тайӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>но изолента пуктӧм бӧрын тіян вӧлісны найӧ , кыдзи найӧ шуӧны комиӧн тайӧ</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4126,12 +4126,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a714" ANNOTATION_REF="a176">
-                <ANNOTATION_VALUE>мм, и заклоб- заклопкаяс бӧрын ті кыдзи ті коросьӧн чиськитінныд сійӧс?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм , и заклоб- заклопкаяс бӧрын ті кыдзи ті коросьӧн чиськитінныд сійӧс ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a715" ANNOTATION_REF="a177">
-                <ANNOTATION_VALUE>тайӧ но вот час ми но заклоб- заклобкаяс бӧрын мый вӧчинныд?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>тайӧ но вот час ми но заклоб- заклобкаяс бӧрын мый вӧчинныд ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4146,12 +4146,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a718" ANNOTATION_REF="a180">
-                <ANNOTATION_VALUE>пу- пуӧн заводитінныд уджавны?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>пу- пуӧн заводитінныд уджавны ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a719" ANNOTATION_REF="a181">
-                <ANNOTATION_VALUE>тайӧ путор босьтінныд?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>тайӧ путор босьтінныд ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4500,7 +4500,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@ASM-F-1986" PARTICIPANT="ASM-F-1986" TIER_ID="orth@ASM-F-1986">
+    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@ASK-F-1986" PARTICIPANT="ASK-F-1986" TIER_ID="orth@ASM-F-1986">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a789" ANNOTATION_REF="a501">
                 <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
@@ -4597,7 +4597,3147 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@VNJ-M-1965" PARTICIPANT="VNJ-M-1965" TIER_ID="word@VNJ-M-1965"/>
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@VNJ-M-1965" PARTICIPANT="VNJ-M-1965" TIER_ID="word@VNJ-M-1965">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1399" ANNOTATION_REF="a539">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1400" ANNOTATION_REF="a540">
+                <ANNOTATION_VALUE>жестсӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1401" ANNOTATION_REF="a541">
+                <ANNOTATION_VALUE>кусь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1402" ANNOTATION_REF="a541" PREVIOUS_ANNOTATION="a1401">
+                <ANNOTATION_VALUE>неби</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1403" ANNOTATION_REF="a541" PREVIOUS_ANNOTATION="a1402">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1404" ANNOTATION_REF="a542">
+                <ANNOTATION_VALUE>магазинысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1405" ANNOTATION_REF="a543">
+                <ANNOTATION_VALUE>вузясяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1406" ANNOTATION_REF="a543" PREVIOUS_ANNOTATION="a1405">
+                <ANNOTATION_VALUE>тая</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1407" ANNOTATION_REF="a544">
+                <ANNOTATION_VALUE>Благоевоысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1408" ANNOTATION_REF="a545">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1409" ANNOTATION_REF="a546">
+                <ANNOTATION_VALUE>иг</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1410" ANNOTATION_REF="a546" PREVIOUS_ANNOTATION="a1409">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1411" ANNOTATION_REF="a546" PREVIOUS_ANNOTATION="a1410">
+                <ANNOTATION_VALUE>вот</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1412" ANNOTATION_REF="a546" PREVIOUS_ANNOTATION="a1411">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1413" ANNOTATION_REF="a546" PREVIOUS_ANNOTATION="a1412">
+                <ANNOTATION_VALUE>сідз</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1414" ANNOTATION_REF="a546" PREVIOUS_ANNOTATION="a1413">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1415" ANNOTATION_REF="a546" PREVIOUS_ANNOTATION="a1414">
+                <ANNOTATION_VALUE>локтӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1416" ANNOTATION_REF="a546" PREVIOUS_ANNOTATION="a1415">
+                <ANNOTATION_VALUE>листана</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1417" ANNOTATION_REF="a547">
+                <ANNOTATION_VALUE>листӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1418" ANNOTATION_REF="a547" PREVIOUS_ANNOTATION="a1417">
+                <ANNOTATION_VALUE>локтӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1419" ANNOTATION_REF="a547" PREVIOUS_ANNOTATION="a1418">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1420" ANNOTATION_REF="a547" PREVIOUS_ANNOTATION="a1419">
+                <ANNOTATION_VALUE>штукаӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1421" ANNOTATION_REF="a547" PREVIOUS_ANNOTATION="a1420">
+                <ANNOTATION_VALUE>листӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1422" ANNOTATION_REF="a547" PREVIOUS_ANNOTATION="a1421">
+                <ANNOTATION_VALUE>небана</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1423" ANNOTATION_REF="a548">
+                <ANNOTATION_VALUE>ме</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1424" ANNOTATION_REF="a548" PREVIOUS_ANNOTATION="a1423">
+                <ANNOTATION_VALUE>неби</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1425" ANNOTATION_REF="a548" PREVIOUS_ANNOTATION="a1424">
+                <ANNOTATION_VALUE>куим</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1426" ANNOTATION_REF="a548" PREVIOUS_ANNOTATION="a1425">
+                <ANNOTATION_VALUE>лист</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1427" ANNOTATION_REF="a548" PREVIOUS_ANNOTATION="a1426">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1428" ANNOTATION_REF="a548" PREVIOUS_ANNOTATION="a1427">
+                <ANNOTATION_VALUE>два</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1429" ANNOTATION_REF="a548" PREVIOUS_ANNOTATION="a1428">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1430" ANNOTATION_REF="a548" PREVIOUS_ANNOTATION="a1429">
+                <ANNOTATION_VALUE>половино</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1431" ANNOTATION_REF="a548" PREVIOUS_ANNOTATION="a1430">
+                <ANNOTATION_VALUE>кузя</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1432" ANNOTATION_REF="a548" PREVIOUS_ANNOTATION="a1431">
+                <ANNOTATION_VALUE>туйыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1433" ANNOTATION_REF="a549">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1434" ANNOTATION_REF="a549" PREVIOUS_ANNOTATION="a1433">
+                <ANNOTATION_VALUE>пасьта</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1435" ANNOTATION_REF="a549" PREVIOUS_ANNOTATION="a1434">
+                <ANNOTATION_VALUE>туйыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1436" ANNOTATION_REF="a549" PREVIOUS_ANNOTATION="a1435">
+                <ANNOTATION_VALUE>метра</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1437" ANNOTATION_REF="a549" PREVIOUS_ANNOTATION="a1436">
+                <ANNOTATION_VALUE>двацетпять</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1438" ANNOTATION_REF="a550">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1439" ANNOTATION_REF="a551">
+                <ANNOTATION_VALUE>изолента</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1440" ANNOTATION_REF="a551" PREVIOUS_ANNOTATION="a1439">
+                <ANNOTATION_VALUE>пукті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1441" ANNOTATION_REF="a552">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1442" ANNOTATION_REF="a553">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1443" ANNOTATION_REF="a553" PREVIOUS_ANNOTATION="a1442">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1444" ANNOTATION_REF="a553" PREVIOUS_ANNOTATION="a1443">
+                <ANNOTATION_VALUE>заклепайті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1445" ANNOTATION_REF="a553" PREVIOUS_ANNOTATION="a1444">
+                <ANNOTATION_VALUE>замокӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1446" ANNOTATION_REF="a553" PREVIOUS_ANNOTATION="a1445">
+                <ANNOTATION_VALUE>кари</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1447" ANNOTATION_REF="a554">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1448" ANNOTATION_REF="a554" PREVIOUS_ANNOTATION="a1447">
+                <ANNOTATION_VALUE>первӧй</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1449" ANNOTATION_REF="a554" PREVIOUS_ANNOTATION="a1448">
+                <ANNOTATION_VALUE>чертітана</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1450" ANNOTATION_REF="a555">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1451" ANNOTATION_REF="a556">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1452" ANNOTATION_REF="a557">
+                <ANNOTATION_VALUE>водзӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1453" ANNOTATION_REF="a557" PREVIOUS_ANNOTATION="a1452">
+                <ANNOTATION_VALUE>кусінтан</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1454" ANNOTATION_REF="a558">
+                <ANNOTATION_VALUE>мӧдсӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1455" ANNOTATION_REF="a558" PREVIOUS_ANNOTATION="a1454">
+                <ANNOTATION_VALUE>кусінтан</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1456" ANNOTATION_REF="a559">
+                <ANNOTATION_VALUE>водзӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1457" ANNOTATION_REF="a559" PREVIOUS_ANNOTATION="a1456">
+                <ANNOTATION_VALUE>изолента</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1458" ANNOTATION_REF="a559" PREVIOUS_ANNOTATION="a1457">
+                <ANNOTATION_VALUE>коласас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1459" ANNOTATION_REF="a559" PREVIOUS_ANNOTATION="a1458">
+                <ANNOTATION_VALUE>пуктан</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1460" ANNOTATION_REF="a559" PREVIOUS_ANNOTATION="a1459">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1461" ANNOTATION_REF="a559" PREVIOUS_ANNOTATION="a1460">
+                <ANNOTATION_VALUE>заклепайтан</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1462" ANNOTATION_REF="a559" PREVIOUS_ANNOTATION="a1461">
+                <ANNOTATION_VALUE>нӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1463" ANNOTATION_REF="a560">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1464" ANNOTATION_REF="a560" PREVIOUS_ANNOTATION="a1463">
+                <ANNOTATION_VALUE>заклепайтан</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1465" ANNOTATION_REF="a561">
+                <ANNOTATION_VALUE>сідз</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1466" ANNOTATION_REF="a562">
+                <ANNOTATION_VALUE>изолента</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1467" ANNOTATION_REF="a563">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1468" ANNOTATION_REF="a563" PREVIOUS_ANNOTATION="a1467">
+                <ANNOTATION_VALUE>вот</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1469" ANNOTATION_REF="a563" PREVIOUS_ANNOTATION="a1468">
+                <ANNOTATION_VALUE>час</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1470" ANNOTATION_REF="a563" PREVIOUS_ANNOTATION="a1469">
+                <ANNOTATION_VALUE>ме</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1471" ANNOTATION_REF="a563" PREVIOUS_ANNOTATION="a1470">
+                <ANNOTATION_VALUE>тіян</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1472" ANNOTATION_REF="a563" PREVIOUS_ANNOTATION="a1471">
+                <ANNOTATION_VALUE>петкӧдла</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1473" ANNOTATION_REF="a563" PREVIOUS_ANNOTATION="a1472">
+                <ANNOTATION_VALUE>изолентасӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1474" ANNOTATION_REF="a564">
+                <ANNOTATION_VALUE>тіян</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1475" ANNOTATION_REF="a564" PREVIOUS_ANNOTATION="a1474">
+                <ANNOTATION_VALUE>абу</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1476" ANNOTATION_REF="a564" PREVIOUS_ANNOTATION="a1475">
+                <ANNOTATION_VALUE>вон</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1477" ANNOTATION_REF="a564" PREVIOUS_ANNOTATION="a1476">
+                <ANNOTATION_VALUE>татшӧм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1478" ANNOTATION_REF="a564" PREVIOUS_ANNOTATION="a1477">
+                <ANNOTATION_VALUE>жӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1479" ANNOTATION_REF="a564" PREVIOUS_ANNOTATION="a1478">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1480" ANNOTATION_REF="a565">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1481" ANNOTATION_REF="a565" PREVIOUS_ANNOTATION="a1480">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1482" ANNOTATION_REF="a565" PREVIOUS_ANNOTATION="a1481">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1483" ANNOTATION_REF="a565" PREVIOUS_ANNOTATION="a1482">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1484" ANNOTATION_REF="a565" PREVIOUS_ANNOTATION="a1483">
+                <ANNOTATION_VALUE>изолента</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1485" ANNOTATION_REF="a566">
+                <ANNOTATION_VALUE>позьӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1486" ANNOTATION_REF="a566" PREVIOUS_ANNOTATION="a1485">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1487" ANNOTATION_REF="a567">
+                <ANNOTATION_VALUE>провод-</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1488" ANNOTATION_REF="a567" PREVIOUS_ANNOTATION="a1487">
+                <ANNOTATION_VALUE>проводысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1489" ANNOTATION_REF="a567" PREVIOUS_ANNOTATION="a1488">
+                <ANNOTATION_VALUE>гардны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1490" ANNOTATION_REF="a567" PREVIOUS_ANNOTATION="a1489">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1491" ANNOTATION_REF="a567" PREVIOUS_ANNOTATION="a1490">
+                <ANNOTATION_VALUE>локтӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1492" ANNOTATION_REF="a568">
+                <ANNOTATION_VALUE>вӧлі</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1493" ANNOTATION_REF="a568" PREVIOUS_ANNOTATION="a1492">
+                <ANNOTATION_VALUE>миян</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1494" ANNOTATION_REF="a568" PREVIOUS_ANNOTATION="a1493">
+                <ANNOTATION_VALUE>гортын</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1495" ANNOTATION_REF="a568" PREVIOUS_ANNOTATION="a1494">
+                <ANNOTATION_VALUE>сія</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1496" ANNOTATION_REF="a569">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1497" ANNOTATION_REF="a570">
+                <ANNOTATION_VALUE>тайл</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1498" ANNOTATION_REF="a570" PREVIOUS_ANNOTATION="a1497">
+                <ANNOTATION_VALUE>Ёртӧмаын</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1499" ANNOTATION_REF="a570" PREVIOUS_ANNOTATION="a1498">
+                <ANNOTATION_VALUE>абу</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1500" ANNOTATION_REF="a570" PREVIOUS_ANNOTATION="a1499">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1501" ANNOTATION_REF="a570" PREVIOUS_ANNOTATION="a1500">
+                <ANNOTATION_VALUE>Благоевоысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1502" ANNOTATION_REF="a570" PREVIOUS_ANNOTATION="a1501">
+                <ANNOTATION_VALUE>кыськӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1503" ANNOTATION_REF="a570" PREVIOUS_ANNOTATION="a1502">
+                <ANNOTATION_VALUE>бӧкысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1504" ANNOTATION_REF="a570" PREVIOUS_ANNOTATION="a1503">
+                <ANNOTATION_VALUE>ньӧбӧма</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1505" ANNOTATION_REF="a571">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1506" ANNOTATION_REF="a571" PREVIOUS_ANNOTATION="a1505">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1507" ANNOTATION_REF="a571" PREVIOUS_ANNOTATION="a1506">
+                <ANNOTATION_VALUE>век</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1508" ANNOTATION_REF="a571" PREVIOUS_ANNOTATION="a1507">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1509" ANNOTATION_REF="a572">
+                <ANNOTATION_VALUE>хмм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1510" ANNOTATION_REF="a573">
+                <ANNOTATION_VALUE>за-</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1511" ANNOTATION_REF="a573" PREVIOUS_ANNOTATION="a1510">
+                <ANNOTATION_VALUE>заклобка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1512" ANNOTATION_REF="a573" PREVIOUS_ANNOTATION="a1511">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1513" ANNOTATION_REF="a573" PREVIOUS_ANNOTATION="a1512">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1514" ANNOTATION_REF="a573" PREVIOUS_ANNOTATION="a1513">
+                <ANNOTATION_VALUE>комиӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1515" ANNOTATION_REF="a573" PREVIOUS_ANNOTATION="a1514">
+                <ANNOTATION_VALUE>оз</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1516" ANNOTATION_REF="a573" PREVIOUS_ANNOTATION="a1515">
+                <ANNOTATION_VALUE>шуйсьӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1517" ANNOTATION_REF="a573" PREVIOUS_ANNOTATION="a1516">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1518" ANNOTATION_REF="a573" PREVIOUS_ANNOTATION="a1517">
+                <ANNOTATION_VALUE>роч</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1519" ANNOTATION_REF="a574">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1520" ANNOTATION_REF="a574" PREVIOUS_ANNOTATION="a1519">
+                <ANNOTATION_VALUE>заклобошник</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1521" ANNOTATION_REF="a574" PREVIOUS_ANNOTATION="a1520">
+                <ANNOTATION_VALUE>шуисяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1522" ANNOTATION_REF="a575">
+                <ANNOTATION_VALUE>заклобка-карантор</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1523" ANNOTATION_REF="a575" PREVIOUS_ANNOTATION="a1522">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1524" ANNOTATION_REF="a575" PREVIOUS_ANNOTATION="a1523">
+                <ANNOTATION_VALUE>заклобла</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1525" ANNOTATION_REF="a576">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1526" ANNOTATION_REF="a576" PREVIOUS_ANNOTATION="a1525">
+                <ANNOTATION_VALUE>эта</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1527" ANNOTATION_REF="a576" PREVIOUS_ANNOTATION="a1526">
+                <ANNOTATION_VALUE>ачысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1528" ANNOTATION_REF="a576" PREVIOUS_ANNOTATION="a1527">
+                <ANNOTATION_VALUE>понисӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1529" ANNOTATION_REF="a576" PREVIOUS_ANNOTATION="a1528">
+                <ANNOTATION_VALUE>шуйсяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1530" ANNOTATION_REF="a576" PREVIOUS_ANNOTATION="a1529">
+                <ANNOTATION_VALUE>заклобка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1531" ANNOTATION_REF="a576" PREVIOUS_ANNOTATION="a1530">
+                <ANNOTATION_VALUE>либӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1532" ANNOTATION_REF="a576" PREVIOUS_ANNOTATION="a1531">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1533" ANNOTATION_REF="a576" PREVIOUS_ANNOTATION="a1532">
+                <ANNOTATION_VALUE>заклобошник</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1534" ANNOTATION_REF="a577">
+                <ANNOTATION_VALUE>шуйсяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1535" ANNOTATION_REF="a578">
+                <ANNOTATION_VALUE>заклобка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1536" ANNOTATION_REF="a578" PREVIOUS_ANNOTATION="a1535">
+                <ANNOTATION_VALUE>каран</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1537" ANNOTATION_REF="a578" PREVIOUS_ANNOTATION="a1536">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1538" ANNOTATION_REF="a578" PREVIOUS_ANNOTATION="a1537">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1539" ANNOTATION_REF="a578" PREVIOUS_ANNOTATION="a1538">
+                <ANNOTATION_VALUE>коминас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1540" ANNOTATION_REF="a578" PREVIOUS_ANNOTATION="a1539">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1541" ANNOTATION_REF="a578" PREVIOUS_ANNOTATION="a1540">
+                <ANNOTATION_VALUE>абуджык</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1542" ANNOTATION_REF="a579">
+                <ANNOTATION_VALUE>изолентаыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1543" ANNOTATION_REF="a579" PREVIOUS_ANNOTATION="a1542">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1544" ANNOTATION_REF="a579" PREVIOUS_ANNOTATION="a1543">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1545" ANNOTATION_REF="a579" PREVIOUS_ANNOTATION="a1544">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1546" ANNOTATION_REF="a579" PREVIOUS_ANNOTATION="a1545">
+                <ANNOTATION_VALUE>водзӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1547" ANNOTATION_REF="a579" PREVIOUS_ANNOTATION="a1546">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1548" ANNOTATION_REF="a579" PREVIOUS_ANNOTATION="a1547">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1549" ANNOTATION_REF="a580">
+                <ANNOTATION_VALUE>моз</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1550" ANNOTATION_REF="a580" PREVIOUS_ANNOTATION="a1549">
+                <ANNOTATION_VALUE>ваыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1551" ANNOTATION_REF="a580" PREVIOUS_ANNOTATION="a1550">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1552" ANNOTATION_REF="a580" PREVIOUS_ANNOTATION="a1551">
+                <ANNOTATION_VALUE>ветлы</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1553" ANNOTATION_REF="a581">
+                <ANNOTATION_VALUE>татӧгыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1554" ANNOTATION_REF="a581" PREVIOUS_ANNOTATION="a1553">
+                <ANNOTATION_VALUE>ваыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1555" ANNOTATION_REF="a581" PREVIOUS_ANNOTATION="a1554">
+                <ANNOTATION_VALUE>пырас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1556" ANNOTATION_REF="a581" PREVIOUS_ANNOTATION="a1555">
+                <ANNOTATION_VALUE>водзӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1557" ANNOTATION_REF="a581" PREVIOUS_ANNOTATION="a1556">
+                <ANNOTATION_VALUE>пырас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1558" ANNOTATION_REF="a581" PREVIOUS_ANNOTATION="a1557">
+                <ANNOTATION_VALUE>вот</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1559" ANNOTATION_REF="a581" PREVIOUS_ANNOTATION="a1558">
+                <ANNOTATION_VALUE>сійӧс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1560" ANNOTATION_REF="a582">
+                <ANNOTATION_VALUE>а</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1561" ANNOTATION_REF="a582" PREVIOUS_ANNOTATION="a1560">
+                <ANNOTATION_VALUE>сійӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1562" ANNOTATION_REF="a582" PREVIOUS_ANNOTATION="a1561">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1563" ANNOTATION_REF="a582" PREVIOUS_ANNOTATION="a1562">
+                <ANNOTATION_VALUE>распиль</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1564" ANNOTATION_REF="a582" PREVIOUS_ANNOTATION="a1563">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1565" ANNOTATION_REF="a582" PREVIOUS_ANNOTATION="a1564">
+                <ANNOTATION_VALUE>распиль</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1566" ANNOTATION_REF="a583">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1567" ANNOTATION_REF="a583" PREVIOUS_ANNOTATION="a1566">
+                <ANNOTATION_VALUE>сія</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1568" ANNOTATION_REF="a583" PREVIOUS_ANNOTATION="a1567">
+                <ANNOTATION_VALUE>грубей</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1569" ANNOTATION_REF="a583" PREVIOUS_ANNOTATION="a1568">
+                <ANNOTATION_VALUE>напильник</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1570" ANNOTATION_REF="a583" PREVIOUS_ANNOTATION="a1569">
+                <ANNOTATION_VALUE>шуӧнытӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1571" ANNOTATION_REF="a583" PREVIOUS_ANNOTATION="a1570">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1572" ANNOTATION_REF="a583" PREVIOUS_ANNOTATION="a1571">
+                <ANNOTATION_VALUE>рашпиль</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1573" ANNOTATION_REF="a584">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1574" ANNOTATION_REF="a584" PREVIOUS_ANNOTATION="a1573">
+                <ANNOTATION_VALUE>этшандзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1575" ANNOTATION_REF="a584" PREVIOUS_ANNOTATION="a1574">
+                <ANNOTATION_VALUE>мыйкӧсӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1576" ANNOTATION_REF="a584" PREVIOUS_ANNOTATION="a1575">
+                <ANNOTATION_VALUE>дреднас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1577" ANNOTATION_REF="a584" PREVIOUS_ANNOTATION="a1576">
+                <ANNOTATION_VALUE>рузялас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1578" ANNOTATION_REF="a584" PREVIOUS_ANNOTATION="a1577">
+                <ANNOTATION_VALUE>сія</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1579" ANNOTATION_REF="a584" PREVIOUS_ANNOTATION="a1578">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1580" ANNOTATION_REF="a584" PREVIOUS_ANNOTATION="a1579">
+                <ANNOTATION_VALUE>лоӧны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1581" ANNOTATION_REF="a584" PREVIOUS_ANNOTATION="a1580">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1582" ANNOTATION_REF="a584" PREVIOUS_ANNOTATION="a1581">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1583" ANNOTATION_REF="a585">
+                <ANNOTATION_VALUE>мед</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1584" ANNOTATION_REF="a585" PREVIOUS_ANNOTATION="a1583">
+                <ANNOTATION_VALUE>бурас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1585" ANNOTATION_REF="a585" PREVIOUS_ANNOTATION="a1584">
+                <ANNOTATION_VALUE>пуксяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1586" ANNOTATION_REF="a585" PREVIOUS_ANNOTATION="a1585">
+                <ANNOTATION_VALUE>из</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1587" ANNOTATION_REF="a585" PREVIOUS_ANNOTATION="a1586">
+                <ANNOTATION_VALUE>мыйкӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1588" ANNOTATION_REF="a585" PREVIOUS_ANNOTATION="a1587">
+                <ANNOTATION_VALUE>заклепкаыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1589" ANNOTATION_REF="a586">
+                <ANNOTATION_VALUE>немтор</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1590" ANNOTATION_REF="a586" PREVIOUS_ANNOTATION="a1589">
+                <ANNOTATION_VALUE>иг</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1591" ANNOTATION_REF="a586" PREVIOUS_ANNOTATION="a1590">
+                <ANNOTATION_VALUE>каров</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1592" ANNOTATION_REF="a586" PREVIOUS_ANNOTATION="a1591">
+                <ANNOTATION_VALUE>водзӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1593" ANNOTATION_REF="a586" PREVIOUS_ANNOTATION="a1592">
+                <ANNOTATION_VALUE>всё</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1594" ANNOTATION_REF="a586" PREVIOUS_ANNOTATION="a1593">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1595" ANNOTATION_REF="a586" PREVIOUS_ANNOTATION="a1594">
+                <ANNOTATION_VALUE>медбӧръя</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1596" ANNOTATION_REF="a587">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1597" ANNOTATION_REF="a588">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1598" ANNOTATION_REF="a588" PREVIOUS_ANNOTATION="a1597">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1599" ANNOTATION_REF="a589">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1600" ANNOTATION_REF="a589" PREVIOUS_ANNOTATION="a1599">
+                <ANNOTATION_VALUE>кодӧс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1601" ANNOTATION_REF="a589" PREVIOUS_ANNOTATION="a1600">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1602" ANNOTATION_REF="a590">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1603" ANNOTATION_REF="a590" PREVIOUS_ANNOTATION="a1602">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1604" ANNOTATION_REF="a590" PREVIOUS_ANNOTATION="a1603">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1605" ANNOTATION_REF="a590" PREVIOUS_ANNOTATION="a1604">
+                <ANNOTATION_VALUE>ме</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1606" ANNOTATION_REF="a590" PREVIOUS_ANNOTATION="a1605">
+                <ANNOTATION_VALUE>вӧдзӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1607" ANNOTATION_REF="a590" PREVIOUS_ANNOTATION="a1606">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1608" ANNOTATION_REF="a590" PREVIOUS_ANNOTATION="a1607">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1609" ANNOTATION_REF="a590" PREVIOUS_ANNOTATION="a1608">
+                <ANNOTATION_VALUE>бокӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1610" ANNOTATION_REF="a590" PREVIOUS_ANNOTATION="a1609">
+                <ANNOTATION_VALUE>пуктім</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1611" ANNOTATION_REF="a590" PREVIOUS_ANNOTATION="a1610">
+                <ANNOTATION_VALUE>пака</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1612" ANNOTATION_REF="a591">
+                <ANNOTATION_VALUE>сія</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1613" ANNOTATION_REF="a591" PREVIOUS_ANNOTATION="a1612">
+                <ANNOTATION_VALUE>зайчим</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1614" ANNOTATION_REF="a591" PREVIOUS_ANNOTATION="a1613">
+                <ANNOTATION_VALUE>пунас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1615" ANNOTATION_REF="a592">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1616" ANNOTATION_REF="a592" PREVIOUS_ANNOTATION="a1615">
+                <ANNOTATION_VALUE>кӧрт</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1617" ANNOTATION_REF="a592" PREVIOUS_ANNOTATION="a1616">
+                <ANNOTATION_VALUE>пыдӧс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1618" ANNOTATION_REF="a592" PREVIOUS_ANNOTATION="a1617">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1619" ANNOTATION_REF="a592" PREVIOUS_ANNOTATION="a1618">
+                <ANNOTATION_VALUE>пыдӧсыс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1620" ANNOTATION_REF="a592" PREVIOUS_ANNOTATION="a1619">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1621" ANNOTATION_REF="a592" PREVIOUS_ANNOTATION="a1620">
+                <ANNOTATION_VALUE>пыж</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1622" ANNOTATION_REF="a592" PREVIOUS_ANNOTATION="a1621">
+                <ANNOTATION_VALUE>пыдӧснас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1623" ANNOTATION_REF="a593">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1624" ANNOTATION_REF="a594">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1625" ANNOTATION_REF="a595">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1626" ANNOTATION_REF="a596">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1627" ANNOTATION_REF="a597">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1628" ANNOTATION_REF="a598">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1629" ANNOTATION_REF="a599">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1630" ANNOTATION_REF="a600">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1631" ANNOTATION_REF="a601">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1632" ANNOTATION_REF="a602">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1633" ANNOTATION_REF="a603">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1634" ANNOTATION_REF="a604">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1635" ANNOTATION_REF="a605">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1636" ANNOTATION_REF="a606">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1637" ANNOTATION_REF="a607">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1638" ANNOTATION_REF="a608">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1639" ANNOTATION_REF="a609">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1640" ANNOTATION_REF="a610">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1641" ANNOTATION_REF="a611">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1642" ANNOTATION_REF="a612">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1643" ANNOTATION_REF="a613">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1644" ANNOTATION_REF="a614">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1645" ANNOTATION_REF="a615">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1646" ANNOTATION_REF="a616">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1647" ANNOTATION_REF="a617">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1648" ANNOTATION_REF="a618">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1649" ANNOTATION_REF="a619">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1650" ANNOTATION_REF="a620">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1651" ANNOTATION_REF="a621">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1652" ANNOTATION_REF="a622">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1653" ANNOTATION_REF="a623">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1654" ANNOTATION_REF="a624">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1655" ANNOTATION_REF="a625">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1656" ANNOTATION_REF="a626">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1657" ANNOTATION_REF="a627">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1658" ANNOTATION_REF="a628">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1659" ANNOTATION_REF="a629">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1660" ANNOTATION_REF="a630">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1661" ANNOTATION_REF="a631">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1662" ANNOTATION_REF="a632">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1663" ANNOTATION_REF="a633">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1664" ANNOTATION_REF="a634">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1665" ANNOTATION_REF="a635">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1666" ANNOTATION_REF="a636">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1667" ANNOTATION_REF="a637">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1668" ANNOTATION_REF="a638">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1669" ANNOTATION_REF="a639">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1670" ANNOTATION_REF="a640">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1671" ANNOTATION_REF="a641">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1672" ANNOTATION_REF="a642">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1673" ANNOTATION_REF="a643">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1674" ANNOTATION_REF="a644">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1675" ANNOTATION_REF="a645">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1676" ANNOTATION_REF="a646">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1677" ANNOTATION_REF="a647">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1678" ANNOTATION_REF="a648">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1679" ANNOTATION_REF="a649">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1680" ANNOTATION_REF="a650">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1681" ANNOTATION_REF="a651">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1682" ANNOTATION_REF="a652">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1683" ANNOTATION_REF="a653">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1684" ANNOTATION_REF="a654">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1685" ANNOTATION_REF="a655">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1686" ANNOTATION_REF="a656">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1687" ANNOTATION_REF="a657">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1688" ANNOTATION_REF="a658">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1689" ANNOTATION_REF="a659">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1690" ANNOTATION_REF="a660">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1691" ANNOTATION_REF="a661">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1692" ANNOTATION_REF="a662">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1693" ANNOTATION_REF="a663">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1694" ANNOTATION_REF="a664">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1695" ANNOTATION_REF="a665">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1696" ANNOTATION_REF="a666">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1697" ANNOTATION_REF="a667">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1698" ANNOTATION_REF="a668">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1699" ANNOTATION_REF="a669">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1700" ANNOTATION_REF="a670">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1701" ANNOTATION_REF="a671">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1702" ANNOTATION_REF="a672">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1703" ANNOTATION_REF="a673">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="word@NTP-M-1986">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1704" ANNOTATION_REF="a674">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1705" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1704">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1706" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1705">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1707" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1706">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1708" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1707">
+                <ANNOTATION_VALUE>медводзаысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1709" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1708">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1710" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1709">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1711" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1710">
+                <ANNOTATION_VALUE>кӧрттор</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1712" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1711">
+                <ANNOTATION_VALUE>кытысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1713" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1712">
+                <ANNOTATION_VALUE>кӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1714" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1713">
+                <ANNOTATION_VALUE>ньӧбинныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1715" ANNOTATION_REF="a674" PREVIOUS_ANNOTATION="a1714">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1716" ANNOTATION_REF="a675">
+                <ANNOTATION_VALUE>кӧрт</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1717" ANNOTATION_REF="a675" PREVIOUS_ANNOTATION="a1716">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1718" ANNOTATION_REF="a675" PREVIOUS_ANNOTATION="a1717">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1719" ANNOTATION_REF="a675" PREVIOUS_ANNOTATION="a1718">
+                <ANNOTATION_VALUE>кӧрт</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1720" ANNOTATION_REF="a676">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1721" ANNOTATION_REF="a677">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1722" ANNOTATION_REF="a678">
+                <ANNOTATION_VALUE>тані</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1723" ANNOTATION_REF="a678" PREVIOUS_ANNOTATION="a1722">
+                <ANNOTATION_VALUE>либо</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1724" ANNOTATION_REF="a678" PREVIOUS_ANNOTATION="a1723">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1725" ANNOTATION_REF="a679">
+                <ANNOTATION_VALUE>Благоевоысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1726" ANNOTATION_REF="a679" PREVIOUS_ANNOTATION="a1725">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1727" ANNOTATION_REF="a680">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1728" ANNOTATION_REF="a681">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1729" ANNOTATION_REF="a681" PREVIOUS_ANNOTATION="a1728">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1730" ANNOTATION_REF="a681" PREVIOUS_ANNOTATION="a1729">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1731" ANNOTATION_REF="a681" PREVIOUS_ANNOTATION="a1730">
+                <ANNOTATION_VALUE>вӧлі</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1732" ANNOTATION_REF="a682">
+                <ANNOTATION_VALUE>ӧтик</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1733" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1732">
+                <ANNOTATION_VALUE>ыджыд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1734" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1733">
+                <ANNOTATION_VALUE>кӧрт</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1735" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1734">
+                <ANNOTATION_VALUE>тор</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1736" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1735">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1737" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1736">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1738" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1737">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1739" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1738">
+                <ANNOTATION_VALUE>ми</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1740" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1739">
+                <ANNOTATION_VALUE>аддзим</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1741" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1740">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1742" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1741">
+                <ANNOTATION_VALUE>сійӧс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1743" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1742">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1744" ANNOTATION_REF="a682" PREVIOUS_ANNOTATION="a1743">
+                <ANNOTATION_VALUE>вундалінныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1745" ANNOTATION_REF="a683">
+                <ANNOTATION_VALUE>листъясӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1746" ANNOTATION_REF="a684">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1747" ANNOTATION_REF="a684" PREVIOUS_ANNOTATION="a1746">
+                <ANNOTATION_VALUE>кымын</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1748" ANNOTATION_REF="a684" PREVIOUS_ANNOTATION="a1747">
+                <ANNOTATION_VALUE>метра</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1749" ANNOTATION_REF="a684" PREVIOUS_ANNOTATION="a1748">
+                <ANNOTATION_VALUE>ӧтик</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1750" ANNOTATION_REF="a684" PREVIOUS_ANNOTATION="a1749">
+                <ANNOTATION_VALUE>лист</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1751" ANNOTATION_REF="a684" PREVIOUS_ANNOTATION="a1750">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1752" ANNOTATION_REF="a685">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1753" ANNOTATION_REF="a686">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1754" ANNOTATION_REF="a686" PREVIOUS_ANNOTATION="a1753">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1755" ANNOTATION_REF="a686" PREVIOUS_ANNOTATION="a1754">
+                <ANNOTATION_VALUE>найӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1756" ANNOTATION_REF="a686" PREVIOUS_ANNOTATION="a1755">
+                <ANNOTATION_VALUE>листъяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1757" ANNOTATION_REF="a686" PREVIOUS_ANNOTATION="a1756">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1758" ANNOTATION_REF="a686" PREVIOUS_ANNOTATION="a1757">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1759" ANNOTATION_REF="a686" PREVIOUS_ANNOTATION="a1758">
+                <ANNOTATION_VALUE>йитчинныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1760" ANNOTATION_REF="a686" PREVIOUS_ANNOTATION="a1759">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1761" ANNOTATION_REF="a687">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1762" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1761">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1763" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1762">
+                <ANNOTATION_VALUE>ми</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1764" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1763">
+                <ANNOTATION_VALUE>аддзим</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1765" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1764">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1766" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1765">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1767" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1766">
+                <ANNOTATION_VALUE>заводитінныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1768" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1767">
+                <ANNOTATION_VALUE>талун</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1769" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1768">
+                <ANNOTATION_VALUE>асывнас</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1770" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1769">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1771" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1770">
+                <ANNOTATION_VALUE>тадзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1772" ANNOTATION_REF="a687" PREVIOUS_ANNOTATION="a1771">
+                <ANNOTATION_VALUE>вӧчинныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1773" ANNOTATION_REF="a688">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1774" ANNOTATION_REF="a688" PREVIOUS_ANNOTATION="a1773">
+                <ANNOTATION_VALUE>тіян</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1775" ANNOTATION_REF="a688" PREVIOUS_ANNOTATION="a1774">
+                <ANNOTATION_VALUE>вӧлі</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1776" ANNOTATION_REF="a688" PREVIOUS_ANNOTATION="a1775">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1777" ANNOTATION_REF="a688" PREVIOUS_ANNOTATION="a1776">
+                <ANNOTATION_VALUE>тор</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1778" ANNOTATION_REF="a688" PREVIOUS_ANNOTATION="a1777">
+                <ANNOTATION_VALUE>мый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1779" ANNOTATION_REF="a688" PREVIOUS_ANNOTATION="a1778">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1780" ANNOTATION_REF="a688" PREVIOUS_ANNOTATION="a1779">
+                <ANNOTATION_VALUE>сытчӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1781" ANNOTATION_REF="a688" PREVIOUS_ANNOTATION="a1780">
+                <ANNOTATION_VALUE>пуктінныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1782" ANNOTATION_REF="a689">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1783" ANNOTATION_REF="a689" PREVIOUS_ANNOTATION="a1782">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1784" ANNOTATION_REF="a689" PREVIOUS_ANNOTATION="a1783">
+                <ANNOTATION_VALUE>изолента</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1785" ANNOTATION_REF="a690">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1786" ANNOTATION_REF="a690" PREVIOUS_ANNOTATION="a1785">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1787" ANNOTATION_REF="a690" PREVIOUS_ANNOTATION="a1786">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1788" ANNOTATION_REF="a690" PREVIOUS_ANNOTATION="a1787">
+                <ANNOTATION_VALUE>замокъяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1789" ANNOTATION_REF="a690" PREVIOUS_ANNOTATION="a1788">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1790" ANNOTATION_REF="a690" PREVIOUS_ANNOTATION="a1789">
+                <ANNOTATION_VALUE>каринныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1791" ANNOTATION_REF="a690" PREVIOUS_ANNOTATION="a1790">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1792" ANNOTATION_REF="a690" PREVIOUS_ANNOTATION="a1791">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1793" ANNOTATION_REF="a690" PREVIOUS_ANNOTATION="a1792">
+                <ANNOTATION_VALUE>медводзаысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1794" ANNOTATION_REF="a690" PREVIOUS_ANNOTATION="a1793">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1795" ANNOTATION_REF="a691">
+                <ANNOTATION_VALUE>кутшӧм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1796" ANNOTATION_REF="a691" PREVIOUS_ANNOTATION="a1795">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1797" ANNOTATION_REF="a691" PREVIOUS_ANNOTATION="a1796">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1798" ANNOTATION_REF="a691" PREVIOUS_ANNOTATION="a1797">
+                <ANNOTATION_VALUE>сійӧс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1799" ANNOTATION_REF="a691" PREVIOUS_ANNOTATION="a1798">
+                <ANNOTATION_VALUE>колӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1800" ANNOTATION_REF="a691" PREVIOUS_ANNOTATION="a1799">
+                <ANNOTATION_VALUE>карны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1801" ANNOTATION_REF="a691" PREVIOUS_ANNOTATION="a1800">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1802" ANNOTATION_REF="a691" PREVIOUS_ANNOTATION="a1801">
+                <ANNOTATION_VALUE>сійӧс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1803" ANNOTATION_REF="a691" PREVIOUS_ANNOTATION="a1802">
+                <ANNOTATION_VALUE>колӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1804" ANNOTATION_REF="a691" PREVIOUS_ANNOTATION="a1803">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1805" ANNOTATION_REF="a692">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1806" ANNOTATION_REF="a693">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1807" ANNOTATION_REF="a694">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1808" ANNOTATION_REF="a695">
+                <ANNOTATION_VALUE>гӧгӧрвоана</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1809" ANNOTATION_REF="a696">
+                <ANNOTATION_VALUE>изомин</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1810" ANNOTATION_REF="a696" PREVIOUS_ANNOTATION="a1809">
+                <ANNOTATION_VALUE>вӧли</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1811" ANNOTATION_REF="a697">
+                <ANNOTATION_VALUE>изолента</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1812" ANNOTATION_REF="a698">
+                <ANNOTATION_VALUE>миян</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1813" ANNOTATION_REF="a698" PREVIOUS_ANNOTATION="a1812">
+                <ANNOTATION_VALUE>эм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1814" ANNOTATION_REF="a698" PREVIOUS_ANNOTATION="a1813">
+                <ANNOTATION_VALUE>жӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1815" ANNOTATION_REF="a698" PREVIOUS_ANNOTATION="a1814">
+                <ANNOTATION_VALUE>ме</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1816" ANNOTATION_REF="a698" PREVIOUS_ANNOTATION="a1815">
+                <ANNOTATION_VALUE>аддзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1817" ANNOTATION_REF="a698" PREVIOUS_ANNOTATION="a1816">
+                <ANNOTATION_VALUE>коркӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1818" ANNOTATION_REF="a699">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1819" ANNOTATION_REF="a699" PREVIOUS_ANNOTATION="a1818">
+                <ANNOTATION_VALUE>мӧвпала</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1820" ANNOTATION_REF="a699" PREVIOUS_ANNOTATION="a1819">
+                <ANNOTATION_VALUE>мый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1821" ANNOTATION_REF="a699" PREVIOUS_ANNOTATION="a1820">
+                <ANNOTATION_VALUE>коркӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1822" ANNOTATION_REF="a699" PREVIOUS_ANNOTATION="a1821">
+                <ANNOTATION_VALUE>аддзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1823" ANNOTATION_REF="a700">
+                <ANNOTATION_VALUE>позьӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1824" ANNOTATION_REF="a701">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1825" ANNOTATION_REF="a701" PREVIOUS_ANNOTATION="a1824">
+                <ANNOTATION_VALUE>изолента</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1826" ANNOTATION_REF="a701" PREVIOUS_ANNOTATION="a1825">
+                <ANNOTATION_VALUE>тіян</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1827" ANNOTATION_REF="a701" PREVIOUS_ANNOTATION="a1826">
+                <ANNOTATION_VALUE>тані</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1828" ANNOTATION_REF="a701" PREVIOUS_ANNOTATION="a1827">
+                <ANNOTATION_VALUE>важӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1829" ANNOTATION_REF="a701" PREVIOUS_ANNOTATION="a1828">
+                <ANNOTATION_VALUE>тшӧтш</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1830" ANNOTATION_REF="a701" PREVIOUS_ANNOTATION="a1829">
+                <ANNOTATION_VALUE>вӧлі</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1831" ANNOTATION_REF="a701" PREVIOUS_ANNOTATION="a1830">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1832" ANNOTATION_REF="a702">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1833" ANNOTATION_REF="a703">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1834" ANNOTATION_REF="a703" PREVIOUS_ANNOTATION="a1833">
+                <ANNOTATION_VALUE>сійӧс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1835" ANNOTATION_REF="a703" PREVIOUS_ANNOTATION="a1834">
+                <ANNOTATION_VALUE>позьӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1836" ANNOTATION_REF="a703" PREVIOUS_ANNOTATION="a1835">
+                <ANNOTATION_VALUE>татысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1837" ANNOTATION_REF="a703" PREVIOUS_ANNOTATION="a1836">
+                <ANNOTATION_VALUE>Ёртомысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1838" ANNOTATION_REF="a703" PREVIOUS_ANNOTATION="a1837">
+                <ANNOTATION_VALUE>тшӧтш</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1839" ANNOTATION_REF="a703" PREVIOUS_ANNOTATION="a1838">
+                <ANNOTATION_VALUE>ньӧбны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1840" ANNOTATION_REF="a703" PREVIOUS_ANNOTATION="a1839">
+                <ANNOTATION_VALUE>либӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1841" ANNOTATION_REF="a703" PREVIOUS_ANNOTATION="a1840">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1842" ANNOTATION_REF="a704">
+                <ANNOTATION_VALUE>Благоевоысь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1843" ANNOTATION_REF="a704" PREVIOUS_ANNOTATION="a1842">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1844" ANNOTATION_REF="a705">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1845" ANNOTATION_REF="a706">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1846" ANNOTATION_REF="a706" PREVIOUS_ANNOTATION="a1845">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1847" ANNOTATION_REF="a706" PREVIOUS_ANNOTATION="a1846">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1848" ANNOTATION_REF="a707">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1849" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1848">
+                <ANNOTATION_VALUE>изолента</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1850" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1849">
+                <ANNOTATION_VALUE>пуктӧм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1851" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1850">
+                <ANNOTATION_VALUE>бӧрын</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1852" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1851">
+                <ANNOTATION_VALUE>тіян</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1853" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1852">
+                <ANNOTATION_VALUE>вӧлісны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1854" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1853">
+                <ANNOTATION_VALUE>найӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1855" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1854">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1856" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1855">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1857" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1856">
+                <ANNOTATION_VALUE>найӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1858" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1857">
+                <ANNOTATION_VALUE>шуӧны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1859" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1858">
+                <ANNOTATION_VALUE>комиӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1860" ANNOTATION_REF="a707" PREVIOUS_ANNOTATION="a1859">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1861" ANNOTATION_REF="a708">
+                <ANNOTATION_VALUE>кор</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1862" ANNOTATION_REF="a708" PREVIOUS_ANNOTATION="a1861">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1863" ANNOTATION_REF="a708" PREVIOUS_ANNOTATION="a1862">
+                <ANNOTATION_VALUE>пуктінныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1864" ANNOTATION_REF="a709">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1865" ANNOTATION_REF="a710">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1866" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1865">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1867" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1866">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1868" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1867">
+                <ANNOTATION_VALUE>заклобка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1869" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1868">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1870" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1869">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1871" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1870">
+                <ANNOTATION_VALUE>изолента</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1872" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1871">
+                <ANNOTATION_VALUE>вылӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1873" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1872">
+                <ANNOTATION_VALUE>отсалӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1874" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1873">
+                <ANNOTATION_VALUE>мед</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1875" ANNOTATION_REF="a710" PREVIOUS_ANNOTATION="a1874">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1876" ANNOTATION_REF="a711">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1877" ANNOTATION_REF="a712">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1878" ANNOTATION_REF="a713">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1879" ANNOTATION_REF="a713" PREVIOUS_ANNOTATION="a1878">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1880" ANNOTATION_REF="a714">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1881" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1880">
+                <ANNOTATION_VALUE>,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1882" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1881">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1883" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1882">
+                <ANNOTATION_VALUE>заклоб-</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1884" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1883">
+                <ANNOTATION_VALUE>заклопкаяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1885" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1884">
+                <ANNOTATION_VALUE>бӧрын</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1886" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1885">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1887" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1886">
+                <ANNOTATION_VALUE>кыдзи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1888" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1887">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1889" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1888">
+                <ANNOTATION_VALUE>коросьӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1890" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1889">
+                <ANNOTATION_VALUE>чиськитінныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1891" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1890">
+                <ANNOTATION_VALUE>сійӧс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1892" ANNOTATION_REF="a714" PREVIOUS_ANNOTATION="a1891">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1893" ANNOTATION_REF="a715">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1894" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1893">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1895" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1894">
+                <ANNOTATION_VALUE>вот</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1896" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1895">
+                <ANNOTATION_VALUE>час</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1897" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1896">
+                <ANNOTATION_VALUE>ми</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1898" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1897">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1899" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1898">
+                <ANNOTATION_VALUE>заклоб-</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1900" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1899">
+                <ANNOTATION_VALUE>заклобкаяс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1901" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1900">
+                <ANNOTATION_VALUE>бӧрын</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1902" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1901">
+                <ANNOTATION_VALUE>мый</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1903" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1902">
+                <ANNOTATION_VALUE>вӧчинныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1904" ANNOTATION_REF="a715" PREVIOUS_ANNOTATION="a1903">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1905" ANNOTATION_REF="a716">
+                <ANNOTATION_VALUE>сійӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1906" ANNOTATION_REF="a716" PREVIOUS_ANNOTATION="a1905">
+                <ANNOTATION_VALUE>медбӧръя</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1907" ANNOTATION_REF="a716" PREVIOUS_ANNOTATION="a1906">
+                <ANNOTATION_VALUE>вӧлі</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1908" ANNOTATION_REF="a716" PREVIOUS_ANNOTATION="a1907">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1909" ANNOTATION_REF="a716" PREVIOUS_ANNOTATION="a1908">
+                <ANNOTATION_VALUE>кӧрт</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1910" ANNOTATION_REF="a716" PREVIOUS_ANNOTATION="a1909">
+                <ANNOTATION_VALUE>торйӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1911" ANNOTATION_REF="a717">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1912" ANNOTATION_REF="a717" PREVIOUS_ANNOTATION="a1911">
+                <ANNOTATION_VALUE>сы</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1913" ANNOTATION_REF="a717" PREVIOUS_ANNOTATION="a1912">
+                <ANNOTATION_VALUE>бӧрын</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1914" ANNOTATION_REF="a717" PREVIOUS_ANNOTATION="a1913">
+                <ANNOTATION_VALUE>ті</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1915" ANNOTATION_REF="a717" PREVIOUS_ANNOTATION="a1914">
+                <ANNOTATION_VALUE>пу-</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1916" ANNOTATION_REF="a717" PREVIOUS_ANNOTATION="a1915">
+                <ANNOTATION_VALUE>пуӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1917" ANNOTATION_REF="a718">
+                <ANNOTATION_VALUE>пу-</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1918" ANNOTATION_REF="a718" PREVIOUS_ANNOTATION="a1917">
+                <ANNOTATION_VALUE>пуӧн</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1919" ANNOTATION_REF="a718" PREVIOUS_ANNOTATION="a1918">
+                <ANNOTATION_VALUE>заводитінныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1920" ANNOTATION_REF="a718" PREVIOUS_ANNOTATION="a1919">
+                <ANNOTATION_VALUE>уджавны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1921" ANNOTATION_REF="a718" PREVIOUS_ANNOTATION="a1920">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1922" ANNOTATION_REF="a719">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1923" ANNOTATION_REF="a719" PREVIOUS_ANNOTATION="a1922">
+                <ANNOTATION_VALUE>путор</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1924" ANNOTATION_REF="a719" PREVIOUS_ANNOTATION="a1923">
+                <ANNOTATION_VALUE>босьтінныд</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1925" ANNOTATION_REF="a719" PREVIOUS_ANNOTATION="a1924">
+                <ANNOTATION_VALUE>?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1926" ANNOTATION_REF="a720">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1927" ANNOTATION_REF="a721">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1928" ANNOTATION_REF="a722">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1929" ANNOTATION_REF="a723">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1930" ANNOTATION_REF="a724">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1931" ANNOTATION_REF="a725">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1932" ANNOTATION_REF="a726">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1933" ANNOTATION_REF="a727">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1934" ANNOTATION_REF="a728">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1935" ANNOTATION_REF="a729">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1936" ANNOTATION_REF="a730">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1937" ANNOTATION_REF="a731">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1938" ANNOTATION_REF="a732">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1939" ANNOTATION_REF="a733">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1940" ANNOTATION_REF="a734">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1941" ANNOTATION_REF="a735">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1942" ANNOTATION_REF="a736">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1943" ANNOTATION_REF="a737">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1944" ANNOTATION_REF="a738">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1945" ANNOTATION_REF="a739">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1946" ANNOTATION_REF="a740">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1947" ANNOTATION_REF="a741">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1948" ANNOTATION_REF="a742">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1949" ANNOTATION_REF="a743">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1950" ANNOTATION_REF="a744">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1951" ANNOTATION_REF="a745">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1952" ANNOTATION_REF="a746">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1953" ANNOTATION_REF="a747">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1954" ANNOTATION_REF="a748">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1955" ANNOTATION_REF="a749">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1956" ANNOTATION_REF="a750">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1957" ANNOTATION_REF="a751">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1958" ANNOTATION_REF="a752">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1959" ANNOTATION_REF="a753">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1960" ANNOTATION_REF="a754">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1961" ANNOTATION_REF="a755">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1962" ANNOTATION_REF="a756">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1963" ANNOTATION_REF="a757">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1964" ANNOTATION_REF="a758">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1965" ANNOTATION_REF="a759">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1966" ANNOTATION_REF="a760">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1967" ANNOTATION_REF="a761">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1968" ANNOTATION_REF="a762">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1969" ANNOTATION_REF="a763">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1970" ANNOTATION_REF="a764">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1971" ANNOTATION_REF="a765">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1972" ANNOTATION_REF="a766">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1973" ANNOTATION_REF="a767">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1974" ANNOTATION_REF="a768">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1975" ANNOTATION_REF="a769">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1976" ANNOTATION_REF="a770">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1977" ANNOTATION_REF="a771">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1978" ANNOTATION_REF="a772">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1979" ANNOTATION_REF="a773">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1980" ANNOTATION_REF="a774">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1981" ANNOTATION_REF="a775">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1982" ANNOTATION_REF="a776">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1983" ANNOTATION_REF="a777">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1984" ANNOTATION_REF="a778">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1985" ANNOTATION_REF="a779">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1986" ANNOTATION_REF="a780">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1987" ANNOTATION_REF="a781">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1988" ANNOTATION_REF="a782">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1989" ANNOTATION_REF="a783">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1990" ANNOTATION_REF="a784">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1991" ANNOTATION_REF="a785">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1992" ANNOTATION_REF="a786">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1993" ANNOTATION_REF="a787">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1994" ANNOTATION_REF="a788">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@ASM-F-1986" PARTICIPANT="ASK-F-1986" TIER_ID="word@ASK-F-1986">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1995" ANNOTATION_REF="a789">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1996" ANNOTATION_REF="a790">
+                <ANNOTATION_VALUE>заклобка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1997" ANNOTATION_REF="a790" PREVIOUS_ANNOTATION="a1996">
+                <ANNOTATION_VALUE>каран</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1998" ANNOTATION_REF="a790" PREVIOUS_ANNOTATION="a1997">
+                <ANNOTATION_VALUE>тор</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1999" ANNOTATION_REF="a791">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2000" ANNOTATION_REF="a791" PREVIOUS_ANNOTATION="a1999">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2001" ANNOTATION_REF="a792">
+                <ANNOTATION_VALUE>и</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2002" ANNOTATION_REF="a792" PREVIOUS_ANNOTATION="a2001">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2003" ANNOTATION_REF="a792" PREVIOUS_ANNOTATION="a2002">
+                <ANNOTATION_VALUE>тор</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2004" ANNOTATION_REF="a792" PREVIOUS_ANNOTATION="a2003">
+                <ANNOTATION_VALUE>тайӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2005" ANNOTATION_REF="a792" PREVIOUS_ANNOTATION="a2004">
+                <ANNOTATION_VALUE>рузь</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2006" ANNOTATION_REF="a792" PREVIOUS_ANNOTATION="a2005">
+                <ANNOTATION_VALUE>вӧчӧм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2007" ANNOTATION_REF="a792" PREVIOUS_ANNOTATION="a2006">
+                <ANNOTATION_VALUE>бӧрын</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2008" ANNOTATION_REF="a793">
+                <ANNOTATION_VALUE>рашпир</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2009" ANNOTATION_REF="a794">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2010" ANNOTATION_REF="a794" PREVIOUS_ANNOTATION="a2009">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2011" ANNOTATION_REF="a794" PREVIOUS_ANNOTATION="a2010">
+                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2012" ANNOTATION_REF="a795">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2013" ANNOTATION_REF="a795" PREVIOUS_ANNOTATION="a2012">
+                <ANNOTATION_VALUE>гӧгӧрвоа</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2014" ANNOTATION_REF="a796">
+                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2015" ANNOTATION_REF="a797">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2016" ANNOTATION_REF="a798">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2017" ANNOTATION_REF="a799">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2018" ANNOTATION_REF="a800">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2019" ANNOTATION_REF="a801">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2020" ANNOTATION_REF="a802">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2021" ANNOTATION_REF="a803">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2022" ANNOTATION_REF="a804">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2023" ANNOTATION_REF="a805">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2024" ANNOTATION_REF="a806">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2025" ANNOTATION_REF="a807">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref(spoken)T" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-engT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>

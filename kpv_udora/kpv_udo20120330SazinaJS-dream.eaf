@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-05-07T14:11:50+01:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-15T13:01:03+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udo20120330SazinaJS/kpv_udo20120330SazinaJS-dream.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./kpv_udo20120330SazinaJS-dream.wav"/>
-        <PROPERTY NAME="lastUsedAnnotationId">409</PROPERTY>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udo20120330SazinaJS/kpv_udo20120330SazinaJS-dream.wav" MIME_TYPE="audio/x-wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:ae8cf334-d3ae-4ddb-8ec4-0b166a3d2ff5</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">424</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
@@ -470,7 +471,83 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="word@NTP-M-1986"/>
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="word@NTP-M-1986">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a410" ANNOTATION_REF="a49">
+                <ANNOTATION_VALUE>но,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a411" ANNOTATION_REF="a49" PREVIOUS_ANNOTATION="a410">
+                <ANNOTATION_VALUE>Яна,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a412" ANNOTATION_REF="a49" PREVIOUS_ANNOTATION="a411">
+                <ANNOTATION_VALUE>тэ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a413" ANNOTATION_REF="a49" PREVIOUS_ANNOTATION="a412">
+                <ANNOTATION_VALUE>висьталін</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a414" ANNOTATION_REF="a49" PREVIOUS_ANNOTATION="a413">
+                <ANNOTATION_VALUE>тэнад</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a415" ANNOTATION_REF="a49" PREVIOUS_ANNOTATION="a414">
+                <ANNOTATION_VALUE>вӧлі</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a416" ANNOTATION_REF="a49" PREVIOUS_ANNOTATION="a415">
+                <ANNOTATION_VALUE>интереснӧй</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a417" ANNOTATION_REF="a49" PREVIOUS_ANNOTATION="a416">
+                <ANNOTATION_VALUE>вӧт</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a418" ANNOTATION_REF="a50">
+                <ANNOTATION_VALUE>позьӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a419" ANNOTATION_REF="a50" PREVIOUS_ANNOTATION="a418">
+                <ANNOTATION_VALUE>висьтавны,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a420" ANNOTATION_REF="a50" PREVIOUS_ANNOTATION="a419">
+                <ANNOTATION_VALUE>позьӧ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a421" ANNOTATION_REF="a50" PREVIOUS_ANNOTATION="a420">
+                <ANNOTATION_VALUE>висьтавны</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a422" ANNOTATION_REF="a50" PREVIOUS_ANNOTATION="a421">
+                <ANNOTATION_VALUE>вӧт</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a423" ANNOTATION_REF="a50" PREVIOUS_ANNOTATION="a422">
+                <ANNOTATION_VALUE>йылысь?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a424" ANNOTATION_REF="a51">
+                <ANNOTATION_VALUE>но</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@JSS-F-1988" PARTICIPANT="JSS-F-1988" TIER_ID="word@JSS-F-1988">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a52">

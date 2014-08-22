@@ -3,58 +3,58 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
-        <String>ref@S1</String>
-        <String>phonol-CYR@S1</String>
-        <String>translit-LAT@S1</String>
-        <String>note(ref)@S1</String>
-        <String>orth@S1</String>
-        <String>lemma@S1</String>
-        <String>morph@S1</String>
-        <String>word@S1</String>
-        <String>ft-eng@S1</String>
-        <String>ft-deu@S1</String>
-        <String>ft-nob@S1</String>
-        <String>ft-rus@S1</String>
-        <String>ft-swe@S1</String>
-        <String>ft-ling@S1</String>
-        <String>pos@S1</String>
-        <String>lg(word)@S1</String>
         <String>note(part)</String>
-        <String>ft-fin@S1</String>
-        <String>note(orth)@S1</String>
-        <String>lg(orth)@S1</String>
-        <String>phonet-IPA@S1</String>
-        <String>phonol-LAT@S1</String>
         <String>geo</String>
         <String>note(geo)</String>
         <String>bio</String>
         <String>note(bio)</String>
-        <String>note(word)@S1</String>
         <String>comment</String>
-        <String>ref@S2</String>
-        <String>phonet-UPA@S2</String>
-        <String>phonol-CYR@S2</String>
-        <String>translit-LAT@S2</String>
-        <String>note(ref)@S2</String>
-        <String>orth@S2</String>
-        <String>phonet-IPA@S2</String>
-        <String>phonol-LAT@S2</String>
-        <String>word@S2</String>
-        <String>ft-eng@S2</String>
-        <String>ft-deu@S2</String>
-        <String>ft-nob@S2</String>
-        <String>ft-rus@S2</String>
-        <String>ft-swe@S2</String>
-        <String>ft-ling@S2</String>
-        <String>ft-fin@S2</String>
-        <String>note(orth)@S2</String>
-        <String>lg(orth)@S2</String>
-        <String>lemma@S2</String>
-        <String>morph@S2</String>
-        <String>pos@S2</String>
-        <String>lg(word)@S2</String>
-        <String>note(word)@S2</String>
-        <String>phonet-UPA@S1</String>
+        <String>ref@DIC-M-19XX</String>
+        <String>phonol-CYR@DIC-M-19XX</String>
+        <String>translit-LAT@DIC-M-19XX</String>
+        <String>note(ref)@DIC-M-19XX</String>
+        <String>orth@DIC-M-19XX</String>
+        <String>word@DIC-M-19XX</String>
+        <String>lemma@DIC-M-19XX</String>
+        <String>morph@DIC-M-19XX</String>
+        <String>pos@DIC-M-19XX</String>
+        <String>lg(word)@DIC-M-19XX</String>
+        <String>note(word)@DIC-M-19XX</String>
+        <String>ft-eng@DIC-M-19XX</String>
+        <String>ft-deu@DIC-M-19XX</String>
+        <String>ft-nob@DIC-M-19XX</String>
+        <String>ft-rus@DIC-M-19XX</String>
+        <String>ft-swe@DIC-M-19XX</String>
+        <String>ft-ling@DIC-M-19XX</String>
+        <String>ft-fin@DIC-M-19XX</String>
+        <String>note(orth)@DIC-M-19XX</String>
+        <String>lg(orth)@DIC-M-19XX</String>
+        <String>phonet-IPA@DIC-M-19XX</String>
+        <String>phonol-LAT@DIC-M-19XX</String>
+        <String>phonet-UPA@DIC-M-19XX</String>
+        <String>ref@EEI-M-1913</String>
+        <String>phonet-UPA@EEI-M-1913</String>
+        <String>phonol-CYR@EEI-M-1913</String>
+        <String>translit-LAT@EEI-M-1913</String>
+        <String>note(ref)@EEI-M-1913</String>
+        <String>orth@EEI-M-1913</String>
+        <String>word@EEI-M-1913</String>
+        <String>lemma@EEI-M-1913</String>
+        <String>morph@EEI-M-1913</String>
+        <String>pos@EEI-M-1913</String>
+        <String>lg(word)@EEI-M-1913</String>
+        <String>note(word)@EEI-M-1913</String>
+        <String>ft-eng@EEI-M-1913</String>
+        <String>ft-deu@EEI-M-1913</String>
+        <String>ft-nob@EEI-M-1913</String>
+        <String>ft-rus@EEI-M-1913</String>
+        <String>ft-swe@EEI-M-1913</String>
+        <String>ft-ling@EEI-M-1913</String>
+        <String>ft-fin@EEI-M-1913</String>
+        <String>note(orth)@EEI-M-1913</String>
+        <String>lg(orth)@EEI-M-1913</String>
+        <String>phonet-IPA@EEI-M-1913</String>
+        <String>phonol-LAT@EEI-M-1913</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
@@ -63,15 +63,15 @@
         <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
-        <prefList key="ref@S1">
-            <String>orth@S1</String>
-            <String>ft-eng@S1</String>
-            <String>ft-rus@S1</String>
+        <prefList key="ref@DIC-M-19XX">
+            <String>orth@DIC-M-19XX</String>
+            <String>ft-eng@DIC-M-19XX</String>
+            <String>ft-rus@DIC-M-19XX</String>
         </prefList>
-        <prefList key="ref@S2">
-            <String>orth@S2</String>
-            <String>ft-eng@S2</String>
-            <String>ft-rus@S2</String>
+        <prefList key="ref@EEI-M-1913">
+            <String>orth@EEI-M-1913</String>
+            <String>ft-eng@EEI-M-1913</String>
+            <String>ft-rus@EEI-M-1913</String>
         </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
@@ -96,71 +96,74 @@
         <pref key="bio">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">90,0,90</Object>
-        </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,90,160</Object>
+        <pref key="ref@DIC-M-19XX">
+            <Object class="java.awt.Color">0,90,0</Object>
         </pref>
         <pref key="part">
             <Object class="java.awt.Color">90,160,90</Object>
         </pref>
-        <pref key="ref@S2">
-            <Object class="java.awt.Color">160,90,90</Object>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="ref@EEI-M-1913">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>246</Int>
+        <Int>249</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>1108320</Long>
+        <Long>1116940</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="orth@S1">
-            <Object class="java.awt.Color">90,0,90</Object>
+        <pref key="ft-rus@DIC-M-19XX">
+            <Object class="java.awt.Color">0,90,0</Object>
         </pref>
         <pref key="geo">
             <Object class="java.awt.Color">90,90,0</Object>
         </pref>
-        <pref key="ft-rus@S2">
-            <Object class="java.awt.Color">160,90,90</Object>
+        <pref key="ft-rus@EEI-M-1913">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
-        <pref key="ft-eng@S2">
-            <Object class="java.awt.Color">160,90,90</Object>
+        <pref key="ft-eng@DIC-M-19XX">
+            <Object class="java.awt.Color">0,90,0</Object>
         </pref>
-        <pref key="ft-rus@S1">
-            <Object class="java.awt.Color">90,0,90</Object>
+        <pref key="ref@DIC-M-19XX">
+            <Object class="java.awt.Color">0,90,0</Object>
         </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">90,0,90</Object>
+        <pref key="orth@DIC-M-19XX">
+            <Object class="java.awt.Color">0,90,0</Object>
         </pref>
-        <pref key="orth@S2">
-            <Object class="java.awt.Color">160,90,90</Object>
+        <pref key="ft-eng@EEI-M-1913">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,160,90</Object>
+        <pref key="orth@EEI-M-1913">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,90,160</Object>
         </pref>
-        <pref key="ref@S2">
-            <Object class="java.awt.Color">160,90,90</Object>
+        <pref key="part">
+            <Object class="java.awt.Color">90,160,90</Object>
         </pref>
-        <pref key="ft-eng@S1">
-            <Object class="java.awt.Color">90,0,90</Object>
+        <pref key="ref@EEI-M-1913">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>1108320</Long>
+        <Long>1116940</Long>
+    </pref>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
     <pref key="MediaControlRate">
@@ -173,13 +176,13 @@
         <Float>100.0</Float>
     </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
-        <String>Type2 : ft-engT</String>
+        <String>Type1 : orthT</String>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>1104960</Long>
+        <Long>1111453</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -193,6 +196,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>1111175</Long>
+        <Long>1117726</Long>
     </pref>
 </preferences>

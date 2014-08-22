@@ -2,39 +2,24 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
-        <String>ref@S1</String>
-        <String>orth@S1</String>
-        <String>word@S1</String>
-        <String>pos@S1</String>
-        <String>lg@S1</String>
-        <String>ft-eng@S1</String>
-        <String>ft-rus@S1</String>
-        <String>phonet-UPA@S1</String>
-        <String>phonol-CYR@S1</String>
-        <String>translit-LAT@S1</String>
-        <String>note@S1</String>
-        <String>ref@int1</String>
-        <String>orth@int1</String>
-        <String>word@int1</String>
-        <String>pos@int1</String>
-        <String>lg@int1</String>
-        <String>ft-eng@int1</String>
-        <String>ft-rus@int1</String>
-        <String>phonet-UPA@int1</String>
-        <String>phonol-CYR@int1</String>
-        <String>translit-LAT@int1</String>
-        <String>note@int1</String>
-        <String>ref@int2</String>
-        <String>orth@int2</String>
-        <String>word@int2</String>
-        <String>pos@int2</String>
-        <String>lg@int2</String>
-        <String>ft-eng@int2</String>
-        <String>ft-rus@int2</String>
-        <String>phonet-UPA@int2</String>
-        <String>phonol-CYR@int2</String>
-        <String>translit-LAT@int2</String>
-        <String>note@int2</String>
+        <String>ref@ASA-M-1958</String>
+        <String>orth@ASA-M-1958</String>
+        <String>note@ASA-M-1958</String>
+        <String>word@ASA-M-1958</String>
+        <String>ft-eng@ASA-M-1958</String>
+        <String>ft-rus@ASA-M-1958</String>
+        <String>ref@RB-M-1974</String>
+        <String>orth@RB-M-1974</String>
+        <String>note@RB-M-1974</String>
+        <String>word@RB-M-1974</String>
+        <String>ft-eng@RB-M-1974</String>
+        <String>ft-rus@RB-M-1974</String>
+        <String>ref@LK-F-1985</String>
+        <String>orth@LK-F-1985</String>
+        <String>note@LK-F-1985</String>
+        <String>word@LK-F-1985</String>
+        <String>ft-eng@LK-F-1985</String>
+        <String>ft-rus@LK-F-1985</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
@@ -43,14 +28,14 @@
         <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
-        <prefList key="ref@int1">
-            <String>orth@int1</String>
+        <prefList key="ref@LK-F-1985">
+            <String>orth@LK-F-1985</String>
         </prefList>
-        <prefList key="ref@S1">
-            <String>orth@S1</String>
+        <prefList key="ref@ASA-M-1958">
+            <String>orth@ASA-M-1958</String>
         </prefList>
-        <prefList key="ref@int2">
-            <String>orth@int2</String>
+        <prefList key="ref@RB-M-1974">
+            <String>orth@RB-M-1974</String>
         </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
@@ -67,14 +52,14 @@
         <Int>4</Int>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@int1">
-            <Object class="java.awt.Color">160,90,0</Object>
+        <pref key="ref@LK-F-1985">
+            <Object class="java.awt.Color">160,90,90</Object>
         </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">90,0,90</Object>
+        <pref key="ref@ASA-M-1958">
+            <Object class="java.awt.Color">0,0,160</Object>
         </pref>
-        <pref key="ref@int2">
-            <Object class="java.awt.Color">0,0,90</Object>
+        <pref key="ref@RB-M-1974">
+            <Object class="java.awt.Color">160,160,0</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
@@ -82,6 +67,9 @@
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
         <Int>289</Int>
+    </pref>
+    <pref key="GridViewer.TierName">
+        <String>note@S1</String>
     </pref>
     <pref key="SelectionBeginTime">
         <Long>777815</Long>
@@ -93,17 +81,26 @@
         <Long>777815</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="orth@int1">
-            <Object class="java.awt.Color">160,90,0</Object>
+        <pref key="ref@LK-F-1985">
+            <Object class="java.awt.Color">194,204,13</Object>
         </pref>
-        <pref key="orth@S1">
-            <Object class="java.awt.Color">90,0,90</Object>
+        <pref key="orth@LK-F-1985">
+            <Object class="java.awt.Color">194,204,13</Object>
         </pref>
         <pref key="ref@int1">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
-        <pref key="orth@int2">
-            <Object class="java.awt.Color">0,0,90</Object>
+        <pref key="orth@RB-M-1974">
+            <Object class="java.awt.Color">211,103,16</Object>
+        </pref>
+        <pref key="ref@ASA-M-1958">
+            <Object class="java.awt.Color">23,211,2</Object>
+        </pref>
+        <pref key="ref@RB-M-1974">
+            <Object class="java.awt.Color">211,103,16</Object>
+        </pref>
+        <pref key="orth@ASA-M-1958">
+            <Object class="java.awt.Color">23,211,2</Object>
         </pref>
         <pref key="ref@S1">
             <Object class="java.awt.Color">90,0,90</Object>
@@ -139,6 +136,7 @@
             <Int>845</Int>
         </pref>
     </prefGroup>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
         <Long>779435</Long>
     </pref>

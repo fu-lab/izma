@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-05-07T15:24:39+01:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-16T14:40:09+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_udora/_kpv_udora_ELAN/kpv_udo_130806_Malahijeva_AV_Te menam Vashka.wav" MIME_TYPE="audio/x-wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_udora/_kpv_udora_ELAN/kpv_udo_130806_Malahijeva_AV_Te menam Vashka.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../Documents/kpv_udora/_kpv_udora_ELAN/kpv_udo_130806_Malahijeva_AV_Te menam Vashka.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:1e9380bb-0934-44e8-a09f-e868f9d444d9</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">127</PROPERTY>
     </HEADER>
     <TIME_ORDER>
@@ -54,7 +55,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="138208"/>
         <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="146955"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" TIER_ID="ref@AVM-F-1943">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="AVM-F-1943" TIER_ID="ref@AVM-F-1943">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -176,7 +177,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@AVM-F-1943" TIER_ID="orth@AVM-F-1943">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@AVM-F-1943" PARTICIPANT="AVM-F-1943" TIER_ID="orth@AVM-F-1943">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>Югъялӧ енеж улын</ANNOTATION_VALUE>
@@ -298,8 +299,8 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="ref@AVM-F-1943" TIER_ID="note@AVM-F-1943"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@AVM-F-1943" TIER_ID="word@AVM-F-1943">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="ref@AVM-F-1943" PARTICIPANT="AVM-F-1943" TIER_ID="note@AVM-F-1943"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@AVM-F-1943" PARTICIPANT="AVM-F-1943" TIER_ID="word@AVM-F-1943">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a25">
                 <ANNOTATION_VALUE>Югъялӧ</ANNOTATION_VALUE>
@@ -696,9 +697,9 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@AVM-F-1943" TIER_ID="ft-eng@AVM-F-1943"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@AVM-F-1943" TIER_ID="ft-rus@AVM-F-1943"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-lingT" PARENT_REF="orth@AVM-F-1943" TIER_ID="ft-ling@AVM-F-1943"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@AVM-F-1943" PARTICIPANT="AVM-F-1943" TIER_ID="ft-eng@AVM-F-1943"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@AVM-F-1943" PARTICIPANT="AVM-F-1943" TIER_ID="ft-rus@AVM-F-1943"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-lingT" PARENT_REF="orth@AVM-F-1943" PARTICIPANT="AVM-F-1943" TIER_ID="ft-ling@AVM-F-1943"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonet-upaT" TIME_ALIGNABLE="false"/>
@@ -715,38 +716,93 @@
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="pos" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="posT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="lg" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="lgT" TIME_ALIGNABLE="false"/>
     <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
     <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
-    <CONTROLLED_VOCABULARY CV_ID="lg" DESCRIPTION="language">
-        <CV_ENTRY DESCRIPTION="German">deu</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="Norwegian">nob</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="English">eng</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="Russian">rus</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="Swedish">swe</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="Kildin Saami">sjd</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="Ter Saami">sjt</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="Pite Saami">sje</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="Lule Saami">smj</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="North Saami">sme</CV_ENTRY>
+    <CONTROLLED_VOCABULARY CV_ID="lg">
+        <DESCRIPTION LANG_REF="und">language</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE DESCRIPTION="German" LANG_REF="und">deu</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE DESCRIPTION="Norwegian" LANG_REF="und">nob</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE DESCRIPTION="English" LANG_REF="und">eng</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE DESCRIPTION="Russian" LANG_REF="und">rus</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE DESCRIPTION="Swedish" LANG_REF="und">swe</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE DESCRIPTION="Kildin Saami" LANG_REF="und">sjd</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE DESCRIPTION="Ter Saami" LANG_REF="und">sjt</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE DESCRIPTION="Pite Saami" LANG_REF="und">sje</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE DESCRIPTION="Lule Saami" LANG_REF="und">smj</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid9">
+            <CVE_VALUE DESCRIPTION="North Saami" LANG_REF="und">sme</CVE_VALUE>
+        </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="pos" DESCRIPTION="part of speech">
-        <CV_ENTRY DESCRIPTION="adjective">a</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="abbreviation">abbr</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="preposition">pre</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="postposition">post</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="adverb">adv</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="coordinator">cc</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="subordinator">cs</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="determiner">det</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="interjection">i</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="noun">n</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="numeral">num</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="particle">pcle</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="pronoun">pro</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="proper noun">prop</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="punctuation">punct</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="verb">v</CV_ENTRY>
+    <CONTROLLED_VOCABULARY CV_ID="pos">
+        <DESCRIPTION LANG_REF="und">part of speech</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE DESCRIPTION="adjective" LANG_REF="und">a</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE DESCRIPTION="abbreviation" LANG_REF="und">abbr</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE DESCRIPTION="preposition" LANG_REF="und">pre</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE DESCRIPTION="postposition" LANG_REF="und">post</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE DESCRIPTION="adverb" LANG_REF="und">adv</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE DESCRIPTION="coordinator" LANG_REF="und">cc</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid6">
+            <CVE_VALUE DESCRIPTION="subordinator" LANG_REF="und">cs</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid7">
+            <CVE_VALUE DESCRIPTION="determiner" LANG_REF="und">det</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid8">
+            <CVE_VALUE DESCRIPTION="interjection" LANG_REF="und">i</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid9">
+            <CVE_VALUE DESCRIPTION="noun" LANG_REF="und">n</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid10">
+            <CVE_VALUE DESCRIPTION="numeral" LANG_REF="und">num</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid11">
+            <CVE_VALUE DESCRIPTION="particle" LANG_REF="und">pcle</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid12">
+            <CVE_VALUE DESCRIPTION="pronoun" LANG_REF="und">pro</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid13">
+            <CVE_VALUE DESCRIPTION="proper noun" LANG_REF="und">prop</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid14">
+            <CVE_VALUE DESCRIPTION="punctuation" LANG_REF="und">punct</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid15">
+            <CVE_VALUE DESCRIPTION="verb" LANG_REF="und">v</CVE_VALUE>
+        </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
 </ANNOTATION_DOCUMENT>

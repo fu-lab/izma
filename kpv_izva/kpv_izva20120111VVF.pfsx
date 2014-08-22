@@ -18,6 +18,7 @@
         <String>orth@NTP-M-1986</String>
         <String>ft-rus@NTP-M-1986</String>
         <String>ft-eng@NTP-M-1986</String>
+        <String>word@NTP-M-1986</String>
         <String>note(ref)@NTP-M-1986</String>
         <String>part</String>
         <String>geo</String>
@@ -29,13 +30,13 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <prefGroup key="BAS - WebMAUS Basic">
-        <pref key="ServiceName">
-            <String>runMAUSBasic</String>
-        </pref>
+        <prefGroup key="TierUrl"/>
         <pref key="LANGUAGE">
             <String>deu</String>
         </pref>
-        <prefGroup key="TierUrl"/>
+        <pref key="ServiceName">
+            <String>runMAUSBasic</String>
+        </pref>
         <pref key="SignalParamName">
             <String>SIGNAL</String>
         </pref>
@@ -64,11 +65,11 @@
         <pref key="ref@VVF-F-1957">
             <Object class="java.awt.Color">160,160,90</Object>
         </pref>
-        <pref key="geo">
-            <Object class="java.awt.Color">160,90,90</Object>
-        </pref>
         <pref key="ref@MMU-F-19XX">
             <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,90,90</Object>
         </pref>
         <pref key="ref@NTP-M-1986">
             <Object class="java.awt.Color">0,90,160</Object>
@@ -81,7 +82,7 @@
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">60,26</Object>
+        <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="SelectionBeginTime">
         <Long>0</Long>
@@ -120,11 +121,11 @@
         <pref key="geo">
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">0,90,160</Object>
-        </pref>
         <pref key="ref@MMU-F-19XX">
             <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">0,90,160</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">160,0,90</Object>
@@ -134,7 +135,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>1598821</Long>
+        <Long>1604531</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -147,7 +148,7 @@
         <Float>100.0</Float>
     </pref>
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1223,774</Object>
+        <Object class="java.awt.Dimension">1280,774</Object>
     </pref>
     <pref key="Search.TierSelectionMode">
         <String>Tier</String>
@@ -156,17 +157,17 @@
         <String>ref@VVF-F-1957</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>1588091</Long>
+        <Long>1598461</Long>
     </pref>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>40</Int>
+    <pref key="ActiveAudioRecognizerName">
+        <String>BAS - WebMAUS Basic</String>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>geo</String>
         <String>bio</String>
     </prefList>
-    <pref key="ActiveAudioRecognizerName">
-        <String>BAS - WebMAUS Basic</String>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>40</Int>
     </pref>
     <pref key="SelectionEndTime">
         <Long>0</Long>
