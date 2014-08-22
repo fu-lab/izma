@@ -44,11 +44,30 @@
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>2</Int>
     </pref>
-    <prefGroup key="TranscriptionTable.TierMap"/>
+    <prefGroup key="TranscriptionTable.TierMap">
+        <prefList key="word@MR-M-1971">
+            <String>word@MR-M-1971</String>
+        </prefList>
+        <prefList key="word@AAZ">
+            <String>word@AAZ</String>
+        </prefList>
+        <prefList key="word@RB-M-1974">
+            <String>word@RB-M-1974</String>
+        </prefList>
+        <prefList key="word@ANA">
+            <String>word@ANA</String>
+        </prefList>
+        <prefList key="word@LK">
+            <String>word@LK</String>
+        </prefList>
+    </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
     </pref>
+    <prefList key="TranscriptionTable.ColumnTypes">
+        <String>wordT</String>
+    </prefList>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
     </pref>
@@ -76,14 +95,61 @@
         <Int>31</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>68</Long>
+        <Long>6672</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>68</Long>
+        <Long>6672</Long>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ref@MR-M-1971">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="orth@RB-M-1974">
+            <Object class="java.awt.Color">64,190,39</Object>
+        </pref>
+        <pref key="orth@MR-M-1971">
+            <Object class="java.awt.Color">244,76,4</Object>
+        </pref>
+        <pref key="word@RB-M-1974">
+            <Object class="java.awt.Color">64,190,39</Object>
+        </pref>
+        <pref key="ref@ANA">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@LK">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="word@LK">
+            <Object class="java.awt.Color">223,95,167</Object>
+        </pref>
+        <pref key="orth@ANA">
+            <Object class="java.awt.Color">59,206,53</Object>
+        </pref>
+        <pref key="orth@AAZ">
+            <Object class="java.awt.Color">164,181,191</Object>
+        </pref>
+        <pref key="word@MR-M-1971">
+            <Object class="java.awt.Color">244,76,4</Object>
+        </pref>
+        <pref key="word@AAZ">
+            <Object class="java.awt.Color">164,181,191</Object>
+        </pref>
+        <pref key="ref@AAZ">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@RB-M-1974">
+            <Object class="java.awt.Color">90,90,160</Object>
+        </pref>
+        <pref key="orth@LK">
+            <Object class="java.awt.Color">223,95,167</Object>
+        </pref>
+        <pref key="word@ANA">
+            <Object class="java.awt.Color">59,206,53</Object>
+        </pref>
+    </prefGroup>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -104,10 +170,15 @@
         <Int>129</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>-100</Long>
+        <Long>2154</Long>
     </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type1">
+            <Int>845</Int>
+        </pref>
+    </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>2684</Long>
+        <Long>8907</Long>
     </pref>
 </preferences>

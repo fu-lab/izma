@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="Michael Rießler" DATE="2014-08-16T11:51:17+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="Michael Rießler" DATE="2014-08-22T20:11:34+02:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video2.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video2.mov"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video2.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../../Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video2.mov"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:0b968669-1fc1-479e-8445-bdd49eb40f48</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">4208</PROPERTY>
     </HEADER>
@@ -1087,7 +1087,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts1079" TIME_VALUE="1115000"/>
         <TIME_SLOT TIME_SLOT_ID="ts1080" TIME_VALUE="1117230"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="LK" TIER_ID="ref@LK">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="LK-F-1985" TIER_ID="ref@LK-F-1985">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a342" TIME_SLOT_REF1="ts471" TIME_SLOT_REF2="ts473">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -1114,7 +1114,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@LK" PARTICIPANT="LK" TIER_ID="orth@LK">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@LK-F-1985" PARTICIPANT="LK-F-1985" TIER_ID="orth@LK-F-1985">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a345" ANNOTATION_REF="a342">
                 <ANNOTATION_VALUE>Да .</ANNOTATION_VALUE>
@@ -1141,14 +1141,14 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@LK" PARTICIPANT="LK" TIER_ID="ft-eng@LK">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@LK-F-1985" PARTICIPANT="LK-F-1985" TIER_ID="ft-eng@LK-F-1985">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1237" ANNOTATION_REF="a345">
                 <ANNOTATION_VALUE>yes</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@LK" PARTICIPANT="LK" TIER_ID="ft-rus@LK">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@LK-F-1985" PARTICIPANT="LK-F-1985" TIER_ID="ft-rus@LK-F-1985">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1238" ANNOTATION_REF="a345">
                 <ANNOTATION_VALUE>Да .</ANNOTATION_VALUE>
@@ -1170,7 +1170,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="MR" TIER_ID="ref@MR">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="MR-M-1971" TIER_ID="ref@MR-M-1971">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a241" TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts155">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -1232,7 +1232,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@MR" PARTICIPANT="MR" TIER_ID="orth@MR">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@MR-M-1971" PARTICIPANT="MR-M-1971" TIER_ID="orth@MR-M-1971">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a246" ANNOTATION_REF="a241">
                 <ANNOTATION_VALUE>a a a kien' e.. tonn vuajak e.. saamas saarrn et. e..</ANNOTATION_VALUE>
@@ -1294,14 +1294,14 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@MR" PARTICIPANT="MR" TIER_ID="ft-eng@MR">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@MR-M-1971" PARTICIPANT="MR-M-1971" TIER_ID="ft-eng@MR-M-1971">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1239" ANNOTATION_REF="a248">
                 <ANNOTATION_VALUE>well, I do understand</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@MR" PARTICIPANT="MR" TIER_ID="ft-rus@MR">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@MR-M-1971" PARTICIPANT="MR-M-1971" TIER_ID="ft-rus@MR-M-1971">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1493" ANNOTATION_REF="a358">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -7044,7 +7044,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1072" ANNOTATION_REF="a650">
-                <ANNOTATION_VALUE>Говорит , не я , а старый (мен его ? ) .</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Говорит , не я , а старый ( мен его ? ) .</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -7134,7 +7134,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1090" ANNOTATION_REF="a668">
-                <ANNOTATION_VALUE>Вон - то там , даже " Беломор " , тогда "Беломор " курил , окурки видно .</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вон - то там , даже " Беломор " , тогда " Беломор " курил , окурки видно .</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -19322,7 +19322,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1646" ANNOTATION_REF="a929">
-                <ANNOTATION_VALUE>( … ) ну там намек был , вообще ,ни грамма марта ! (?)</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>( … ) ну там намек был , вообще , ни грамма марта ! (?)</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -19957,7 +19957,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1767" ANNOTATION_REF="a1071">
-                <ANNOTATION_VALUE>" Охо , ты , - говорит , - ты , -говорит , - что , честно говоришь ? " - " Да , я честно , честно " .</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>" Охо , ты , - говорит , - ты , - говорит , - что , честно говоришь ? " - " Да , я честно , честно " .</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -20480,7 +20480,7 @@
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="psT" PARENT_REF="word@AAZ" PARTICIPANT="AAZ" TIER_ID="pos@AAZ"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@AAZ" PARTICIPANT="AAZ" TIER_ID="lg@AAZ"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@MR" PARTICIPANT="MR" TIER_ID="word@MR">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@MR-M-1971" PARTICIPANT="MR-M-1971" TIER_ID="word@MR-M-1971">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a4153" ANNOTATION_REF="a246">
                 <ANNOTATION_VALUE>a</ANNOTATION_VALUE>
@@ -20682,7 +20682,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@LK" PARTICIPANT="LK" TIER_ID="word@LK">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@LK-F-1985" PARTICIPANT="LK-F-1985" TIER_ID="word@LK-F-1985">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a4193" ANNOTATION_REF="a345">
                 <ANNOTATION_VALUE>Да</ANNOTATION_VALUE>
@@ -20766,8 +20766,8 @@
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@AAZ" PARTICIPANT="AAZ" TIER_ID="note(orth)@AAZ"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@ANA" PARTICIPANT="ANA" TIER_ID="note(orth)@ANA"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@LK" PARTICIPANT="LK" TIER_ID="note(orth)@LK"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@MR" PARTICIPANT="MR" TIER_ID="note(orth)@MR"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@LK-F-1985" PARTICIPANT="LK-F-1985" TIER_ID="note(orth)@LK-F-1985"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@MR-M-1971" PARTICIPANT="MR-M-1971" TIER_ID="note(orth)@MR-M-1971"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="textT" TIME_ALIGNABLE="false"/>
@@ -20779,132 +20779,14 @@
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="noteT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-lingT" TIME_ALIGNABLE="false"/>
     <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
-    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
     <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
-    <CONTROLLED_VOCABULARY CV_ID="TurnModeCV">
-        <DESCRIPTION LANG_REF="und">All values that are allowed for Transcriber Turn.mode attribute</DESCRIPTION>
-        <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">spontaneous</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">planned</CVE_VALUE>
-        </CV_ENTRY_ML>
-    </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="lg">
-        <DESCRIPTION LANG_REF="und">language</DESCRIPTION>
-        <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="German" LANG_REF="und">deu</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="English" LANG_REF="und">eng</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid2">
-            <CVE_VALUE DESCRIPTION="Russian" LANG_REF="und">rus</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid3">
-            <CVE_VALUE DESCRIPTION="Swedish" LANG_REF="und">swe</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid4">
-            <CVE_VALUE DESCRIPTION="Kildin Saami" LANG_REF="und">sjd</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid5">
-            <CVE_VALUE DESCRIPTION="Ter Saami" LANG_REF="und">sjt</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid6">
-            <CVE_VALUE DESCRIPTION="Pite Saami" LANG_REF="und">sje</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid7">
-            <CVE_VALUE DESCRIPTION="Lule Saami" LANG_REF="und">smj</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid8">
-            <CVE_VALUE DESCRIPTION="North Saami" LANG_REF="und">sme</CVE_VALUE>
-        </CV_ENTRY_ML>
-    </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="TurnFidelityCV">
-        <DESCRIPTION LANG_REF="und">All values that are allowed for Transcriber Turn.fidelity attribute</DESCRIPTION>
-        <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">high</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">medium</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid2">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">low</CVE_VALUE>
-        </CV_ENTRY_ML>
-    </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="SectionTypeCV">
-        <DESCRIPTION LANG_REF="und">All values that are allowed for Transcriber Section.type attribute</DESCRIPTION>
-        <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">report</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">nontrans</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid2">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">filler</CVE_VALUE>
-        </CV_ENTRY_ML>
-    </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="TurnChannelCV">
-        <DESCRIPTION LANG_REF="und">All values that are allowed for Transcriber Turn.channel attribute</DESCRIPTION>
-        <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">telephone</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="" LANG_REF="und">studio</CVE_VALUE>
-        </CV_ENTRY_ML>
-    </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="pos">
-        <DESCRIPTION LANG_REF="und">part of speech</DESCRIPTION>
-        <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="adjective" LANG_REF="und">a</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="abbreviation" LANG_REF="und">abbr</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid2">
-            <CVE_VALUE DESCRIPTION="preposition" LANG_REF="und">pre</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid3">
-            <CVE_VALUE DESCRIPTION="postposition" LANG_REF="und">post</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid4">
-            <CVE_VALUE DESCRIPTION="adverb" LANG_REF="und">adv</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid5">
-            <CVE_VALUE DESCRIPTION="coordinator" LANG_REF="und">cc</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid6">
-            <CVE_VALUE DESCRIPTION="subordinator" LANG_REF="und">cs</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid7">
-            <CVE_VALUE DESCRIPTION="determiner" LANG_REF="und">det</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid8">
-            <CVE_VALUE DESCRIPTION="interjection" LANG_REF="und">i</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid9">
-            <CVE_VALUE DESCRIPTION="noun" LANG_REF="und">n</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid10">
-            <CVE_VALUE DESCRIPTION="numeral" LANG_REF="und">num</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid11">
-            <CVE_VALUE DESCRIPTION="particle" LANG_REF="und">pcle</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid12">
-            <CVE_VALUE DESCRIPTION="pronoun" LANG_REF="und">pro</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid13">
-            <CVE_VALUE DESCRIPTION="proper noun" LANG_REF="und">prop</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid14">
-            <CVE_VALUE DESCRIPTION="punctuation" LANG_REF="und">punct</CVE_VALUE>
-        </CV_ENTRY_ML>
-        <CV_ENTRY_ML CVE_ID="cveid15">
-            <CVE_VALUE DESCRIPTION="verb" LANG_REF="und">v</CVE_VALUE>
-        </CV_ENTRY_ML>
-    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="TurnModeCV" DESCRIPTION=""/>
+    <CONTROLLED_VOCABULARY CV_ID="lg" DESCRIPTION=""/>
+    <CONTROLLED_VOCABULARY CV_ID="TurnFidelityCV" DESCRIPTION=""/>
+    <CONTROLLED_VOCABULARY CV_ID="SectionTypeCV" DESCRIPTION=""/>
+    <CONTROLLED_VOCABULARY CV_ID="TurnChannelCV" DESCRIPTION=""/>
+    <CONTROLLED_VOCABULARY CV_ID="pos" DESCRIPTION=""/>
 </ANNOTATION_DOCUMENT>
