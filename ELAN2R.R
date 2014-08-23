@@ -1,3 +1,4 @@
+# Тайӧ скрипт лыддьӧ ЕЛАН-файлъяс кыв-тиеръясті. Йитча сылӧн дата фрамесӧ менам Филемакер метаданныекӧд.
 library(XML)
 xmlfiles_all <- list.files(path=".", pattern="*.eaf$", recursive=TRUE)
 xmlfiles <- xmlfiles_all[ !grepl("kpv_novyje",xmlfiles_all) ]
