@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-22T21:00:47+02:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-30T11:37:38+02:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva_syktyvkar/kpv_izva20120111VVF1/kpv_izva20120111_VVF1_0111_141517.WAV" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../Documents/kpv_izva/kpv_izva_syktyvkar/kpv_izva20120111VVF1/kpv_izva20120111_VVF1_0111_141517.WAV"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20120111VVF1/kpv_izva20120111_VVF1_0111_141517.WAV" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../Documents/kpv_izva/kpv_izva_syktyvkar/kpv_izva20120111VVF1/kpv_izva20120111_VVF1_0111_141517.WAV"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:712a8871-c7c0-41a3-b83e-71e8fae5021f</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">29522</PROPERTY>
     </HEADER>

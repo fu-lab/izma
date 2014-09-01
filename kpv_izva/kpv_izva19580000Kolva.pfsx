@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
         <String>note(part)</String>
@@ -60,22 +59,32 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>2</Int>
+        <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@EEI-M-1913">
             <String>orth@EEI-M-1913</String>
+            <String>ft-eng@EEI-M-1913</String>
+            <String>ft-rus@EEI-M-1913</String>
         </prefList>
         <prefList key="ref@XXS-F-19XX">
             <String>orth@XXS-F-19XX</String>
+            <String>ft-eng@XXS-F-19XX</String>
+            <String>ft-rus@XXS-F-19XX</String>
         </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
+    <prefGroup key="TranscriptionTable.ColumnOrder"/>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
     </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
+    </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>orthT</String>
+        <String>ft-engT</String>
+        <String>ft-rusT</String>
     </prefList>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
@@ -103,8 +112,11 @@
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,22</Object>
     </pref>
+    <pref key="TranscriptionTable.LastActiveRow">
+        <Int>20</Int>
+    </pref>
     <pref key="SelectionBeginTime">
-        <Long>1315</Long>
+        <Long>86130</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
@@ -113,17 +125,23 @@
         <pref key="geo">
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
+        <pref key="ft-rus@EEI-M-1913">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
         <pref key="orth@XXS-F-19XX">
-            <Object class="java.awt.Color">189,27,71</Object>
+            <Object class="java.awt.Color">90,160,0</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">0,160,90</Object>
+        <pref key="ft-eng@XXS-F-19XX">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="ft-eng@EEI-M-1913">
+            <Object class="java.awt.Color">0,160,0</Object>
         </pref>
         <pref key="orth@EEI-M-1913">
-            <Object class="java.awt.Color">250,9,183</Object>
+            <Object class="java.awt.Color">0,160,0</Object>
         </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,90,90</Object>
@@ -131,18 +149,18 @@
         <pref key="comment">
             <Object class="java.awt.Color">90,160,90</Object>
         </pref>
-        <pref key="ref@S2">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
         <pref key="ref@EEI-M-1913">
-            <Object class="java.awt.Color">250,9,183</Object>
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="ft-rus@XXS-F-19XX">
+            <Object class="java.awt.Color">90,160,0</Object>
         </pref>
         <pref key="ref@XXS-F-19XX">
-            <Object class="java.awt.Color">189,27,71</Object>
+            <Object class="java.awt.Color">90,160,0</Object>
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>1315</Long>
+        <Long>86130</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -154,18 +172,30 @@
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,774</Object>
     </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>100.0</Float>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveColumn">
+        <String>Type2 : ft-engT</String>
+    </pref>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>6800</Long>
+        <Long>83610</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>283</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>284</Int>
+        </pref>
         <pref key="Type1">
-            <Int>850</Int>
+            <Int>283</Int>
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>8638</Long>
+        <Long>92650</Long>
     </pref>
 </preferences>

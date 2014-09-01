@@ -40,10 +40,10 @@
         <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>4</Int>
+        <Int>15</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>11120</Long>
+        <Long>47820</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
@@ -60,7 +60,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>11120</Long>
+        <Long>47820</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -73,13 +73,13 @@
         <Object class="java.awt.Dimension">1280,774</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
-        <String>Type1 : orthT</String>
+        <String>Type2 : phonet-upaT</String>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>ref@XXX-F-1920-cp-cp</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>5975</Long>
+        <Long>43512</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type2">
@@ -91,6 +91,6 @@
     </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>12190</Long>
+        <Long>50565</Long>
     </pref>
 </preferences>
