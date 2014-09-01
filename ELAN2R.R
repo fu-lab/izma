@@ -14,5 +14,5 @@ for(i in 1:n){
         dat[[i]] <- do.call("rbind", x)
 }
 kpv_corpus <- do.call("rbind", dat)
-
+dat
 write.csv(kpv_corpus, "kpv_corpus.csv")
