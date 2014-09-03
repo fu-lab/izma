@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-09-03T16:08:09+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-09-03T18:28:11+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20140330-1FMV1/kpv_izva20140330-1FMV1-S2.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../Documents/kpv_izva/kpv_izva20140330-1FMV1/kpv_izva20140330-1FMV1-S2.wav"/>
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20140330-1FMV1/kpv_izva20140330-1FMV1-S2.m4v" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../../Documents/kpv_izva/kpv_izva20140330-1FMV1/kpv_izva20140330-1FMV1-S2.m4v"/>
@@ -25212,32 +25212,32 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1332" ANNOTATION_REF="a939">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Oh, why not - yes. I could, aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1333" ANNOTATION_REF="a940">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>French, probably, I would like to learn.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1334" ANNOTATION_REF="a941">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And. One just needs to, mm, well, as an example,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1335" ANNOTATION_REF="a942">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>I don't know, it seems to me, without practice it is impossible.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1336" ANNOTATION_REF="a943">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Well year.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1337" ANNOTATION_REF="a944">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yes.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -36643,12 +36643,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2581" ANNOTATION_REF="a2395">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2582" ANNOTATION_REF="a2396">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>It is difficult alone, right?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -45325,22 +45325,22 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3250" ANNOTATION_REF="a3095">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And would you like to study later some other languages?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3251" ANNOTATION_REF="a3096">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Which ones?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3252" ANNOTATION_REF="a3097">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3253" ANNOTATION_REF="a3098">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Mm …</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
