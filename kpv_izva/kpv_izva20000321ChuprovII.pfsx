@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
         <String>note(part)</String>
@@ -64,7 +65,7 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>70</Int>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="word@PK">
@@ -91,11 +92,11 @@
         <Int>4</Int>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@VVF-F-1957">
-            <Object class="java.awt.Color">0,160,0</Object>
-        </pref>
         <pref key="ref@IIC-M-1937">
             <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@VVF-F-1957">
+            <Object class="java.awt.Color">0,160,0</Object>
         </pref>
         <pref key="geo">
             <Object class="java.awt.Color">0,90,90</Object>
@@ -106,11 +107,11 @@
         <pref key="ref@PK">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,0,0</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
@@ -123,35 +124,20 @@
         <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="word@PK">
-            <Object class="java.awt.Color">167,172,85</Object>
-        </pref>
-        <pref key="geo">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
-        <pref key="orth@IIC-M-1937">
-            <Object class="java.awt.Color">210,169,156</Object>
-        </pref>
-        <pref key="orth@VVF-F-1957">
-            <Object class="java.awt.Color">54,239,246</Object>
-        </pref>
-        <pref key="ref@PK">
-            <Object class="java.awt.Color">160,90,0</Object>
-        </pref>
-        <pref key="orth@PK">
-            <Object class="java.awt.Color">167,172,85</Object>
-        </pref>
         <pref key="ref@VVF-F-1957">
             <Object class="java.awt.Color">0,160,0</Object>
         </pref>
         <pref key="ref@IIC-M-1937">
             <Object class="java.awt.Color">0,160,90</Object>
         </pref>
-        <pref key="word@VVF-F-1957">
-            <Object class="java.awt.Color">54,239,246</Object>
+        <pref key="geo">
+            <Object class="java.awt.Color">0,90,90</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="ref@PK">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,0,0</Object>
@@ -159,12 +145,9 @@
         <pref key="part">
             <Object class="java.awt.Color">90,0,160</Object>
         </pref>
-        <pref key="word@IIC-M-1937">
-            <Object class="java.awt.Color">210,169,156</Object>
-        </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>16895</Long>
+        <Long>390987</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -183,11 +166,11 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>13523</Long>
+        <Long>454487</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type1">
-            <Int>840</Int>
+            <Int>452</Int>
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
