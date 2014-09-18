@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>ref@S1</String>
+        <String>phonet-UPA@S1</String>
+        <String>phonol-CYR@S1</String>
+        <String>translit-LAT@S1</String>
+        <String>note(ref)@S1</String>
+        <String>orth@S1</String>
+        <String>word@S1</String>
+        <String>lemma@S1</String>
+        <String>morph@S1</String>
+        <String>pos@S1</String>
+        <String>lg(word)@S1</String>
+        <String>note(word)@S1</String>
+        <String>ft-eng@S1</String>
+        <String>ft-deu@S1</String>
+        <String>ft-nob@S1</String>
+        <String>ft-rus@S1</String>
+        <String>ft-swe@S1</String>
+        <String>ft-ling@S1</String>
+        <String>ft-fin@S1</String>
+        <String>note(orth)@S1</String>
+        <String>lg(orth)@S1</String>
+        <String>phonet-IPA@S1</String>
+        <String>phonol-LAT@S1</String>
+        <String>ref@ныв-1</String>
+        <String>phonet-UPA@ныв-1</String>
+        <String>phonol-CYR@ныв-1</String>
+        <String>translit-LAT@ныв-1</String>
+        <String>note(ref)@ныв-1</String>
+        <String>orth@ныв-1</String>
+        <String>word@ныв-1</String>
+        <String>lemma@ныв-1</String>
+        <String>morph@ныв-1</String>
+        <String>pos@ныв-1</String>
+        <String>lg(word)@ныв-1</String>
+        <String>note(word)@ныв-1</String>
+        <String>ft-eng@ныв-1</String>
+        <String>ft-deu@ныв-1</String>
+        <String>ft-nob@ныв-1</String>
+        <String>ft-rus@ныв-1</String>
+        <String>ft-swe@ныв-1</String>
+        <String>ft-ling@ныв-1</String>
+        <String>ft-fin@ныв-1</String>
+        <String>note(orth)@ныв-1</String>
+        <String>lg(orth)@ныв-1</String>
+        <String>phonet-IPA@ныв-1</String>
+        <String>phonol-LAT@ныв-1</String>
+        <String>ref@Маша</String>
+        <String>phonet-UPA@Маша</String>
+        <String>phonol-CYR@Маша</String>
+        <String>translit-LAT@Маша</String>
+        <String>note(ref)@Маша</String>
+        <String>orth@Маша</String>
+        <String>word@Маша</String>
+        <String>lemma@Маша</String>
+        <String>morph@Маша</String>
+        <String>pos@Маша</String>
+        <String>lg(word)@Маша</String>
+        <String>note(word)@Маша</String>
+        <String>ft-eng@Маша</String>
+        <String>ft-deu@Маша</String>
+        <String>ft-nob@Маша</String>
+        <String>ft-rus@Маша</String>
+        <String>ft-swe@Маша</String>
+        <String>ft-ling@Маша</String>
+        <String>ft-fin@Маша</String>
+        <String>note(orth)@Маша</String>
+        <String>lg(orth)@Маша</String>
+        <String>phonet-IPA@Маша</String>
+        <String>phonol-LAT@Маша</String>
+        <String>ref@ныв-2</String>
+        <String>phonet-UPA@ныв-2</String>
+        <String>phonol-CYR@ныв-2</String>
+        <String>translit-LAT@ныв-2</String>
+        <String>note(ref)@ныв-2</String>
+        <String>orth@ныв-2</String>
+        <String>word@ныв-2</String>
+        <String>lemma@ныв-2</String>
+        <String>morph@ныв-2</String>
+        <String>pos@ныв-2</String>
+        <String>lg(word)@ныв-2</String>
+        <String>note(word)@ныв-2</String>
+        <String>ft-eng@ныв-2</String>
+        <String>ft-deu@ныв-2</String>
+        <String>ft-nob@ныв-2</String>
+        <String>ft-rus@ныв-2</String>
+        <String>ft-swe@ныв-2</String>
+        <String>ft-ling@ныв-2</String>
+        <String>ft-fin@ныв-2</String>
+        <String>note(orth)@ныв-2</String>
+        <String>lg(orth)@ныв-2</String>
+        <String>phonet-IPA@ныв-2</String>
+        <String>phonol-LAT@ныв-2</String>
+        <String>ref@ныв-3</String>
+        <String>phonet-UPA@ныв-3</String>
+        <String>phonol-CYR@ныв-3</String>
+        <String>translit-LAT@ныв-3</String>
+        <String>note(ref)@ныв-3</String>
+        <String>orth@ныв-3</String>
+        <String>word@ныв-3</String>
+        <String>lemma@ныв-3</String>
+        <String>morph@ныв-3</String>
+        <String>pos@ныв-3</String>
+        <String>lg(word)@ныв-3</String>
+        <String>note(word)@ныв-3</String>
+        <String>ft-eng@ныв-3</String>
+        <String>ft-deu@ныв-3</String>
+        <String>ft-nob@ныв-3</String>
+        <String>ft-rus@ныв-3</String>
+        <String>ft-swe@ныв-3</String>
+        <String>ft-ling@ныв-3</String>
+        <String>ft-fin@ныв-3</String>
+        <String>note(orth)@ныв-3</String>
+        <String>lg(orth)@ныв-3</String>
+        <String>phonet-IPA@ныв-3</String>
+        <String>phonol-LAT@ныв-3</String>
+        <String>ref@группа</String>
+        <String>phonet-UPA@группа</String>
+        <String>phonol-CYR@группа</String>
+        <String>translit-LAT@группа</String>
+        <String>note(ref)@группа</String>
+        <String>orth@группа</String>
+        <String>word@группа</String>
+        <String>lemma@группа</String>
+        <String>morph@группа</String>
+        <String>pos@группа</String>
+        <String>lg(word)@группа</String>
+        <String>note(word)@группа</String>
+        <String>ft-eng@группа</String>
+        <String>ft-deu@группа</String>
+        <String>ft-nob@группа</String>
+        <String>ft-rus@группа</String>
+        <String>ft-swe@группа</String>
+        <String>ft-ling@группа</String>
+        <String>ft-fin@группа</String>
+        <String>note(orth)@группа</String>
+        <String>lg(orth)@группа</String>
+        <String>phonet-IPA@группа</String>
+        <String>phonol-LAT@группа</String>
+        <String>ref@зонка-1</String>
+        <String>phonet-UPA@зонка-1</String>
+        <String>phonol-CYR@зонка-1</String>
+        <String>translit-LAT@зонка-1</String>
+        <String>note(ref)@зонка-1</String>
+        <String>orth@зонка-1</String>
+        <String>word@зонка-1</String>
+        <String>lemma@зонка-1</String>
+        <String>morph@зонка-1</String>
+        <String>pos@зонка-1</String>
+        <String>lg(word)@зонка-1</String>
+        <String>note(word)@зонка-1</String>
+        <String>ft-eng@зонка-1</String>
+        <String>ft-deu@зонка-1</String>
+        <String>ft-nob@зонка-1</String>
+        <String>ft-rus@зонка-1</String>
+        <String>ft-swe@зонка-1</String>
+        <String>ft-ling@зонка-1</String>
+        <String>ft-fin@зонка-1</String>
+        <String>note(orth)@зонка-1</String>
+        <String>lg(orth)@зонка-1</String>
+        <String>phonet-IPA@зонка-1</String>
+        <String>phonol-LAT@зонка-1</String>
+        <String>ref@зонка-2</String>
+        <String>phonet-UPA@зонка-2</String>
+        <String>phonol-CYR@зонка-2</String>
+        <String>translit-LAT@зонка-2</String>
+        <String>note(ref)@зонка-2</String>
+        <String>orth@зонка-2</String>
+        <String>word@зонка-2</String>
+        <String>lemma@зонка-2</String>
+        <String>morph@зонка-2</String>
+        <String>pos@зонка-2</String>
+        <String>lg(word)@зонка-2</String>
+        <String>note(word)@зонка-2</String>
+        <String>ft-eng@зонка-2</String>
+        <String>ft-deu@зонка-2</String>
+        <String>ft-nob@зонка-2</String>
+        <String>ft-rus@зонка-2</String>
+        <String>ft-swe@зонка-2</String>
+        <String>ft-ling@зонка-2</String>
+        <String>ft-fin@зонка-2</String>
+        <String>note(orth)@зонка-2</String>
+        <String>lg(orth)@зонка-2</String>
+        <String>phonet-IPA@зонка-2</String>
+        <String>phonol-LAT@зонка-2</String>
+        <String>ref@зонка-3</String>
+        <String>phonet-UPA@зонка-3</String>
+        <String>phonol-CYR@зонка-3</String>
+        <String>translit-LAT@зонка-3</String>
+        <String>note(ref)@зонка-3</String>
+        <String>orth@зонка-3</String>
+        <String>word@зонка-3</String>
+        <String>lemma@зонка-3</String>
+        <String>morph@зонка-3</String>
+        <String>pos@зонка-3</String>
+        <String>lg(word)@зонка-3</String>
+        <String>note(word)@зонка-3</String>
+        <String>ft-eng@зонка-3</String>
+        <String>ft-deu@зонка-3</String>
+        <String>ft-nob@зонка-3</String>
+        <String>ft-rus@зонка-3</String>
+        <String>ft-swe@зонка-3</String>
+        <String>ft-ling@зонка-3</String>
+        <String>ft-fin@зонка-3</String>
+        <String>note(orth)@зонка-3</String>
+        <String>lg(orth)@зонка-3</String>
+        <String>phonet-IPA@зонка-3</String>
+        <String>phonol-LAT@зонка-3</String>
+        <String>ref@ныв-4</String>
+        <String>phonet-UPA@ныв-4</String>
+        <String>phonol-CYR@ныв-4</String>
+        <String>translit-LAT@ныв-4</String>
+        <String>note(ref)@ныв-4</String>
+        <String>orth@ныв-4</String>
+        <String>word@ныв-4</String>
+        <String>lemma@ныв-4</String>
+        <String>morph@ныв-4</String>
+        <String>pos@ныв-4</String>
+        <String>lg(word)@ныв-4</String>
+        <String>note(word)@ныв-4</String>
+        <String>ft-eng@ныв-4</String>
+        <String>ft-deu@ныв-4</String>
+        <String>ft-nob@ныв-4</String>
+        <String>ft-rus@ныв-4</String>
+        <String>ft-swe@ныв-4</String>
+        <String>ft-ling@ныв-4</String>
+        <String>ft-fin@ныв-4</String>
+        <String>note(orth)@ныв-4</String>
+        <String>lg(orth)@ныв-4</String>
+        <String>phonet-IPA@ныв-4</String>
+        <String>phonol-LAT@ныв-4</String>
+        <String>ref@ныв-5</String>
+        <String>phonet-UPA@ныв-5</String>
+        <String>phonol-CYR@ныв-5</String>
+        <String>translit-LAT@ныв-5</String>
+        <String>note(ref)@ныв-5</String>
+        <String>orth@ныв-5</String>
+        <String>word@ныв-5</String>
+        <String>lemma@ныв-5</String>
+        <String>morph@ныв-5</String>
+        <String>pos@ныв-5</String>
+        <String>lg(word)@ныв-5</String>
+        <String>note(word)@ныв-5</String>
+        <String>ft-eng@ныв-5</String>
+        <String>ft-deu@ныв-5</String>
+        <String>ft-nob@ныв-5</String>
+        <String>ft-rus@ныв-5</String>
+        <String>ft-swe@ныв-5</String>
+        <String>ft-ling@ныв-5</String>
+        <String>ft-fin@ныв-5</String>
+        <String>note(orth)@ныв-5</String>
+        <String>lg(orth)@ныв-5</String>
+        <String>phonet-IPA@ныв-5</String>
+        <String>phonol-LAT@ныв-5</String>
+    </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>70</Int>
+    </pref>
+    <pref key="SignalViewer.VerticalZoomLevel">
+        <Int>500</Int>
+    </pref>
+    <prefGroup key="TranscriptionTable.TierMap">
+        <prefList key="ref@ныв-3">
+            <String>orth@ныв-3</String>
+            <String>ft-eng@ныв-3</String>
+            <String>phonet-IPA@ныв-3</String>
+        </prefList>
+        <prefList key="ref@ныв-2">
+            <String>orth@ныв-2</String>
+            <String>ft-eng@ныв-2</String>
+            <String>phonet-IPA@ныв-2</String>
+        </prefList>
+        <prefList key="ref@ныв-5">
+            <String>orth@ныв-5</String>
+            <String>ft-eng@ныв-5</String>
+            <String>phonet-IPA@ныв-5</String>
+        </prefList>
+        <prefList key="ref@ныв-4">
+            <String>orth@ныв-4</String>
+            <String>ft-eng@ныв-4</String>
+            <String>phonet-IPA@ныв-4</String>
+        </prefList>
+        <prefList key="ref@Маша">
+            <String>orth@Маша</String>
+            <String>ft-eng@Маша</String>
+            <String>phonet-IPA@Маша</String>
+        </prefList>
+        <prefList key="ref@ныв-1">
+            <String>orth@ныв-1</String>
+            <String>ft-eng@ныв-1</String>
+            <String>phonet-IPA@ныв-1</String>
+        </prefList>
+        <prefList key="ref@группа">
+            <String>orth@группа</String>
+            <String>ft-eng@группа</String>
+            <String>phonet-IPA@группа</String>
+        </prefList>
+        <prefList key="ref@зонка-1">
+            <String>orth@зонка-1</String>
+            <String>ft-eng@зонка-1</String>
+            <String>phonet-IPA@зонка-1</String>
+        </prefList>
+        <prefList key="ref@S1">
+            <String>orth@S1</String>
+            <String>ft-eng@S1</String>
+            <String>phonet-IPA@S1</String>
+        </prefList>
+        <prefList key="ref@зонка-3">
+            <String>orth@зонка-3</String>
+            <String>ft-eng@зонка-3</String>
+            <String>phonet-IPA@зонка-3</String>
+        </prefList>
+        <prefList key="ref@зонка-2">
+            <String>orth@зонка-2</String>
+            <String>ft-eng@зонка-2</String>
+            <String>phonet-IPA@зонка-2</String>
+        </prefList>
+    </prefGroup>
+    <prefList key="TranscriptionTable.NonEditableTiers"/>
+    <prefGroup key="TranscriptionTable.ColumnOrder"/>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
+    </pref>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
+    </pref>
+    <prefList key="SegmentationViewer.HiddenTiers"/>
+    <prefList key="TranscriptionTable.ColumnTypes">
+        <String>orthT</String>
+        <String>ft-engT</String>
+        <String>phonet-ipaT</String>
+    </prefList>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>4</Int>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="ref@ныв-3">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="ref@ныв-2">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@ныв-5">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="ref@ныв-4">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="ref@Маша">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@группа">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@ныв-1">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ref@S1">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="ref@зонка-1">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@зонка-3">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@зонка-2">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+    </prefGroup>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@ныв-5</String>
+    </pref>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,22</Object>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveRow">
+        <Int>418</Int>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>0</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>3</Int>
+    </pref>
+    <prefList key="SegmentationViewer.TierOrder">
+        <String>part</String>
+        <String>bio</String>
+        <String>comment</String>
+        <String>geo</String>
+        <String>ref@S1</String>
+        <String>ref@ныв-1</String>
+        <String>ref@Маша</String>
+        <String>ref@ныв-2</String>
+        <String>ref@ныв-3</String>
+        <String>ref@группа</String>
+        <String>ref@зонка-1</String>
+        <String>ref@зонка-2</String>
+        <String>ref@зонка-3</String>
+        <String>ref@ныв-4</String>
+        <String>ref@ныв-5</String>
+    </prefList>
+    <pref key="MediaTime">
+        <Long>942565</Long>
+    </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ft-eng@ныв-5">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="orth@зонка-1">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ft-eng@ныв-4">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ft-eng@ныв-3">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="ft-eng@ныв-2">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="orth@S1">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="ft-eng@зонка-2">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ft-eng@зонка-3">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="orth@ныв-1">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ft-eng@ныв-1">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="orth@зонка-3">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="ft-eng@S1">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="orth@зонка-2">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ref@ныв-3">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="ft-eng@группа">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@ныв-2">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@ныв-5">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="ref@ныв-4">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="phonet-IPA@группа">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@Маша">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@группа">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@ныв-1">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ft-eng@зонка-1">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@S1">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="phonet-IPA@ныв-3">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="phonet-IPA@ныв-2">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ft-eng@Маша">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="phonet-IPA@ныв-5">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="phonet-IPA@ныв-4">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="phonet-IPA@ныв-1">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="orth@ныв-3">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="orth@ныв-2">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="orth@ныв-5">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="orth@ныв-4">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="phonet-IPA@зонка-1">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="phonet-IPA@Маша">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="phonet-IPA@S1">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="phonet-IPA@зонка-3">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="phonet-IPA@зонка-2">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="orth@группа">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@зонка-1">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@зонка-3">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="orth@Маша">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@зонка-2">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+    </prefGroup>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>100.0</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,774</Object>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveColumn">
+        <String>Type1 : orthT</String>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
+    <pref key="SignalViewer.StereoMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>917965</Long>
+    </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>200</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>200</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>200</Int>
+        </pref>
+    </prefGroup>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>239</Int>
+    </pref>
+    <pref key="LayoutManager.MediaAreaWidth">
+        <Int>597</Int>
+    </pref>
+    <pref key="SelectionEndTime">
+        <Long>0</Long>
+    </pref>
+</preferences>
