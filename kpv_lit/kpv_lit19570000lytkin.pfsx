@@ -83,15 +83,15 @@
         <pref key="ref@VIL-M-1985">
             <Object class="java.awt.Color">160,160,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,0,0</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>58640</Long>
+        <Long>63320</Long>
     </pref>
     <pref key="ExportTabDialog.SelectTiersMode">
         <String>Tier</String>
@@ -145,7 +145,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>55100</Long>
+        <Long>41960</Long>
     </pref>
     <prefList key="ExportTabDialog.HiddenTiers">
         <String>part</String>

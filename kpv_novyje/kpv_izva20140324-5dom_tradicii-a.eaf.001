@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-09-18T10:08:45+01:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-09-24T16:32:25+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20140324-5dom_tradicii/kpv_izva20140324-5dom_tradicii-a/kpv_izva20140324-5dom_tradicii-a.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./kpv_izva20140324-5dom_tradicii-a.wav"/>
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20140324-5dom_tradicii/kpv_izva20140324-5dom_tradicii-a/kpv_izva20140324-5dom_tradicii-a.m4v" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./kpv_izva20140324-5dom_tradicii-a.m4v"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20140324-5dom_tradicii/kpv_izva20140324-5dom_tradicii-a/kpv_izva20140324-5dom_tradicii-a.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_izva20140324-5dom_tradicii/kpv_izva20140324-5dom_tradicii-a/kpv_izva20140324-5dom_tradicii-a.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20140324-5dom_tradicii/kpv_izva20140324-5dom_tradicii-a/kpv_izva20140324-5dom_tradicii-a.m4v" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_izva20140324-5dom_tradicii/kpv_izva20140324-5dom_tradicii-a/kpv_izva20140324-5dom_tradicii-a.m4v"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:9aee55d1-a198-4c8e-99bc-db37489cef45</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">947</PROPERTY>
     </HEADER>
@@ -1126,17 +1126,17 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a37">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мый нӧ асьныд кӧ кужанныд ме бара видзӧда и кыыза !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a38">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>??? тош ведь налы сетісныс !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a39">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мый нӧ ??? ??? тош кодь !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1813,7 +1813,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a230" ANNOTATION_REF="a199">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Всё ! ??? ??? ???</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1823,42 +1823,42 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a232" ANNOTATION_REF="a201">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мый нӧ косанад каран ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a233" ANNOTATION_REF="a202">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мый нӧ туруннад каран ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a234" ANNOTATION_REF="a203">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мый нӧ мӧснад каран ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a235" ANNOTATION_REF="a204">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мый нӧ уллёонад каран ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a236" ANNOTATION_REF="a205">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мый нӧ челядьнад каран ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a237" ANNOTATION_REF="a206">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мый нӧ ??? каран ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a238" ANNOTATION_REF="a207">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мый нӧ пач торнад каран ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a239" ANNOTATION_REF="a208">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>??? няняд мый каран ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2663,17 +2663,17 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a394" ANNOTATION_REF="a325">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ми сійӧ асьным кужам !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a395" ANNOTATION_REF="a326">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Менам шалик дзик ош- , тош кодь , вай ме тэныд сетла ! </ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a396" ANNOTATION_REF="a327">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Тош кодь !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2743,7 +2743,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a410" ANNOTATION_REF="a341">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ме ӧні лыддя !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3465,72 +3465,72 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a546" ANNOTATION_REF="a510">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А мыйысь нӧ тошсӧ карам ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a547" ANNOTATION_REF="a511">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Бур !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a548" ANNOTATION_REF="a512">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ог веж , ог веж !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a549" ANNOTATION_REF="a513">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Турун тор ытшкышта !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a550" ANNOTATION_REF="a514">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мӧскыс вердышта !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a551" ANNOTATION_REF="a515">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Уллёо лысьтышта !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a552" ANNOTATION_REF="a516">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Челядьыс вердышта !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a553" ANNOTATION_REF="a517">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Пес ??? пыртасны !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a554" ANNOTATION_REF="a518">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Пач тор ломта !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a555" ANNOTATION_REF="a519">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>??? ??? нянь пӧжала !</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a556" ANNOTATION_REF="a520">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>??? поме пукта ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a557" ANNOTATION_REF="a521">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>еджыд пон ???</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a558" ANNOTATION_REF="a522">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сьӧд пон вӧтӧдас сёясны да юасны ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a559" ANNOTATION_REF="a523">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>??? ???</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3841,7 +3841,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a616" ANNOTATION_REF="a608">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а код нӧ вӧлі шуас ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4427,7 +4427,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a728" ANNOTATION_REF="a666">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>коді лыдде ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5244,7 +5244,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a881" ANNOTATION_REF="a860">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Муй но карам ?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -5698,11 +5698,16 @@
     <LINGUISTIC_TYPE EXT_REF="er1" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="geoT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="bioT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="commentT" TIME_ALIGNABLE="true"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
     <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
-    <CONTROLLED_VOCABULARY CV_ID="lg" DESCRIPTION=""/>
-    <CONTROLLED_VOCABULARY CV_ID="pos" DESCRIPTION=""/>
+    <CONTROLLED_VOCABULARY CV_ID="lg">
+        <DESCRIPTION LANG_REF="und"/>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="pos">
+        <DESCRIPTION LANG_REF="und"/>
+    </CONTROLLED_VOCABULARY>
     <EXTERNAL_REF EXT_REF_ID="er1" TYPE="iso12620" VALUE="http://www.isocat.org/datcat/DC-2523"/>
 </ANNOTATION_DOCUMENT>

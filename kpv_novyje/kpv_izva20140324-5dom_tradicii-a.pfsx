@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
         <String>note(part)</String>
@@ -307,15 +308,15 @@
             <String>ft-eng@группа</String>
             <String>phonet-IPA@группа</String>
         </prefList>
-        <prefList key="ref@зонка-1">
-            <String>orth@зонка-1</String>
-            <String>ft-eng@зонка-1</String>
-            <String>phonet-IPA@зонка-1</String>
-        </prefList>
         <prefList key="ref@S1">
             <String>orth@S1</String>
             <String>ft-eng@S1</String>
             <String>phonet-IPA@S1</String>
+        </prefList>
+        <prefList key="ref@зонка-1">
+            <String>orth@зонка-1</String>
+            <String>ft-eng@зонка-1</String>
+            <String>phonet-IPA@зонка-1</String>
         </prefList>
         <prefList key="ref@зонка-3">
             <String>orth@зонка-3</String>
@@ -379,14 +380,14 @@
         <pref key="ref@зонка-1">
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
-        <pref key="ref@зонка-3">
-            <Object class="java.awt.Color">160,90,160</Object>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,90</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">0,160,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,160,90</Object>
+        <pref key="ref@зонка-3">
+            <Object class="java.awt.Color">160,90,160</Object>
         </pref>
         <pref key="ref@зонка-2">
             <Object class="java.awt.Color">90,90,0</Object>
@@ -399,13 +400,13 @@
         <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>418</Int>
+        <Int>424</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>957245</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>3</Int>
+        <Int>2</Int>
     </pref>
     <prefList key="SegmentationViewer.TierOrder">
         <String>part</String>
@@ -425,154 +426,8 @@
         <String>ref@ныв-5</String>
     </prefList>
     <pref key="MediaTime">
-        <Long>942565</Long>
+        <Long>956401</Long>
     </pref>
-    <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="ft-eng@ныв-5">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
-        <pref key="orth@зонка-1">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
-        <pref key="ft-eng@ныв-4">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
-        <pref key="ft-eng@ныв-3">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
-        <pref key="ft-eng@ныв-2">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="orth@S1">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="ft-eng@зонка-2">
-            <Object class="java.awt.Color">90,90,0</Object>
-        </pref>
-        <pref key="ft-eng@зонка-3">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
-        <pref key="orth@ныв-1">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
-        <pref key="ft-eng@ныв-1">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
-        <pref key="orth@зонка-3">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
-        <pref key="ft-eng@S1">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="orth@зонка-2">
-            <Object class="java.awt.Color">90,90,0</Object>
-        </pref>
-        <pref key="ref@ныв-3">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
-        <pref key="ft-eng@группа">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="ref@ныв-2">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="ref@ныв-5">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
-        <pref key="ref@ныв-4">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
-        <pref key="phonet-IPA@группа">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="ref@Маша">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
-        <pref key="ref@группа">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="ref@ныв-1">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
-        <pref key="ft-eng@зонка-1">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="phonet-IPA@ныв-3">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
-        <pref key="phonet-IPA@ныв-2">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="ft-eng@Маша">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
-        <pref key="phonet-IPA@ныв-5">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
-        <pref key="phonet-IPA@ныв-4">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
-        <pref key="geo">
-            <Object class="java.awt.Color">160,0,160</Object>
-        </pref>
-        <pref key="phonet-IPA@ныв-1">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
-        <pref key="orth@ныв-3">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
-        <pref key="orth@ныв-2">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="orth@ныв-5">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
-        <pref key="orth@ныв-4">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
-        <pref key="phonet-IPA@зонка-1">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
-        <pref key="phonet-IPA@Маша">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">90,160,0</Object>
-        </pref>
-        <pref key="phonet-IPA@S1">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="phonet-IPA@зонка-3">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
-        <pref key="phonet-IPA@зонка-2">
-            <Object class="java.awt.Color">90,90,0</Object>
-        </pref>
-        <pref key="orth@группа">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="ref@зонка-1">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
-        <pref key="ref@зонка-3">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">0,160,0</Object>
-        </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
-        <pref key="orth@Маша">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
-        <pref key="ref@зонка-2">
-            <Object class="java.awt.Color">90,90,0</Object>
-        </pref>
-    </prefGroup>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -596,7 +451,7 @@
         <Int>1</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>917965</Long>
+        <Long>954513</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -617,6 +472,6 @@
         <Int>597</Int>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>963141</Long>
     </pref>
 </preferences>
