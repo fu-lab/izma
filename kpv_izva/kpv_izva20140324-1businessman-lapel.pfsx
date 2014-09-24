@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@OMT-M-1961</String>
         <String>orth@OMT-M-1961</String>
@@ -103,35 +104,35 @@
         <Int>568</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>1616125</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="orth@OMT-M-1961">
-            <Object class="java.awt.Color">214,174,90</Object>
+            <Object class="java.awt.Color">78,8,194</Object>
         </pref>
         <pref key="ref@NTP-M-1986">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
         <pref key="orth@NTP-M-1986">
-            <Object class="java.awt.Color">127,206,20</Object>
+            <Object class="java.awt.Color">112,198,133</Object>
         </pref>
         <pref key="ft-eng@MSF-F-1969">
-            <Object class="java.awt.Color">117,184,48</Object>
+            <Object class="java.awt.Color">47,239,176</Object>
         </pref>
         <pref key="orth@MSF-F-1969">
-            <Object class="java.awt.Color">117,184,48</Object>
+            <Object class="java.awt.Color">47,239,176</Object>
         </pref>
         <pref key="ft-rus@NTP-M-1986">
-            <Object class="java.awt.Color">127,206,20</Object>
+            <Object class="java.awt.Color">112,198,133</Object>
         </pref>
         <pref key="ft-rus@VPC-M-1993">
-            <Object class="java.awt.Color">37,223,84</Object>
+            <Object class="java.awt.Color">15,235,148</Object>
         </pref>
         <pref key="ft-rus@MSF-F-1969">
-            <Object class="java.awt.Color">117,184,48</Object>
+            <Object class="java.awt.Color">47,239,176</Object>
         </pref>
         <pref key="ref@MSF-F-1969">
             <Object class="java.awt.Color">160,0,90</Object>
@@ -143,23 +144,23 @@
             <Object class="java.awt.Color">160,160,90</Object>
         </pref>
         <pref key="orth@VPC-M-1993">
-            <Object class="java.awt.Color">37,223,84</Object>
+            <Object class="java.awt.Color">15,235,148</Object>
         </pref>
         <pref key="ft-eng@VPC-M-1993">
-            <Object class="java.awt.Color">37,223,84</Object>
+            <Object class="java.awt.Color">15,235,148</Object>
         </pref>
         <pref key="ft-rus@OMT-M-1961">
-            <Object class="java.awt.Color">214,174,90</Object>
+            <Object class="java.awt.Color">78,8,194</Object>
         </pref>
         <pref key="ft-eng@NTP-M-1986">
-            <Object class="java.awt.Color">127,206,20</Object>
+            <Object class="java.awt.Color">112,198,133</Object>
         </pref>
         <pref key="ft-eng@OMT-M-1961">
-            <Object class="java.awt.Color">214,174,90</Object>
+            <Object class="java.awt.Color">78,8,194</Object>
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>1627470</Long>
+        <Long>1616125</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -181,7 +182,10 @@
         <String>ref@OMT</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>1623214</Long>
+        <Long>1611485</Long>
+    </pref>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>40</Int>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -194,10 +198,7 @@
             <Int>280</Int>
         </pref>
     </prefGroup>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>40</Int>
-    </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>1618165</Long>
     </pref>
 </preferences>

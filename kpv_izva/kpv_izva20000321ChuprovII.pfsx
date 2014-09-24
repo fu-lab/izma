@@ -79,7 +79,7 @@
         </prefList>
         <prefList key="ref@VVF-F-1957">
             <String>orth@VVF-F-1957</String>
-            <String>var:affr@VVF-M-1957</String>
+            <String>var:affr@VVF-F-1957</String>
             <String>var:affr:qlt@VVF-F-1957</String>
         </prefList>
         <prefList key="ref@PK">
@@ -147,13 +147,63 @@
         <Int>448</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>16896</Long>
+        <Long>537421</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="geo">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="orth@IIC-M-1937">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="orth@VVF-F-1957">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="ref@PK">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="orth@PK">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="var:affr@VVF-F-1957">
+            <Object class="java.awt.Color">146,65,216</Object>
+        </pref>
+        <pref key="ref@IIC-M-1937">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@VVF-F-1957">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="word@VVF-F-1957">
+            <Object class="java.awt.Color">146,65,216</Object>
+        </pref>
+        <pref key="var:affr@IIC-M-1937">
+            <Object class="java.awt.Color">92,50,168</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="var:affr:qlt@VVF-F-1957">
+            <Object class="java.awt.Color">146,65,216</Object>
+        </pref>
+        <pref key="var:affr:qlt@IIC-M-1937">
+            <Object class="java.awt.Color">92,50,168</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="word@IIC-M-1937">
+            <Object class="java.awt.Color">92,50,168</Object>
+        </pref>
+    </prefGroup>
     <pref key="MediaTime">
-        <Long>390987</Long>
+        <Long>537420</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -166,7 +216,7 @@
         <Object class="java.awt.Dimension">1280,774</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>1290.0</Float>
+        <Float>198.0</Float>
     </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type3 : var-qlt</String>
@@ -178,7 +228,7 @@
         <Int>196</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>454487</Long>
+        <Long>548164</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -193,6 +243,6 @@
     </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>21510</Long>
+        <Long>538661</Long>
     </pref>
 </preferences>
