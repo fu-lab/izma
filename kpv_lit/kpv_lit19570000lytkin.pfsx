@@ -39,11 +39,22 @@
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>2</Int>
     </pref>
-    <prefGroup key="TranscriptionTable.TierMap"/>
+    <prefGroup key="TranscriptionTable.TierMap">
+        <prefList key="word@VIL-M-1985">
+            <String>word@VIL-M-1985</String>
+            <String>lemma@VIL-M-1985</String>
+            <String>pos@VIL-M-1985</String>
+        </prefList>
+    </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
     </pref>
+    <prefList key="TranscriptionTable.ColumnTypes">
+        <String>wordT</String>
+        <String>lemmaT</String>
+        <String>posT</String>
+    </prefList>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
     </pref>
@@ -67,31 +78,46 @@
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,22</Object>
     </pref>
+    <pref key="TranscriptionTable.LastActiveRow">
+        <Int>5</Int>
+    </pref>
     <pref key="SelectionBeginTime">
-        <Long>58640</Long>
+        <Long>2210</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="word@VIL-M-1985">
+            <Object class="java.awt.Color">35,42,3</Object>
+        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
+        <pref key="lemma@VIL-M-1985">
+            <Object class="java.awt.Color">35,42,3</Object>
+        </pref>
+        <pref key="pos@VIL-M-1985">
+            <Object class="java.awt.Color">35,42,3</Object>
+        </pref>
         <pref key="ref@VIL-M-1985">
             <Object class="java.awt.Color">160,160,0</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">0,160,160</Object>
+        <pref key="orth@VIL-M-1985">
+            <Object class="java.awt.Color">160,215,210</Object>
         </pref>
         <pref key="part">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>63320</Long>
+        <Long>4275</Long>
     </pref>
     <pref key="ExportTabDialog.SelectTiersMode">
         <String>Tier</String>
@@ -141,12 +167,26 @@
     <prefList key="ExportTabDialog.selectedTiers">
         <String>word@VIL-M-1985</String>
     </prefList>
+    <pref key="TranscriptionTable.LastActiveColumn">
+        <String>Type3 : posT</String>
+    </pref>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>41960</Long>
+        <Long>0</Long>
     </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>281</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>282</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>282</Int>
+        </pref>
+    </prefGroup>
     <prefList key="ExportTabDialog.HiddenTiers">
         <String>part</String>
         <String>ref@VIL-M-1985</String>
@@ -179,6 +219,6 @@
         <String>note(word)@VIL-M-1985</String>
     </prefList>
     <pref key="SelectionEndTime">
-        <Long>62920</Long>
+        <Long>13570</Long>
     </pref>
 </preferences>
