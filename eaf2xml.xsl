@@ -23,44 +23,7 @@
     </xsl:template>
     <xsl:template match="/ANNOTATION_DOCUMENT">
         <eaf>
-            <header>
-                <meta>
-                    <!-- MIME Type -->
-                    <xsl:attribute name="name">dc:type</xsl:attribute>
-                    <xsl:attribute name="value">text/xml</xsl:attribute>
-                </meta>
-                <meta>
-                    <!-- media resource URI -->
-                    <xsl:attribute name="name">dc:source</xsl:attribute>
-                    <xsl:attribute name="value">
-                        <xsl:value-of select="$mediafile"/>
-                    </xsl:attribute>
-                </meta>
-                <meta>
-                    <!-- Dublin Core "creator" -->
-                    <xsl:attribute name="name">dc:creator</xsl:attribute>
-                    <xsl:attribute name="value">
-                        <xsl:value-of select="$creator"/>
-                    </xsl:attribute>
-                </meta>
-                <meta>
-                    <!-- language code -->
-                    <xsl:attribute name="name">dc:language</xsl:attribute>
-                    <xsl:attribute name="value">
-                        <xsl:value-of select="$lang_code"/>
-                    </xsl:attribute>
-                </meta>
-                <meta>
-                    <!-- Date -->
-                    <xsl:attribute name="name">dc:date</xsl:attribute>
-                    <xsl:attribute name="value">
-                        <xsl:value-of select="$date"/>
-                    </xsl:attribute>
-                </meta>
-            </header>
-                    <!-- FIRST CASE: utterance and word tiers -->
-                    <!-- write a transcription if there are utterances -->
-                        <!-- Get Phrases from utterances and sort them on their number -->
+            <!-- Arrange some stuff -->
                         <xsl:for-each select="TIER[@LINGUISTIC_TYPE_REF='ref(spoken)T']/ANNOTATION/ALIGNABLE_ANNOTATION">
                             <xsl:sort select="substring-after(@TIME_SLOT_REF1, 'ts')" data-type="number"/>
                             <!-- grab phrase timing -->
@@ -76,43 +39,36 @@
                                 <xsl:attribute name="ref_id">
                                     <xsl:value-of select="@ANNOTATION_ID"/>
                                 </xsl:attribute>
-                                <xsl:attribute name="startTime">
-                                    <xsl:value-of select="$startTime_Seconds"/>
-                                </xsl:attribute>
-                                <xsl:attribute name="endTime">
-                                    <xsl:value-of select="$endTime_Seconds"/>
-                                </xsl:attribute>
                                 <xsl:attribute name="ref_value">
                                     <xsl:value-of select="."/>
                                 </xsl:attribute>
                                         <xsl:variable name="annotationId" select="@ANNOTATION_ID"/>
                                         <xsl:for-each select="/ANNOTATION_DOCUMENT/TIER[@LINGUISTIC_TYPE_REF='orthT']/ANNOTATION/REF_ANNOTATION[@ANNOTATION_REF = $annotationId]">
-                                                <orthography>
-                                                    <xsl:attribute name="participant">
-                                                        <xsl:value-of select="../../@PARTICIPANT"/>
-                                                    </xsl:attribute>
-                                                    <xsl:value-of select="."/>
-                                                </orthography>
                                                 <xsl:variable name="wordId" select="@ANNOTATION_ID"/>
                                                 <!-- grab morphemes and gloss -->
                                                 <wordlist>
                                                     <xsl:for-each select="/ANNOTATION_DOCUMENT/TIER[@LINGUISTIC_TYPE_REF='wordT']/ANNOTATION/REF_ANNOTATION[@ANNOTATION_REF = $wordId]">
                                                         <xsl:variable name="morphemeId" select="@ANNOTATION_ID"/>
                                                         <token>
+                                                            <starttime>
+                                                                <xsl:value-of select="$startTime_Seconds"/>
+                                                            </starttime>
+                                                            <endtime>
+                                                                <xsl:value-of select="$endTime_Seconds"/>
+                                                            </endtime>
+                                                            <speaker>
+                                                                <xsl:value-of select="../../@PARTICIPANT"/>
+                                                            </speaker>
                                                             <lemma>
-                                                                <xsl:attribute name="kind">form</xsl:attribute>
                                                                 <xsl:value-of select="."/>
                                                             </lemma>
                                                             <gloss>
-                                                                <xsl:attribute name="kind">gloss</xsl:attribute>
                                                                 <xsl:value-of select="/ANNOTATION_DOCUMENT/TIER[@LINGUISTIC_TYPE_REF='morphT']/ANNOTATION/REF_ANNOTATION[@ANNOTATION_REF = $morphemeId]"/>
                                                             </gloss>
                                                             <pos>
-                                                                <xsl:attribute name="kind">pos</xsl:attribute>
                                                                 <xsl:value-of select="/ANNOTATION_DOCUMENT/TIER[@LINGUISTIC_TYPE_REF='posT']/ANNOTATION/REF_ANNOTATION[@ANNOTATION_REF = $morphemeId]"/>
                                                             </pos>
                                                             <context>
-                                                                <xsl:attribute name="kind">context</xsl:attribute>
                                                                 <xsl:value-of select="/ANNOTATION_DOCUMENT/TIER[@LINGUISTIC_TYPE_REF='orthT']/ANNOTATION/REF_ANNOTATION[@ANNOTATION_REF = $annotationId]"/>
                                                             </context>
                                                         </token>
