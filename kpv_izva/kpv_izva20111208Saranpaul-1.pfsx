@@ -107,13 +107,13 @@
         <Int>410</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>533063</Long>
+        <Long>541210</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>533063</Long>
+        <Long>541210</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ref@VVF-F-1957">
@@ -179,8 +179,9 @@
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>482734</Long>
+        <Long>536757</Long>
     </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
             <Int>281</Int>
@@ -192,8 +193,7 @@
             <Int>282</Int>
         </pref>
     </prefGroup>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>538115</Long>
+        <Long>543753</Long>
     </pref>
 </preferences>

@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
-    <pref key="MediaTime">
-        <Long>6230</Long>
-    </pref>
-    <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
-        <pref key="ref@NKB-F-1935">
-            <Object class="java.awt.Color">90,90,160</Object>
-        </pref>
-    </prefGroup>
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@NKB-F-1935</String>
         <String>orth@NKB-F-1935</String>
@@ -30,6 +19,17 @@
         <String>phonet-UPA@NTP-M-1986</String>
         <String>note@NTP-M-1986</String>
     </prefList>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ref@NKB-F-1935">
+            <Object class="java.awt.Color">90,90,160</Object>
+        </pref>
+    </prefGroup>
+    <pref key="MediaTime">
+        <Long>6230</Long>
+    </pref>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
@@ -40,22 +40,22 @@
         <Int>0</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <prefGroup key="TranscriptionTable.TierMap"/>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
-    <prefGroup key="TranscriptionTable.TierMap"/>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,774</Object>
-    </pref>
-    <pref key="SignalViewer.ZoomLevel">
-        <Float>100.0</Float>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
     </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
     </pref>
-    <pref key="MediaControlVolume">
-        <Float>1.0</Float>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>100.0</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,774</Object>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
@@ -77,11 +77,11 @@
     <pref key="SelectionBeginTime">
         <Long>6231</Long>
     </pref>
-    <pref key="TimeScaleBeginTime">
-        <Long>6070</Long>
-    </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>6070</Long>
     </pref>
     <pref key="SelectionEndTime">
         <Long>8043</Long>

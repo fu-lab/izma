@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@OXM-F-1960</String>
         <String>orth@OXM-F-1960</String>
@@ -71,13 +72,13 @@
         <Int>67</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>1294</Long>
+        <Long>80956</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>1690</Long>
+        <Long>80956</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ref@OXM-F-1960">
@@ -88,6 +89,9 @@
         </pref>
         <pref key="orth@NTP-M-1986">
             <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="orth@ASK-F-1986">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
         <pref key="orth@OXM-F-1960">
             <Object class="java.awt.Color">0,160,160</Object>
@@ -122,6 +126,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>2024</Long>
+        <Long>82316</Long>
     </pref>
 </preferences>

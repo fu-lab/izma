@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
-    <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="ref@AVM-F-1943">
-            <Object class="java.awt.Color">90,90,0</Object>
-        </pref>
-    </prefGroup>
+    <pref key="MediaTime">
+        <Long>0</Long>
+    </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@AVM-F-1943</String>
         <String>orth@AVM-F-1943</String>
@@ -15,9 +13,11 @@
         <String>ft-ling@AVM-F-1943</String>
         <String>note@AVM-F-1943</String>
     </prefList>
-    <pref key="MediaTime">
-        <Long>0</Long>
-    </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ref@AVM-F-1943">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+    </prefGroup>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
@@ -28,16 +28,16 @@
         <Int>2</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <prefGroup key="TranscriptionTable.TierMap"/>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
-    <prefGroup key="TranscriptionTable.TierMap"/>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,774</Object>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,774</Object>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
@@ -56,11 +56,11 @@
     <pref key="SelectionBeginTime">
         <Long>0</Long>
     </pref>
-    <pref key="TimeScaleBeginTime">
-        <Long>0</Long>
-    </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>0</Long>
     </pref>
     <pref key="SelectionEndTime">
         <Long>0</Long>

@@ -97,11 +97,11 @@
         <pref key="bio">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,90</Object>
         </pref>
         <pref key="ref@EEI-M-1913">
             <Object class="java.awt.Color">0,160,0</Object>
@@ -117,13 +117,51 @@
         <Int>20</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>86130</Long>
+        <Long>13360</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="geo">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="orth@XXS-F-19XX">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="ft-rus@EEI-M-1913">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="ft-eng@XXS-F-19XX">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="ft-eng@EEI-M-1913">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="orth@EEI-M-1913">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@EEI-M-1913">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="ft-rus@XXS-F-19XX">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="ref@XXS-F-19XX">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+    </prefGroup>
     <pref key="MediaTime">
-        <Long>5416</Long>
+        <Long>17929</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -145,7 +183,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>556</Long>
+        <Long>8656</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -159,6 +197,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>92650</Long>
+        <Long>18760</Long>
     </pref>
 </preferences>
