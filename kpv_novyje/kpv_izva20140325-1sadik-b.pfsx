@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>comment</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>part</String>
+        <String>note(part)</String>
+        <String>ref@S1</String>
+        <String>phonet-UPA@S1</String>
+        <String>phonol-CYR@S1</String>
+        <String>translit-LAT@S1</String>
+        <String>note(ref)@S1</String>
+        <String>orth@S1</String>
+        <String>word@S1</String>
+        <String>lemma@S1</String>
+        <String>morph@S1</String>
+        <String>pos@S1</String>
+        <String>lg(word)@S1</String>
+        <String>note(word)@S1</String>
+        <String>ft-eng@S1</String>
+        <String>ft-deu@S1</String>
+        <String>ft-nob@S1</String>
+        <String>ft-rus@S1</String>
+        <String>ft-swe@S1</String>
+        <String>ft-ling@S1</String>
+        <String>ft-fin@S1</String>
+        <String>note(orth)@S1</String>
+        <String>lg(orth)@S1</String>
+        <String>phonet-IPA@S1</String>
+        <String>phonol-LAT@S1</String>
+        <String>ref@VCP-M-1993</String>
+        <String>phonet-UPA@VCP-M-1993</String>
+        <String>phonol-CYR@VCP-M-1993</String>
+        <String>translit-LAT@VCP-M-1993</String>
+        <String>note(ref)@VCP-M-1993</String>
+        <String>orth@VCP-M-1993</String>
+        <String>word@VCP-M-1993</String>
+        <String>lemma@VCP-M-1993</String>
+        <String>morph@VCP-M-1993</String>
+        <String>pos@VCP-M-1993</String>
+        <String>lg(word)@VCP-M-1993</String>
+        <String>note(word)@VCP-M-1993</String>
+        <String>ft-eng@VCP-M-1993</String>
+        <String>ft-deu@VCP-M-1993</String>
+        <String>ft-nob@VCP-M-1993</String>
+        <String>ft-rus@VCP-M-1993</String>
+        <String>ft-swe@VCP-M-1993</String>
+        <String>ft-ling@VCP-M-1993</String>
+        <String>ft-fin@VCP-M-1993</String>
+        <String>note(orth)@VCP-M-1993</String>
+        <String>lg(orth)@VCP-M-1993</String>
+        <String>phonet-IPA@VCP-M-1993</String>
+        <String>phonol-LAT@VCP-M-1993</String>
+        <String>ref@Стасик</String>
+        <String>phonet-UPA@Стасик</String>
+        <String>phonol-CYR@Стасик</String>
+        <String>translit-LAT@Стасик</String>
+        <String>note(ref)@Стасик</String>
+        <String>orth@Стасик</String>
+        <String>phonet-IPA@Стасик</String>
+        <String>phonol-LAT@Стасик</String>
+        <String>word@Стасик</String>
+        <String>ft-eng@Стасик</String>
+        <String>ft-deu@Стасик</String>
+        <String>ft-nob@Стасик</String>
+        <String>ft-rus@Стасик</String>
+        <String>ft-swe@Стасик</String>
+        <String>ft-ling@Стасик</String>
+        <String>ft-fin@Стасик</String>
+        <String>note(orth)@Стасик</String>
+        <String>lg(orth)@Стасик</String>
+        <String>lemma@Стасик</String>
+        <String>morph@Стасик</String>
+        <String>pos@Стасик</String>
+        <String>lg(word)@Стасик</String>
+        <String>note(word)@Стасик</String>
+        <String>ref@Рома</String>
+        <String>phonet-UPA@Рома</String>
+        <String>phonol-CYR@Рома</String>
+        <String>translit-LAT@Рома</String>
+        <String>note(ref)@Рома</String>
+        <String>orth@Рома</String>
+        <String>phonet-IPA@Рома</String>
+        <String>phonol-LAT@Рома</String>
+        <String>word@Рома</String>
+        <String>ft-eng@Рома</String>
+        <String>ft-deu@Рома</String>
+        <String>ft-nob@Рома</String>
+        <String>ft-rus@Рома</String>
+        <String>ft-swe@Рома</String>
+        <String>ft-ling@Рома</String>
+        <String>ft-fin@Рома</String>
+        <String>note(orth)@Рома</String>
+        <String>lg(orth)@Рома</String>
+        <String>lemma@Рома</String>
+        <String>morph@Рома</String>
+        <String>pos@Рома</String>
+        <String>lg(word)@Рома</String>
+        <String>note(word)@Рома</String>
+        <String>ref@Сергей</String>
+        <String>phonet-UPA@Сергей</String>
+        <String>phonol-CYR@Сергей</String>
+        <String>translit-LAT@Сергей</String>
+        <String>note(ref)@Сергей</String>
+        <String>orth@Сергей</String>
+        <String>phonet-IPA@Сергей</String>
+        <String>phonol-LAT@Сергей</String>
+        <String>word@Сергей</String>
+        <String>ft-eng@Сергей</String>
+        <String>ft-deu@Сергей</String>
+        <String>ft-nob@Сергей</String>
+        <String>ft-rus@Сергей</String>
+        <String>ft-swe@Сергей</String>
+        <String>ft-ling@Сергей</String>
+        <String>ft-fin@Сергей</String>
+        <String>note(orth)@Сергей</String>
+        <String>lg(orth)@Сергей</String>
+        <String>lemma@Сергей</String>
+        <String>morph@Сергей</String>
+        <String>pos@Сергей</String>
+        <String>lg(word)@Сергей</String>
+        <String>note(word)@Сергей</String>
+        <String>ref@Анна</String>
+        <String>phonet-UPA@Анна</String>
+        <String>phonol-CYR@Анна</String>
+        <String>translit-LAT@Анна</String>
+        <String>note(ref)@Анна</String>
+        <String>orth@Анна</String>
+        <String>phonet-IPA@Анна</String>
+        <String>phonol-LAT@Анна</String>
+        <String>word@Анна</String>
+        <String>ft-eng@Анна</String>
+        <String>ft-deu@Анна</String>
+        <String>ft-nob@Анна</String>
+        <String>ft-rus@Анна</String>
+        <String>ft-swe@Анна</String>
+        <String>ft-ling@Анна</String>
+        <String>ft-fin@Анна</String>
+        <String>note(orth)@Анна</String>
+        <String>lg(orth)@Анна</String>
+        <String>lemma@Анна</String>
+        <String>morph@Анна</String>
+        <String>pos@Анна</String>
+        <String>lg(word)@Анна</String>
+        <String>note(word)@Анна</String>
+        <String>ref@Саша</String>
+        <String>phonet-UPA@Саша</String>
+        <String>phonol-CYR@Саша</String>
+        <String>translit-LAT@Саша</String>
+        <String>note(ref)@Саша</String>
+        <String>orth@Саша</String>
+        <String>phonet-IPA@Саша</String>
+        <String>phonol-LAT@Саша</String>
+        <String>word@Саша</String>
+        <String>ft-eng@Саша</String>
+        <String>ft-deu@Саша</String>
+        <String>ft-nob@Саша</String>
+        <String>ft-rus@Саша</String>
+        <String>ft-swe@Саша</String>
+        <String>ft-ling@Саша</String>
+        <String>ft-fin@Саша</String>
+        <String>note(orth)@Саша</String>
+        <String>lg(orth)@Саша</String>
+        <String>lemma@Саша</String>
+        <String>morph@Саша</String>
+        <String>pos@Саша</String>
+        <String>lg(word)@Саша</String>
+        <String>note(word)@Саша</String>
+    </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <pref key="SignalViewer.VerticalZoomLevel">
+        <Int>200</Int>
+    </pref>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>70</Int>
+    </pref>
+    <prefGroup key="TranscriptionTable.TierMap"/>
+    <prefList key="TranscriptionTable.NonEditableTiers"/>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
+    </pref>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
+    </pref>
+    <prefList key="SegmentationViewer.HiddenTiers"/>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>4</Int>
+    </pref>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@Стасик</String>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="ref@VCP-M-1993">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@Стасик">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@Анна">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ref@Сергей">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="ref@Рома">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ref@S1">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="ref@Саша">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+    </prefGroup>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,22</Object>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>0</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>3</Int>
+    </pref>
+    <prefList key="SegmentationViewer.TierOrder">
+        <String>comment</String>
+        <String>bio</String>
+        <String>geo</String>
+        <String>part</String>
+        <String>ref@S1</String>
+        <String>ref@VCP-M-1993</String>
+        <String>ref@Стасик</String>
+        <String>ref@Рома</String>
+        <String>ref@Сергей</String>
+        <String>ref@Анна</String>
+        <String>ref@Саша</String>
+    </prefList>
+    <pref key="MediaTime">
+        <Long>4163</Long>
+    </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="geo">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@S1">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+    </prefGroup>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,774</Object>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>100.0</Float>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
+    <pref key="SignalViewer.StereoMode">
+        <Int>3</Int>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>0</Long>
+    </pref>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>245</Int>
+    </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
+    <pref key="SelectionEndTime">
+        <Long>0</Long>
+    </pref>
+</preferences>
