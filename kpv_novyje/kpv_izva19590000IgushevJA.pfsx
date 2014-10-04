@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
         <String>note(part)</String>
@@ -32,7 +31,7 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>70</Int>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@JAI-M-1939">
@@ -64,11 +63,11 @@
         <pref key="ref@JAI-M-1939">
             <Object class="java.awt.Color">160,0,0</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,0,160</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,0,160</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
@@ -99,15 +98,15 @@
         <pref key="orth@JAI-M-1939">
             <Object class="java.awt.Color">160,0,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,160,0</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>10896</Long>
+        <Long>10898</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -129,7 +128,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>5669</Long>
+        <Long>9769</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type2">
