@@ -192,7 +192,7 @@
         <Int>4</Int>
     </pref>
     <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@Стасик</String>
+        <String>ref@Рома</String>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@VCP-M-1993">
@@ -233,7 +233,7 @@
         <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>216040</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>3</Int>
@@ -252,7 +252,7 @@
         <String>ref@Саша</String>
     </prefList>
     <pref key="MediaTime">
-        <Long>4163</Long>
+        <Long>547626</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="geo">
@@ -291,13 +291,13 @@
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>0</Long>
+        <Long>542375</Long>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
         <Int>245</Int>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>218173</Long>
     </pref>
 </preferences>
