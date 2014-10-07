@@ -194,10 +194,10 @@
         <Object class="java.awt.Point">4,22</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>647</Int>
+        <Int>1339</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>287069</Long>
+        <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
@@ -215,7 +215,7 @@
         <String>ref@Pasha</String>
     </prefList>
     <pref key="MediaTime">
-        <Long>287069</Long>
+        <Long>2004194</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -228,7 +228,7 @@
         <Float>1.0</Float>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>290.0</Float>
+        <Float>84.0</Float>
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1276,774</Object>
@@ -243,7 +243,7 @@
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>285396</Long>
+        <Long>2004006</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>note(part)</String>
@@ -292,6 +292,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>287694</Long>
+        <Long>0</Long>
     </pref>
 </preferences>
