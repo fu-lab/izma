@@ -1,0 +1,165 @@
+---
+title: "xml2R"
+author: "Niko Partanen"
+date: "26 Sep 2014"
+output: html_document
+---
+
+## Initial thoughts
+
+Reading ELAN files directly into R would be ideal. However, for now it feels that actually getting all the data to R requires rather complicated R script, as ELAN XML itself tends to be so complicated. I've overcome this by transforming ELAN XML into more simple and transparent XML, which I then read into R. I agree that this is not the optimal way to work, but as the XML transformation is very neat and fast it isn't that big issue.
+
+So after XML transformation we are in the point where we can read whole corpus into R with only two lines of R code.
+
+```{r}
+?list.files
+require(XML)
+xmlfiles <- list.files(path="./XML", pattern = "*.xml", full.names=TRUE)
+xmlfiles
+n <- length(xmlfiles)
+dat <- vector("list", n)
+for(i in 1:n){
+   doc <- xmlParse(xmlfiles[i])
+   nodes <- getNodeSet(doc, "//token")
+   x <- lapply(nodes, function(x){ data.frame(
+     Filename = xmlfiles[i],
+     Starttime = xpathSApply(x, ".//starttime" , xmlValue),
+     Endtime = xpathSApply(x, ".//endtime" , xmlValue),
+     Speaker = xpathSApply(x, ".//speaker" , xmlValue),
+     Word= xpathSApply(x, ".//lemma" , xmlValue),
+     Gloss= xpathSApply(x, ".//gloss" , xmlValue),
+     pos= xpathSApply(x, ".//pos" , xmlValue),
+     Context = xpathSApply(x, ".//context" , xmlValue) )})
+     dat[[i]] <- do.call("rbind", x)
+}
+kpv_corpus <- do.call("rbind", dat)
+head(kpv_corpus)
+```
+
+Now the data frame this creates is not the most conventional for basic R. It would in many situations be better to have smaller amount of columns and not to duplicate the whole sentence for each line. Maybe so. However, this is not very relevant now when I'm wonderful **dplyr** for my data wrangling tasks. 
+
+```{r}
+require(plyr)
+require(dplyr)
+```
+
+The next task is to convert the corpus into a *local data frame*. This helps 
+
+```{r}
+kpv_df <- tbl_df(kpv_corpus)
+```
+
+Now we can observe this data frame very easily.
+
+```{r}
+kpv_df
+```
+
+However, we also need some metadata. At the moment that is exported as csv from FileMaker Pro. Later it certainly will be read directly from IMDI or CMDI XML.
+
+```{r}
+kpv_corpus_meta <- read.csv("kpv_corpus_meta.csv", header=F)
+kpv_corpus_meta <- rename(kpv_corpus_meta, c("V1" = "Speaker", "V2" = "Sex", "V3" = "Birthyear", "V4" = "lat", "V5" = "lon", "V6" = "attr.foreign"))
+kpv_corpus_meta <- unique(kpv_corpus_meta)
+kpv_meta <- merge(kpv_df, kpv_corpus_meta)
+kpv_meta <- tbl_df(kpv_meta)
+```
+
+This gives us a new object called kpv_meta. It is simply a new data frame that has merged the original ELAN corpus with metadata from the database.
+
+There are some tasks we can think straight away, as an example checking the most common words. Before that we need to remove punctuations and those tokens that have been produced by foreigners. 
+
+```{r}
+kpv_meta %>%
+        subset(! Word %in% c(",", ".", ":", "", "-", ";", "!", "?", "…", '"', "(", ")", "~", "???") ) %>%
+        subset(! attr.foreign %in% "TRUE" ) %>%
+        group_by(Word) %>%
+        tally(sort = TRUE) %>%
+        head(20)
+```
+
+I know there are some informants who are missing their birthyears. This script can easily be modified to show other missing values as well.
+
+```{r}
+kpv_meta %>%
+        subset(! attr.foreign %in% "TRUE" ) %>%
+        select(Speaker, Birthyear) %>%
+        group_by(Speaker, Birthyear) %>%
+        filter(row_number() == 1) %>%
+        arrange(Birthyear) %>%
+        tail()
+
+```
+
+Then we can map a bit what we have. Down here we create an object *coord*, which just keeps the coordinates of each speaker we have.
+
+```{r}
+coord <- kpv_meta %>%
+        subset(! attr.foreign %in% "TRUE" ) %>%
+        select(Speaker, Birthyear, lat, lon) %>%
+        group_by(Speaker, lat) %>%
+        filter(row_number() == 1) %>%
+        arrange(lat)
+
+hst_data <- kpv_meta %>%
+        subset(! attr.foreign %in% "TRUE" ) %>%
+        select(Birthyear, Sex) %>%
+        group_by(Birthyear) %>%
+        filter(row_number() == 1) %>%
+        arrange(Birthyear)
+hst_data
+
+hist(hst_data$Birthyear)
+
+ggplot(hst_data, aes(Birthyear)) + geom_histogram() 
+g2 <- ggplot(hst_data, aes(Birthyear)) + geom_histogram(fill=NA, color="black") + theme_bw() 
+
+
+kpv_meta %>%
+        subset(! attr.foreign %in% "TRUE" ) %>%
+        subset( Speaker %in% c("XIX-F-19XX") ) %>%
+        select(Speaker, Birthyear, Word, lat, lon)
+        
+coord
+
+install.packages("ggplot2")
+install.packages("ggmap")
+library("ggplot2")
+library("ggmap")
+
+extent <- c(min(coord$lon), min(coord$lat), max(coord$lon), max(coord$lat))
+extent
+
+#Query the basemap from stamen and plot it
+basemap <- get_map(location = extent, maptype = "watercolor", source = "stamen")
+
+basemap <- ggmap(basemap, extent = "device")
+
+testmap <- get_googlemap(c(lon=50,lat=65) ,zoom=5)
+
+View(сійӧ)
+сійӧ <- kpv_meta %>% subset(! attr.foreign %in% "TRUE") %>% subset(Word %in% "сійӧ" )
+сыа <- kpv_meta %>% subset(! attr.foreign %in% "TRUE") %>% subset(Word %in% "сыа" )
+
+ggmap(testmap) +
+                        geom_point(data = coord, aes(x = lon, y = lat, alpha = 0.3), colour="black", shape = 1, size = 4) +
+                        geom_point(data = сійӧ, aes(x = lon, y = lat, alpha = 0.3), colour="blue", shape = 1, size = 4) +
+                        geom_point(data = сыа, aes(x = lon, y = lat, alpha = 0.3), colour="green", shape = 1, size = 4) +
+        guides(fill=FALSE, alpha=FALSE, size=TRUE)
+
+kpv_meta %>%
+        select(Speaker, Sex, Birthyear) %>%
+        filter(row_number() == 1) %>%
+        arrange(Birthyear)
+
+
+
+ggplot(df, aes(x=rating)) + geom_histogram(binwidth=.5)
+
+
+?ggmap
+```
+
+
+```{r}
+```
