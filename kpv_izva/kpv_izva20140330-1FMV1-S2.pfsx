@@ -103,42 +103,92 @@
         <Int>4</Int>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">160,0,90</Object>
         </pref>
-        <pref key="ref@VPC-M-1993">
-            <Object class="java.awt.Color">0,160,0</Object>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">0,0,160</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
         <pref key="ref@MVF-F-1984">
             <Object class="java.awt.Color">90,160,90</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">90,160,0</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,160,0</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,22</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>639</Int>
+        <Int>1137</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>893735</Long>
+        <Long>1503151</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ft-rus@MVF-F-1984">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="orth@NTP-M-1986">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@MVF-F-1984">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ft-eng@MVF-F-1984">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ft-rus@NTP-M-1986">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-rus@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="orth@MVF-F-1984">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="orth@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="ft-eng@NTP-M-1986">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-eng@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+    </prefGroup>
     <pref key="MediaTime">
-        <Long>893735</Long>
+        <Long>1503150</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -160,10 +210,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>890375</Long>
-    </pref>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>229</Int>
+        <Long>1499790</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -176,7 +223,10 @@
             <Int>282</Int>
         </pref>
     </prefGroup>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>229</Int>
+    </pref>
     <pref key="SelectionEndTime">
-        <Long>898513</Long>
+        <Long>1506055</Long>
     </pref>
 </preferences>
