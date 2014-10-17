@@ -39,8 +39,11 @@
                 PARTICIPANT="S1" TIER_ID="translit-LAT@S1"/>
             <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="ref@S1" PARTICIPANT="S1"
                 TIER_ID="note(ref)@S1"/>
-        <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@S1" PARTICIPANT="S1"
+        <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@S1"
             TIER_ID="orth@S1">
+            <xsl:attribute name="PARTICIPANT">
+                    <xsl:value-of select="data/row/actor[1]" />
+            </xsl:attribute>
             <xsl:for-each select="//orth">
                 <ANNOTATION>
                 <REF_ANNOTATION ANNOTATION_ID="a{position() + count(//orth)}" ANNOTATION_REF="a{position()}">
