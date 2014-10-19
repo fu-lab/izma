@@ -4,9 +4,9 @@
     exclude-result-prefixes="xs"
     version="2.0">   <xsl:output method="text" omit-xml-declaration="yes" />
     <xsl:variable name="nl" select="'&#xa;'"></xsl:variable>
-        <xsl:template match="/">
+    <xsl:template match="/">
         <xsl:for-each select="ANNOTATION_DOCUMENT/TIER[@LINGUISTIC_TYPE_REF='wordT']/ANNOTATION/REF_ANNOTATION/ANNOTATION_VALUE"> 
-            <xsl:value-of select="concat('',../@ANNOTATION_ID,' ',.,'',$nl,$nl)"/>
+            <xsl:value-of select=".,$nl"/>
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
