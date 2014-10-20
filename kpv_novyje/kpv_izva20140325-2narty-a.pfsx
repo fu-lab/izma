@@ -158,14 +158,40 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>1584100</Long>
+        <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>3</Int>
+        <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>1589990</Long>
+        <Long>0</Long>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ref@MSF-F-1969">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@S1">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+    </prefGroup>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -189,7 +215,7 @@
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>1585821</Long>
+        <Long>0</Long>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
         <Int>241</Int>
@@ -280,6 +306,6 @@
         <String>phonol-LAT@NTP-M-1986</String>
     </prefList>
     <pref key="SelectionEndTime">
-        <Long>1585868</Long>
+        <Long>0</Long>
     </pref>
 </preferences>
