@@ -94,17 +94,67 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>257</Int>
+        <Int>546</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>838592</Long>
+        <Long>883165</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>838592</Long>
+        <Long>883165</Long>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ft-rus@MR-M-1971">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ft-eng@LK-F-1985">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="orth@LK-F-1985">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="ref@MR-M-1971">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="orth@MR-M-1971">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ft-eng@AAZ">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@ANA">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="ft-eng@MR-M-1971">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ref@LK-F-1985">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="ft-rus@ANA">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="orth@AAZ">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="orth@ANA">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="ft-eng@ANA">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="ft-rus@AAZ">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-rus@LK-F-1985">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="ref@AAZ">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+    </prefGroup>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -125,7 +175,7 @@
         <Int>332</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>834535</Long>
+        <Long>434844</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>word@ANA</String>
@@ -151,6 +201,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>841838</Long>
+        <Long>884558</Long>
     </pref>
 </preferences>
