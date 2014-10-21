@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-10-01T16:34:50+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-10-21T12:44:55+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/fedina/Desktop/kpv_izva20120111VVF1/292_1a_30_58.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../../fedina/Desktop/kpv_izva20120111VVF1/292_1a_30_58.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva19580000Kolva/kpv_izva19580000Kolva.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../../fedina/Desktop/kpv_izva20120111VVF1/292_1a_30_58.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:fc1fa5b9-5c9f-4e8e-a306-4596d6cec639</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">848</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">896</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1315"/>
@@ -3936,51 +3936,291 @@
     <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@XXS-F-19XX" PARTICIPANT="XXS-F-19XX" TIER_ID="ft-eng@XXS-F-19XX">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a187" ANNOTATION_REF="a123">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Our Kolva village stands on the bank of Kolva river, on a high hill.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a188" ANNOTATION_REF="a124">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>The village has around fifty houses.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a189" ANNOTATION_REF="a125">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Mainly one floor, there are also ones with two floors.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a190" ANNOTATION_REF="a126">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>We have mainly colhose-workers.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a191" ANNOTATION_REF="a127">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>They work with cows, calves, sheep, horses.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a192" ANNOTATION_REF="a128">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>The colhose has reindeer as well, but they come rarely, only at the winter.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a193" ANNOTATION_REF="a129">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And the summer they spend at the sea,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a194" ANNOTATION_REF="a130">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>where they find more to eat.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a195" ANNOTATION_REF="a131">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And when the reindeer herders come, we are all happy for them,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a849" ANNOTATION_REF="a132">
+                <ANNOTATION_VALUE>everyone treats them with what they can.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a850" ANNOTATION_REF="a133">
+                <ANNOTATION_VALUE>But themselves they never stay for long, they always ask us to visit.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a851" ANNOTATION_REF="a134">
+                <ANNOTATION_VALUE>The last year, as an example, right next to Kolva, they set up the tents,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a852" ANNOTATION_REF="a135">
+                <ANNOTATION_VALUE>and lots of us went to see how they live.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a853" ANNOTATION_REF="a136">
+                <ANNOTATION_VALUE>The colhose workers brought to the reindeer herders milk, items and other products,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a854" ANNOTATION_REF="a137">
+                <ANNOTATION_VALUE>and the reindeer herders gave meat, lard, reindeer foot skins, reindeer hides, also pimy, footwear and so on.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a855" ANNOTATION_REF="a138">
+                <ANNOTATION_VALUE>And then when we came to the tent,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a856" ANNOTATION_REF="a139">
+                <ANNOTATION_VALUE>when once the colhose workers and the reindeer herders were trading.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a857" ANNOTATION_REF="a140">
+                <ANNOTATION_VALUE>We didn't even get in when the women already put us to sit on very low benches.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a858" ANNOTATION_REF="a141">
+                <ANNOTATION_VALUE>Then they started to ask from us how do we live and what do we do.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a859" ANNOTATION_REF="a142">
+                <ANNOTATION_VALUE>And we also asked from them everything, they told us very willingly.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a860" ANNOTATION_REF="a143">
+                <ANNOTATION_VALUE>While we were talking they fried meat, hot, boiled meat, they fried blins</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a861" ANNOTATION_REF="a144">
+                <ANNOTATION_VALUE>and started to treat us.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a862" ANNOTATION_REF="a145">
+                <ANNOTATION_VALUE>They set everything on a very low table and started to treat us:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a863" ANNOTATION_REF="a146">
+                <ANNOTATION_VALUE>soup, warm food, warm bread, blins, and tea -</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a864" ANNOTATION_REF="a147">
+                <ANNOTATION_VALUE>they had everything.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a865" ANNOTATION_REF="a148">
+                <ANNOTATION_VALUE>Then they told us how they lived earlier and how now.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a866" ANNOTATION_REF="a149">
+                <ANNOTATION_VALUE>Their life has improved a lot, they praised.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a867" ANNOTATION_REF="a150">
+                <ANNOTATION_VALUE>There were lots of tents: and men, women and children.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a868" ANNOTATION_REF="a151">
+                <ANNOTATION_VALUE>In the center of the tent there was a large iron stove, which was never cold.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a869" ANNOTATION_REF="a152">
+                <ANNOTATION_VALUE>In the tent it was very warm.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a870" ANNOTATION_REF="a153">
+                <ANNOTATION_VALUE>Small children were running in their pim-clothes and in malichas.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a196" ANNOTATION_REF="a154">
+                <ANNOTATION_VALUE>When we went outside many men were building sledges and ???.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a871" ANNOTATION_REF="a155">
+                <ANNOTATION_VALUE>And the women used their empty time to sew and cook.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a872" ANNOTATION_REF="a156">
+                <ANNOTATION_VALUE>There was a very interesting moment, when one woman started to yell:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a873" ANNOTATION_REF="a157">
+                <ANNOTATION_VALUE>"Avko, avko, avko".</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a874" ANNOTATION_REF="a158">
+                <ANNOTATION_VALUE>And suddenly three reindeers came to the woman.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a875" ANNOTATION_REF="a159">
+                <ANNOTATION_VALUE>They ran to the woman.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a876" ANNOTATION_REF="a160">
+                <ANNOTATION_VALUE>Then she gave them bread.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a877" ANNOTATION_REF="a161">
+                <ANNOTATION_VALUE>The reindeer ate bread very fondly.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a878" ANNOTATION_REF="a162">
+                <ANNOTATION_VALUE>We asked from the women: why these reindeer do not fear people at all.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a879" ANNOTATION_REF="a163">
+                <ANNOTATION_VALUE>And she told us that it is a tame reindeer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a880" ANNOTATION_REF="a164">
+                <ANNOTATION_VALUE>They have learned from young age to eat from hand.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a881" ANNOTATION_REF="a165">
+                <ANNOTATION_VALUE>Other reindeer are afraid from people, but they are not.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a882" ANNOTATION_REF="a166">
+                <ANNOTATION_VALUE>The reindeer herders built their tents for three or four days.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a883" ANNOTATION_REF="a167">
+                <ANNOTATION_VALUE>These days they buy the products and items, in the evenings they visit the village.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a884" ANNOTATION_REF="a168">
+                <ANNOTATION_VALUE>When the reindeer herders come to the village they tidy up their reindeer,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a885" ANNOTATION_REF="a169">
+                <ANNOTATION_VALUE>they put tapes to their horns, and to their necks bells.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a886" ANNOTATION_REF="a170">
+                <ANNOTATION_VALUE>Their coming can be heard from away.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a887" ANNOTATION_REF="a171">
+                <ANNOTATION_VALUE>The bells are ringing,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a888" ANNOTATION_REF="a172">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a889" ANNOTATION_REF="a173">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a890" ANNOTATION_REF="a174">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a891" ANNOTATION_REF="a175">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a892" ANNOTATION_REF="a176">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a893" ANNOTATION_REF="a177">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a894" ANNOTATION_REF="a178">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a895" ANNOTATION_REF="a179">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a896" ANNOTATION_REF="a180">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
@@ -4401,7 +4641,7 @@
     <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@EEI-M-1913" PARTICIPANT="EEI-M-1913" TIER_ID="ft-eng@EEI-M-1913">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a255" ANNOTATION_REF="a61">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And now speaks Starceva, Kolva village's dialect, that's the northern dialect.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
