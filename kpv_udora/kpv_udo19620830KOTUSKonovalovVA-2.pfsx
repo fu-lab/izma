@@ -123,16 +123,66 @@
         <Object class="java.awt.Point">0,24</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>197</Int>
+        <Int>226</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>517186</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ft-eng@AJV-M-1933">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="orth@VAK-M-1880">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="ref@MVP-F-1936">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="ft-eng@VAK-M-1880">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="ref@VAK-M-1880">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="orth@MVP-F-1936">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="ft-rus@VAK-M-1880">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="ft-rus@AJV-M-1933">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ft-rus@MVP-F-1936">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="ft-eng@MVP-F-1936">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="ref@AJV-M-1933">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="orth@AJV-M-1933">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+    </prefGroup>
     <pref key="MediaTime">
-        <Long>840275</Long>
+        <Long>517185</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -154,7 +204,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>829075</Long>
+        <Long>513825</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -168,6 +218,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>518075</Long>
     </pref>
 </preferences>
