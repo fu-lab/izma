@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
         <String>note(part)</String>
@@ -105,11 +106,11 @@
     <pref key="WaveFormViewer.ActiveURL">
         <String>file:///Users/niko/Documents/kpv_izva/kpv_fieldwork_2014/kpv_izva20140325-3sledges/kpv_izva20140325-3sledges-4.WAV</String>
     </pref>
-    <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>70</Int>
-    </pref>
     <pref key="SignalViewer.VerticalZoomLevel">
         <Int>1000</Int>
+    </pref>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@MSF-F-1969">
@@ -140,11 +141,11 @@
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
     <prefGroup key="TranscriptionTable.ColumnOrder"/>
-    <pref key="TM.SignalViewer.ZoomLevel">
-        <Float>5.0</Float>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
     <prefList key="SegmentationViewer.HiddenTiers"/>
     <prefList key="TranscriptionTable.ColumnTypes">
@@ -152,52 +153,52 @@
         <String>ft-rusT</String>
         <String>ft-engT</String>
     </prefList>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>644.0</Float>
+    </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
     </pref>
-    <pref key="TimeLineViewer.ZoomLevel">
-        <Float>644.0</Float>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@VPC-M-1993</String>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@MSF-F-1969">
             <Object class="java.awt.Color">160,160,0</Object>
         </pref>
-        <pref key="geo">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
         <pref key="ref@NTP-M-1986">
             <Object class="java.awt.Color">160,160,0</Object>
         </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">90,160,90</Object>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,0</Object>
         </pref>
         <pref key="ref@VPC-M-1993">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,90,0</Object>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,0</Object>
         </pref>
         <pref key="ref@VPR-M-1948">
             <Object class="java.awt.Color">160,0,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,160,0</Object>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
         <pref key="ref@PVR-M-19XX">
             <Object class="java.awt.Color">0,0,160</Object>
         </pref>
     </prefGroup>
-    <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@VPC-M-1993</String>
-    </pref>
     <pref key="FrameLocation">
         <Object class="java.awt.Point">4,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>263</Int>
+        <Int>287</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>493204</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
@@ -214,8 +215,82 @@
         <String>ref@NTP-M-1986</String>
         <String>ref@Pasha</String>
     </prefList>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="orth@VPR-M-1948">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ft-rus@VPR-M-1948">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="orth@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ft-eng@MSF-F-1969">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="orth@MSF-F-1969">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ft-rus@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ft-rus@PVR-M-19XX">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-rus@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ft-rus@MSF-F-1969">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ref@MSF-F-1969">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ft-eng@PVR-M-19XX">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="orth@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ft-eng@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ft-eng@VPC-M-1993">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="ref@VPR-M-1948">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="orth@PVR-M-19XX">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@PVR-M-19XX">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-eng@VPR-M-1948">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+    </prefGroup>
     <pref key="MediaTime">
-        <Long>465380</Long>
+        <Long>493204</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -227,11 +302,11 @@
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
-    <pref key="SignalViewer.ZoomLevel">
-        <Float>261.0</Float>
-    </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1276,773</Object>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>261.0</Float>
     </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type3 : ft-engT</String>
@@ -243,7 +318,21 @@
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>465321</Long>
+        <Long>483352</Long>
+    </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>278</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>279</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>279</Int>
+        </pref>
+    </prefGroup>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>188</Int>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>note(part)</String>
@@ -277,21 +366,7 @@
         <String>lg(orth)@NTP-M-1986</String>
         <String>phonet-IPA@NTP-M-1986</String>
     </prefList>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>188</Int>
-    </pref>
-    <prefGroup key="TranscriptionTable.ColumnWidth">
-        <pref key="Type3">
-            <Int>278</Int>
-        </pref>
-        <pref key="Type2">
-            <Int>279</Int>
-        </pref>
-        <pref key="Type1">
-            <Int>279</Int>
-        </pref>
-    </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>498514</Long>
     </pref>
 </preferences>

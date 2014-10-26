@@ -99,11 +99,11 @@
         <pref key="ref@DIC-M-19XX">
             <Object class="java.awt.Color">0,90,0</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,160</Object>
         </pref>
         <pref key="ref@EEI-M-1913">
             <Object class="java.awt.Color">160,90,0</Object>
@@ -149,18 +149,18 @@
         <pref key="orth@EEI-M-1913">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,160,90</Object>
         </pref>
         <pref key="ref@EEI-M-1913">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>527341</Long>
+        <Long>0</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -182,7 +182,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>523980</Long>
+        <Long>0</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">

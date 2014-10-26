@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-10-20T18:33:12+01:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-10-25T15:29:38+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20000321ChuprovII/kpv_izva20000321ChuprovII.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_izva20000321ChuprovII/kpv_izva20000321ChuprovII.wav"/>
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20000321ChuprovII/kpv_izva20000321ChuprovII.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_izva20000321ChuprovII/kpv_izva20000321ChuprovII.wav"/>
@@ -35554,17 +35554,17 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6970" ANNOTATION_REF="a421">
-                <ANNOTATION_VALUE>reindeer who wasn't in enclosure and whose ears aren't marked.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>reindeer who wasn't in fence and whose ears aren't marked.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6971" ANNOTATION_REF="a422">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>They are marked in fence.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6972" ANNOTATION_REF="a423">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>With snow mobiles they are taken into circle.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -35574,22 +35574,22 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6974" ANNOTATION_REF="a425">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And with a snow mobile they are got inside fence, well there they are shortened.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6975" ANNOTATION_REF="a426">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Earlier it was so that the mothers were marked.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6976" ANNOTATION_REF="a427">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>But now it's all different.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6977" ANNOTATION_REF="a428">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yes, hm, ours came from far away, each one of us has an own mark.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -36351,22 +36351,22 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a7129" ANNOTATION_REF="a968">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>What kind of?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a7130" ANNOTATION_REF="a969">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ah.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a7131" ANNOTATION_REF="a970">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And are there some special marks?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a7132" ANNOTATION_REF="a971">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -36683,12 +36683,19 @@
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="commentT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="var" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="var:affr" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="var-qlt" TIME_ALIGNABLE="false"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
     <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
-    <CONTROLLED_VOCABULARY CV_ID="var:affr" DESCRIPTION=""/>
-    <CONTROLLED_VOCABULARY CV_ID="lg" DESCRIPTION=""/>
-    <CONTROLLED_VOCABULARY CV_ID="pos" DESCRIPTION=""/>
+    <CONTROLLED_VOCABULARY CV_ID="lg">
+        <DESCRIPTION LANG_REF="und"/>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="var:affr">
+        <DESCRIPTION LANG_REF="und"/>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="pos">
+        <DESCRIPTION LANG_REF="und"/>
+    </CONTROLLED_VOCABULARY>
     <EXTERNAL_REF EXT_REF_ID="er1" TYPE="iso12620" VALUE="http://www.isocat.org/datcat/DC-2523"/>
 </ANNOTATION_DOCUMENT>

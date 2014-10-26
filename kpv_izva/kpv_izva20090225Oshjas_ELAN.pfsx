@@ -63,7 +63,7 @@
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">0,22</Object>
+        <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
         <Int>289</Int>
@@ -72,13 +72,13 @@
         <String>note@S1</String>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>777815</Long>
+        <Long>323730</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>777815</Long>
+        <Long>323730</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ref@LK-F-1985">
@@ -108,7 +108,7 @@
         <Float>1.0</Float>
     </pref>
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,774</Object>
+        <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>100.0</Float>
@@ -120,15 +120,18 @@
         <String>ref@S1</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>774455</Long>
+        <Long>318330</Long>
     </pref>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Тип1">
+            <Int>845</Int>
+        </pref>
         <pref key="Type1">
             <Int>845</Int>
         </pref>
     </prefGroup>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>779435</Long>
+        <Long>324850</Long>
     </pref>
 </preferences>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
         <String>note(part)</String>
@@ -135,11 +136,11 @@
         <pref key="ref@PK">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,0,160</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
@@ -149,7 +150,7 @@
         <Int>296</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>352068</Long>
+        <Long>365331</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
@@ -182,11 +183,11 @@
         <pref key="orth@PK">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
-        <pref key="ref@VVF-F-1957">
-            <Object class="java.awt.Color">0,160,0</Object>
-        </pref>
         <pref key="ref@IIC-M-1937">
             <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@VVF-F-1957">
+            <Object class="java.awt.Color">0,160,0</Object>
         </pref>
         <pref key="ft-eng@VVF-F-1957">
             <Object class="java.awt.Color">0,160,0</Object>
@@ -194,18 +195,18 @@
         <pref key="bio">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,0,160</Object>
         </pref>
         <pref key="ft-eng@IIC-M-1937">
             <Object class="java.awt.Color">0,160,90</Object>
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>352066</Long>
+        <Long>367333</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -230,9 +231,8 @@
         <Int>196</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>350363</Long>
+        <Long>363092</Long>
     </pref>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
             <Int>281</Int>
@@ -244,7 +244,8 @@
             <Int>282</Int>
         </pref>
     </prefGroup>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>353680</Long>
+        <Long>366206</Long>
     </pref>
 </preferences>
