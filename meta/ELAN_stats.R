@@ -17,8 +17,20 @@ source("kpv_meta.R")
 kpv_meta <- merge(kpv_corpus, kpv_corpus_meta)
 kpv_meta <- tbl_dt(kpv_meta)
 
+kpv_clean <- kpv_meta %>%
+        subset(! Word %in% c(",", ".", ":", "", "-", ";", "!", "?", "…", '"', "(", ")", "~", "???") ) %>%
+        subset(! attr.foreign %in% "TRUE" ) %>%
+        tbl_dt()
+
+
+kpv_clean
+
 library(dplyr)
 library(ggplot2)
+
+kpv_meta$Age <- kpv_meta$Rec.year - kpv_meta$Birthyear
+
+View(kpv_meta)
 
 kpv_words <- kpv_meta %>%
         subset(! Word %in% c(",", ".", ":", "", "-", ";", "!", "?", "…", '"', "(", ")", "~", "???") ) %>%
@@ -43,11 +55,17 @@ kpv_tokens_per_sex  <- kpv_meta %>%
         tally(sort = TRUE)
 
 # Это - сколко словы у нас естъ из мужины и из женжины
-ggplot(kpv_words, aes(x=Sex, fill=Sex)) + geom_histogram(alpha=0.4) +
+ggplot(kpv_clean, aes(x=Sex, fill=Sex)) + geom_histogram(alpha=0.4) +
         ggsave(file="токены_для_роды.png")
 
-# Это - сколко словы из какой возрозтов, ну, с год рождения, здесь свет - он файл.
-ggplot(kpv_words, aes(x=Birthyear, fill=Filename)) + 
+# Это - сколко словы из какой возростов, ну, с год рождения, здесь свет - он файл.
+ggplot(kpv_clean, aes(x=Birthyear, fill=Filename)) + 
+        geom_histogram(alpha=0.4) + 
+        theme(legend.position="none") +
+        ggsave(file="токены_для_год_рождении.png")
+
+# Это об возростов
+ggplot(kpv_clean, aes(x=Age, fill=Filename)) + 
         geom_histogram(alpha=0.4) + 
         theme(legend.position="none") +
         ggsave(file="токены_для_возростов.png")
