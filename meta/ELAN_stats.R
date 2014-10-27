@@ -60,7 +60,7 @@ ggplot(kpv_clean, aes(x=Sex, fill=Sex)) + geom_histogram(alpha=0.4) +
 
 # Это - сколко словы из какой возростов, ну, с год рождения, здесь свет - он файл.
 ggplot(kpv_clean, aes(x=Birthyear, fill=Filename)) + 
-        geom_histogram(alpha=0.4) + 
+        geom_histogram(alpha=0.5) + 
         theme(legend.position="none") +
         ggsave(file="токены_для_год_рождении.png")
 
