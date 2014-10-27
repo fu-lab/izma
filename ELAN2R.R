@@ -1,4 +1,7 @@
 # Тайӧ скрипт лыддьӧ ЕЛАН-файлъяс кыв-тиеръясті. Йитча сылӧн дата фрамесӧ менам Филемакер метаданныекӧд.
+
+setwd("~niko/Desktop/github/data/izma")
+
 library(XML)
 xmlfiles_all <- list.files(path=".", pattern="*.eaf$", recursive=TRUE)
 xmlfiles <- xmlfiles_all[ !grepl("kpv_novyje",xmlfiles_all) ]
@@ -14,5 +17,5 @@ for(i in 1:n){
         dat[[i]] <- do.call("rbind", x)
 }
 kpv_corpus <- do.call("rbind", dat)
-dat
-write.csv(kpv_corpus, "kpv_corpus.csv")
+
+setwd("~niko/Desktop/github/data/izma/meta")
