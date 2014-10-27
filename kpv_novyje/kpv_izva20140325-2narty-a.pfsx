@@ -9,29 +9,6 @@
         <String>bio</String>
         <String>note(bio)</String>
         <String>comment</String>
-        <String>ref@S1</String>
-        <String>phonet-UPA@S1</String>
-        <String>phonol-CYR@S1</String>
-        <String>translit-LAT@S1</String>
-        <String>note(ref)@S1</String>
-        <String>orth@S1</String>
-        <String>word@S1</String>
-        <String>lemma@S1</String>
-        <String>morph@S1</String>
-        <String>pos@S1</String>
-        <String>lg(word)@S1</String>
-        <String>note(word)@S1</String>
-        <String>ft-eng@S1</String>
-        <String>ft-deu@S1</String>
-        <String>ft-nob@S1</String>
-        <String>ft-rus@S1</String>
-        <String>ft-swe@S1</String>
-        <String>ft-ling@S1</String>
-        <String>ft-fin@S1</String>
-        <String>note(orth)@S1</String>
-        <String>lg(orth)@S1</String>
-        <String>phonet-IPA@S1</String>
-        <String>phonol-LAT@S1</String>
         <String>ref@VPC-M-1993</String>
         <String>phonet-UPA@VPC-M-1993</String>
         <String>phonol-CYR@VPC-M-1993</String>
@@ -101,6 +78,29 @@
         <String>lg(orth)@NTP-M-1986</String>
         <String>phonet-IPA@NTP-M-1986</String>
         <String>phonol-LAT@NTP-M-1986</String>
+        <String>ref@PMH-M-1964</String>
+        <String>phonet-UPA@PMH-M-1964</String>
+        <String>phonol-CYR@PMH-M-1964</String>
+        <String>translit-LAT@PMH-M-1964</String>
+        <String>note(ref)@PMH-M-1964</String>
+        <String>orth@PMH-M-1964</String>
+        <String>word@PMH-M-1964</String>
+        <String>lemma@PMH-M-1964</String>
+        <String>morph@PMH-M-1964</String>
+        <String>pos@PMH-M-1964</String>
+        <String>lg(word)@PMH-M-1964</String>
+        <String>note(word)@PMH-M-1964</String>
+        <String>ft-eng@PMH-M-1964</String>
+        <String>ft-deu@PMH-M-1964</String>
+        <String>ft-nob@PMH-M-1964</String>
+        <String>ft-rus@PMH-M-1964</String>
+        <String>ft-swe@PMH-M-1964</String>
+        <String>ft-ling@PMH-M-1964</String>
+        <String>ft-fin@PMH-M-1964</String>
+        <String>note(orth)@PMH-M-1964</String>
+        <String>lg(orth)@PMH-M-1964</String>
+        <String>phonet-IPA@PMH-M-1964</String>
+        <String>phonol-LAT@PMH-M-1964</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
@@ -138,20 +138,20 @@
         <pref key="geo">
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
-        <pref key="ref@VPC-M-1993">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
         <pref key="bio">
             <Object class="java.awt.Color">90,90,0</Object>
         </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">0,0,90</Object>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">0,90,90</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,0,0</Object>
+        <pref key="ref@PMH-M-1964">
+            <Object class="java.awt.Color">160,0,160</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,0,0</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
@@ -164,7 +164,7 @@
         <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>0</Long>
+        <Long>946033</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ref@MSF-F-1969">
@@ -176,20 +176,20 @@
         <pref key="ref@NTP-M-1986">
             <Object class="java.awt.Color">90,160,160</Object>
         </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">90,90,0</Object>
-        </pref>
         <pref key="ref@VPC-M-1993">
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">0,0,90</Object>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,90,0</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">90,160,0</Object>
+        <pref key="ref@PMH-M-1964">
+            <Object class="java.awt.Color">160,0,160</Object>
         </pref>
         <pref key="part">
             <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,160,0</Object>
         </pref>
     </prefGroup>
     <pref key="MultiTierViewer.TierSortingMode">
@@ -215,10 +215,7 @@
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>0</Long>
-    </pref>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>241</Int>
+        <Long>941628</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>part</String>
@@ -305,6 +302,9 @@
         <String>phonet-IPA@NTP-M-1986</String>
         <String>phonol-LAT@NTP-M-1986</String>
     </prefList>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>241</Int>
+    </pref>
     <pref key="SelectionEndTime">
         <Long>0</Long>
     </pref>
