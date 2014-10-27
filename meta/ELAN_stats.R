@@ -15,10 +15,10 @@ source("./../ELAN2R.R")
 source("kpv_meta.R")
 
 kpv_meta <- merge(kpv_corpus, kpv_corpus_meta)
-
-
+kpv_meta <- tbl_dt(kpv_meta)
 
 library(dplyr)
+library(ggplot2)
 
 kpv_words <- kpv_meta %>%
         subset(! Word %in% c(",", ".", ":", "", "-", ";", "!", "?", "…", '"', "(", ")", "~", "???") ) %>%
@@ -37,7 +37,17 @@ kpv_tokens_per_speaker <- kpv_meta %>%
 kpv_tokens_per_sex  <- kpv_meta %>%
         subset(! Word %in% c(",", ".", ":", "", "-", ";", "!", "?", "…", '"', "(", ")", "~", "???") ) %>%
         subset(! attr.foreign %in% "TRUE" ) %>%
-        group_by(Speaker, Filename, Word) %>%
+        group_by(Speaker, Filename, Word, Sex) %>%
         tally(sort = TRUE) %>%
-        group_by(Speaker, Filename) %>%
+        group_by(Sex) %>%
         tally(sort = TRUE)
+
+# Это - сколко словы у нас естъ из мужины и из женжины
+ggplot(kpv_words, aes(x=Sex, fill=Sex)) + geom_histogram(alpha=0.4) +
+        ggsave(file="токены_для_роды.png")
+
+# Это - сколко словы из какой возрозтов, ну, с год рождения, здесь свет - он файл.
+ggplot(kpv_words, aes(x=Birthyear, fill=Filename)) + 
+        geom_histogram(alpha=0.4) + 
+        theme(legend.position="none") +
+        ggsave(file="токены_для_возростов.png")
