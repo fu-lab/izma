@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@LK</String>
         <String>orth@LK</String>
@@ -12,12 +13,6 @@
         <String>ft-eng@ANA</String>
         <String>ft-rus@ANA</String>
         <String>note@ANA</String>
-        <String>ref@AAZ</String>
-        <String>orth@AAZ</String>
-        <String>word@AAZ</String>
-        <String>ft-eng@AAZ</String>
-        <String>ft-rus@AAZ</String>
-        <String>note@AAZ</String>
         <String>ref@MR-M-1971</String>
         <String>orth@MR-M-1971</String>
         <String>ft-eng@MR-M-1971</String>
@@ -28,6 +23,12 @@
         <String>ft-eng@RB-M-1971</String>
         <String>ft-rus@RB-M-1971</String>
         <String>word@RB-M-1971</String>
+        <String>ref@AAZ-M-1940</String>
+        <String>orth@AAZ-M-1940</String>
+        <String>word@AAZ-M-1940</String>
+        <String>ft-eng@AAZ-M-1940</String>
+        <String>ft-rus@AAZ-M-1940</String>
+        <String>note@AAZ-M-1940</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
@@ -36,25 +37,25 @@
         <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
+        <prefList key="ref@AAZ-M-1940">
+            <String>orth@AAZ-M-1940</String>
+            <String>ft-eng@AAZ-M-1940</String>
+            <String>ft-rus@AAZ-M-1940</String>
+        </prefList>
         <prefList key="ref@MR-M-1971">
             <String>orth@MR-M-1971</String>
             <String>ft-eng@MR-M-1971</String>
             <String>ft-rus@MR-M-1971</String>
         </prefList>
-        <prefList key="ref@AAZ">
-            <String>orth@AAZ</String>
-            <String>ft-eng@AAZ</String>
-            <String>ft-rus@AAZ</String>
+        <prefList key="ref@LK">
+            <String>orth@LK</String>
+            <String>ft-eng@LK</String>
+            <String>ft-rus@LK</String>
         </prefList>
         <prefList key="ref@ANA">
             <String>orth@ANA</String>
             <String>ft-eng@ANA</String>
             <String>ft-rus@ANA</String>
-        </prefList>
-        <prefList key="ref@LK">
-            <String>orth@LK</String>
-            <String>ft-eng@LK</String>
-            <String>ft-rus@LK</String>
         </prefList>
         <prefList key="ref@RB-M-1971">
             <String>orth@RB-M-1971</String>
@@ -78,11 +79,11 @@
         <Int>4</Int>
     </pref>
     <prefGroup key="TierColors">
+        <pref key="ref@AAZ-M-1940">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
         <pref key="ref@MR-M-1971">
             <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
-        <pref key="ref@AAZ">
-            <Object class="java.awt.Color">160,160,90</Object>
         </pref>
         <pref key="ref@LK">
             <Object class="java.awt.Color">90,0,0</Object>
@@ -110,6 +111,9 @@
         <pref key="ft-rus@MR-M-1971">
             <Object class="java.awt.Color">90,160,90</Object>
         </pref>
+        <pref key="ref@AAZ-M-1940">
+            <Object class="java.awt.Color">159,129,183</Object>
+        </pref>
         <pref key="ref@MR-M-1971">
             <Object class="java.awt.Color">90,160,90</Object>
         </pref>
@@ -121,9 +125,6 @@
         </pref>
         <pref key="ft-rus@LK">
             <Object class="java.awt.Color">90,0,0</Object>
-        </pref>
-        <pref key="ft-eng@AAZ">
-            <Object class="java.awt.Color">160,160,90</Object>
         </pref>
         <pref key="ft-rus@RB-M-1971">
             <Object class="java.awt.Color">90,0,90</Object>
@@ -143,17 +144,14 @@
         <pref key="orth@ANA">
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
-        <pref key="orth@AAZ">
-            <Object class="java.awt.Color">160,160,90</Object>
-        </pref>
         <pref key="ft-eng@ANA">
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
-        <pref key="ft-rus@AAZ">
-            <Object class="java.awt.Color">160,160,90</Object>
-        </pref>
         <pref key="ref@AAZ">
             <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="ft-rus@AAZ-M-1940">
+            <Object class="java.awt.Color">142,95,202</Object>
         </pref>
         <pref key="ft-eng@RB-M-1971">
             <Object class="java.awt.Color">90,0,90</Object>
@@ -164,12 +162,18 @@
         <pref key="ft-eng@LK">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
+        <pref key="orth@AAZ-M-1940">
+            <Object class="java.awt.Color">142,95,202</Object>
+        </pref>
+        <pref key="ft-eng@AAZ-M-1940">
+            <Object class="java.awt.Color">142,95,202</Object>
+        </pref>
         <pref key="ref@RB-M-1971">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>2683</Long>
+        <Long>0</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -191,17 +195,17 @@
         <String>ref@LK</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>2523</Long>
+        <Long>0</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefGroup key="TranscriptionTable.ColumnWidth">
-        <pref key="Type3">
+        <pref key="Тип3">
             <Int>281</Int>
         </pref>
-        <pref key="Type2">
+        <pref key="Тип1">
             <Int>282</Int>
         </pref>
-        <pref key="Type1">
+        <pref key="Тип2">
             <Int>282</Int>
         </pref>
     </prefGroup>

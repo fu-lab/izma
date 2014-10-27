@@ -12,16 +12,6 @@
         <String>ft-ling@ANA</String>
         <String>note(orth)@ANA</String>
         <String>note(ref)@ANA</String>
-        <String>ref@AAZ</String>
-        <String>orth@AAZ</String>
-        <String>word@AAZ</String>
-        <String>pos@AAZ</String>
-        <String>lg@AAZ</String>
-        <String>ft-eng@AAZ</String>
-        <String>ft-rus@AAZ</String>
-        <String>ft-ling@AAZ</String>
-        <String>note(orth)@AAZ</String>
-        <String>note(ref)@AAZ</String>
         <String>ref@LK-F-1985</String>
         <String>orth@LK-F-1985</String>
         <String>ft-eng@LK-F-1985</String>
@@ -34,12 +24,22 @@
         <String>ft-rus@MR-M-1971</String>
         <String>word@MR-M-1971</String>
         <String>note(orth)@MR-M-1971</String>
+        <String>ref@AAZ-M-1940</String>
+        <String>orth@AAZ-M-1940</String>
+        <String>word@AAZ-M-1940</String>
+        <String>pos@AAZ-M-1940</String>
+        <String>lg@AAZ-M-1940</String>
+        <String>ft-eng@AAZ-M-1940</String>
+        <String>ft-rus@AAZ-M-1940</String>
+        <String>ft-ling@AAZ-M-1940</String>
+        <String>note(orth)@AAZ-M-1940</String>
+        <String>note(ref)@AAZ-M-1940</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>2</Int>
+        <Int>0</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@LK-F-1985">
@@ -47,15 +47,15 @@
             <String>ft-eng@LK-F-1985</String>
             <String>ft-rus@LK-F-1985</String>
         </prefList>
+        <prefList key="ref@AAZ-M-1940">
+            <String>orth@AAZ-M-1940</String>
+            <String>ft-eng@AAZ-M-1940</String>
+            <String>ft-rus@AAZ-M-1940</String>
+        </prefList>
         <prefList key="ref@MR-M-1971">
             <String>orth@MR-M-1971</String>
             <String>ft-eng@MR-M-1971</String>
             <String>ft-rus@MR-M-1971</String>
-        </prefList>
-        <prefList key="ref@AAZ">
-            <String>orth@AAZ</String>
-            <String>ft-eng@AAZ</String>
-            <String>ft-rus@AAZ</String>
         </prefList>
         <prefList key="ref@ANA">
             <String>orth@ANA</String>
@@ -80,11 +80,11 @@
         <pref key="ref@LK-F-1985">
             <Object class="java.awt.Color">90,160,0</Object>
         </pref>
+        <pref key="ref@AAZ-M-1940">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
         <pref key="ref@MR-M-1971">
             <Object class="java.awt.Color">90,90,0</Object>
-        </pref>
-        <pref key="ref@AAZ">
-            <Object class="java.awt.Color">0,0,160</Object>
         </pref>
         <pref key="ref@ANA">
             <Object class="java.awt.Color">0,90,0</Object>
@@ -109,6 +109,9 @@
         <pref key="ft-rus@MR-M-1971">
             <Object class="java.awt.Color">90,90,0</Object>
         </pref>
+        <pref key="ref@AAZ-M-1940">
+            <Object class="java.awt.Color">21,252,136</Object>
+        </pref>
         <pref key="ft-eng@LK-F-1985">
             <Object class="java.awt.Color">90,160,0</Object>
         </pref>
@@ -120,9 +123,6 @@
         </pref>
         <pref key="orth@MR-M-1971">
             <Object class="java.awt.Color">90,90,0</Object>
-        </pref>
-        <pref key="ft-eng@AAZ">
-            <Object class="java.awt.Color">0,0,160</Object>
         </pref>
         <pref key="ref@ANA">
             <Object class="java.awt.Color">0,90,0</Object>
@@ -136,23 +136,26 @@
         <pref key="ft-rus@ANA">
             <Object class="java.awt.Color">0,90,0</Object>
         </pref>
-        <pref key="orth@AAZ">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
         <pref key="orth@ANA">
             <Object class="java.awt.Color">0,90,0</Object>
         </pref>
         <pref key="ft-eng@ANA">
             <Object class="java.awt.Color">0,90,0</Object>
         </pref>
-        <pref key="ft-rus@AAZ">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
         <pref key="ft-rus@LK-F-1985">
             <Object class="java.awt.Color">90,160,0</Object>
         </pref>
         <pref key="ref@AAZ">
             <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-rus@AAZ-M-1940">
+            <Object class="java.awt.Color">145,169,80</Object>
+        </pref>
+        <pref key="orth@AAZ-M-1940">
+            <Object class="java.awt.Color">145,169,80</Object>
+        </pref>
+        <pref key="ft-eng@AAZ-M-1940">
+            <Object class="java.awt.Color">145,169,80</Object>
         </pref>
     </prefGroup>
     <pref key="MultiTierViewer.TierSortingMode">
@@ -175,8 +178,28 @@
         <Int>332</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>434844</Long>
+        <Long>883005</Long>
     </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Тип3">
+            <Int>281</Int>
+        </pref>
+        <pref key="Тип1">
+            <Int>282</Int>
+        </pref>
+        <pref key="Тип2">
+            <Int>282</Int>
+        </pref>
+        <pref key="Type3">
+            <Int>281</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>282</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>282</Int>
+        </pref>
+    </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>word@ANA</String>
         <String>pos@ANA</String>
@@ -189,17 +212,6 @@
         <String>word@LK-F-1985</String>
         <String>word@MR-M-1971</String>
     </prefList>
-    <prefGroup key="TranscriptionTable.ColumnWidth">
-        <pref key="Type3">
-            <Int>281</Int>
-        </pref>
-        <pref key="Type2">
-            <Int>282</Int>
-        </pref>
-        <pref key="Type1">
-            <Int>282</Int>
-        </pref>
-    </prefGroup>
     <pref key="SelectionEndTime">
         <Long>884558</Long>
     </pref>
