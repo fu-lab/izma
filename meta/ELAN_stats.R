@@ -55,7 +55,7 @@ kpv_tokens_per_sex  <- kpv_meta %>%
         tally(sort = TRUE)
 
 # Это - сколко словы у нас естъ из мужины и из женжины
-ggplot(kpv_clean, aes(x=Sex, fill=Sex)) + geom_histogram(alpha=0.4) +
+ggplot(kpv_clean, aes(x=Sex, fill=Sex)) + geom_histogram(alpha=0.5) +
         ggsave(file="токены_для_роды.png")
 
 # Это - сколко словы из какой возростов, ну, с год рождения, здесь свет - он файл.
