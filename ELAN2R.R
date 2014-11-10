@@ -7,9 +7,11 @@
 # annotation. The folder structure is such that the files that do not fill these
 # criteria are in the folder kpv_novyje, content of that file is excluded from 
 # the object xmlfiles_all. I often use this script from another script with 
-# commands like "source("./../ELAN2R.R")" This play with the setting of working 
-# directory is just one way to keep stuff running, but ideally there would be no
-# parameters that are somehow speficied to my computer. The idea is that the
+# commands like "source("./../ELAN2R.R")". This way it just updates the object kpv_corpus
+# in the current workspace. This play with the setting of working directory in the
+# beginning and end of the script is just one way to keep stuff
+# running, but ideally there would be no
+# parameters that are somehow tied into my computer. The idea is that the
 # filenames correspond exactly with your session names. This way it is possible
 # to connect participant and session specific metadata with the content of
 # word-tiers.
