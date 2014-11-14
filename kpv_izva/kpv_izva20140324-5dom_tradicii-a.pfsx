@@ -351,26 +351,26 @@
         <pref key="ref@Маша">
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
-        <pref key="ref@группа">
-            <Object class="java.awt.Color">90,90,160</Object>
-        </pref>
         <pref key="ref@ныв-1">
             <Object class="java.awt.Color">160,90,160</Object>
         </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">90,0,0</Object>
+        <pref key="ref@группа">
+            <Object class="java.awt.Color">90,90,160</Object>
         </pref>
         <pref key="ref@зонка-1">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
+        <pref key="ref@S1">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
         <pref key="ref@зонка-3">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,160,90</Object>
         </pref>
         <pref key="ref@зонка-2">
             <Object class="java.awt.Color">0,160,90</Object>
@@ -485,11 +485,11 @@
         <pref key="ref@зонка-1">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
-        <pref key="ref@зонка-3">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ref@зонка-3">
+            <Object class="java.awt.Color">0,160,160</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,90,90</Object>

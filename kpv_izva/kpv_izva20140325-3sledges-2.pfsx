@@ -195,10 +195,10 @@
         <Object class="java.awt.Point">4,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>287</Int>
+        <Int>629</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>493204</Long>
+        <Long>960606</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
@@ -290,7 +290,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>493204</Long>
+        <Long>960605</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -318,7 +318,7 @@
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>483352</Long>
+        <Long>941796</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -367,6 +367,6 @@
         <String>phonet-IPA@NTP-M-1986</String>
     </prefList>
     <pref key="SelectionEndTime">
-        <Long>498514</Long>
+        <Long>963070</Long>
     </pref>
 </preferences>
