@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>geo</String>
         <String>note(geo)</String>
@@ -115,7 +116,7 @@
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">4,22</Object>
+        <Object class="java.awt.Point">4,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
         <Long>0</Long>
@@ -172,7 +173,7 @@
         <Float>1.0</Float>
     </pref>
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1276,774</Object>
+        <Object class="java.awt.Dimension">1276,773</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>100.0</Float>
