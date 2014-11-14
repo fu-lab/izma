@@ -11,22 +11,13 @@
 # that each word-tier has a participant and that each word-tier has at least one
 # annotation. The folder structure is such that the files that do not fill these
 # criteria are in the folder kpv_novyje, content of that file is excluded from 
-<<<<<<< HEAD
 # the object xmlfiles_all.
 
 # I often use this script from another script with 
 # commands like "source("./../ELAN2R.R")" This play with the setting of working 
 # directory is just one way to keep stuff running, but ideally there would be no
 # parameters that are somehow speficied to my computer. The idea is that the
-=======
-# the object xmlfiles_all. I often use this script from another script with 
-# commands like "source("./../ELAN2R.R")". This way it just updates the object kpv_corpus
-# in the current workspace. This play with the setting of working directory in the
-# beginning and end of the script is just one way to keep stuff
-# running, but ideally there would be no
-# parameters that are somehow tied into my computer. The idea is that the
->>>>>>> FETCH_HEAD
-# filenames correspond exactly with your session names. This way it is possible
+# filenames correspond exactly with the session names. This way it is possible
 # to connect participant and session specific metadata with the content of
 # word-tiers.
 
@@ -51,9 +42,5 @@ for(i in 1:n){
 
 kpv_corpus <- do.call("rbind", dat)
 
-<<<<<<< HEAD
 kpv_corpus
 setwd("~niko/Desktop/github/data/izma/meta")
-=======
-setwd("~niko/Desktop/github/data/izma/meta")
->>>>>>> FETCH_HEAD
