@@ -1,0 +1,61 @@
+---
+title: "izva-report"
+author: "Niko Partanen"
+date: "28 Oct 2014"
+output: html_document
+---
+
+I was told to start writing my dissertation. And I'm about to get onward with that as well. However, I thought that as a background work I have some other things to finish. I've been working recently with corpus statistics and searches both in ELAN and R. I think it's maybe better to write the R side of things up in a document that contains all the code necessary to produce the output.
+
+So we start with an empty environment with no packages or data loaded. At the moment the corpus lives as a bunch of ELAN files. They are in GitHub and our collegues and I are continuously putting them into better shape. Checking the transcriptions, working with translations, adding in some extra annotations about different variables or trying to add there some glosses. This means that when we start it's better we just load all data into R again.
+
+We have two scripts which are used to compile our corpus. I'm adding them here later for the sake of convenience. First one parses the ELAN files.
+
+Today, `r Sys.Date()`, all our ELAN files are structurally identical. However, we probably should already prepare to the future where this is not the case. We have currently our highest level tier type as `ref(spoken)T`. This simply means it is the reference tier for spoken data. Our plan is to have it a counterpart `ref(written)T`. The idea is that the reference id for written materials could be different from that of spoken. With the spoken data it is now a session name and a incremential number:
+
+    kpv_izva20141029interview-a-001
+
+This can be broken down into language, dialect, date recorded, memorisable name, subsession part, reference number. Everything until the first hyphen is the session name itself. However, relatively often many hour long sessions can be naturally but into smaller chunks, and we refer to those chunks as a, b, c, d etc.
+
+With the written materials taken into ELAN it could be:
+
+    kpv_lit20141029rochev1956a-1-001
+
+In this case it comes from language, variety, date added into corpus, bibtex reference, pagenumber of the example, reference number.
+
+Anyway, the point is that this change demands conditional behaviour from our R script.
+
+```{r}
+setwd("~niko/Desktop/github/data/izma")
+
+library(XML)
+xmlfiles_all <- list.files(path=".", pattern="*.eaf$", recursive=TRUE)
+xmlfiles <- xmlfiles_all[ !grepl("kpv_novyje",xmlfiles_all) ]
+n <- length(xmlfiles)
+dat <- vector("list", n)
+for(i in 1:n){
+        doc <- xmlTreeParse(xmlfiles[i], useInternalNodes = TRUE)
+        nodes <- getNodeSet(doc, "//TIER[@LINGUISTIC_TYPE_REF='wordT']")
+        x<- lapply(nodes, function(x){ data.frame(
+                Filename = xmlfiles[i],
+                Speaker= xpathSApply(x, "." , xmlGetAttr, "PARTICIPANT"),
+                Word= xpathSApply(x, ".//ANNOTATION/REF_ANNOTATION/ANNOTATION_VALUE" , xmlValue) )})
+        dat[[i]] <- do.call("rbind", x)
+}
+kpv_corpus <- do.call("rbind", dat)
+
+setwd("~niko/Desktop/github/data/izma/meta")
+
+```
+
+This one reads in the metadata and merges it with the object the earlier code brought into our global environment.
+
+```{r}
+
+```
+
+I find it convenient to run these two scripts directly from the source.
+
+```{r}
+```
+
