@@ -85,9 +85,9 @@ actor.data$Age_group <- gsub("^(7)(\\d)$|^80$", "70-80", actor.data$Age_group, p
 actor.data$Age_group <- gsub("^(8)(\\d)$|^90$", "80-90", actor.data$Age_group, perl=TRUE)
 actor.data$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", actor.data$Age_group, perl=TRUE)
 
-actor.data
-library(ggplot2)
-ggplot(actor.data, aes(x=Age_group, fill=Dialect)) + geom_histogram()
+actor.data <- actor.data %>% select(-Age, -Birthtime_year, -Recording_year)
+
+saveRDS(actor.data, "/Users/niko/Desktop/github/data/izma/izva-stats-app/data/actor_data.rds")
 
 # This is an attempt to reformat data into more simple structure. It worked,
 # finally, but I also understood that ggplot2 likes data in the long format, in
@@ -110,12 +110,8 @@ ggplot(actor.data, aes(x=Age_group, fill=Dialect)) + geom_histogram()
 #         rename(Udora_Dialect = n.y) %>%
 #         mutate(All = Iźva_Dialect + Udora_Dialect)
 
-actor.data.app
 
 # Check the verb count()
-?rename
-
-saveRDS(actor.data, "/Users/niko/Desktop/github/data/izma/izva-stats-app/data/actor_data.rds")
 
 sessions.IMDI <- select(kpv.meta, Actor_ID, Session_name, Naming_convention, Sex, ActorRole, Birthtime_year, Recording_year, Github, ELAN_file, Attr_Foreign_researcher) %>%
                  subset(Github %in% "TRUE" ) %>%
@@ -184,7 +180,7 @@ lytkin <- select()
 
 dbDisconnect(pv)
 
-############
+############ This is just a test for some new stuff
 
 source("http://www.danielezrajohnson.com/Rbrul.R")
 rbrul()
