@@ -64,18 +64,18 @@
         <pref key="ref@JAI-M-1939">
             <Object class="java.awt.Color">160,0,0</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,0,160</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,0,160</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>1</Int>
+        <Int>385</Int>
     </pref>
     <pref key="SelectionBeginTime">
         <Long>10898</Long>
@@ -83,29 +83,6 @@
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
-    <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="ft-rus@JAI-M-1939">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="geo">
-            <Object class="java.awt.Color">0,90,160</Object>
-        </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">90,0,0</Object>
-        </pref>
-        <pref key="ref@JAI-M-1939">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="orth@JAI-M-1939">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,160,0</Object>
-        </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,0,160</Object>
-        </pref>
-    </prefGroup>
     <pref key="MediaTime">
         <Long>10896</Long>
     </pref>
@@ -117,7 +94,7 @@
         <Float>1.0</Float>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>100.0</Float>
+        <Float>85.0</Float>
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
