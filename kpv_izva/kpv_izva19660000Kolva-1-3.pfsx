@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>ref@UAK-F-1896</String>
+        <String>phonet-UPA@UAK-F-1896</String>
+        <String>phonol-CYR@UAK-F-1896</String>
+        <String>translit-LAT@UAK-F-1896</String>
+        <String>note(ref)@UAK-F-1896</String>
+        <String>orth@UAK-F-1896</String>
+        <String>word@UAK-F-1896</String>
+        <String>lemma@UAK-F-1896</String>
+        <String>morph@UAK-F-1896</String>
+        <String>pos@UAK-F-1896</String>
+        <String>lg(word)@UAK-F-1896</String>
+        <String>note(word)@UAK-F-1896</String>
+        <String>ft-eng@UAK-F-1896</String>
+        <String>ft-deu@UAK-F-1896</String>
+        <String>ft-nob@UAK-F-1896</String>
+        <String>ft-rus@UAK-F-1896</String>
+        <String>ft-swe@UAK-F-1896</String>
+        <String>ft-ling@UAK-F-1896</String>
+        <String>ft-fin@UAK-F-1896</String>
+        <String>note(orth)@UAK-F-1896</String>
+        <String>lg(orth)@UAK-F-1896</String>
+        <String>phonet-IPA@UAK-F-1896</String>
+        <String>phonol-LAT@UAK-F-1896</String>
+    </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <prefGroup key="Text-to-Speech alignment">
+        <pref key="model">
+            <String>English</String>
+        </pref>
+        <pref key="audio">
+            <String>///Users/niko/Documents/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3.wav</String>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>70</Int>
+    </pref>
+    <prefGroup key="TranscriptionTable.TierMap">
+        <prefList key="ref@UAK-F-1896">
+            <String>ref@UAK-F-1896</String>
+            <String>orth@UAK-F-1896</String>
+        </prefList>
+    </prefGroup>
+    <prefList key="TranscriptionTable.NonEditableTiers"/>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
+    </pref>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
+    </pref>
+    <prefList key="TranscriptionTable.ColumnTypes">
+        <String>ref(spoken)T</String>
+        <String>orthT</String>
+    </prefList>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>108.0</Float>
+    </pref>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>5</Int>
+    </pref>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@UAK-F-1896</String>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="geo">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ref@UAK-F-1896">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+    </prefGroup>
+    <prefGroup key="Fine audio segmentation for splitting audio into utterance level segments.">
+        <pref key="low_energy_frames_pct">
+            <Float>0.1</Float>
+        </pref>
+        <pref key="do_merging">
+            <String>yes</String>
+        </pref>
+        <pref key="source_audio">
+            <String>///Users/niko/Documents/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3.wav</String>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,23</Object>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveRow">
+        <Int>40</Int>
+    </pref>
+    <prefList key="ExportRecogTiersDialog.TierOrder">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>ref@UAK-F-1896</String>
+        <String>phonet-UPA@UAK-F-1896</String>
+        <String>phonol-CYR@UAK-F-1896</String>
+        <String>translit-LAT@UAK-F-1896</String>
+        <String>note(ref)@UAK-F-1896</String>
+        <String>orth@UAK-F-1896</String>
+        <String>word@UAK-F-1896</String>
+        <String>lemma@UAK-F-1896</String>
+        <String>morph@UAK-F-1896</String>
+        <String>pos@UAK-F-1896</String>
+        <String>lg(word)@UAK-F-1896</String>
+        <String>note(word)@UAK-F-1896</String>
+        <String>ft-eng@UAK-F-1896</String>
+        <String>ft-deu@UAK-F-1896</String>
+        <String>ft-nob@UAK-F-1896</String>
+        <String>ft-rus@UAK-F-1896</String>
+        <String>ft-swe@UAK-F-1896</String>
+        <String>ft-ling@UAK-F-1896</String>
+        <String>ft-fin@UAK-F-1896</String>
+        <String>note(orth)@UAK-F-1896</String>
+        <String>lg(orth)@UAK-F-1896</String>
+        <String>phonet-IPA@UAK-F-1896</String>
+        <String>phonol-LAT@UAK-F-1896</String>
+    </prefList>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>2</Int>
+    </pref>
+    <pref key="ExportRecogTiersDialog.SelectTiersMode">
+        <String>Tier</String>
+    </pref>
+    <prefList key="ExportRecogTiersDialog.selectedTiers">
+        <String>ref@UAK-F-1896</String>
+    </prefList>
+    <prefList key="ExportRecogTiersDialog.HiddenTiers">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>phonet-UPA@UAK-F-1896</String>
+        <String>phonol-CYR@UAK-F-1896</String>
+        <String>translit-LAT@UAK-F-1896</String>
+        <String>note(ref)@UAK-F-1896</String>
+        <String>orth@UAK-F-1896</String>
+        <String>word@UAK-F-1896</String>
+        <String>lemma@UAK-F-1896</String>
+        <String>morph@UAK-F-1896</String>
+        <String>pos@UAK-F-1896</String>
+        <String>lg(word)@UAK-F-1896</String>
+        <String>note(word)@UAK-F-1896</String>
+        <String>ft-eng@UAK-F-1896</String>
+        <String>ft-deu@UAK-F-1896</String>
+        <String>ft-nob@UAK-F-1896</String>
+        <String>ft-rus@UAK-F-1896</String>
+        <String>ft-swe@UAK-F-1896</String>
+        <String>ft-ling@UAK-F-1896</String>
+        <String>ft-fin@UAK-F-1896</String>
+        <String>note(orth)@UAK-F-1896</String>
+        <String>lg(orth)@UAK-F-1896</String>
+        <String>phonet-IPA@UAK-F-1896</String>
+        <String>phonol-LAT@UAK-F-1896</String>
+    </prefList>
+    <prefGroup key="Silence Recognizer MPI-PL">
+        <prefGroup key="SelectionPanelPref">
+            <prefGroup key="Selections">
+                <prefList key="1">
+                    <Long>73491</Long>
+                    <Long>73969</Long>
+                </prefList>
+            </prefGroup>
+        </prefGroup>
+        <pref key="NoiseThresholdSetManually">
+            <Boolean>false</Boolean>
+        </pref>
+        <pref key="ManualNoiseThreshold">
+            <Double>0.1</Double>
+        </pref>
+        <pref key="MinimalNonSilenceDuration">
+            <Int>111</Int>
+        </pref>
+        <pref key="MinimalSilenceDuration">
+            <Int>386</Int>
+        </pref>
+    </prefGroup>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="SegmentationViewer.ZoomLevel">
+        <Float>116.0</Float>
+    </pref>
+    <prefGroup key="Recognizer for detecting longer segments with a lower amplitude than a given treshold">
+        <pref key="output_segments">
+            <String>All</String>
+        </pref>
+        <pref key="attack_time">
+            <Float>1000.0</Float>
+        </pref>
+        <pref key="threshold">
+            <Float>0.0</Float>
+        </pref>
+        <pref key="release_time">
+            <Float>1000.0</Float>
+        </pref>
+        <pref key="source_audio">
+            <String>///Users/niko/Documents/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3.wav</String>
+        </pref>
+    </prefGroup>
+    <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
+    <prefGroup key="IndividualPlayerVolumes">
+        <pref key="kpv_izva19660000Kolva-1-3.wav">
+            <Float>1.0</Float>
+        </pref>
+        <pref key="kpv_izva19660000Kolva-1-3-filt.wav">
+            <Float>1.0</Float>
+        </pref>
+        <pref key="kpv_izva19660000kolva-1-3.wav">
+            <Float>1.0</Float>
+        </pref>
+    </prefGroup>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>81.0</Float>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveColumn">
+        <String>Type2 : orthT</String>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+    </prefGroup>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type2">
+            <Int>425</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>425</Int>
+        </pref>
+    </prefGroup>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>263</Int>
+    </pref>
+    <prefList key="MultiTierViewer.HiddenTiers">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>phonet-UPA@UAK-F-1896</String>
+        <String>phonol-CYR@UAK-F-1896</String>
+        <String>translit-LAT@UAK-F-1896</String>
+        <String>note(ref)@UAK-F-1896</String>
+        <String>lemma@UAK-F-1896</String>
+        <String>morph@UAK-F-1896</String>
+        <String>pos@UAK-F-1896</String>
+        <String>lg(word)@UAK-F-1896</String>
+        <String>note(word)@UAK-F-1896</String>
+        <String>ft-deu@UAK-F-1896</String>
+        <String>ft-nob@UAK-F-1896</String>
+        <String>ft-swe@UAK-F-1896</String>
+        <String>ft-ling@UAK-F-1896</String>
+        <String>ft-fin@UAK-F-1896</String>
+        <String>note(orth)@UAK-F-1896</String>
+        <String>lg(orth)@UAK-F-1896</String>
+        <String>phonet-IPA@UAK-F-1896</String>
+        <String>phonol-LAT@UAK-F-1896</String>
+    </prefList>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Silence Recognizer MPI-PL</String>
+    </pref>
+</preferences>
