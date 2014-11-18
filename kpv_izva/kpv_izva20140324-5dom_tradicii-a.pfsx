@@ -290,21 +290,21 @@
             <String>orth@Маша</String>
             <String>ft-rus@Маша</String>
         </prefList>
-        <prefList key="ref@группа">
-            <String>orth@группа</String>
-            <String>ft-rus@группа</String>
-        </prefList>
         <prefList key="ref@ныв-1">
             <String>orth@ныв-1</String>
             <String>ft-rus@ныв-1</String>
         </prefList>
-        <prefList key="ref@S1">
-            <String>orth@S1</String>
-            <String>ft-rus@S1</String>
+        <prefList key="ref@группа">
+            <String>orth@группа</String>
+            <String>ft-rus@группа</String>
         </prefList>
         <prefList key="ref@зонка-1">
             <String>orth@зонка-1</String>
             <String>ft-rus@зонка-1</String>
+        </prefList>
+        <prefList key="ref@S1">
+            <String>orth@S1</String>
+            <String>ft-rus@S1</String>
         </prefList>
         <prefList key="ref@зонка-3">
             <String>orth@зонка-3</String>
@@ -363,14 +363,14 @@
         <pref key="ref@S1">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
         <pref key="ref@зонка-3">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,90,90</Object>
-        </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,160,90</Object>
         </pref>
         <pref key="ref@зонка-2">
             <Object class="java.awt.Color">0,160,90</Object>
@@ -388,119 +388,6 @@
     <pref key="MediaTime">
         <Long>0</Long>
     </pref>
-    <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="orth@зонка-1">
-            <Object class="java.awt.Color">160,0,160</Object>
-        </pref>
-        <pref key="ft-rus@ныв-5">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="ft-rus@ныв-4">
-            <Object class="java.awt.Color">90,160,0</Object>
-        </pref>
-        <pref key="orth@S1">
-            <Object class="java.awt.Color">90,0,0</Object>
-        </pref>
-        <pref key="ft-rus@группа">
-            <Object class="java.awt.Color">90,90,160</Object>
-        </pref>
-        <pref key="ft-rus@ныв-3">
-            <Object class="java.awt.Color">160,160,90</Object>
-        </pref>
-        <pref key="ft-rus@ныв-2">
-            <Object class="java.awt.Color">90,160,160</Object>
-        </pref>
-        <pref key="ft-rus@ныв-1">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
-        <pref key="orth@ныв-1">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
-        <pref key="orth@зонка-3">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
-        <pref key="orth@зонка-2">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
-        <pref key="ref@ныв-3">
-            <Object class="java.awt.Color">160,160,90</Object>
-        </pref>
-        <pref key="ref@ныв-2">
-            <Object class="java.awt.Color">90,160,160</Object>
-        </pref>
-        <pref key="ref@ныв-5">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="ref@ныв-4">
-            <Object class="java.awt.Color">90,160,0</Object>
-        </pref>
-        <pref key="ref@Маша">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
-        <pref key="ref@группа">
-            <Object class="java.awt.Color">90,90,160</Object>
-        </pref>
-        <pref key="ref@ныв-1">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
-        <pref key="ft-rus@зонка-2">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
-        <pref key="ft-rus@зонка-3">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">90,0,0</Object>
-        </pref>
-        <pref key="ft-rus@зонка-1">
-            <Object class="java.awt.Color">160,0,160</Object>
-        </pref>
-        <pref key="geo">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
-        <pref key="ft-rus@S1">
-            <Object class="java.awt.Color">90,0,0</Object>
-        </pref>
-        <pref key="orth@ныв-3">
-            <Object class="java.awt.Color">160,160,90</Object>
-        </pref>
-        <pref key="orth@ныв-2">
-            <Object class="java.awt.Color">90,160,160</Object>
-        </pref>
-        <pref key="orth@ныв-5">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="orth@ныв-4">
-            <Object class="java.awt.Color">90,160,0</Object>
-        </pref>
-        <pref key="ft-rus@Маша">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">0,90,160</Object>
-        </pref>
-        <pref key="orth@группа">
-            <Object class="java.awt.Color">90,90,160</Object>
-        </pref>
-        <pref key="ref@зонка-1">
-            <Object class="java.awt.Color">160,0,160</Object>
-        </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
-        <pref key="ref@зонка-3">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,90,90</Object>
-        </pref>
-        <pref key="orth@Маша">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
-        <pref key="ref@зонка-2">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
-    </prefGroup>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
