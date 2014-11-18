@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-11-18T18:29:02+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-11-18T19:09:05+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/Dropbox/kpv_izva_dropbox/kpv_izva20140324-5dom_tradicii-a/kpv_izva20140324-5dom_tradicii-a.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/Dropbox/kpv_izva_dropbox/kpv_izva20140324-5dom_tradicii-a/kpv_izva20140324-5dom_tradicii-a.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:9aee55d1-a198-4c8e-99bc-db37489cef45</PROPERTY>
