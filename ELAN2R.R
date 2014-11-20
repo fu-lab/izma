@@ -23,24 +23,122 @@
 
 setwd("~niko/Desktop/github/data/izma")
 
+# These packages will be used
+
 library(XML)
+library(dplyr)
+
+# At first we define the files we are going to use. Now we exclude folder kpv_novyje.
+# If you get errors later in the code this is usually a good place to do changes.
+# Try to grep only one file you know is structurally perfect. Once that works, then
+# start to take in a larger number of files. It is often that a file or two contain
+# some structural mistakes. Try to find those by limiting the content of xmlfiles-object.
+
+# n and dat are objects we use while we parse the XML files. They can be done now as well.
+# n shows practically the number of files in xmlfiles object. dat is an empty storage for
+# the data that is being read in.
+
 xmlfiles_all <- list.files(path=".", pattern="*.eaf$", recursive=TRUE)
 xmlfiles <- xmlfiles_all[ !grepl("kpv_novyje", xmlfiles_all) ]
 
 n <- length(xmlfiles)
+
 dat <- vector("list", n)
+
+# This part of the code reads all content of the word-tiers and saves it to a new object.
+
 for(i in 1:n){
         doc <- xmlTreeParse(xmlfiles[i], useInternalNodes = TRUE)
         nodes <- getNodeSet(doc, "//TIER[@LINGUISTIC_TYPE_REF='wordT']")
-        x<- lapply(nodes, function(x){ data.frame(
+        x <- lapply(nodes, function(x){ data.frame(
                 Filename = xmlfiles[i],
                 Speaker = xpathSApply(x, "." , xmlGetAttr, "PARTICIPANT"),
-                Token_ID = xpathSApply(x, ".//ANNOTATION/REF_ANNOTATION" , xmlGetAttr, "ANNOTATION_ID"),
-                Word= xpathSApply(x, ".//ANNOTATION/REF_ANNOTATION/ANNOTATION_VALUE" , xmlValue) )})
+                TokenID = xpathSApply(x, ".//ANNOTATION/REF_ANNOTATION" , xmlGetAttr, "ANNOTATION_ID"),
+                OrthID = xpathSApply(x, ".//ANNOTATION/REF_ANNOTATION" , xmlGetAttr, "ANNOTATION_REF"),
+                Token = xpathSApply(x, ".//ANNOTATION/REF_ANNOTATION/ANNOTATION_VALUE" , xmlValue) )})
         dat[[i]] <- do.call("rbind", x)
 }
 
-kpv_corpus <- do.call("rbind", dat)
+kpv.corpus.wordT <- tbl_df(do.call("rbind", dat))
 
-kpv_corpus
+# After this we read through all orthography tiers. That's where the basic transcription lives.
+
+for(i in 1:n){
+        doc <- xmlTreeParse(xmlfiles[i], useInternalNodes = TRUE)
+        nodes <- getNodeSet(doc, "//TIER[@LINGUISTIC_TYPE_REF='orthT']")
+        x <- lapply(nodes, function(x){ data.frame(
+                Filename = xmlfiles[i],
+                Speaker = xpathSApply(x, "." , xmlGetAttr, "PARTICIPANT"),
+                OrthID = xpathSApply(x, ".//ANNOTATION/REF_ANNOTATION" , xmlGetAttr, "ANNOTATION_ID"),
+                RefID = xpathSApply(x, ".//ANNOTATION/REF_ANNOTATION" , xmlGetAttr, "ANNOTATION_REF"),
+                Orth = xpathSApply(x, ".//ANNOTATION/REF_ANNOTATION/ANNOTATION_VALUE" , xmlValue) )})
+        dat[[i]] <- do.call("rbind", x)
+}
+
+kpv.corpus.orthT <- tbl_df(do.call("rbind", dat))
+
+# The same is done also to the reference tiers. They are the highest level tiers in our structure.
+
+for(i in 1:n){
+        doc <- xmlTreeParse(xmlfiles[i], useInternalNodes = TRUE)
+        nodes <- getNodeSet(doc, "//TIER[@LINGUISTIC_TYPE_REF='ref(spoken)T']")
+        x <- lapply(nodes, function(x){ data.frame(
+                Filename = xmlfiles[i],
+                Speaker = xpathSApply(x, "." , xmlGetAttr, "PARTICIPANT"),
+                RefID = xpathSApply(x, ".//ANNOTATION/ALIGNABLE_ANNOTATION" , xmlGetAttr, "ANNOTATION_ID"),
+                TS1 = xpathSApply(x, ".//ANNOTATION/ALIGNABLE_ANNOTATION" , xmlGetAttr, "TIME_SLOT_REF1"),
+                TS2 = xpathSApply(x, ".//ANNOTATION/ALIGNABLE_ANNOTATION" , xmlGetAttr, "TIME_SLOT_REF2"),
+                Ref = xpathSApply(x, ".//ANNOTATION/ALIGNABLE_ANNOTATION/ANNOTATION_VALUE" , xmlValue) )})
+        dat[[i]] <- do.call("rbind", x)
+}
+
+kpv.corpus.refT <- tbl_df(do.call("rbind", dat))
+
+# Only after we have the reference tiers we can move up to the timeslots.
+
+for(i in 1:n){
+        doc <- xmlTreeParse(xmlfiles[i], useInternalNodes = TRUE)
+        nodes <- getNodeSet(doc, "//TIME_ORDER")
+        x <- lapply(nodes, function(x){ data.frame(
+                Filename = xmlfiles[i],
+                TS1 = xpathSApply(x, ".//TIME_SLOT" , xmlGetAttr, "TIME_SLOT_ID"),
+                Time = xpathSApply(x, ".//TIME_SLOT" , xmlGetAttr, "TIME_VALUE")  )})
+        dat[[i]] <- do.call("rbind", x)
+}
+
+kpv.corpus.TS <- tbl_df(do.call("rbind", dat))
+
+# Then we merge all these together down to the token level. I know the structure
+# may feel heavy and redundant, as the same pieces of information are repeated
+# again and again. However, the attempt is to format data so that each observation
+# is located on its own row. In this case, as usually is in linguistic research,
+# we can think each token as its own observation. Naturally other types of arrangement
+# are possible as well.
+
+kpv.corpus.wordT
+kpv.corpus.orthT
+kpv.corpus.refT
+kpv.corpus.TS
+
+kpv.corpus <- left_join(kpv.corpus.wordT, kpv.corpus.orthT)
+kpv.corpus <- left_join(kpv.corpus, kpv.corpus.refT)
+kpv.corpus <- left_join(kpv.corpus, kpv.corpus.TS)
+
+kpv.corpus <- kpv.corpus %>%
+        rename(TS1_old = TS1) %>%
+        rename(Time_start = Time)
+
+kpv.corpus <- kpv.corpus %>%
+        rename(TS1 = TS2)
+
+kpv.corpus <- left_join(kpv.corpus, kpv.corpus.TS)
+
+kpv.corpus <- kpv.corpus %>%
+        rename(TS2_old = TS1) %>%
+        rename(Time_end = Time) #%>%
+
+kpv.corpus
+
+######
+
 setwd("~niko/Desktop/github/data/izma/meta")
