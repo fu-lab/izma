@@ -34,16 +34,21 @@ actors <- tbl_df(dbGetQuery(pv, "SELECT  * FROM actors"))
 sessions <- tbl_df(dbGetQuery(pv, "SELECT  * FROM sessions"))
 actor.links <- tbl_df(dbGetQuery(pv, "SELECT  * FROM actor_links"))
 OSM_POR <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_POR"))
-
-# Next we join the tables, the last one doesn't join for some reason...
+OSM_POR <- OSM_POR %>% rename(lat_por = lat) %>% rename(lon_por = lon)
+OSM_rec <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_Rec_place"))
+OSM_rec <- OSM_rec %>% rename(lat_rec = lat) %>% rename(lon_rec = lon) %>% rename(RecPlace_OSM_ID = OSM_ID)
+project <- tbl_df(dbGetQuery(pv, "SELECT * FROM fieldwork"))
+project$Project_title <- project$Project_name
+# Next we join the tables
 
 kpv.meta <- left_join(actor.links, actors)
 kpv.meta <- left_join(kpv.meta, sessions)
-# kpv_meta <- left_join(kpv_meta, OSM_POR, by = c("PlaceofRes_OSM_ID" = "OSM_ID"))
+kpv.meta <- left_join(kpv.meta, OSM_rec)
+kpv.meta <- left_join(kpv.meta, project)
 
 kpv.meta$Dialect <- kpv.meta$Session_name
 
-kpv.meta <- kpv.meta[,order(names(kpv.meta))]
+# kpv.meta <- kpv.meta[,order(names(kpv.meta))]
 
 kpv.meta$Dialect <- gsub("kpv_udo.+", "Udora Dialect", kpv.meta$Dialect, perl = TRUE)
 kpv.meta$Dialect <- gsub("kpv_izva.+", "Iźva Dialect", kpv.meta$Dialect, perl = TRUE)
@@ -52,42 +57,54 @@ kpv.meta$Dialect <- gsub("kpv_lit.+", "Standard Komi", kpv.meta$Dialect, perl = 
 kpv.meta$Dialect <- gsub("kpv_lit.+", "Vym Dialect", kpv.meta$Dialect, perl = TRUE)
 kpv.meta$Dialect <- gsub("kpv_vym.+", "Vym Dialect", kpv.meta$Dialect, perl = TRUE)
 
+
+kpv.meta$Date <- kpv.meta$Session_name
+
+kpv.meta$Date <- gsub(".+(\\d\\d\\d\\d)(\\d\\d)(\\d\\d).+", "\\1-\\2-\\3", kpv.meta$Date, perl = TRUE)
+
 # Now we can pick which elements we like and work with them onward. I select the files that are in Github.
 # Then I throw away the foreign researchers as we are not so interested about ourselves.
 # Please see that we can't merge this object with the transcription data from ELAN files before we have
 # made sure that each speaker has a name abbreviation which matches with the participant attribute in ELAN XML.
 
+# STUFF ABOVE THIS SHOULD BE CLEANED AND SOURCED IN ITS OWN FILE!!!
 
-actors.sessions <-   select(kpv.meta, Actor_ID, Session_name, Naming_convention, Sex, ActorRole, Birthtime_year, Recording_year, Dialect, Github, ELAN_file, Attr_Foreign_researcher) %>%
-                subset(Github %in% "TRUE" ) %>%
-                subset(! Attr_Foreign_researcher %in% "TRUE") %>%
-                select(Actor_ID:Dialect) %>%
-                mutate(Age = Recording_year - Birthtime_year) %>%
-                arrange(Age)
+# This prepares and sends data to izva-stats-app.
 
-actor.data <- select(kpv.meta, Actor_ID, Sex, Birthtime_year, Recording_year, Dialect, Github, ELAN_file, Attr_Foreign_researcher) %>%
-        subset(Github %in% "TRUE" ) %>%
-        subset(! Attr_Foreign_researcher %in% "TRUE") %>%
-        select(Actor_ID:Dialect) %>%
-        mutate(Age = Recording_year - Birthtime_year) %>%
-        distinct(Actor_ID) %>%
-        arrange(Age) %>%
-        mutate(Age_group = Age)
+# actor.data <- select(kpv.meta, Actor_ID, Sex, Birthtime_year, Recording_year, Dialect, Github, ELAN_file, Attr_Foreign_researcher) %>%
+#         subset(Github %in% "TRUE" ) %>%
+# #        subset(! Attr_Foreign_researcher %in% "TRUE") %>%
+#         select(Actor_ID:Dialect) %>%
+#         mutate(Age = Recording_year - Birthtime_year) %>%
+#         distinct(Actor_ID) %>%
+#         arrange(Age) %>%
+#         mutate(Age_group = Age)
+# 
+# actor.data$Age_group <- gsub("^[\\d]$|^10$", "1-10", actor.data$Age_group, perl=TRUE)
+# actor.data$Age_group <- gsub("^(1)(\\d)$|^20$", "10-20", actor.data$Age_group, perl=TRUE)
+# actor.data$Age_group <- gsub("^(2)(\\d)$|^30$", "20-30", actor.data$Age_group, perl=TRUE)
+# actor.data$Age_group <- gsub("^(3)(\\d)$|^40$", "30-40", actor.data$Age_group, perl=TRUE)
+# actor.data$Age_group <- gsub("^(4)(\\d)$|^50$", "40-50", actor.data$Age_group, perl=TRUE)
+# actor.data$Age_group <- gsub("^(5)(\\d)$|^60$", "50-60", actor.data$Age_group, perl=TRUE)
+# actor.data$Age_group <- gsub("^(6)(\\d)$|^70$", "60-70", actor.data$Age_group, perl=TRUE)
+# actor.data$Age_group <- gsub("^(7)(\\d)$|^80$", "70-80", actor.data$Age_group, perl=TRUE)
+# actor.data$Age_group <- gsub("^(8)(\\d)$|^90$", "80-90", actor.data$Age_group, perl=TRUE)
+# actor.data$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", actor.data$Age_group, perl=TRUE)
+# 
+# actor.data <- actor.data %>% select(-Age, -Birthtime_year, -Recording_year)
 
-actor.data$Age_group <- gsub("^[\\d]$|^10$", "1-10", actor.data$Age_group, perl=TRUE)
-actor.data$Age_group <- gsub("^(1)(\\d)$|^20$", "10-20", actor.data$Age_group, perl=TRUE)
-actor.data$Age_group <- gsub("^(2)(\\d)$|^30$", "20-30", actor.data$Age_group, perl=TRUE)
-actor.data$Age_group <- gsub("^(3)(\\d)$|^40$", "30-40", actor.data$Age_group, perl=TRUE)
-actor.data$Age_group <- gsub("^(4)(\\d)$|^50$", "40-50", actor.data$Age_group, perl=TRUE)
-actor.data$Age_group <- gsub("^(5)(\\d)$|^60$", "50-60", actor.data$Age_group, perl=TRUE)
-actor.data$Age_group <- gsub("^(6)(\\d)$|^70$", "60-70", actor.data$Age_group, perl=TRUE)
-actor.data$Age_group <- gsub("^(7)(\\d)$|^80$", "70-80", actor.data$Age_group, perl=TRUE)
-actor.data$Age_group <- gsub("^(8)(\\d)$|^90$", "80-90", actor.data$Age_group, perl=TRUE)
-actor.data$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", actor.data$Age_group, perl=TRUE)
+# saveRDS(actor.data, "/Users/niko/Desktop/github/data/izma/izva-stats-app/data/actor_data.rds")
 
-actor.data <- actor.data %>% select(-Age, -Birthtime_year, -Recording_year)
+# session.data <- kpv.meta %>%
+#         select(Actor_ID, Session_name, Naming_convention, Sex, ActorRole, Birthtime_year, Recording_year, Github, ELAN_file, Attr_Foreign_researcher) %>%
+#         subset(ELAN_file %in% "TRUE" ) %>%
+#         select(Actor_ID:Recording_year) %>%
+#         mutate(Age = Recording_year - Birthtime_year) %>%
+#         select(-Actor_ID) %>%
+#         arrange(Age)
+# 
+# session.data
 
-saveRDS(actor.data, "/Users/niko/Desktop/github/data/izma/izva-stats-app/data/actor_data.rds")
 
 # This is an attempt to reformat data into more simple structure. It worked,
 # finally, but I also understood that ggplot2 likes data in the long format, in
@@ -113,12 +130,7 @@ saveRDS(actor.data, "/Users/niko/Desktop/github/data/izma/izva-stats-app/data/ac
 
 # Check the verb count()
 
-sessions.IMDI <- select(kpv.meta, Actor_ID, Session_name, Naming_convention, Sex, ActorRole, Birthtime_year, Recording_year, Github, ELAN_file, Attr_Foreign_researcher) %>%
-                 subset(Github %in% "TRUE" ) %>%
-                 subset(! Attr_Foreign_researcher %in% "TRUE") %>%
-                 select(Actor_ID:Recording_year) %>%
-                 mutate(Age = Recording_year - Birthtime_year) %>%
-                 arrange(Age)
+rm(actors, actor.links, OSM_POR, sessions)
 
 # One thing we have done regularly in Freiburg is to export IMDI XML directly
 # from FileMaker Pro. Joshua Wilbur has been perfecting this for a long time,
@@ -159,57 +171,7 @@ sessions.IMDI <- select(kpv.meta, Actor_ID, Session_name, Naming_convention, Sex
 # certainly be somewhat behind from the files we work with. However, we could
 # maybe update them once a week, as an example.
 
-library(XML)
-library(kulife)
-
-# NOTE TO SELF: I may need a new join tables for session files and languages spoken...
-
-write.xml(actors.imdi, file="sessions2imdi.xml")
-write.xml(sessions.imdi, file="actors2imdi.xml")
-
-xml <- xmlTreeParse(write.xml(test, file="mydata2.xml"))
-xml
-### This is just a test with FST...
-
-lytkin <- read.csv("/Users/niko/Desktop/github/data/izma/kpv_lit/kpv_lit19570000lytkin.hfst", header = FALSE, sep = "\t")
-tbl_df(lytkin)
-
-lytkin <- select()
-
 # In the end you can close the database connection with this command.
 
 dbDisconnect(pv)
-
-############ This is just a test for some new stuff
-
-source("http://www.danielezrajohnson.com/Rbrul.R")
-rbrul()
-
-library(audio)
-audio.drivers()
-audiorec <- function(kk,f){  # kk: time length in seconds; f: filename
-        if(f %in% list.files()) 
-        {file.remove(f); print('The former file has been replaced');}
-        require(audio)
-        s11 <- rep(NA_real_, 16000*kk) # rate=16000
-        record(s11, 16000, 1)  # record in mono mode
-        wait(kk)
-        save.wave(s11,f)
-}
-
-x <- audioSample(sin(1:8000/10), 8000)
-x$rate
-x[1:10]
-play(x[1:10])
-
-library(audio)
-x <- rep(NA_real_, 16000)
-# start recording into x
-record(x, 18000, 1)
-# monitor the recording progress
-par(ask=FALSE) # for continuous plotting
-while (is.na(x[length(x)])) plot(x, type='l', ylim=c(-1, 1))
-# play the recorded audio
-play(x)
-# save the file
-save.wave(x, "x.wav")
+rm(pv, drv)
