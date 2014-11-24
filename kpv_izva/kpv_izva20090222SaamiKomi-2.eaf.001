@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="Michael Rießler" DATE="2014-11-18T16:14:16+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="Michael Rießler" DATE="2014-11-20T15:33:59+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video2.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video2.mov"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:0b968669-1fc1-479e-8445-bdd49eb40f48</PROPERTY>
@@ -24062,10 +24062,10 @@
     <CONTROLLED_VOCABULARY CV_ID="TurnModeCV">
         <DESCRIPTION LANG_REF="und"/>
     </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="lg">
+    <CONTROLLED_VOCABULARY CV_ID="TurnFidelityCV">
         <DESCRIPTION LANG_REF="und"/>
     </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="TurnFidelityCV">
+    <CONTROLLED_VOCABULARY CV_ID="lg">
         <DESCRIPTION LANG_REF="und"/>
     </CONTROLLED_VOCABULARY>
     <CONTROLLED_VOCABULARY CV_ID="SectionTypeCV">

@@ -9,29 +9,6 @@
         <String>note(geo)</String>
         <String>part</String>
         <String>note(part)</String>
-        <String>ref@S1</String>
-        <String>phonet-UPA@S1</String>
-        <String>phonol-CYR@S1</String>
-        <String>translit-LAT@S1</String>
-        <String>note(ref)@S1</String>
-        <String>orth@S1</String>
-        <String>word@S1</String>
-        <String>lemma@S1</String>
-        <String>morph@S1</String>
-        <String>pos@S1</String>
-        <String>lg(word)@S1</String>
-        <String>note(word)@S1</String>
-        <String>ft-eng@S1</String>
-        <String>ft-deu@S1</String>
-        <String>ft-nob@S1</String>
-        <String>ft-rus@S1</String>
-        <String>ft-swe@S1</String>
-        <String>ft-ling@S1</String>
-        <String>ft-fin@S1</String>
-        <String>note(orth)@S1</String>
-        <String>lg(orth)@S1</String>
-        <String>phonet-IPA@S1</String>
-        <String>phonol-LAT@S1</String>
         <String>ref@VCP-M-1993</String>
         <String>phonet-UPA@VCP-M-1993</String>
         <String>phonol-CYR@VCP-M-1993</String>
@@ -170,6 +147,29 @@
         <String>pos@Саша</String>
         <String>lg(word)@Саша</String>
         <String>note(word)@Саша</String>
+        <String>ref@MSF-F-1969</String>
+        <String>phonet-UPA@MSF-F-1969</String>
+        <String>phonol-CYR@MSF-F-1969</String>
+        <String>translit-LAT@MSF-F-1969</String>
+        <String>note(ref)@MSF-F-1969</String>
+        <String>orth@MSF-F-1969</String>
+        <String>lemma@MSF-F-1969</String>
+        <String>morph@MSF-F-1969</String>
+        <String>word@MSF-F-1969</String>
+        <String>ft-eng@MSF-F-1969</String>
+        <String>ft-deu@MSF-F-1969</String>
+        <String>ft-nob@MSF-F-1969</String>
+        <String>ft-rus@MSF-F-1969</String>
+        <String>ft-swe@MSF-F-1969</String>
+        <String>ft-ling@MSF-F-1969</String>
+        <String>pos@MSF-F-1969</String>
+        <String>lg(word)@MSF-F-1969</String>
+        <String>ft-fin@MSF-F-1969</String>
+        <String>note(orth)@MSF-F-1969</String>
+        <String>lg(orth)@MSF-F-1969</String>
+        <String>phonet-IPA@MSF-F-1969</String>
+        <String>phonol-LAT@MSF-F-1969</String>
+        <String>note(word)@MSF-F-1969</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
@@ -193,38 +193,41 @@
         <Int>4</Int>
     </pref>
     <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@VCP-M-1993</String>
+        <String>ref@MSF-F-1969</String>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="geo">
-            <Object class="java.awt.Color">0,160,90</Object>
+        <pref key="ref@MSF-F-1969">
+            <Object class="java.awt.Color">90,0,160</Object>
         </pref>
         <pref key="ref@VCP-M-1993">
             <Object class="java.awt.Color">0,90,0</Object>
         </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">160,0,0</Object>
+        <pref key="geo">
+            <Object class="java.awt.Color">0,160,90</Object>
         </pref>
         <pref key="ref@Стасик">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
         <pref key="ref@Анна">
             <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
-        <pref key="ref@Рома">
-            <Object class="java.awt.Color">90,90,0</Object>
         </pref>
         <pref key="ref@Сергей">
             <Object class="java.awt.Color">160,90,160</Object>
         </pref>
+        <pref key="ref@Рома">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
         <pref key="ref@S1">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,90,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,160</Object>
         </pref>
         <pref key="ref@Саша">
             <Object class="java.awt.Color">0,160,160</Object>
@@ -234,7 +237,7 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>522533</Long>
+        <Long>727535</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>3</Int>
@@ -253,7 +256,7 @@
         <String>ref@Саша</String>
     </prefList>
     <pref key="MediaTime">
-        <Long>524665</Long>
+        <Long>727535</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="geo">
@@ -265,11 +268,11 @@
         <pref key="ref@S1">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,90,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,160</Object>
         </pref>
     </prefGroup>
     <pref key="MultiTierViewer.TierSortingMode">
@@ -292,13 +295,13 @@
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>520881</Long>
+        <Long>700285</Long>
+    </pref>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>414</Int>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>245</Int>
-    </pref>
     <pref key="SelectionEndTime">
-        <Long>525370</Long>
+        <Long>727545</Long>
     </pref>
 </preferences>

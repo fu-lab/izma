@@ -1,0 +1,19 @@
+---
+title: "Exporting metadata to IMDI format"
+author: "Niko Partanen"
+date: "22 Nov 2014"
+output: html_document
+---
+
+## Introduction
+
+IMDI has been the standard in documentary linguistic metadata for a while now. It is slowly being superceded by CMDI, but as it stands, one can still only upload metadata in IMDI format to TLA archive. IMDI as itself is rather good format for saving metadata. As I see it, the main benefit of it is that each session can be treated independently from all other files. One folder contains the annotation file, media files and metadata file. The main problem this model creates is the fact that some parts of the data are repeated over and over again. As an example, all information about each participant is repeated over and over again in each session where that person is present. For storing data this is not a problem, but it is a problem when we want to enter data and take care from the integrity of data.
+
+It seems that in CMDI it is possible to have separate **actors.xml** file in the uppermost node in the folder hierarchy, and within session files the participants would just refer to this file with a unique ID number. This solves the problem we have with repeatitive data, but at the same time it takes away one of the best features of IMDI, which is the aforementioned independence of each session.
+
+Probably we are going to develop automatized data export to both IMDI and CMDI. IMDI has fixed entries that can in no way match all our needs, but at the same time those few fields are standardized and do provide a good overview to what is in data. For long term storage of metadata it is necessary to turn to CMDI, but setting that up for all our metadata fields will also be quite an enterprise. Whereas the scripts written to work with IMDI must be relatively shareable as IMDI is always the same, are the scripts that work with CMDI deemed to remain as project-internal curiosities? In many ways this is a double-bladed sword we are working with, as the things that annoy in IMDI, stricktness, limitations, simplicity, are really often at the same time the best sides of IMDI.
+
+## Technical aspects
+
+The metadata can be exported in a flat XML structure, which is then nested approprietaly by XSLT. However, IMDI metadata has basically two sections which can contain several values and which thereby cannot be presented in a flat structure. These are participants and languages, as sessions usually have several participants who speak different languages.
+

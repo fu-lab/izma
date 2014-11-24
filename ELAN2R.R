@@ -135,10 +135,23 @@ kpv.corpus <- left_join(kpv.corpus, kpv.corpus.TS)
 
 kpv.corpus <- kpv.corpus %>%
         rename(TS2_old = TS1) %>%
-        rename(Time_end = Time) #%>%
+        rename(Time_end = Time)
 
-kpv.corpus
+kpv.corpus <- kpv.corpus %>%
+        select(-TS2_old, -TS1_old, -RefID, -OrthID, -TokenID, -Ref)
 
+kpv.corpus$Session_name <- kpv.corpus$Filename
+kpv.corpus$Session_name <- gsub("kpv_izva/", "", kpv.corpus$Session_name, perl = TRUE)
+kpv.corpus$Session_name <- gsub("kpv_udora/", "", kpv.corpus$Session_name, perl = TRUE)
+kpv.corpus$Session_name <- gsub("kpv_dialektjas/", "", kpv.corpus$Session_name, perl = TRUE)
+kpv.corpus$Session_name <- gsub("kpv_lit/", "", kpv.corpus$Session_name, perl = TRUE)
+kpv.corpus$Session_name <- gsub("\\.eaf", "", kpv.corpus$Session_name, perl = TRUE)
+# kpv.corpus %>% distinct(Session_name) %>% select(Session_name) %>% arrange()
+
+# In the end we remove from workspace the items we used to compose the actual corpus.
+# This is of course not necessary, but leads to a nicer workspace.
+rm(dat, doc, i, n, nodes, x, xmlfiles, xmlfiles_all)
+rm(kpv.corpus.orthT, kpv.corpus.refT, kpv.corpus.TS, kpv.corpus.wordT)
 ######
 
 setwd("~niko/Desktop/github/data/izma/meta")
