@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-11-18T18:33:18+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-11-26T17:03:26+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3.wav"/>
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3-filt.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3-filt.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3-filt.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3-filt.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:a16df40f-9ee2-4242-b5fb-dcf0fe33b020</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">395</PROPERTY>
     </HEADER>

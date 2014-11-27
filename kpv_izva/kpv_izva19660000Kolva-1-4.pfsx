@@ -56,17 +56,17 @@
         <String>phonet-IPA@EVV-M-1933</String>
         <String>phonol-LAT@EVV-M-1933</String>
     </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
             <String>English</String>
         </pref>
         <pref key="audio">
-            <String>///Users/niko/Documents/kpv_izva/kpv_izva19660000Kolva-1-4/kpv_izva19660000Kolva-1-4.wav</String>
+            <String>///Users/niko/kom/kpv_izva/kpv_izva19660000Kolva-1-4/kpv_izva19660000Kolva-1-4.wav</String>
         </pref>
     </prefGroup>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
-    </pref>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -91,11 +91,11 @@
         </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="MediaControlVolume">
-        <Float>1.0</Float>
-    </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
+    </pref>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
     </pref>
     <prefList key="SegmentationViewer.HiddenTiers"/>
     <prefList key="TranscriptionTable.ColumnTypes">
@@ -104,29 +104,29 @@
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>6</Int>
     </pref>
-    <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@UAK-F-1896</String>
-    </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@EVV-M-1933">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">90,90,160</Object>
+        </pref>
+        <pref key="ref@EVV-M-1933">
+            <Object class="java.awt.Color">90,160,90</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">0,0,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,160,90</Object>
         </pref>
         <pref key="ref@UAK-F-1896">
             <Object class="java.awt.Color">90,160,0</Object>
         </pref>
     </prefGroup>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@UAK-F-1896</String>
+    </pref>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
         <String>Recipient</String>
@@ -151,35 +151,35 @@
         <String>ref@UAK-F-1896</String>
         <String>ref@EVV-M-1933</String>
     </prefList>
+    <pref key="MediaTime">
+        <Long>155</Long>
+    </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="geo">
-            <Object class="java.awt.Color">90,90,160</Object>
-        </pref>
         <pref key="ref@EVV-M-1933">
             <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">90,90,160</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">0,0,160</Object>
         </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,90,160</Object>
         </pref>
-        <pref key="part">
+        <pref key="orth@EVV-M-1933">
             <Object class="java.awt.Color">90,160,90</Object>
         </pref>
         <pref key="ref@UAK-F-1896">
             <Object class="java.awt.Color">90,160,0</Object>
         </pref>
-        <pref key="orth@EVV-M-1933">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
         <pref key="orth@UAK-F-1896">
             <Object class="java.awt.Color">90,160,0</Object>
         </pref>
     </prefGroup>
-    <pref key="MediaTime">
-        <Long>5265</Long>
-    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -187,14 +187,17 @@
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
-    <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,773</Object>
-    </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>100.0</Float>
     </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type1 : orthT</String>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -228,21 +231,18 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>part</String>
-    </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>-100</Long>
+        <Long>0</Long>
     </pref>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
-    </pref>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type1">
             <Int>850</Int>
         </pref>
     </prefGroup>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
     <pref key="SelectionEndTime">
         <Long>1943</Long>
     </pref>
