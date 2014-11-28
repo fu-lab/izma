@@ -51,6 +51,9 @@
             <String>ft-rus@OMT-M-1961</String>
         </prefList>
     </prefGroup>
+    <pref key="ExportPraatDialog.SelectTiersMode">
+        <String>Tier</String>
+    </pref>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
@@ -84,7 +87,7 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>632</Int>
+        <Int>53</Int>
     </pref>
     <pref key="SelectionBeginTime">
         <Long>1796710</Long>
@@ -95,56 +98,9 @@
     <pref key="MediaTime">
         <Long>1796710</Long>
     </pref>
-    <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="orth@OMT-M-1961">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
-        <pref key="orth@NTP-M-1986">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
-        <pref key="ft-eng@MSF-F-1969">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
-        <pref key="orth@MSF-F-1969">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
-        <pref key="ft-rus@NTP-M-1986">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
-        <pref key="ft-rus@VPC-M-1993">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="ft-rus@MSF-F-1969">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
-        <pref key="ref@MSF-F-1969">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
-        <pref key="ref@VPC-M-1993">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="ref@OMT-M-1961">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
-        <pref key="orth@VPC-M-1993">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="ft-eng@VPC-M-1993">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
-        <pref key="ft-rus@OMT-M-1961">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
-        <pref key="ft-eng@NTP-M-1986">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
-        <pref key="ft-eng@OMT-M-1961">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
-    </prefGroup>
+    <prefList key="ExportPraatDialog.selectedTiers">
+        <String>orth@OMT-M-1961</String>
+    </prefList>
     <prefList key="TranscriptionTable.HiddenTiers"/>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
@@ -153,10 +109,32 @@
         <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>100.0</Float>
+        <Float>47.0</Float>
     </pref>
+    <prefList key="ExportPraatDialog.TierOrder">
+        <String>ref@OMT-M-1961</String>
+        <String>orth@OMT-M-1961</String>
+        <String>word@OMT-M-1961</String>
+        <String>ft-eng@OMT-M-1961</String>
+        <String>ft-rus@OMT-M-1961</String>
+        <String>ref@MSF-F-1969</String>
+        <String>orth@MSF-F-1969</String>
+        <String>word@MSF-F-1969</String>
+        <String>ft-eng@MSF-F-1969</String>
+        <String>ft-rus@MSF-F-1969</String>
+        <String>ref@VPC-M-1993</String>
+        <String>orth@VPC-M-1993</String>
+        <String>word@VPC-M-1993</String>
+        <String>ft-eng@VPC-M-1993</String>
+        <String>ft-rus@VPC-M-1993</String>
+        <String>ref@NTP-M-1986</String>
+        <String>orth@NTP-M-1986</String>
+        <String>word@NTP-M-1986</String>
+        <String>ft-eng@NTP-M-1986</String>
+        <String>ft-rus@NTP-M-1986</String>
+    </prefList>
     <pref key="TranscriptionTable.LastActiveColumn">
-        <String>Type3 : ft-rusT</String>
+        <String>Type2 : ft-engT</String>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>ref@OMT-M-1961</String>
@@ -164,6 +142,9 @@
     <pref key="TimeScaleBeginTime">
         <Long>1793350</Long>
     </pref>
+    <prefList key="ExportPraatDialog.LastSelectedItems">
+        <String>OMT-M-1961</String>
+    </prefList>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
             <Int>281</Int>
@@ -175,6 +156,27 @@
             <Int>282</Int>
         </pref>
     </prefGroup>
+    <prefList key="ExportPraatDialog.HiddenTiers">
+        <String>ref@OMT-M-1961</String>
+        <String>word@OMT-M-1961</String>
+        <String>ft-eng@OMT-M-1961</String>
+        <String>ft-rus@OMT-M-1961</String>
+        <String>ref@MSF-F-1969</String>
+        <String>orth@MSF-F-1969</String>
+        <String>word@MSF-F-1969</String>
+        <String>ft-eng@MSF-F-1969</String>
+        <String>ft-rus@MSF-F-1969</String>
+        <String>ref@VPC-M-1993</String>
+        <String>orth@VPC-M-1993</String>
+        <String>word@VPC-M-1993</String>
+        <String>ft-eng@VPC-M-1993</String>
+        <String>ft-rus@VPC-M-1993</String>
+        <String>ref@NTP-M-1986</String>
+        <String>orth@NTP-M-1986</String>
+        <String>word@NTP-M-1986</String>
+        <String>ft-eng@NTP-M-1986</String>
+        <String>ft-rus@NTP-M-1986</String>
+    </prefList>
     <pref key="SelectionEndTime">
         <Long>1797180</Long>
     </pref>
