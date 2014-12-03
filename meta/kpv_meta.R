@@ -46,6 +46,9 @@ kpv.meta <- left_join(kpv.meta, sessions)
 kpv.meta <- left_join(kpv.meta, OSM_rec)
 kpv.meta <- left_join(kpv.meta, project)
 
+project.contact.session <- kpv.meta %>% select(Session_name, Project_Contact_ID) %>% unique() %>% rename(Actor_ID = Project_Contact_ID)
+project.contact.session <- left_join(project.contact.session, actors) %>% select(Session_name, Actor_ID, Actor_fullname, Address, Email, Organisation)
+
 kpv.meta$Dialect <- kpv.meta$Session_name
 
 # kpv.meta <- kpv.meta[,order(names(kpv.meta))]
@@ -175,3 +178,4 @@ rm(actors, actor.links, OSM_POR, sessions)
 
 dbDisconnect(pv)
 rm(pv, drv)
+

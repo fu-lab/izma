@@ -10,101 +10,138 @@ end.time <- Sys.time()
 time.taken <- end.time - start.time
 time.taken
 rm(end.time, start.time, time.taken)
+setwd("~niko/Desktop/github/data/izma/meta")
 
 kpv.corpus.w <- kpv.corpus %>% filter(grepl("\\b[А-ЯӦа-яӧі-]+\\b", Token))
 kpv.corpus.w
 
+source("kpv_meta.R")
+
 kpv.meta
 
 kpv.corpus
+project.contact.session
 
-source("kpv_meta.R")
+kpv.imdi <- kpv.meta %>% filter(grepl("kpv_izva.+", Session_name)) %>% select(Session_name, Title, Date, ELAN_file, lat_rec, lon_rec, Project_name, Project_title, Project_ID, Project_Contact_ID, Genre) %>% distinct(Session_name) %>% filter(ELAN_file == TRUE) %>% arrange(Date)
 
-kpv.imdi <- kpv.meta %>% select(Session_name, Date, Title, ELAN_file, lat_rec, lon_rec, Project_name, Project_title, Project_ID, Project_Contact_ID, Genre) %>% distinct(Session_name) %>% filter(ELAN_file == TRUE) %>% arrange(Date) %>%
-        select(-Date, -ELAN_file, -Title, -Project_title, -lat_rec, -lon_rec, -Project_name)
-
-kpv <- merge(kpv.corpus, kpv.meta)
-kpv
-
-plot(kpv.meta$lat_rec, kpv.meta$lon_rec)
-
-kpv.corpus
-kpv.meta <- kpv.meta %>% rename(Speaker = Naming_convention)
-
-kpv.sub <- kpv.meta %>%
-        select()
-
-kpv <- left_join(kpv.corpus, kpv.meta)
-
-kpv %>% select(Token, Naming_convention, Sex, Dialect)
-View(kpv)
-
-
-
-
-# kpv.corpus
-# kpv.meta
-
-sessions.database <- select(kpv.meta, Session_name, Github, ELAN_file) %>%
-        subset(ELAN_file %in% "TRUE" ) %>%
-        distinct(Session_name) %>%
-        arrange(Session_name) %>%
-        select(Session_name)
-
-
-sessions.elan <- kpv.corpus %>%
-        distinct(Session_name) %>%
-        arrange(Session_name) %>%
-        select(Session_name)
-
-sessions.database
-sessions.elan
-
-diff <- sessions.database$Session_name[!sessions.database$Session_name %in% sessions.elan$Session_name]
-
-diff
-
-#        subset(! Attr_Foreign_researcher %in% "TRUE") %>%
-#        select(Actor_ID:Recording_year) %>%
-#        mutate(Age = Recording_year - Birthtime_year)
-
-imdi
-
-imdi <- xmlTree()
-imdi$addTag("METATRANSCRIPT", close=FALSE)
-for (i in 1:nrow(kpv.imdi)) {
-        for (j in names(kpv.imdi)) {
-                imdi$addTag(j, kpv.imdi[i, j])
-        }
-}
-imdi$closeTag()
-
-cat(saveXML(imdi))
-
+        
+kpv.imdi
 
 #####
 
+kpv.imdi <- kpv.imdi[1,]
+project.contact <- project.contact.session[1,]
+project.contact
+kpv.imdi
 
+
+METATRANSCRIPT <- newXMLNode("METATRANSCRIPT")
+                                addAttributes(METATRANSCRIPT, Date="test")
+Session        <- newXMLNode("Session")
+                                addAttributes(Session, xmlns.fn="http://www.w3.org/2005/xpath-functions")
+Session_name   <- lapply(seq_along(kpv.imdi$Session_name),function(x){
+                                newXMLNode("Name", .children = kpv.imdi$Session_name[x])})
+Session_title   <- lapply(seq_along(kpv.imdi$Title),function(x){
+                                newXMLNode("Title", .children = kpv.imdi$Title[x])})
+Session_title   <- lapply(seq_along(kpv.imdi$Date),function(x){
+                                newXMLNode("Date", .children = kpv.imdi$Date[x])})
+# Location   <- lapply(seq_along(kpv.imdi$Date),function(x){
+#                                newXMLNode("Date", .children = kpv.imdi$Date[x])})
+Project_name   <- lapply(seq_along(kpv.imdi$Project_name),function(x){
+                                newXMLNode("Project_name", .children = kpv.imdi$Project_name[x])})
+Project_title <- lapply(seq_along(kpv.imdi$Project_title),function(x){
+                                newXMLNode("Project_title", .children = kpv.imdi$Project_title[x])})
+Project_ID <- lapply(seq_along(kpv.imdi$Project_ID),function(x){
+                                newXMLNode("Project_ID", .children = kpv.imdi$Project_ID[x])})
+Contact_name <- lapply(seq_along(project.contact$Actor_fullname),function(x){
+                                newXMLNode("Name", .children = project.contact$Actor_fullname[x])})
+Address <- lapply(seq_along(project.contact$Address),function(x){
+                                newXMLNode("Address", .children = project.contact$Address[x])})
+Email <- lapply(seq_along(project.contact$Email),function(x){
+                                newXMLNode("Email", .children = project.contact$Email[x])})
+Organisation <- lapply(seq_along(project.contact$Organisation),function(x){
+                               newXMLNode("Organisation", .children = project.contact$Organisation[x])})
+Genre <- lapply(seq_along(kpv.imdi$Genre),function(x){
+                                newXMLNode("Genre", .children = kpv.imdi$Genre[x])})
+
+addChildren(METATRANSCRIPT, Session, Session_name, Session_title, Project_name, Project_title, Project_ID, Contact_name, Address, Email, Organisation, Genre)
+
+kpv.imdi
+
+?addChildren
+
+
+
+
+
+
+
+
+
+
+
+#######
+
+
+dfToXML <- function(wavs) {
+        session <- newXMLNode("session")
+        addAttributes(session, name=wavs$session.name)
+        file <- lapply(seq_along(wavs$sample.rate),function(x)
+        {newXMLNode("file", .children = wavs$file.name.ext[x])}
+        )
+        sample.rate <- lapply(seq_along(wavs$sample.rate),function(x)
+        {newXMLNode("sample_rate", .children = wavs$sample.rate[x])}
+        )
+        channels <- lapply(seq_along(wavs$sample.rate),function(x)
+        {newXMLNode("channels", .children = wavs$channels[x])}
+        )
+        bits <- lapply(seq_along(wavs$sample.rate),function(x)
+        {newXMLNode("bits", .children = wavs$bits[x])}
+        )
+        samples <- lapply(seq_along(wavs$sample.rate),function(x)
+        {newXMLNode("samples", .children = wavs$samples[x])}
+        )
+        length <- lapply(seq_along(wavs$sample.rate),function(x)
+        {newXMLNode("length", attrs = c(format="seconds"), .children = wavs$length[x])}
+        )
+        
+        addChildren(session, file, sample.rate, channels, bits, samples, length)
+        saveXML(session, file=paste0(wavs$path[1], wavs$file.name[1], ".xml"))
+}
+
+lapply(wavs, dfToXML)
+
+
+
+
+
+
+
+
+
+
+
+########
 imdi <- xmlTree()
 imdi$addTag("METATRANSCRIPT", close=FALSE)
-for (i in 1:nrow(session.base)) {
+for (i in 1:nrow(kpv.imdi)) {
         imdi$addTag("Session", close=FALSE)
         for (j in names(kpv.imdi)) {
-                imdi$addTag(j, session.base[i, j])
+                imdi$addTag(j, kpv.imdi[i, j])
         }
         imdi$addTag("MDGroup", close=FALSE)
                 imdi$addTag("Location", close=FALSE)
-                for (j in names(session.loc)) {
-                imdi$addTag(j, session.loc[i, j])
+                for (j in names(kpv.imdi)) {
+                imdi$addTag(j, kpv.imdi[i, j])
         }
         imdi$closeTag() # This closes Location
                 imdi$addTag("Project", close=FALSE)
-                for (j in names(session.project)) {
-                imdi$addTag(j, session.project[i, j])
+                for (j in names(kpv.imdi)) {
+                imdi$addTag(j, kpv.imdi[i, j])
         }
                 imdi$addTag("Contact", close=FALSE)
-                        for (j in names(session.contact)) {
-                        imdi$addTag(j, session.contact[i, j])
+                        for (j in names(kpv.imdi)) {
+                        imdi$addTag(j, kpv.imdi[i, j])
         }
         imdi$closeTag() # This closes Contact
         imdi$closeTag() # This closes Project
