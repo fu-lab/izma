@@ -139,12 +139,12 @@
     <pref key="MultiTierViewer.ActiveTierName">
         <String>ref@OMT-M-1961</String>
     </pref>
-    <pref key="TimeScaleBeginTime">
-        <Long>1793350</Long>
-    </pref>
     <prefList key="ExportPraatDialog.LastSelectedItems">
         <String>OMT-M-1961</String>
     </prefList>
+    <pref key="TimeScaleBeginTime">
+        <Long>1793350</Long>
+    </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
             <Int>281</Int>
