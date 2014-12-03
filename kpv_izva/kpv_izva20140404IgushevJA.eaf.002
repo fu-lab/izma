@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-11-28T18:05:05+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-11-30T17:04:06+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.wav"/>
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.m4v" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.m4v"/>
@@ -6154,7 +6154,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1065" ANNOTATION_REF="a166">
-                <ANNOTATION_VALUE>расска - , ачым , висьталэ ,</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>расска- , ачым , висьталэ ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -36997,87 +36997,87 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1725" ANNOTATION_REF="a1054">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Then near lingonberries and blueberries the game settles, that is, black grouses,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1726" ANNOTATION_REF="a1055">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>hazel grouses.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1727" ANNOTATION_REF="a1056">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And well during the war</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1728" ANNOTATION_REF="a1057">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>there was a very hard time, people saw lots of famine.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1729" ANNOTATION_REF="a1058">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And from Ödesdin all men were taken to the front, there were no men, and women themselves, well this</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1730" ANNOTATION_REF="a1059">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Vaśka Mikulai Ögaš's mother, it is,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1731" ANNOTATION_REF="a1060">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>was, mm,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1732" ANNOTATION_REF="a1061">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>eh, she</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1733" ANNOTATION_REF="a1062">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>mother of Mikulai Ögaš,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1734" ANNOTATION_REF="a1063">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ts, mm,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1735" ANNOTATION_REF="a1064">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>she was</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1736" ANNOTATION_REF="a1065">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>say-, says herself,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1737" ANNOTATION_REF="a1066">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>here in Ödesdin, from Ödesdin hunger doesn't drive us (?) to Siberia, in Ödesdin</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1738" ANNOTATION_REF="a1067">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>there is enough food, I, says, we go out ourselves and set traps, set traps for game.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1739" ANNOTATION_REF="a1068">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And "paula", the hazel grouse's foot gets there, </ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1740" ANNOTATION_REF="a1069">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>black grouse, hazel grouse (?).</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1741" ANNOTATION_REF="a1070">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>We come and take that hazel grouse,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>

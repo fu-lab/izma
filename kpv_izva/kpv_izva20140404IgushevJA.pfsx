@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <pref key="ActiveVideoRecognizerName">
+        <String>Human motion analysis and annotation</String>
+    </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
         <String>note(part)</String>
@@ -56,8 +59,8 @@
         <String>phonet-IPA@JAI-M-1939</String>
         <String>phonol-LAT@JAI-M-1939</String>
     </prefList>
-    <pref key="ActiveVideoRecognizerName">
-        <String>Human motion analysis and annotation</String>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
@@ -67,9 +70,30 @@
             <String>///Users/niko/kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.wav</String>
         </pref>
     </prefGroup>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
-    </pref>
+    <prefGroup key="Human motion analysis and annotation">
+        <pref key="background_image">
+            <String>false</String>
+        </pref>
+        <pref key="output_video_resolution">
+            <String>half</String>
+        </pref>
+        <pref key="use_single_cluster">
+            <String>false</String>
+        </pref>
+        <pref key="speed_threshold">
+            <String>normal</String>
+        </pref>
+        <pref key="logging_level">
+            <String>normal</String>
+        </pref>
+        <prefGroup key="input_xml"/>
+        <pref key="change_threshold">
+            <Float>30.0</Float>
+        </pref>
+        <pref key="use_rest_position">
+            <String>false</String>
+        </pref>
+    </prefGroup>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -82,30 +106,6 @@
         <String>Creation Date</String>
         <String>Modification Date</String>
     </prefList>
-    <prefGroup key="Human motion analysis and annotation">
-        <pref key="output_video_resolution">
-            <String>half</String>
-        </pref>
-        <pref key="background_image">
-            <String>false</String>
-        </pref>
-        <pref key="use_single_cluster">
-            <String>false</String>
-        </pref>
-        <pref key="speed_threshold">
-            <String>normal</String>
-        </pref>
-        <pref key="logging_level">
-            <String>normal</String>
-        </pref>
-        <prefGroup key="input_xml"/>
-        <pref key="use_rest_position">
-            <String>false</String>
-        </pref>
-        <pref key="change_threshold">
-            <Float>30.0</Float>
-        </pref>
-    </prefGroup>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>70</Int>
     </pref>
@@ -125,11 +125,11 @@
         <String>Tier</String>
     </pref>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="MediaControlVolume">
-        <Float>1.0</Float>
-    </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
+    </pref>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>orthT</String>
@@ -139,15 +139,12 @@
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>7</Int>
     </pref>
-    <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@JAI-M-1939</String>
-    </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">0,90,90</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">0,0,90</Object>
@@ -155,13 +152,16 @@
         <pref key="ref@JAI-M-1939">
             <Object class="java.awt.Color">160,0,90</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">0,90,0</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
     </prefGroup>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@JAI-M-1939</String>
+    </pref>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
         <String>Recipient</String>
@@ -170,13 +170,13 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>171</Int>
+        <Int>265</Int>
     </pref>
     <pref key="SelectionBeginTime">
         <Long>1075245</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>3</Int>
+        <Int>2</Int>
     </pref>
     <pref key="MediaTime">
         <Long>1075245</Long>
@@ -192,11 +192,11 @@
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
-    <pref key="SignalViewer.ZoomLevel">
-        <Float>100.0</Float>
-    </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>84.0</Float>
     </pref>
     <prefList key="ExportPraatDialog.TierOrder">
         <String>part</String>
@@ -256,12 +256,15 @@
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type2 : ft-engT</String>
     </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
     <prefGroup key="CommentViewer.Columns">
-        <pref key="Modification Date">
-            <Int>75</Int>
-        </pref>
         <pref key="Sender">
             <Int>0</Int>
+        </pref>
+        <pref key="Modification Date">
+            <Int>75</Int>
         </pref>
         <pref key="Tier">
             <Int>75</Int>
@@ -272,41 +275,27 @@
         <pref key="Initials">
             <Int>75</Int>
         </pref>
-        <pref key="Comment">
+        <pref key="Start Time">
             <Int>75</Int>
         </pref>
         <pref key="End Time">
             <Int>75</Int>
         </pref>
-        <pref key="Start Time">
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="Thread">
             <Int>75</Int>
         </pref>
         <pref key="Recipient">
             <Int>0</Int>
         </pref>
-        <pref key="Thread">
-            <Int>75</Int>
-        </pref>
     </prefGroup>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>part</String>
-    </pref>
     <pref key="TimeScaleBeginTime">
         <Long>1070695</Long>
     </pref>
-    <prefGroup key="TranscriptionTable.ColumnWidth">
-        <pref key="Type3">
-            <Int>281</Int>
-        </pref>
-        <pref key="Type2">
-            <Int>282</Int>
-        </pref>
-        <pref key="Type1">
-            <Int>282</Int>
-        </pref>
-    </prefGroup>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>321</Int>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>part</String>
@@ -351,9 +340,20 @@
         <String>phonet-IPA@JAI-M-1939</String>
         <String>phonol-LAT@JAI-M-1939</String>
     </prefList>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>321</Int>
     </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>281</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>282</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>282</Int>
+        </pref>
+    </prefGroup>
     <prefList key="ExportPraatDialog.HiddenTiers">
         <String>part</String>
         <String>geo</String>
