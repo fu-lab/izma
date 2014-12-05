@@ -38,8 +38,18 @@ library(dplyr)
 # n shows practically the number of files in xmlfiles object. dat is an empty storage for
 # the data that is being read in.
 
-xmlfiles_all <- list.files(path=".", pattern="*.eaf$", recursive=TRUE)
-xmlfiles <- xmlfiles_all[ !grepl("kpv_novyje", xmlfiles_all) ]
+xmlfiles_all <- list.files(path=".", pattern="*.eaf$", recursive=TRUE, full.names=TRUE)
+xmlfiles <- xmlfiles_all[ !grepl("kpv_novyje", xmlfiles_all)]
+xmlfiles <- xmlfiles[! grepl("meta", xmlfiles)]
+
+xmlfiles_closed <- list.files(path="../closed", pattern="*.eaf$", recursive=TRUE, full.names=TRUE)
+xmlfiles_closed <- xmlfiles_closed[ !grepl("kpv_novyje|kpv_kolva", xmlfiles_closed)]
+
+xmlfiles <- c(xmlfiles, xmlfiles_closed)
+
+
+
+xmlfiles
 
 n <- length(xmlfiles)
 
@@ -60,6 +70,7 @@ for(i in 1:n){
 }
 
 kpv.corpus.wordT <- tbl_df(do.call("rbind", dat))
+kpv.corpus.wordT
 
 # After this we read through all orthography tiers. That's where the basic transcription lives.
 
@@ -150,8 +161,6 @@ kpv.corpus$Session_name <- gsub("\\.eaf", "", kpv.corpus$Session_name, perl = TR
 
 # In the end we remove from workspace the items we used to compose the actual corpus.
 # This is of course not necessary, but leads to a nicer workspace.
-rm(dat, doc, i, n, nodes, x, xmlfiles, xmlfiles_all)
+rm(dat, doc, i, n, nodes, x, xmlfiles_all)
 rm(kpv.corpus.orthT, kpv.corpus.refT, kpv.corpus.TS, kpv.corpus.wordT)
 ######
-
-setwd("~niko/Desktop/github/data/izma/meta")
