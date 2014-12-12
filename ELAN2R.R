@@ -28,6 +28,20 @@ setwd("~niko/Desktop/github/data/izma")
 library(XML)
 library(dplyr)
 
+# Errors:
+
+# Error: XML content does not seem to be XML: '...'
+# Solution: Check your working directory!
+
+# Error: Error in rbind(deparse.level, ...) : numbers of columns of arguments do not match
+# Solution: Usually some XML files have wrong attributes! Check the linguistic types!
+
+# Error: Error: data is not a data frame
+# Solution: Check the XML attributes = linguistic types!
+
+# Error: Number of rows doesn't match
+# Solution: Some tier is missing the PARTICIPANT attribute!
+
 # At first we define the files we are going to use. Now we exclude folder kpv_novyje.
 # If you get errors later in the code this is usually a good place to do changes.
 # Try to grep only one file you know is structurally perfect. Once that works, then
@@ -46,15 +60,11 @@ xmlfiles_closed <- list.files(path="../closed", pattern="*.eaf$", recursive=TRUE
 xmlfiles_closed <- xmlfiles_closed[ !grepl("kpv_novyje|kpv_kolva", xmlfiles_closed)]
 
 xmlfiles <- c(xmlfiles, xmlfiles_closed)
-
-
-
 xmlfiles
-
 n <- length(xmlfiles)
-
+n
 dat <- vector("list", n)
-
+dat
 # This part of the code reads all content of the word-tiers and saves it to a new object.
 
 for(i in 1:n){
@@ -72,6 +82,9 @@ for(i in 1:n){
 kpv.corpus.wordT <- tbl_df(do.call("rbind", dat))
 kpv.corpus.wordT
 
+# This checks how many actual word forms there are:
+# kpv.corpus.wordT %>% filter(grepl("\\b[А-ЯӦа-яӧі-]+\\b", Token))
+
 # After this we read through all orthography tiers. That's where the basic transcription lives.
 
 for(i in 1:n){
@@ -87,6 +100,7 @@ for(i in 1:n){
 }
 
 kpv.corpus.orthT <- tbl_df(do.call("rbind", dat))
+kpv.corpus.orthT
 
 # The same is done also to the reference tiers. They are the highest level tiers in our structure.
 
@@ -104,6 +118,7 @@ for(i in 1:n){
 }
 
 kpv.corpus.refT <- tbl_df(do.call("rbind", dat))
+kpv.corpus.refT
 
 # Only after we have the reference tiers we can move up to the timeslots.
 
@@ -118,6 +133,7 @@ for(i in 1:n){
 }
 
 kpv.corpus.TS <- tbl_df(do.call("rbind", dat))
+kpv.corpus.TS
 
 # Then we merge all these together down to the token level. I know the structure
 # may feel heavy and redundant, as the same pieces of information are repeated
@@ -157,10 +173,41 @@ kpv.corpus$Session_name <- gsub("kpv_udora/", "", kpv.corpus$Session_name, perl 
 kpv.corpus$Session_name <- gsub("kpv_dialektjas/", "", kpv.corpus$Session_name, perl = TRUE)
 kpv.corpus$Session_name <- gsub("kpv_lit/", "", kpv.corpus$Session_name, perl = TRUE)
 kpv.corpus$Session_name <- gsub("\\.eaf", "", kpv.corpus$Session_name, perl = TRUE)
+
 # kpv.corpus %>% distinct(Session_name) %>% select(Session_name) %>% arrange()
+
+# Let's also remove all empty tokens, as those seem to be present quite a bit.
+# They are most likely artefacts of the files that have been segmented further than they've
+# been annotated.
+
+kpv.corpus <- kpv.corpus %>% filter(! grepl("^$", Token))
+
+# Let's also create an object that contains word forms as they were, as differentiated
+# from word tokens which I'll now take into lowercase.
+
+kpv.corpus$Word <- kpv.corpus$Token
+kpv.corpus$Token <- tolower(kpv.corpus$Token)
+
+# This creates digrams and trigrams to kpv.corpus
+
+Token1 <- as.character(kpv.corpus$Token)
+Token2 <- Token1[1:length(Token1)+1]
+Token3 <- Token2[1:length(Token1)+1]
+Token4 <- Token3[1:length(Token1)+1]
+Token5 <- Token4[1:length(Token1)+1]
+Token6 <- Token5[1:length(Token1)+1]
+Token7 <- Token6[1:length(Token1)+1]
+Token8 <- Token7[1:length(Token1)+1]
+
+kpv.corpus$Digram <- paste(Token1, Token2)
+kpv.corpus$Trigram <- paste(Token1, Token2, Token3)
+kpv.corpus$ngram <- paste(Token1, Token2, Token3, Token4, Token5, Token6, Token7, Token8)
 
 # In the end we remove from workspace the items we used to compose the actual corpus.
 # This is of course not necessary, but leads to a nicer workspace.
-rm(dat, doc, i, n, nodes, x, xmlfiles_all)
+
+rm(dat, doc, i, n, nodes, x, xmlfiles_all, xmlfiles_closed)
 rm(kpv.corpus.orthT, kpv.corpus.refT, kpv.corpus.TS, kpv.corpus.wordT)
 ######
+
+kpv.corpus
