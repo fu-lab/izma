@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-12-05T12:26:41+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-12-12T14:14:16+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.wav"/>
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.m4v" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.m4v"/>
@@ -7349,7 +7349,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1304" ANNOTATION_REF="a478">
-                <ANNOTATION_VALUE>сетӧмӧась</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сетӧмаӧсь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -25070,7 +25070,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6888" ANNOTATION_REF="a1304">
-                <ANNOTATION_VALUE>сетӧмӧась</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сетӧмаӧсь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -37112,182 +37112,182 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1748" ANNOTATION_REF="a1077">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>So from Odib no one went to Siberia, everyone lived in their own village.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1749" ANNOTATION_REF="a1078">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yes, yes, yes, yes.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1750" ANNOTATION_REF="a1079">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yes, yes, yes, yes.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1751" ANNOTATION_REF="a1080">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Aha, it is, Seme Ul'uš, Seme Ul'uš it was, Seme Ul'uš was</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1752" ANNOTATION_REF="a1081">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>married to Ukraina, it is.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1753" ANNOTATION_REF="a1082">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>She went to Ukraina and then her two children were born there,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1754" ANNOTATION_REF="a1083">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Kolya and Semyon.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1755" ANNOTATION_REF="a1084">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>A, Se-, aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1756" ANNOTATION_REF="a1085">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Semyon and Kolya.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1757" ANNOTATION_REF="a1086">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And then with his wife, eh, with husband they divorced,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1758" ANNOTATION_REF="a1087">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>other, she married another man and with him there was still Vova who was born.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1759" ANNOTATION_REF="a1088">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And with three children she came home to her mother, it is, back.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1760" ANNOTATION_REF="a1089">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And worked in forest factory, cutting down forest, it is, they chopped down forest.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1761" ANNOTATION_REF="a1090">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>They lived with their mother with three children,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1762" ANNOTATION_REF="a1091">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>mother was Semö</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1763" ANNOTATION_REF="a1092">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Mavruk, she was called Mavruk.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1764" ANNOTATION_REF="a1093">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>I know them well.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1765" ANNOTATION_REF="a1094">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>So there they were chopping down trees, they went to do that in the forest factory</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1766" ANNOTATION_REF="a1095">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>there, to Polyana</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1767" ANNOTATION_REF="a1096">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>village, they were taken from the village.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1768" ANNOTATION_REF="a1097">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And they were sitting on the forest cutting machinery, it is, they were going to work,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1769" ANNOTATION_REF="a1098">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>and somehow the machine, mm,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1770" ANNOTATION_REF="a1099">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>there was no ???, simply</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1771" ANNOTATION_REF="a1100">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>they put the trees to the machine and there is a small side (?),</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1772" ANNOTATION_REF="a1101">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>they had done a small side to the front, where the head of the log is placed.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1773" ANNOTATION_REF="a1102">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>They stand there and go,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1774" ANNOTATION_REF="a1103">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>and the machine turns suddenly, and they, she falls from there somewhere and</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1775" ANNOTATION_REF="a1104">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>is pressed, kills, dies there on the road.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1776" ANNOTATION_REF="a1105">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And she leaves three children, it is,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1777" ANNOTATION_REF="a1106">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>three boys.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1778" ANNOTATION_REF="a1107">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>As orphans and they grow at their grandmother.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1779" ANNOTATION_REF="a1108">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Three of them, then now two boys, the bigger boys died, they didn't marry somehow, well,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1780" ANNOTATION_REF="a1109">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ts,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1781" ANNOTATION_REF="a1110">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>when they were young, and the third boy</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1782" ANNOTATION_REF="a1111">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Vova, it is, grew</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1783" ANNOTATION_REF="a1112">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>and he married with my</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -37297,117 +37297,117 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1785" ANNOTATION_REF="a1114">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>aunt's daughter, it is, it makes, my cousin, with my cousin, Yulia, she is, Yulia.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1786" ANNOTATION_REF="a1115">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>They lived with Yulia,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1787" ANNOTATION_REF="a1116">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>eh,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1788" ANNOTATION_REF="a1117">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>and now he is still alive, they live</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1789" ANNOTATION_REF="a1118">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Sosnogorsk, in Sosnogorsk, in the village, in the village of Sosnogorsk.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1790" ANNOTATION_REF="a1119">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yulia was working in a shop, selling.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1791" ANNOTATION_REF="a1120">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And this also worked somewhere, car, aa, he went somewhere with the cars, as a driver.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1792" ANNOTATION_REF="a1121">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And then well,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1793" ANNOTATION_REF="a1122">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>their children grew up already, and well they live themselves there two of them.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1794" ANNOTATION_REF="a1123">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1795" ANNOTATION_REF="a1124">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yes, yes, yes, I remember.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1796" ANNOTATION_REF="a1125">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1797" ANNOTATION_REF="a1126">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1798" ANNOTATION_REF="a1127">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Pekla and Sandra and a cow.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1799" ANNOTATION_REF="a1128">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>It is,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1800" ANNOTATION_REF="a1129">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Sandra</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1801" ANNOTATION_REF="a1130">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>she was my neighbour, lived next to our grandmother's house, there my grandmother,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1802" ANNOTATION_REF="a1131">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>well there was grandmother's house. Sandra was living with the children, she had</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1803" ANNOTATION_REF="a1132">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>two sons, it is, Öleksan studied with me as well, her son Petya is younger.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1804" ANNOTATION_REF="a1133">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Well they lived poorly, very</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1805" ANNOTATION_REF="a1134">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>early died their father, he went to the war and then</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1806" ANNOTATION_REF="a1135">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>died, there was no one feeding them.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1807" ANNOTATION_REF="a1136">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And they lived with difficulties.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -37417,7 +37417,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1809" ANNOTATION_REF="a1138">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And well he,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -37427,67 +37427,67 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1811" ANNOTATION_REF="a1140">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>it is, haha,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1812" ANNOTATION_REF="a1141">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Pekla says to Sandra:</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1813" ANNOTATION_REF="a1142">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>"You, he says, I come, but in your</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1814" ANNOTATION_REF="a1143">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>garden, it is,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1815" ANNOTATION_REF="a1144">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>in the garden, in the potato field</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1816" ANNOTATION_REF="a1145">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>there is a cow eating something, he says.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1817" ANNOTATION_REF="a1146">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>I think do you really feed a cow that way.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1818" ANNOTATION_REF="a1147">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>But, apparently it was like this, the cow had entered from side and eats potato leaves".</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1819" ANNOTATION_REF="a1148">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Then she says: "You didn't drive it away, why didn't you drive it away?"</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1820" ANNOTATION_REF="a1149">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And says: "I thought, that you yourself had let it there, and with that something, eh,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1821" ANNOTATION_REF="a1150">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>and for that it stands there inside".</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1822" ANNOTATION_REF="a1151">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Aha, yes, Pekla and Sandra.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1823" ANNOTATION_REF="a1152">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>About the New Year, right?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -40626,7 +40626,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2450" ANNOTATION_REF="a1108">
-                <ANNOTATION_VALUE>Все трое ,сейчас двое сыновей , старших сыновей уже умерли , они так и не женились как - то , вот ,</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Все трое , сейчас двое сыновей , старших сыновей уже умерли , они так и не женились как - то , вот ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -52501,102 +52501,102 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3173" ANNOTATION_REF="a2950">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Understood.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3174" ANNOTATION_REF="a2951">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Well, how did you</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3175" ANNOTATION_REF="a2952">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>also told a story about the orphans?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3176" ANNOTATION_REF="a2953">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>There were Vasya and Kolya -</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3177" ANNOTATION_REF="a2954">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>two orphans, whose, their mother Nastya, she married an Ukrainian. Do you remember this?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3178" ANNOTATION_REF="a2955">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Well how did it go after this?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3179" ANNOTATION_REF="a2956">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>This Nastya, she died?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3180" ANNOTATION_REF="a2957">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And can you tell something about this, how</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3181" ANNOTATION_REF="a2958">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>do you know where they are now?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3182" ANNOTATION_REF="a2959">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yes. Understood.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3183" ANNOTATION_REF="a2960">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And how you, there was also this</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3184" ANNOTATION_REF="a2961">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Pekla, Sandra and a cow.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3185" ANNOTATION_REF="a2962">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Do you remember this?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3186" ANNOTATION_REF="a2963">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>I just check that everything is well here, it works alone. Yes, it goes.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3187" ANNOTATION_REF="a2964">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>It's possible to cut away this kind of things, better to check what there is, there is no difficulty in that.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3188" ANNOTATION_REF="a2965">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yes, about Pekla and Sandra.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3189" ANNOTATION_REF="a2966">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Aa.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3190" ANNOTATION_REF="a2967">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yes, I also read that for a while.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3191" ANNOTATION_REF="a2968">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And you, eh,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3192" ANNOTATION_REF="a2969">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>can you also tell about the New Year?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>

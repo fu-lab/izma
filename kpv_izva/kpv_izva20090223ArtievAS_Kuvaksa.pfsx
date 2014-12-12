@@ -32,16 +32,16 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <prefGroup key="Interlinear.FontSizes">
-        <pref key="IPA@Collector">
-            <Int>12</Int>
-        </pref>
         <pref key="latKSDP@Collector">
             <Int>12</Int>
         </pref>
-        <pref key="notes@S1">
+        <pref key="IPA@Collector">
             <Int>12</Int>
         </pref>
         <pref key="oTranslat@Collector">
+            <Int>12</Int>
+        </pref>
+        <pref key="notes@S1">
             <Int>12</Int>
         </pref>
         <pref key="IPA@S1">
@@ -59,10 +59,10 @@
         <pref key="gloss@S1">
             <Int>12</Int>
         </pref>
-        <pref key="language@Collector">
+        <pref key="cyrKSDP@S1">
             <Int>12</Int>
         </pref>
-        <pref key="cyrKSDP@S1">
+        <pref key="language@Collector">
             <Int>12</Int>
         </pref>
         <pref key="oTranscr@Collector">
@@ -118,7 +118,7 @@
         <String>note@ASA-M-1958</String>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>229906</Long>
+        <Long>211245</Long>
     </pref>
     <prefList key="Interlinear.TierOrder">
         <String>oTranscr@S1</String>
@@ -201,7 +201,7 @@
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>230226</Long>
+        <Long>211434</Long>
     </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@RB-M-1974</String>
@@ -314,16 +314,16 @@
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>229905</Long>
+        <Long>0</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ref@LK-F-1985">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
-        <pref key="ft-eng@LK-F-1985">
+        <pref key="orth@LK-F-1985">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
-        <pref key="orth@LK-F-1985">
+        <pref key="ft-eng@LK-F-1985">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
         <pref key="ft-rus@LK-F-1985">
@@ -332,20 +332,20 @@
         <pref key="ft-eng@RB-M-1974">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
-        <pref key="orth@RB-M-1974">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
         <pref key="ref@ASA-M-1958">
             <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="orth@RB-M-1974">
+            <Object class="java.awt.Color">0,0,90</Object>
         </pref>
         <pref key="ref@RB-M-1974">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
-        <pref key="ft-rus@RB-M-1974">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
         <pref key="orth@ASA-M-1958">
             <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ft-rus@RB-M-1974">
+            <Object class="java.awt.Color">0,0,90</Object>
         </pref>
         <pref key="ft-eng@ASA-M-1958">
             <Object class="java.awt.Color">0,160,90</Object>
@@ -358,14 +358,14 @@
         <Int>1</Int>
     </pref>
     <prefGroup key="TierHighlightColors">
-        <pref key="oTranslat@Consultant">
-            <Object class="java.awt.Color">204,204,204</Object>
+        <pref key="PoS@Consultant">
+            <Object class="java.awt.Color">255,204,255</Object>
         </pref>
         <pref key="gloss@Consultant">
             <Object class="java.awt.Color">255,204,255</Object>
         </pref>
-        <pref key="PoS@Consultant">
-            <Object class="java.awt.Color">255,204,255</Object>
+        <pref key="oTranslat@Consultant">
+            <Object class="java.awt.Color">204,204,204</Object>
         </pref>
         <pref key="oTranscr@Consultant">
             <Object class="java.awt.Color">204,204,204</Object>

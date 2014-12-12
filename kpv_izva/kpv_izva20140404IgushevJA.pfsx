@@ -170,16 +170,16 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>265</Int>
+        <Int>386</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>1075245</Long>
+        <Long>798470</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>1075245</Long>
+        <Long>798470</Long>
     </pref>
     <prefList key="ExportPraatDialog.selectedTiers">
         <String>ref@JAI-M-1939</String>
@@ -196,7 +196,7 @@
         <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>84.0</Float>
+        <Float>325.0</Float>
     </pref>
     <prefList key="ExportPraatDialog.TierOrder">
         <String>part</String>
@@ -292,7 +292,7 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>1070695</Long>
+        <Long>794470</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
@@ -408,6 +408,6 @@
         <String>note(word)@NTP-M-1986</String>
     </prefList>
     <pref key="SelectionEndTime">
-        <Long>1076805</Long>
+        <Long>804360</Long>
     </pref>
 </preferences>
