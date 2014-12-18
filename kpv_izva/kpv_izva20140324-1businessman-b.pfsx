@@ -90,13 +90,63 @@
         <Int>53</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>1796710</Long>
+        <Long>116233</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="orth@OMT-M-1961">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="orth@NTP-M-1986">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-eng@MSF-F-1969">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="orth@MSF-F-1969">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ft-rus@NTP-M-1986">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-rus@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="ft-rus@MSF-F-1969">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@MSF-F-1969">
+            <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="ref@OMT-M-1961">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="orth@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="ft-eng@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="ft-rus@OMT-M-1961">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="ft-eng@NTP-M-1986">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-eng@OMT-M-1961">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+    </prefGroup>
     <pref key="MediaTime">
-        <Long>1796710</Long>
+        <Long>0</Long>
     </pref>
     <prefList key="ExportPraatDialog.selectedTiers">
         <String>orth@OMT-M-1961</String>
@@ -139,12 +189,12 @@
     <pref key="MultiTierViewer.ActiveTierName">
         <String>ref@OMT-M-1961</String>
     </pref>
-    <pref key="TimeScaleBeginTime">
-        <Long>1793350</Long>
-    </pref>
     <prefList key="ExportPraatDialog.LastSelectedItems">
         <String>OMT-M-1961</String>
     </prefList>
+    <pref key="TimeScaleBeginTime">
+        <Long>0</Long>
+    </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
             <Int>281</Int>
@@ -178,6 +228,6 @@
         <String>ft-rus@NTP-M-1986</String>
     </prefList>
     <pref key="SelectionEndTime">
-        <Long>1797180</Long>
+        <Long>122945</Long>
     </pref>
 </preferences>
