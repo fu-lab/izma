@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-12-11T10:34:41+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-12-19T17:33:11+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20140323-2horse_farm-b/kpv_izva20140323-2horse_farm-b.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20140323-2horse_farm-b/kpv_izva20140323-2horse_farm-b.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20140323-2horse_farm-b/kpv_izva20140323-2horse_farm-b.m4v" MIME_TYPE="unknown"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:73d21f04-9dbd-4134-ae3b-4097801f931f</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">2684</PROPERTY>
     </HEADER>
@@ -53,11 +54,11 @@
         <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="49096"/>
         <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="51231"/>
         <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="51570"/>
-        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="52340"/>
-        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="52500"/>
-        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="54973"/>
-        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="55465"/>
-        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="59373"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="54960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="55040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="55040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="55540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="56540"/>
         <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="59875"/>
         <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="60898"/>
         <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="62041"/>
@@ -557,7 +558,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts51">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts51">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -9613,7 +9614,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts49">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
