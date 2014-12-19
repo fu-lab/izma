@@ -136,6 +136,9 @@
         <String>ft-engT</String>
         <String>ft-rusT</String>
     </prefList>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>325.0</Float>
+    </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>7</Int>
     </pref>
@@ -170,16 +173,54 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>386</Int>
+        <Int>555</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>798470</Long>
+        <Long>1485515</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>2</Int>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ft-rus@JAI-M-1939">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ft-eng@JAI-M-1939">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="orth@NTP-M-1986">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="ft-rus@NTP-M-1986">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ft-eng@NTP-M-1986">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@JAI-M-1939">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="orth@JAI-M-1939">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+    </prefGroup>
     <pref key="MediaTime">
-        <Long>798470</Long>
+        <Long>1485515</Long>
     </pref>
     <prefList key="ExportPraatDialog.selectedTiers">
         <String>ref@JAI-M-1939</String>
@@ -292,7 +333,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>794470</Long>
+        <Long>1484481</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -408,6 +449,6 @@
         <String>note(word)@NTP-M-1986</String>
     </prefList>
     <pref key="SelectionEndTime">
-        <Long>804360</Long>
+        <Long>1486663</Long>
     </pref>
 </preferences>
