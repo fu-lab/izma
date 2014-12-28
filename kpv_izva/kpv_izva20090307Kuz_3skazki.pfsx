@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>ref@VPK-F-19XX</String>
+        <String>orth@VPK-F-19XX</String>
+        <String>word@VPK-F-19XX</String>
+        <String>pos@VPK-F-19XX</String>
+        <String>lg@VPK-F-19XX</String>
+        <String>ft-eng@VPK-F-19XX</String>
+        <String>ft-deu@VPK-F-19XX</String>
+        <String>ft-rus@VPK-F-19XX</String>
+        <String>ft-ling@VPK-F-19XX</String>
+        <String>phonet-UPA@VPK-F-19XX</String>
+        <String>phonol-CYR@VPK-F-19XX</String>
+        <String>note@VPK-F-19XX</String>
+        <String>ref@LK-F-1985</String>
+        <String>orth@LK-F-1985</String>
+        <String>word@LK-F-1985</String>
+        <String>pos@LK-F-1985</String>
+        <String>lg@LK-F-1985</String>
+        <String>ft-eng@LK-F-1985</String>
+        <String>ft-deu@LK-F-1985</String>
+        <String>ft-rus@LK-F-1985</String>
+        <String>ft-ling@LK-F-1985</String>
+        <String>phonet-UPA@LK-F-1985</String>
+        <String>phonol-CYR@LK-F-1985</String>
+        <String>note@LK-F-1985</String>
+        <String>ref@MR-M-1971</String>
+        <String>orth@MR-M-1971</String>
+        <String>phonet-UPA@MR-M-1971</String>
+        <String>phonol-CYR@MR-M-1971</String>
+        <String>note@MR-M-1971</String>
+        <String>word@MR-M-1971</String>
+        <String>ft-eng@MR-M-1971</String>
+        <String>ft-deu@MR-M-1971</String>
+        <String>ft-rus@MR-M-1971</String>
+        <String>ft-ling@MR-M-1971</String>
+        <String>pos@MR-M-1971</String>
+        <String>lg@MR-M-1971</String>
+    </prefList>
+    <prefGroup key="Text-to-Speech alignment">
+        <pref key="model">
+            <String>English</String>
+        </pref>
+        <pref key="audio">
+            <String>///Users/niko/kom/kpv_izva/kpv_izva20090307KuznecovaVP_3skazki/kpv_izva20090307KuznecovaVP_3skazki.wav</String>
+        </pref>
+    </prefGroup>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>70</Int>
+    </pref>
+    <prefGroup key="TranscriptionTable.TierMap">
+        <prefList key="ref@LK-F-1985">
+            <String>ref@LK-F-1985</String>
+            <String>orth@LK-F-1985</String>
+            <String>ft-rus@LK-F-1985</String>
+            <String>note@LK-F-1985</String>
+        </prefList>
+        <prefList key="ref@VPK-F-19XX">
+            <String>ref@VPK-F-19XX</String>
+            <String>orth@VPK-F-19XX</String>
+            <String>ft-rus@VPK-F-19XX</String>
+            <String>note@VPK-F-19XX</String>
+        </prefList>
+        <prefList key="ref@MR-M-1971">
+            <String>ref@MR-M-1971</String>
+            <String>orth@MR-M-1971</String>
+            <String>ft-rus@MR-M-1971</String>
+            <String>note@MR-M-1971</String>
+        </prefList>
+    </prefGroup>
+    <prefList key="TranscriptionTable.NonEditableTiers"/>
+    <prefGroup key="TranscriptionTable.ColumnOrder">
+        <pref key="Type3">
+            <Int>3</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>2</Int>
+        </pref>
+        <pref key="Type4">
+            <Int>4</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>1</Int>
+        </pref>
+    </prefGroup>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
+    </pref>
+    <prefList key="SegmentationViewer.HiddenTiers"/>
+    <prefList key="TranscriptionTable.ColumnTypes">
+        <String>ref(spoken)T</String>
+        <String>orthT</String>
+        <String>ft-rusT</String>
+        <String>noteT</String>
+    </prefList>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>7</Int>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="ref@VPK-F-19XX">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@LK-F-1985">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="ref@MR-M-1974">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+    </prefGroup>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@VPK-F-19XX</String>
+    </pref>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,23</Object>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveRow">
+        <Int>40</Int>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>104641</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>2</Int>
+    </pref>
+    <prefList key="SegmentationViewer.TierOrder">
+        <String>ref@VPK-F-19XX</String>
+        <String>ref@LK-F-1985</String>
+        <String>ref@MR-M-1974</String>
+    </prefList>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ref@VPK-F-19XX">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ft-rus@MR-M-1971">
+            <Object class="java.awt.Color">131,132,233</Object>
+        </pref>
+        <pref key="orth@LK-F-1985">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="ref@MR-M-1971">
+            <Object class="java.awt.Color">131,132,233</Object>
+        </pref>
+        <pref key="orth@VPK-F-19XX">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="orth@MR-M-1971">
+            <Object class="java.awt.Color">131,132,233</Object>
+        </pref>
+        <pref key="note@MR-M-1971">
+            <Object class="java.awt.Color">131,132,233</Object>
+        </pref>
+        <pref key="ref@LK-F-1985">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="note@VPK-F-19XX">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ft-rus@LK-F-1985">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="note@LK-F-1985">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="ref@MR-M-1974">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="ft-rus@VPK-F-19XX">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+    </prefGroup>
+    <pref key="MediaTime">
+        <Long>104640</Long>
+    </pref>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>100.0</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveColumn">
+        <String>Type2 : orthT</String>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+    </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@VPK-F-19XX</String>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>101280</Long>
+    </pref>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
+    <prefList key="MultiTierViewer.HiddenTiers">
+        <String>pos@VPK-F-19XX</String>
+        <String>lg@VPK-F-19XX</String>
+        <String>ft-deu@VPK-F-19XX</String>
+        <String>ft-nob@VPK-F-19XX</String>
+        <String>ft-swe@VPK-F-19XX</String>
+        <String>ft-ling@VPK-F-19XX</String>
+        <String>phonet-UPA@VPK-F-19XX</String>
+        <String>phonol-CYR@VPK-F-19XX</String>
+        <String>translit-LAT@VPK-F-19XX</String>
+        <String>pos@LK-F-1985</String>
+        <String>lg@LK-F-1985</String>
+        <String>ft-deu@LK-F-1985</String>
+        <String>ft-nob@LK-F-1985</String>
+        <String>ft-swe@LK-F-1985</String>
+        <String>ft-ling@LK-F-1985</String>
+        <String>phonet-UPA@LK-F-1985</String>
+        <String>phonol-CYR@LK-F-1985</String>
+        <String>translit-LAT@LK-F-1985</String>
+    </prefList>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>212</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>211</Int>
+        </pref>
+        <pref key="Type4">
+            <Int>211</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>211</Int>
+        </pref>
+    </prefGroup>
+    <pref key="SelectionEndTime">
+        <Long>108138</Long>
+    </pref>
+</preferences>
