@@ -28,16 +28,16 @@
         <String>note@LK-F-1985</String>
         <String>ref@MR-M-1971</String>
         <String>orth@MR-M-1971</String>
-        <String>phonet-UPA@MR-M-1971</String>
-        <String>phonol-CYR@MR-M-1971</String>
-        <String>note@MR-M-1971</String>
         <String>word@MR-M-1971</String>
+        <String>pos@MR-M-1971</String>
+        <String>lg@MR-M-1971</String>
         <String>ft-eng@MR-M-1971</String>
         <String>ft-deu@MR-M-1971</String>
         <String>ft-rus@MR-M-1971</String>
         <String>ft-ling@MR-M-1971</String>
-        <String>pos@MR-M-1971</String>
-        <String>lg@MR-M-1971</String>
+        <String>phonet-UPA@MR-M-1971</String>
+        <String>phonol-CYR@MR-M-1971</String>
+        <String>note@MR-M-1971</String>
     </prefList>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
@@ -117,14 +117,14 @@
         <Int>7</Int>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@VPK-F-19XX">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
         <pref key="ref@LK-F-1985">
             <Object class="java.awt.Color">160,0,90</Object>
         </pref>
-        <pref key="ref@MR-M-1974">
-            <Object class="java.awt.Color">160,160,90</Object>
+        <pref key="ref@VPK-F-19XX">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@MR-M-1971">
+            <Object class="java.awt.Color">160,0,160</Object>
         </pref>
     </prefGroup>
     <pref key="SegmentationViewer.ActiveTier">
@@ -144,7 +144,7 @@
         <Long>104641</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>2</Int>
+        <Int>1</Int>
     </pref>
     <prefList key="SegmentationViewer.TierOrder">
         <String>ref@VPK-F-19XX</String>
@@ -156,22 +156,22 @@
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
         <pref key="ft-rus@MR-M-1971">
-            <Object class="java.awt.Color">131,132,233</Object>
+            <Object class="java.awt.Color">147,32,136</Object>
         </pref>
         <pref key="orth@LK-F-1985">
             <Object class="java.awt.Color">160,0,90</Object>
         </pref>
         <pref key="ref@MR-M-1971">
-            <Object class="java.awt.Color">131,132,233</Object>
+            <Object class="java.awt.Color">147,32,136</Object>
         </pref>
         <pref key="orth@VPK-F-19XX">
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
         <pref key="orth@MR-M-1971">
-            <Object class="java.awt.Color">131,132,233</Object>
+            <Object class="java.awt.Color">147,32,136</Object>
         </pref>
         <pref key="note@MR-M-1971">
-            <Object class="java.awt.Color">131,132,233</Object>
+            <Object class="java.awt.Color">147,32,136</Object>
         </pref>
         <pref key="ref@LK-F-1985">
             <Object class="java.awt.Color">160,0,90</Object>
@@ -212,11 +212,11 @@
         <String>Type2 : orthT</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
-        <pref key="Sender">
-            <Int>0</Int>
-        </pref>
         <pref key="Modification Date">
             <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
         </pref>
         <pref key="Tier">
             <Int>75</Int>
@@ -227,27 +227,27 @@
         <pref key="Initials">
             <Int>75</Int>
         </pref>
-        <pref key="Start Time">
+        <pref key="Comment">
             <Int>75</Int>
         </pref>
         <pref key="End Time">
             <Int>75</Int>
         </pref>
-        <pref key="Comment">
-            <Int>75</Int>
-        </pref>
-        <pref key="Thread">
+        <pref key="Start Time">
             <Int>75</Int>
         </pref>
         <pref key="Recipient">
             <Int>0</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
         </pref>
     </prefGroup>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>ref@VPK-F-19XX</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>101280</Long>
+        <Long>100709</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>

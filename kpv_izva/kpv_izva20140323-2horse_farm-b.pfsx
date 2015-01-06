@@ -266,13 +266,87 @@
         <Int>386</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>519429</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>2</Int>
+        <Int>1</Int>
     </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ft-rus@ISF-F-19XX">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="ft-rus@MVF-F-1984">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="orth@ISF-F-19XX">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="orth@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ref@MVF-F-1984">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="ft-eng@MVF-F-1984">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="ft-rus@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ref@ISF-F-19XX">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="ft-rus@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="orth@AXH-M-1979">
+            <Object class="java.awt.Color">90,0,90</Object>
+        </pref>
+        <pref key="ref@AXH-M-1979">
+            <Object class="java.awt.Color">90,0,90</Object>
+        </pref>
+        <pref key="orth@MVF-F-1984">
+            <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ft-rus@AXH-M-1979">
+            <Object class="java.awt.Color">90,0,90</Object>
+        </pref>
+        <pref key="orth@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="ft-eng@ISF-F-19XX">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="ft-eng@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="ft-eng@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="ft-eng@AXH-M-1979">
+            <Object class="java.awt.Color">90,0,90</Object>
+        </pref>
+    </prefGroup>
     <pref key="MediaTime">
-        <Long>0</Long>
+        <Long>499663</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -288,7 +362,7 @@
         <Float>1.0</Float>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>139.0</Float>
+        <Float>109.0</Float>
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
@@ -332,7 +406,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>160</Long>
+        <Long>495780</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>part</String>
@@ -451,6 +525,6 @@
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>519429</Long>
     </pref>
 </preferences>

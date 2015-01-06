@@ -106,11 +106,11 @@
         <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
-        <prefList key="ref@AKM-M-1926">
-            <String>orth@AKM-M-1926</String>
-        </prefList>
         <prefList key="ref@XXX-F-19XX">
             <String>orth@XXX-F-19XX</String>
+        </prefList>
+        <prefList key="ref@AKM-M-1926">
+            <String>orth@AKM-M-1926</String>
         </prefList>
         <prefList key="ref@MVP-F-1936">
             <String>orth@MVP-F-1936</String>
@@ -136,20 +136,20 @@
         <pref key="bio">
             <Object class="java.awt.Color">90,90,160</Object>
         </pref>
-        <pref key="ref@AKM-M-1926">
-            <Object class="java.awt.Color">90,160,90</Object>
-        </pref>
         <pref key="ref@XXX-F-19XX">
             <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@AKM-M-1926">
+            <Object class="java.awt.Color">90,160,90</Object>
         </pref>
         <pref key="ref@MVP-F-1936">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,0,90</Object>
         </pref>
     </prefGroup>
     <prefList key="CommentViewer.Columns.Hidden">
@@ -187,12 +187,15 @@
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type1 : orthT</String>
     </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@AKM-M-1926</String>
+    </pref>
     <prefGroup key="CommentViewer.Columns">
-        <pref key="Modification Date">
-            <Int>75</Int>
-        </pref>
         <pref key="Sender">
             <Int>0</Int>
+        </pref>
+        <pref key="Modification Date">
+            <Int>75</Int>
         </pref>
         <pref key="Tier">
             <Int>75</Int>
@@ -203,27 +206,32 @@
         <pref key="Initials">
             <Int>75</Int>
         </pref>
-        <pref key="Comment">
+        <pref key="Start Time">
             <Int>75</Int>
         </pref>
         <pref key="End Time">
             <Int>75</Int>
         </pref>
-        <pref key="Start Time">
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="Thread">
             <Int>75</Int>
         </pref>
         <pref key="Recipient">
             <Int>0</Int>
         </pref>
-        <pref key="Thread">
-            <Int>75</Int>
-        </pref>
     </prefGroup>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>ref@AKM-M-1926</String>
-    </pref>
     <pref key="TimeScaleBeginTime">
         <Long>97875</Long>
+    </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type1">
+            <Int>850</Int>
+        </pref>
+    </prefGroup>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>part</String>
@@ -288,14 +296,6 @@
         <String>phonet-IPA@MVP-F-1936</String>
         <String>phonol-LAT@MVP-F-1936</String>
     </prefList>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
-    </pref>
-    <prefGroup key="TranscriptionTable.ColumnWidth">
-        <pref key="Type1">
-            <Int>850</Int>
-        </pref>
-    </prefGroup>
     <pref key="SelectionEndTime">
         <Long>104738</Long>
     </pref>
