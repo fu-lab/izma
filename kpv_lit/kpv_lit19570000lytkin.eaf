@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-11-21T15:03:36+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2015-01-11T18:46:00+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_lit19570000lytkin/kpv_lit19570000lytkin.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_lit19570000lytkin/kpv_lit19570000lytkin.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_lit/kpv_lit19570000lytkin/kpv_lit19570000lytkin.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_lit/kpv_lit19570000lytkin/kpv_lit19570000lytkin.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:c94b24f3-69f9-4a3b-b0e2-90a3c13057f6</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">3713</PROPERTY>
     </HEADER>
@@ -875,7 +875,7 @@
     <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@VIL-M-1985" PARTICIPANT="VIL-M-1985" TIER_ID="orth@VIL-M-1985">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a724" ANNOTATION_REF="a586">
-                <ANNOTATION_VALUE>Ме висьтала мойданкыв , кодӧс кывлі ичӧтдырйи зарниа бӧжа кань йылысь.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ме висьтала мойданкыв, кодӧс кывлі ичӧтдырйи зарниа бӧжа кань йылысь.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -890,7 +890,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a727" ANNOTATION_REF="a589">
-                <ANNOTATION_VALUE>Ныв петіс ӧшин йылӧ , видзӧдӧ , котыртӧ зарниа бӧжа кань.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ныв петіс ӧшин йылӧ, видзӧдӧ, котыртӧ зарниа бӧжа кань.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -925,7 +925,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a734" ANNOTATION_REF="a596">
-                <ANNOTATION_VALUE>Ныв бӧртчис , ней пуксис ош вылӧ.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ныв бӧртчис, ней пуксис ош вылӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1165,7 +1165,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a782" ANNOTATION_REF="a644">
-                <ANNOTATION_VALUE>Бара шуас ош: "верд лэдзы менӧ, кынӧмӧй шумаліс, мудзи".</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Бара шуас ош: "верд лэдзы менӧ, кынӧмӧй сюмаліс, мудзи".</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
