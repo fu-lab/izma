@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2015-01-05T17:06:34+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2015-01-08T20:34:58+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:61ee3117-e199-49ca-8258-9415d9cf90e1</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">126</PROPERTY>
@@ -32,70 +32,70 @@
         <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="120000"/>
         <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="130000"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="S1" TIER_ID="ref@S1">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="bundle:Castren" TIER_ID="ref@bundle:Castren">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-1</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-1</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-2</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-2</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-3</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-3</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-4</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-4</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-5</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-5</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-6</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-6</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-7</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-7</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-8</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-8</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-9</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-9</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-10</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-10</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-11</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-11</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-12</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-12</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
-                <ANNOTATION_VALUE>kpv_izva18440000Castren-2cyr-13</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>kpv_izva18440000Castren-2-13</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -104,11 +104,11 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="bioT" TIER_ID="bio"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="commentT" TIER_ID="comment"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="part" TIER_ID="note(part)"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonet-upaT" PARENT_REF="ref@S1" PARTICIPANT="S1" TIER_ID="phonet-UPA@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonol-cyrT" PARENT_REF="ref@S1" PARTICIPANT="S1" TIER_ID="phonol-CYR@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translit-latT" PARENT_REF="ref@S1" PARTICIPANT="S1" TIER_ID="translit-LAT@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="ref@S1" PARTICIPANT="S1" TIER_ID="note(ref)@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@S1" PARTICIPANT="S1" TIER_ID="orth@S1">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonet-upaT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="phonet-UPA@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonol-cyrT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="phonol-CYR@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translit-latT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="translit-LAT@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="note(ref)@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="orth@bundle:Castren">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>Рӧдимаяей, чӧськыд йӧла мамей!</ANNOTATION_VALUE>
@@ -175,11 +175,11 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonet-ipaT" PARENT_REF="ref@S1" PARTICIPANT="S1" TIER_ID="phonet-IPA@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonol-latT" PARENT_REF="ref@S1" PARTICIPANT="S1" TIER_ID="phonol-LAT@S1"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonet-ipaT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="phonet-IPA@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonol-latT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="phonol-LAT@bundle:Castren"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="geo" TIER_ID="note(geo)"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="bio" TIER_ID="note(bio)"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="word@S1">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="word@bundle:Castren">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a14">
                 <ANNOTATION_VALUE>Рӧдимаяей</ANNOTATION_VALUE>
@@ -616,21 +616,21 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="ft-eng@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-deuT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="ft-deu@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-nobT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="ft-nob@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="ft-rus@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-sweT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="ft-swe@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-lingT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="ft-ling@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-finT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="ft-fin@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="note(orth)@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="orth@S1" PARTICIPANT="S1" TIER_ID="lg(orth)@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lemmaT" PARENT_REF="word@S1" PARTICIPANT="S1" TIER_ID="lemma@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="morphT" PARENT_REF="word@S1" PARTICIPANT="S1" TIER_ID="morph@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@S1" PARTICIPANT="S1" TIER_ID="pos@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@S1" PARTICIPANT="S1" TIER_ID="lg(word)@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@S1" PARTICIPANT="S1" TIER_ID="note(word)@S1"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orth(orig)T" PARENT_REF="ref@S1" PARTICIPANT="S1" TIER_ID="orth(orig)@S1">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-eng@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-deuT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-deu@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-nobT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-nob@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-rus@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-sweT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-swe@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-lingT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-ling@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-finT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-fin@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="note(orth)@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="lg(orth)@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lemmaT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="lemma@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="morphT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="morph@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="pos@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="lg(word)@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="note(word)@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orth(orig)T" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="orth(orig)@bundle:Castren">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a114" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>Rödimajaöj čöskyd jöla mamöj!</ANNOTATION_VALUE>
@@ -722,7 +722,6 @@
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="morphT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="pos" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="posT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orth(orig)T" TIME_ALIGNABLE="false"/>
-    <LOCALE LANGUAGE_CODE="en"/>
     <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
     <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>

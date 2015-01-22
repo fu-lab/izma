@@ -15,9 +15,12 @@
         <String>translit-LAT@bundle:Castren</String>
         <String>note(ref)@bundle:Castren</String>
         <String>orth@bundle:Castren</String>
-        <String>phonet-IPA@bundle:Castren</String>
-        <String>phonol-LAT@bundle:Castren</String>
         <String>word@bundle:Castren</String>
+        <String>lemma@bundle:Castren</String>
+        <String>morph@bundle:Castren</String>
+        <String>pos@bundle:Castren</String>
+        <String>lg(word)@bundle:Castren</String>
+        <String>note(word)@bundle:Castren</String>
         <String>ft-eng@bundle:Castren</String>
         <String>ft-deu@bundle:Castren</String>
         <String>ft-nob@bundle:Castren</String>
@@ -27,12 +30,9 @@
         <String>ft-fin@bundle:Castren</String>
         <String>note(orth)@bundle:Castren</String>
         <String>lg(orth)@bundle:Castren</String>
-        <String>lemma@bundle:Castren</String>
-        <String>morph@bundle:Castren</String>
-        <String>pos@bundle:Castren</String>
-        <String>lg(word)@bundle:Castren</String>
-        <String>note(word)@bundle:Castren</String>
         <String>orth(orig)@bundle:Castren</String>
+        <String>phonet-IPA@bundle:Castren</String>
+        <String>phonol-LAT@bundle:Castren</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
@@ -50,7 +50,7 @@
         <String>Modification Date</String>
     </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>0</Int>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@S1">
@@ -79,9 +79,6 @@
         <pref key="ref@bundle:Castren">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
-        <pref key="ref@S1">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">0,160,90</Object>
         </pref>
@@ -109,11 +106,11 @@
         <Long>0</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="geo">
-            <Object class="java.awt.Color">160,90,0</Object>
-        </pref>
         <pref key="orth@S1">
             <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">160,0,0</Object>
@@ -121,11 +118,11 @@
         <pref key="ref@S1">
             <Object class="java.awt.Color">160,0,90</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,90,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,160</Object>
         </pref>
         <pref key="orth(orig)@S1">
             <Object class="java.awt.Color">160,0,90</Object>
@@ -148,11 +145,11 @@
         <String>ref@S1</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
-        <pref key="Sender">
-            <Int>0</Int>
-        </pref>
         <pref key="Modification Date">
             <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
         </pref>
         <pref key="Tier">
             <Int>75</Int>
@@ -163,24 +160,24 @@
         <pref key="Initials">
             <Int>75</Int>
         </pref>
-        <pref key="Start Time">
+        <pref key="Comment">
             <Int>75</Int>
         </pref>
         <pref key="End Time">
             <Int>75</Int>
         </pref>
-        <pref key="Comment">
-            <Int>75</Int>
-        </pref>
-        <pref key="Thread">
+        <pref key="Start Time">
             <Int>75</Int>
         </pref>
         <pref key="Recipient">
             <Int>0</Int>
         </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>0</Long>
+        <Long>-200</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type2">

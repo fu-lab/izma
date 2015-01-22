@@ -230,11 +230,11 @@
         <pref key="ref@AXH-M-1979">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
         </pref>
         <pref key="ref@VPC-M-1993">
             <Object class="java.awt.Color">90,0,0</Object>
@@ -263,10 +263,10 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>386</Int>
+        <Int>383</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>519429</Long>
+        <Long>486758</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -314,26 +314,26 @@
         <pref key="orth@MVF-F-1984">
             <Object class="java.awt.Color">0,160,0</Object>
         </pref>
-        <pref key="ref@VPC-M-1993">
-            <Object class="java.awt.Color">90,0,0</Object>
-        </pref>
         <pref key="bio">
             <Object class="java.awt.Color">0,0,160</Object>
         </pref>
-        <pref key="ft-rus@AXH-M-1979">
-            <Object class="java.awt.Color">90,0,90</Object>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,0</Object>
         </pref>
         <pref key="orth@VPC-M-1993">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
+        <pref key="ft-rus@AXH-M-1979">
+            <Object class="java.awt.Color">90,0,90</Object>
+        </pref>
         <pref key="ft-eng@ISF-F-19XX">
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
-        <pref key="ft-eng@NTP-M-1986">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
         <pref key="ft-eng@VPC-M-1993">
             <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="ft-eng@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
         </pref>
         <pref key="part">
             <Object class="java.awt.Color">160,160,90</Object>
@@ -346,7 +346,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>499663</Long>
+        <Long>489748</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -368,7 +368,7 @@
         <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
-        <String>Type1 : orthT</String>
+        <String>Type3 : ft-engT</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -406,7 +406,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>495780</Long>
+        <Long>501836</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>part</String>
@@ -508,7 +508,7 @@
         <String>phonol-LAT@MVF-F-1984</String>
     </prefList>
     <pref key="LayoutManager.MediaAreaHeight">
-        <Int>40</Int>
+        <Int>65</Int>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -525,6 +525,6 @@
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>519429</Long>
+        <Long>510854</Long>
     </pref>
 </preferences>
