@@ -60,11 +60,11 @@ xmlfiles_closed <- list.files(path="../closed", pattern="*.eaf$", recursive=TRUE
 xmlfiles_closed <- xmlfiles_closed[ !grepl("kpv_novyje|kpv_kolva", xmlfiles_closed)]
 
 xmlfiles <- c(xmlfiles, xmlfiles_closed)
-xmlfiles
+
 n <- length(xmlfiles)
-n
+
 dat <- vector("list", n)
-dat
+
 # This part of the code reads all content of the word-tiers and saves it to a new object.
 
 for(i in 1:n){
@@ -145,34 +145,33 @@ kpv.corpus.TS
 kpv.corpus.wordT
 kpv.corpus.orthT
 kpv.corpus.refT
-kpv.corpus.TS
 
 kpv.corpus <- left_join(kpv.corpus.wordT, kpv.corpus.orthT)
 kpv.corpus <- left_join(kpv.corpus, kpv.corpus.refT)
-kpv.corpus <- left_join(kpv.corpus, kpv.corpus.TS)
 
-kpv.corpus <- kpv.corpus %>%
-        rename(TS1_old = TS1) %>%
+kpv.corpus <- kpv.corpus %>% 
+        left_join(kpv.corpus.TS) %>% 
         rename(Time_start = Time)
 
-kpv.corpus <- kpv.corpus %>%
-        rename(TS1 = TS2)
+glimpse(kpv.corpus)
 
-kpv.corpus <- left_join(kpv.corpus, kpv.corpus.TS)
-
-kpv.corpus <- kpv.corpus %>%
-        rename(TS2_old = TS1) %>%
+kpv.corpus <- kpv.corpus %>% 
+        select(-TS1) %>% 
+        rename(TS1 = TS2) %>% 
+        left_join(kpv.corpus.TS) %>% 
         rename(Time_end = Time)
 
+kpv.corpus$Time_start <- as.numeric(as.character(kpv.corpus$Time_start))
+kpv.corpus$Time_end <- as.numeric(as.character(kpv.corpus$Time_end))
+
 kpv.corpus <- kpv.corpus %>%
-        select(-TS2_old, -TS1_old, -RefID, -OrthID, -TokenID, -Ref)
+        select(-TS1, -RefID, -OrthID, -TokenID, -Ref)
+
 
 kpv.corpus$Session_name <- kpv.corpus$Filename
-kpv.corpus$Session_name <- gsub("kpv_izva/", "", kpv.corpus$Session_name, perl = TRUE)
-kpv.corpus$Session_name <- gsub("kpv_udora/", "", kpv.corpus$Session_name, perl = TRUE)
-kpv.corpus$Session_name <- gsub("kpv_dialektjas/", "", kpv.corpus$Session_name, perl = TRUE)
-kpv.corpus$Session_name <- gsub("kpv_lit/", "", kpv.corpus$Session_name, perl = TRUE)
-kpv.corpus$Session_name <- gsub("\\.eaf", "", kpv.corpus$Session_name, perl = TRUE)
+kpv.corpus$Session_name <- gsub(".+/(.+)\\.eaf$", "\\1", kpv.corpus$Session_name, perl = TRUE)
+
+# kpv.corpus %>% distinct(Session_name) %>% select(Session_name)
 
 # kpv.corpus %>% distinct(Session_name) %>% select(Session_name) %>% arrange()
 
@@ -202,12 +201,67 @@ Token8 <- Token7[1:length(Token1)+1]
 kpv.corpus$Digram <- paste(Token1, Token2)
 kpv.corpus$Trigram <- paste(Token1, Token2, Token3)
 kpv.corpus$ngram <- paste(Token1, Token2, Token3, Token4, Token5, Token6, Token7, Token8)
+kpv.corpus$After <- paste(Token2, Token3, Token4, Token5, Token6)
+
+
+Token1 <- as.character(kpv.corpus$Token)
+Token2 <- Token1[0:(length(Token1)-1)]
+Token2 <- append(Token2, "", 0)
+Token3 <- Token2[0:(length(Token2)-1)]
+Token3 <- append(Token3, "", 0)
+Token4 <- Token3[0:(length(Token3)-1)]
+Token4 <- append(Token4, "", 0)
+Token5 <- Token4[0:(length(Token4)-1)]
+Token5 <- append(Token5, "", 0)
+Token6 <- Token5[0:(length(Token5)-1)]
+Token6 <- append(Token6, "", 0)
+Token7 <- Token6[0:(length(Token6)-1)]
+Token7 <- append(Token7, "", 0)
+Token8 <- Token7[0:(length(Token7)-1)]
+Token8 <- append(Token8, "", 0)
+
+kpv.corpus$Before <- paste(Token8, Token7, Token6, Token5, Token4, Token3, Token2)
+
+
+# This creates a dialect classification based upon filenames - a bit rough way, but works.
+
+kpv.corpus$Dialect <- gsub(".+(kpv_.+)\\d{8}.+$", "\\1", kpv.corpus$Filename, perl = TRUE)
+
+# I try to create also a column that contains the number of words per
+# segment on orthography tier
+
+library(stringr)
+
+kpv.corpus$Orth_count <- str_count(kpv.corpus$Orth, pattern = "\\S+")
+kpv.corpus$Ref_length <- as.numeric(as.character(kpv.corpus$Time_end)) - as.numeric(as.character(kpv.corpus$Time_start))
+
+        
+# kpv.corpus$Orth_count <- str_count(kpv.corpus$Orth, pattern = ".")
+
+# head(kpv.corpus$Orth_count)
+
+kpv.wordcount <- kpv.corpus %>% count(Token) %>% arrange(desc(n))
+kpv.corpus <- left_join(kpv.corpus, kpv.wordcount)
+kpv.corpus <- kpv.corpus %>% rename(Wordcount = n)
+
+kpv.speakercount <- kpv.corpus %>% count(Session_name) %>% arrange(desc(n))
+kpv.corpus <- left_join(kpv.corpus, kpv.speakercount)
+kpv.corpus <- kpv.corpus %>% rename(Speakercount = n)
+
+#
+
+#kpv.corpus$Time_start <- as.numeric(kpv.corpus$Time_start)
+#kpv.corpus$Time_end <- as.numeric(kpv.corpus$Time_end)
+
+# Let's also create an order column which is necessary because the Time_start is not now word-independent.
+
+kpv.corpus$Order <- 1:nrow(kpv.corpus)
 
 # In the end we remove from workspace the items we used to compose the actual corpus.
 # This is of course not necessary, but leads to a nicer workspace.
 
 rm(dat, doc, i, n, nodes, x, xmlfiles_all, xmlfiles_closed)
-rm(kpv.corpus.orthT, kpv.corpus.refT, kpv.corpus.TS, kpv.corpus.wordT)
-######
+rm(kpv.corpus.orthT, kpv.corpus.refT, kpv.corpus.TS, kpv.corpus.wordT, Token1, Token2, Token3, Token4, Token5, Token6, Token7, Token8, xmlfiles, kpv.wordcount, kpv.speakercount)
 
-kpv.corpus
+# save(kpv.corpus, file = "/Users/niko/apps/corpus-app/data/kpv.corpus.rda")
+######
