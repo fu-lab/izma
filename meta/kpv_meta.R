@@ -49,24 +49,11 @@ kpv.meta <- left_join(kpv.meta, project)
 project.contact.session <- kpv.meta %>% select(Session_name, Project_Contact_ID) %>% unique() %>% rename(Actor_ID = Project_Contact_ID)
 project.contact.session <- left_join(project.contact.session, actors) %>% select(Session_name, Actor_ID, Actor_fullname, Address, Email, Organisation)
 
-kpv.meta$Dialect <- kpv.meta$Session_name
-
-# kpv.meta <- kpv.meta[,order(names(kpv.meta))]
-
-kpv.meta$Dialect <- gsub("kpv_udo.+", "Udora Dialect", kpv.meta$Dialect, perl = TRUE)
-kpv.meta$Dialect <- gsub("kpv_izva.+", "Iźva Dialect", kpv.meta$Dialect, perl = TRUE)
-kpv.meta$Dialect <- gsub("kpv_skar.+", "Standard Komi", kpv.meta$Dialect, perl = TRUE)
-kpv.meta$Dialect <- gsub("kpv_lit.+", "Standard Komi", kpv.meta$Dialect, perl = TRUE)
-kpv.meta$Dialect <- gsub("kpv_lit.+", "Vym Dialect", kpv.meta$Dialect, perl = TRUE)
-kpv.meta$Dialect <- gsub("kpv_vym.+", "Vym Dialect", kpv.meta$Dialect, perl = TRUE)
-
 
 kpv.meta$Date <- kpv.meta$Session_name
-
 kpv.meta$Date <- gsub(".+(\\d\\d\\d\\d)(\\d\\d)(\\d\\d).+", "\\1-\\2-\\3", kpv.meta$Date, perl = TRUE)
 
 kpv.meta <- kpv.meta %>%  mutate(Age = Recording_year - Birthtime_year)
-
 kpv.meta$Age_group <- kpv.meta$Age
 
 kpv.meta$Age_group <- gsub("^[\\d]$|^10$", "1-10", kpv.meta$Age_group, perl=TRUE)
@@ -148,7 +135,7 @@ kpv.meta$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", kpv.meta$Age_group, per
 
 # Check the verb count()
 
-rm(actors, actor.links, OSM_POR, sessions)
+rm(actors, actor.links, OSM_POR, OSM_rec, project, sessions)
 
 # One thing we have done regularly in Freiburg is to export IMDI XML directly
 # from FileMaker Pro. Joshua Wilbur has been perfecting this for a long time,
@@ -193,4 +180,6 @@ rm(actors, actor.links, OSM_POR, sessions)
 
 dbDisconnect(pv)
 rm(pv, drv)
+rm(project.contact.session)
 
+# save(kpv.meta, file = "/Users/niko/apps/corpus-app/data/kpv.meta.rda")
