@@ -257,6 +257,11 @@ kpv.corpus <- kpv.corpus %>% rename(Speakercount = n)
 
 kpv.corpus$Order <- 1:nrow(kpv.corpus)
 
+# Let's also turn the timeslots into actual minutes and seconds
+
+kpv.corpus$Time_start_hms <- format(as.POSIXct(Sys.Date())+kpv.corpus$Time_start/1000, "%M:%S")
+kpv.corpus$Time_end_hms <- format(as.POSIXct(Sys.Date())+kpv.corpus$Time_end/1000, "%M:%S")
+
 # In the end we remove from workspace the items we used to compose the actual corpus.
 # This is of course not necessary, but leads to a nicer workspace.
 

@@ -4,24 +4,26 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:output method="xml" omit-xml-declaration="no" />
+    <xsl:variable name="Participant" select="/session/orthography[@PARTICIPANT]"/>
+    <xsl:variable name="Dir" select="/session[@name]"/>
     <xsl:template match="/">
-        <xsl:param name="separator" select="' '"/>
+     <xsl:result-document href="{$Dir}.eaf" method="xml"/>
         <ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2014-09-08T16:00:59+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
             <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
                 <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:61ee3117-e199-49ca-8258-9415d9cf90e1</PROPERTY>
                 <PROPERTY NAME="lastUsedAnnotationId">1</PROPERTY>
             </HEADER>
         <TIME_ORDER>
-            <xsl:for-each select="1 to xs:integer(count(//orth))">
+            <xsl:for-each select="1 to xs:integer(count(//orthography))">
                 <TIME_SLOT TIME_SLOT_ID="ts{(position()-1)*2+1}" TIME_VALUE="{(position() - 1)*10000}"/>
                 <TIME_SLOT TIME_SLOT_ID="ts{(position()-1)*2+2}" TIME_VALUE="{(position()    )*10000}"/>
             </xsl:for-each>
         </TIME_ORDER>
-        <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="S1" TIER_ID="ref@S1">
-            <xsl:for-each select="//ref">
+        <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="$Participant" TIER_ID="ref@S1">
+            <xsl:for-each select="//orthography">
                 <ANNOTATION>
                     <ALIGNABLE_ANNOTATION ANNOTATION_ID="a{position()}" TIME_SLOT_REF1="ts{position()*2-1}" TIME_SLOT_REF2="ts{position()*2}">
-                        <ANNOTATION_VALUE><xsl:value-of select="."/></ANNOTATION_VALUE>
+                        <ANNOTATION_VALUE><xsl:value-of select="@ID"/></ANNOTATION_VALUE>
                 </ALIGNABLE_ANNOTATION>
             </ANNOTATION>
             </xsl:for-each>
@@ -42,11 +44,11 @@
         <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@S1"
             TIER_ID="orth@S1">
             <xsl:attribute name="PARTICIPANT">
-                    <xsl:value-of select="data/row/actor[1]" />
+                    <xsl:value-of select="$Participant" />
             </xsl:attribute>
-            <xsl:for-each select="//orth">
+            <xsl:for-each select="//orthography">
                 <ANNOTATION>
-                <REF_ANNOTATION ANNOTATION_ID="a{position() + count(//orth)}" ANNOTATION_REF="a{position()}">
+                <REF_ANNOTATION ANNOTATION_ID="a{position() + count(//orthography)}" ANNOTATION_REF="a{position()}">
                     <ANNOTATION_VALUE><xsl:value-of select="."/></ANNOTATION_VALUE>
                 </REF_ANNOTATION>
             </ANNOTATION>
@@ -67,15 +69,7 @@
             <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-nobT" PARENT_REF="orth@S1" PARTICIPANT="S1"
                 TIER_ID="ft-nob@S1"/>
             <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@S1" PARTICIPANT="S1"
-                TIER_ID="ft-rus@S1">
-                <xsl:for-each select="//ft-rus">
-                    <ANNOTATION>
-                        <REF_ANNOTATION ANNOTATION_ID="a{position() + count(//orth)*3}" ANNOTATION_REF="a{position()}">
-                            <ANNOTATION_VALUE><xsl:value-of select="."/></ANNOTATION_VALUE>
-                        </REF_ANNOTATION>
-                    </ANNOTATION>
-                </xsl:for-each>
-            </TIER>
+                TIER_ID="ft-rus@S1"/>
             <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-sweT" PARENT_REF="orth@S1" PARTICIPANT="S1"
                 TIER_ID="ft-swe@S1"/>
             <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-lingT" PARENT_REF="orth@S1" PARTICIPANT="S1"

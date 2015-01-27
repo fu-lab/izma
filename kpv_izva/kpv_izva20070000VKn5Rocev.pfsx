@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <pref key="MediaTime">
+        <Long>1480000</Long>
+    </pref>
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>ref@JVR-M-1937</String>
+        <String>phonet-UPA@JVR-M-1937</String>
+        <String>phonol-CYR@JVR-M-1937</String>
+        <String>translit-LAT@JVR-M-1937</String>
+        <String>note(ref)@JVR-M-1937</String>
+        <String>orth@JVR-M-1937</String>
+        <String>word@JVR-M-1937</String>
+        <String>lemma@JVR-M-1937</String>
+        <String>morph@JVR-M-1937</String>
+        <String>pos@JVR-M-1937</String>
+        <String>lg(word)@JVR-M-1937</String>
+        <String>note(word)@JVR-M-1937</String>
+        <String>ft-eng@JVR-M-1937</String>
+        <String>ft-deu@JVR-M-1937</String>
+        <String>ft-nob@JVR-M-1937</String>
+        <String>ft-rus@JVR-M-1937</String>
+        <String>ft-swe@JVR-M-1937</String>
+        <String>ft-ling@JVR-M-1937</String>
+        <String>ft-fin@JVR-M-1937</String>
+        <String>note(orth)@JVR-M-1937</String>
+        <String>lg(orth)@JVR-M-1937</String>
+        <String>phonet-IPA@JVR-M-1937</String>
+        <String>phonol-LAT@JVR-M-1937</String>
+    </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>2</Int>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>6</Int>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="geo">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="ref@JVR-M-1937">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,23</Object>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+    </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@S1</String>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>1480000</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>1479020</Long>
+    </pref>
+    <pref key="SelectionEndTime">
+        <Long>1490000</Long>
+    </pref>
+</preferences>
