@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <pref key="MediaTime">
+        <Long>0</Long>
+    </pref>
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>ref@IXA-M-18XX</String>
+        <String>phonet-UPA@IXA-M-18XX</String>
+        <String>phonol-CYR@IXA-M-18XX</String>
+        <String>translit-LAT@IXA-M-18XX</String>
+        <String>note(ref)@IXA-M-18XX</String>
+        <String>orth@IXA-M-18XX</String>
+        <String>word@IXA-M-18XX</String>
+        <String>lemma@IXA-M-18XX</String>
+        <String>morph@IXA-M-18XX</String>
+        <String>pos@IXA-M-18XX</String>
+        <String>lg(word)@IXA-M-18XX</String>
+        <String>note(word)@IXA-M-18XX</String>
+        <String>ft-eng@IXA-M-18XX</String>
+        <String>ft-deu@IXA-M-18XX</String>
+        <String>ft-nob@IXA-M-18XX</String>
+        <String>ft-rus@IXA-M-18XX</String>
+        <String>ft-swe@IXA-M-18XX</String>
+        <String>ft-ling@IXA-M-18XX</String>
+        <String>ft-fin@IXA-M-18XX</String>
+        <String>note(orth)@IXA-M-18XX</String>
+        <String>lg(orth)@IXA-M-18XX</String>
+        <String>phonet-IPA@IXA-M-18XX</String>
+        <String>phonol-LAT@IXA-M-18XX</String>
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+    </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>2</Int>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>6</Int>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ref@IXA-M-18XX">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,23</Object>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+    </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@IXA-M-18XX</String>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>0</Long>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>0</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="SelectionEndTime">
+        <Long>10000</Long>
+    </pref>
+</preferences>
