@@ -60,9 +60,9 @@ xmlfiles_closed <- list.files(path="../closed", pattern="*.eaf$", recursive=TRUE
 xmlfiles_closed <- xmlfiles_closed[ !grepl("kpv_novyje|kpv_kolva", xmlfiles_closed)]
 
 xmlfiles <- c(xmlfiles, xmlfiles_closed)
-
+xmlfiles
 n <- length(xmlfiles)
-
+n
 dat <- vector("list", n)
 
 # This part of the code reads all content of the word-tiers and saves it to a new object.
@@ -106,7 +106,7 @@ kpv.corpus.orthT
 
 for(i in 1:n){
         doc <- xmlTreeParse(xmlfiles[i], useInternalNodes = TRUE)
-        nodes <- getNodeSet(doc, "//TIER[@LINGUISTIC_TYPE_REF='ref(spoken)T']")
+        nodes <- getNodeSet(doc, "//TIER[@LINGUISTIC_TYPE_REF='refT']")
         x <- lapply(nodes, function(x){ data.frame(
                 Filename = xmlfiles[i],
                 Speaker = xpathSApply(x, "." , xmlGetAttr, "PARTICIPANT"),
@@ -270,3 +270,5 @@ rm(kpv.corpus.orthT, kpv.corpus.refT, kpv.corpus.TS, kpv.corpus.wordT, Token1, T
 
 # save(kpv.corpus, file = "/Users/niko/apps/corpus-app/data/kpv.corpus.rda")
 ######
+kpv.corpus
+
