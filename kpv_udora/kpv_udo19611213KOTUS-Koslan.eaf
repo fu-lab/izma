@@ -277,7 +277,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts269" TIME_VALUE="288079"/>
         <TIME_SLOT TIME_SLOT_ID="ts270" TIME_VALUE="293844"/>
     </TIME_ORDER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="AJV-M-1933" TIER_ID="ref@AJV-M-1933">
+    <TIER LINGUISTIC_TYPE_REF="refT" PARTICIPANT="AJV-M-1933" TIER_ID="ref@AJV-M-1933">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -604,7 +604,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="GTS-F-1941" TIER_ID="ref@GTS-F-1941">
+    <TIER LINGUISTIC_TYPE_REF="refT" PARTICIPANT="GTS-F-1941" TIER_ID="ref@GTS-F-1941">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -4206,7 +4206,7 @@
     </TIER>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="wordT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref(spoken)T" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>

@@ -81,7 +81,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="95720"/>
         <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="95720"/>
     </TIME_ORDER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="NSP-F-1956" TIER_ID="ref@NSP-F-1956">
+    <TIER LINGUISTIC_TYPE_REF="refT" PARTICIPANT="NSP-F-1956" TIER_ID="ref@NSP-F-1956">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts5">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -218,7 +218,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="NTP-M-1986" TIER_ID="ref@NTP-M-1986">
+    <TIER LINGUISTIC_TYPE_REF="refT" PARTICIPANT="NTP-M-1986" TIER_ID="ref@NTP-M-1986">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts3">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -1684,7 +1684,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="part(spoken)T" TIER_ID="part">
+    <TIER LINGUISTIC_TYPE_REF="partT" TIER_ID="part">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a145" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts74">
                 <ANNOTATION_VALUE>Crying_trees</ANNOTATION_VALUE>
@@ -1788,12 +1788,12 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref(spoken)T" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-engT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="wordT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonet-ipaT" TIME_ALIGNABLE="false"/>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="part(spoken)T" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="partT" TIME_ALIGNABLE="true"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
