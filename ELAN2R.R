@@ -272,3 +272,5 @@ rm(kpv.corpus.orthT, kpv.corpus.refT, kpv.corpus.TS, kpv.corpus.wordT, Token1, T
 ######
 kpv.corpus
 
+save(kpv.corpus, file = "/Users/niko/FRorpus-dashboard/data/kpv_corpus.rds")
+
