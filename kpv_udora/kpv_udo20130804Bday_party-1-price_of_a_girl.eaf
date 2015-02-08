@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-22T18:01:01+02:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2015-02-07T19:02:34+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_udora/kpv_udo20130804Bday_party/kpv_udo20130804Bday_party-1.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../Documents/kpv_udora/kpv_udo20130804Bday_party/kpv_udo20130804Bday_party-1.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_udora/kpv_udo20130804Bday_party-1/kpv_udo20130804Bday_party-1.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_udora/kpv_udo20130804Bday_party-1/kpv_udo20130804Bday_party-1.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:4593a304-e55d-4aca-878d-433b43c9842c</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">396</PROPERTY>
     </HEADER>
     <TIME_ORDER>

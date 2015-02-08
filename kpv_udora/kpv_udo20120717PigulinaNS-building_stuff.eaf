@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-15T13:32:17+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2015-02-07T17:12:29+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udo20120717PigulinaNS/kpv_udo20120717PigulinaNS-building_stuff.wav" MIME_TYPE="audio/x-wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_udora/kpv_udo20120717PigulinaNS-building_stuff/kpv_udo20120717PigulinaNS-building_stuff.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_udora/kpv_udo20120717PigulinaNS-building_stuff/kpv_udo20120717PigulinaNS-building_stuff.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:b60e1d55-9687-4986-84de-c8facf8a3d90</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">703</PROPERTY>
     </HEADER>

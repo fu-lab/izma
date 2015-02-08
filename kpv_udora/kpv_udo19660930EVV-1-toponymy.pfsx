@@ -29,7 +29,7 @@
             <String>English</String>
         </pref>
         <pref key="audio">
-            <String>///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udora_KOTUS/kpv_udo19660930EVV-1-00-toponymy/13759_1az.wav</String>
+            <String>///Users/niko/kom/kpv_udora/kpv_udo19660930EVV-1-toponymy/kpv_udo19660930EVV-1-toponymy.wav</String>
         </pref>
     </prefGroup>
     <pref key="LayoutManager.VisibleMultiTierViewer">
@@ -101,15 +101,15 @@
         <pref key="ref@GIJ-M-1929">
             <Object class="java.awt.Color">0,160,0</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,90,90</Object>
         </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>1540</Long>
+        <Long>15326</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -160,12 +160,12 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>0</Long>
+        <Long>13360</Long>
     </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
     </pref>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
         <Long>3600</Long>
     </pref>

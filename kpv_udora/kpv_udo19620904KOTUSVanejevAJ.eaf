@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-12T18:18:14+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2015-02-07T16:51:34+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udo19620904KOTUSVanejevAJ/2156_1az.wav" MIME_TYPE="audio/x-wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_udora/kpv_udo19620904KOTUSVanejevAJ/kpv_udo19620904KOTUSVanejevAJ.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_udora/kpv_udo19620904KOTUSVanejevAJ/kpv_udo19620904KOTUSVanejevAJ.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:0a9e57d3-5eb9-4aed-8a9c-ed30a18285a6</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">116</PROPERTY>
     </HEADER>

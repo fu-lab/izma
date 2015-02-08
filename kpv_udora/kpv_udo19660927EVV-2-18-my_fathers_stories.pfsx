@@ -46,7 +46,7 @@
             <String>English</String>
         </pref>
         <pref key="audio">
-            <String>///Users/niko/Documents/kpv_udora/kpv_udora_KOTUS/kpv_udo19660927EVV-2/13762_1a.wav</String>
+            <String>///Users/niko/kom/kpv_udora/kpv_udo19660927EVV-2-18-my_fathers_stories/kpv_udo19660927EVV-2-18-my_fathers_stories.wav</String>
         </pref>
     </prefGroup>
     <prefList key="CommentViewer.Columns.Order">
@@ -62,7 +62,7 @@
         <String>Modification Date</String>
     </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>0</Int>
+        <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap"/>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
@@ -85,11 +85,11 @@
         <pref key="bio">
             <Object class="java.awt.Color">160,90,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,90,0</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,0</Object>
         </pref>
     </prefGroup>
     <prefList key="CommentViewer.Columns.Hidden">
@@ -100,33 +100,33 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>715736</Long>
+        <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="ref@EVV-M-1933">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">90,160,0</Object>
         </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">160,90,0</Object>
+        <pref key="ref@EVV-M-1933">
+            <Object class="java.awt.Color">0,0,160</Object>
         </pref>
         <pref key="ref@KPB-M-1929">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">90,0,0</Object>
+        <pref key="bio">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,90,0</Object>
         </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>715736</Long>
+        <Long>2075211</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -174,12 +174,12 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>715576</Long>
+        <Long>2074140</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>716560</Long>
+        <Long>0</Long>
     </pref>
 </preferences>

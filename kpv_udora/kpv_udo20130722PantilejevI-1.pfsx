@@ -36,7 +36,7 @@
             <String>English</String>
         </pref>
         <pref key="audio">
-            <String>///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udo20130722PantilejevI/kpv_udo20130722PantilejevI-1.wav</String>
+            <String>///Users/niko/kom/kpv_udora/kpv_udo20130722PantilejevI-1/kpv_udo20130722PantilejevI-1.wav</String>
         </pref>
     </prefGroup>
     <pref key="LayoutManager.VisibleMultiTierViewer">
@@ -81,11 +81,11 @@
         <pref key="ref@IAP-M-1939">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,90,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,160</Object>
         </pref>
         <pref key="ref@TR-M-1960">
             <Object class="java.awt.Color">0,160,160</Object>
@@ -134,6 +134,9 @@
         <Int>1</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
@@ -179,7 +182,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>45513</Long>
+        <Long>44425</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>

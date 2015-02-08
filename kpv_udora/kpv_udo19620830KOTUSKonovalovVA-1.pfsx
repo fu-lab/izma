@@ -71,7 +71,7 @@
             <String>English</String>
         </pref>
         <pref key="audio">
-            <String>///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udora_KOTUS/kpv_udo19620830KOTUSKonovalovVA-1/kpv_udo19620830KOTUSKonovalovVA-1.wav</String>
+            <String>///Users/niko/kom/kpv_udora/kpv_udo19620830KOTUSKonovalovVA-1/kpv_udo19620830KOTUSKonovalovVA-1.wav</String>
         </pref>
     </prefGroup>
     <pref key="LayoutManager.VisibleMultiTierViewer">
@@ -116,14 +116,14 @@
         <pref key="ref@XXX-F-18XX">
             <Object class="java.awt.Color">0,90,160</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,90,160</Object>
-        </pref>
         <pref key="ref@VAK-M-1880">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,160,90</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,160</Object>
         </pref>
         <pref key="ref@AJV-M-1933">
             <Object class="java.awt.Color">160,160,0</Object>
@@ -143,7 +143,7 @@
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>253130</Long>
+        <Long>842076</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="geo">
@@ -158,14 +158,14 @@
         <pref key="ref@XXX-F-18XX">
             <Object class="java.awt.Color">0,90,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,160,90</Object>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,90,160</Object>
         </pref>
         <pref key="ref@VAK-M-1880">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,90,160</Object>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,90</Object>
         </pref>
         <pref key="ref@AJV-M-1933">
             <Object class="java.awt.Color">160,160,0</Object>
@@ -175,6 +175,9 @@
         <Int>1</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
@@ -220,7 +223,7 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>242158</Long>
+        <Long>830876</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>

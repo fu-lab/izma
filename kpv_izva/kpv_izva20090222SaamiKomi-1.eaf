@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="Michael Rießler" DATE="2015-01-02T14:21:27+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="Michael Rießler" DATE="2015-02-07T15:31:51+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video1.m4v" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video1.m4v"/>
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video1.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../Documents/kpv_izva/kpv_izva20090222SaamiKomi/kpv_kola090222SaamiKomi_Video1.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20090222SaamiKomi-1/kpv_kola090222SaamiKomi-1.m4v" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20090222SaamiKomi-1/kpv_kola090222SaamiKomi-1.m4v"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20090222SaamiKomi-1/kpv_kola090222SaamiKomi-1.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20090222SaamiKomi-1/kpv_kola090222SaamiKomi-1.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:090c69e8-e07d-4c01-a37a-8d7e1c60bd5a</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">3951</PROPERTY>
     </HEADER>
@@ -12571,10 +12571,10 @@
     <CONTROLLED_VOCABULARY CV_ID="TurnModeCV">
         <DESCRIPTION LANG_REF="und"/>
     </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="lg">
+    <CONTROLLED_VOCABULARY CV_ID="TurnFidelityCV">
         <DESCRIPTION LANG_REF="und"/>
     </CONTROLLED_VOCABULARY>
-    <CONTROLLED_VOCABULARY CV_ID="TurnFidelityCV">
+    <CONTROLLED_VOCABULARY CV_ID="lg">
         <DESCRIPTION LANG_REF="und"/>
     </CONTROLLED_VOCABULARY>
     <CONTROLLED_VOCABULARY CV_ID="SectionTypeCV">

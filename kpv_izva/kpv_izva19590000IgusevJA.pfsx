@@ -28,9 +28,6 @@
         <String>note(bio)</String>
         <String>comment</String>
     </prefList>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
-    </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
             <String>English</String>
@@ -39,6 +36,9 @@
             <String>///Users/niko/Documents/kpv_izva/kpv_izva19590000IgushevJA/kpv_izva19590000IgushevJA.wav</String>
         </pref>
     </prefGroup>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -61,11 +61,11 @@
         </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="TM.SignalViewer.ZoomLevel">
-        <Float>5.0</Float>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>orthT</String>
@@ -107,9 +107,6 @@
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
-    <pref key="MediaTime">
-        <Long>952386</Long>
-    </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ft-rus@JAI-M-1939">
             <Object class="java.awt.Color">160,0,0</Object>
@@ -123,16 +120,19 @@
         <pref key="ref@JAI-M-1939">
             <Object class="java.awt.Color">160,0,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,160,0</Object>
+        <pref key="orth@JAI-M-1939">
+            <Object class="java.awt.Color">160,0,0</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
-        <pref key="orth@JAI-M-1939">
-            <Object class="java.awt.Color">160,0,0</Object>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,0</Object>
         </pref>
     </prefGroup>
+    <pref key="MediaTime">
+        <Long>281580</Long>
+    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -150,24 +150,24 @@
             <Float>1000.0</Float>
         </pref>
         <pref key="source_audio">
-            <String>///Users/niko/kom/kpv_izva/kpv_izva19590000IgushevJA/kpv_izva19590000IgushevJA.wav</String>
+            <String>///Users/niko/kom/kpv_izva/kpv_izva19590000IgusevJA/kpv_izva19590000IgusevJA.wav</String>
         </pref>
     </prefGroup>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
-    </pref>
-    <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>100.0</Float>
     </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type1 : orthT</String>
-    </pref>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>part</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -201,8 +201,17 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>952126</Long>
+        <Long>272570</Long>
+    </pref>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Recognizer for detecting longer segments with a lower amplitude than a given treshold</String>
+    </pref>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>292</Int>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type2">
@@ -212,12 +221,6 @@
             <Int>423</Int>
         </pref>
     </prefGroup>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>292</Int>
-    </pref>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Recognizer for detecting longer segments with a lower amplitude than a given treshold</String>
-    </pref>
     <pref key="SelectionEndTime">
         <Long>952058</Long>
     </pref>

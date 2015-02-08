@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-05-05T18:01:40+01:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2015-02-07T17:30:59+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udo20120720PigulinaNS/kpv_udo20120720PigulinaNS-Lazei_da_Mark.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./kpv_udo20120720PigulinaNS-Lazei_da_Mark.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_udora/kpv_udo20120720PigulinaNS-Lazei_da_Mark/kpv_udo20120720PigulinaNS-Lazei_da_Mark.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_udora/kpv_udo20120720PigulinaNS-Lazei_da_Mark/kpv_udo20120720PigulinaNS-Lazei_da_Mark.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:a0aedfa3-2164-4ed5-9e62-2b3ccb007253</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">446</PROPERTY>
     </HEADER>
     <TIME_ORDER>

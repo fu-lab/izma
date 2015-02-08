@@ -68,17 +68,17 @@
         <String>phonet-IPA@PK</String>
         <String>phonol-LAT@PK</String>
     </prefList>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
-    </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
             <String>English</String>
         </pref>
         <pref key="audio">
-            <String>///Users/niko/Documents/kpv_izva/kpv_izva20000321ChuprovII/kpv_izva20000321ChuprovII.wav</String>
+            <String>///Users/niko/kom/kpv_izva/kpv_izva20000321ChuprovII/kpv_izva20000321ChuprovII.wav</String>
         </pref>
     </prefGroup>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -92,18 +92,18 @@
         <String>Modification Date</String>
     </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>2</Int>
+        <Int>144</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
-        <prefList key="word@PK">
-            <String>word@PK</String>
-            <String>No tier</String>
-            <String>No tier</String>
-        </prefList>
         <prefList key="word@VVF-F-1957">
             <String>word@VVF-F-1957</String>
             <String>var:affr@VVF-F-1957</String>
             <String>var:affr:qlt@VVF-F-1957</String>
+        </prefList>
+        <prefList key="word@PK">
+            <String>word@PK</String>
+            <String>No tier</String>
+            <String>No tier</String>
         </prefList>
         <prefList key="word@IIC-M-1937">
             <String>word@IIC-M-1937</String>
@@ -123,22 +123,22 @@
             <Int>1</Int>
         </pref>
     </prefGroup>
-    <pref key="TM.SignalViewer.ZoomLevel">
-        <Float>5.0</Float>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>wordT</String>
         <String>var</String>
         <String>var-qlt</String>
     </prefList>
-    <pref key="LayoutManager.SelectedTabIndex">
-        <Int>4</Int>
-    </pref>
     <pref key="TimeLineViewer.ZoomLevel">
         <Float>198.0</Float>
+    </pref>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>4</Int>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@VVF-F-1957">
@@ -174,13 +174,10 @@
         <Int>1816</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>375</Long>
+        <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
-    </pref>
-    <pref key="MediaTime">
-        <Long>375</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="word@PK">
@@ -225,16 +222,19 @@
         <pref key="var:affr:qlt@IIC-M-1937">
             <Object class="java.awt.Color">112,104,4</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">160,0,0</Object>
         </pref>
         <pref key="word@IIC-M-1937">
             <Object class="java.awt.Color">112,104,4</Object>
         </pref>
     </prefGroup>
+    <pref key="MediaTime">
+        <Long>16853</Long>
+    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -242,17 +242,14 @@
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
-    <pref key="SignalViewer.ZoomLevel">
-        <Float>198.0</Float>
-    </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>198.0</Float>
+    </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type2 : var</String>
-    </pref>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>part</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -286,13 +283,18 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
     <pref key="LayoutManager.ControlPanelWidth">
         <Int>196</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>0</Long>
+        <Long>16059</Long>
     </pref>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
             <Int>280</Int>
@@ -304,10 +306,8 @@
             <Int>280</Int>
         </pref>
     </prefGroup>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
-    </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>2286</Long>
+        <Long>0</Long>
     </pref>
 </preferences>

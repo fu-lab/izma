@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-08-30T11:38:18+02:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2015-02-07T15:47:29+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/Documents/kpv_udora/kpv_udora_KOTUS/kpv_vym19570000KOTUS-Vym/kpv_vym19570000KOTUS-Vym.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../Documents/kpv_udora/kpv_udora_KOTUS/kpv_vym19570000KOTUS-Vym/kpv_vym19570000KOTUS-Vym.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_vym/kpv_vym19570000KOTUS-Vym/kpv_vym19570000KOTUS-Vym.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../Documents/kpv_udora/kpv_udora_KOTUS/kpv_vym19570000KOTUS-Vym/kpv_vym19570000KOTUS-Vym.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:bfdbf91a-2f5f-4e17-b390-a70c4019b603</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">1331</PROPERTY>
     </HEADER>
     <TIME_ORDER>
@@ -104,7 +105,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="153410"/>
         <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="156170"/>
     </TIME_ORDER>
-    <TIER LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="XXX-F-1920" TIER_ID="ref@XXX-F-1920">
+    <TIER LINGUISTIC_TYPE_REF="refT" PARTICIPANT="XXX-F-1920" TIER_ID="ref@XXX-F-1920">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1020" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -354,147 +355,147 @@
     <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@XXX-F-1920" PARTICIPANT="XXX-F-1920" TIER_ID="orth@XXX-F-1920">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1069" ANNOTATION_REF="a1020">
-                <ANNOTATION_VALUE>лоа ме усьвымскӧй районысь</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Лоа ме усьвымскӧй районысь</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1070" ANNOTATION_REF="a1021">
-                <ANNOTATION_VALUE>шуӧны менӧ Фотиева Александраӧн .</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>шуӧны менӧ Фотиева Александраӧн.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1071" ANNOTATION_REF="a1022">
-                <ANNOTATION_VALUE>ме кӧсъя висьтавны устьвымскӧй кыв вылын ӧтик сказка ,</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ме кӧсъя висьтавны устьвымскӧй кыв вылын ӧтик сказка.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1072" ANNOTATION_REF="a1023">
-                <ANNOTATION_VALUE>как один мужик ,</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Как один мужик,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1073" ANNOTATION_REF="a1024">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мужик-от у царя жену и нылсӧ позолатил.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1074" ANNOTATION_REF="a1025">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Коркӧ давно жили да были цар гожъя.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1075" ANNOTATION_REF="a1026">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>У них-от была одна доч,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1076" ANNOTATION_REF="a1027">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>зэв умная да такая баская.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1077" ANNOTATION_REF="a1028">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Коді оз аддзы, у того и зависёт берёт.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1078" ANNOTATION_REF="a1029">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вӧлі у них ешшо и статуха, мать-от у царичи.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1079" ANNOTATION_REF="a1030">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Однажды один-от мужик решылся обманут тайӧ царскӧй семятӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1080" ANNOTATION_REF="a1031">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Наложыл мужик-от бурак чери да и отпрайлся к чарюте.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1081" ANNOTATION_REF="a1032">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Кыйӧдіс когда чарёт дома не быват</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1082" ANNOTATION_REF="a1033">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>и локтіс к нему.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1083" ANNOTATION_REF="a1034">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Царича-то увидела мужика да и забаяла с ним.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1084" ANNOTATION_REF="a1035">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Что они тебе, мужык-от, у нас надо.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1085" ANNOTATION_REF="a1036">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Я - шуӧ мужик - хожу да йӧзӧс золочу.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1086" ANNOTATION_REF="a1037">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Тебя-то может тожӧ надо позолотит?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1087" ANNOTATION_REF="a1038">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Золоти - говорит царича.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1088" ANNOTATION_REF="a1039">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мужик-от дыр эз думайт.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1089" ANNOTATION_REF="a1040">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Баско на мазал царичалысь лоӧ да и забаял ей:</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1090" ANNOTATION_REF="a1041">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>закаличайся керкаад</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1091" ANNOTATION_REF="a1042">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да ляг,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1092" ANNOTATION_REF="a1043">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>пусь посох нет зӧлӧтаыс.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1093" ANNOTATION_REF="a1044">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сесся мужик-от зашол мӧд комнатаас,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1094" ANNOTATION_REF="a1045">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а там у царичи доцка-то была.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1095" ANNOTATION_REF="a1046">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Да и говорит мужык-от девке-то: у тебя, царича, очень хорошо комнате-от,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1096" ANNOTATION_REF="a1047">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>тебя самуто золотит надо.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1097" ANNOTATION_REF="a1048">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Пощо - говорит царича-то.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -574,27 +575,27 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1113" ANNOTATION_REF="a1064">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А кань пыралӧма пӧгребӧ</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1114" ANNOTATION_REF="a1065">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>и всё сьела,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1115" ANNOTATION_REF="a1066">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>башка-то не варит</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1116" ANNOTATION_REF="a1067">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да веди,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1117" ANNOTATION_REF="a1068">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ег и тырмысямӧй дзебны пыдӧжык.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -1678,19 +1679,33 @@
     </TIER>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonet-upaT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="wordT" TIME_ALIGNABLE="false"/>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref(spoken)T" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft-finT" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="orthT" TIME_ALIGNABLE="false"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
     <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
-    <CONTROLLED_VOCABULARY CV_ID="code" DESCRIPTION="">
-        <CV_ENTRY DESCRIPTION="">ko</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="">ru</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="">mix</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="">ko-ru</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="">ru-ko</CV_ENTRY>
-        <CV_ENTRY DESCRIPTION="">loan</CV_ENTRY>
+    <CONTROLLED_VOCABULARY CV_ID="code">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">ko</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">ru</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">mix</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">ko-ru</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">ru-ko</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE DESCRIPTION="" LANG_REF="und">loan</CVE_VALUE>
+        </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
 </ANNOTATION_DOCUMENT>

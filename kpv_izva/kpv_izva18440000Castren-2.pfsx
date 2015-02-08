@@ -14,6 +14,7 @@
         <String>phonol-CYR@bundle:Castren</String>
         <String>translit-LAT@bundle:Castren</String>
         <String>note(ref)@bundle:Castren</String>
+        <String>orth(orig)@bundle:Castren</String>
         <String>orth@bundle:Castren</String>
         <String>word@bundle:Castren</String>
         <String>lemma@bundle:Castren</String>
@@ -30,7 +31,6 @@
         <String>ft-fin@bundle:Castren</String>
         <String>note(orth)@bundle:Castren</String>
         <String>lg(orth)@bundle:Castren</String>
-        <String>orth(orig)@bundle:Castren</String>
         <String>phonet-IPA@bundle:Castren</String>
         <String>phonol-LAT@bundle:Castren</String>
     </prefList>
@@ -66,6 +66,9 @@
         <String>orth(orig)T</String>
         <String>orthT</String>
     </prefList>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>89.0</Float>
+    </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>6</Int>
     </pref>
@@ -79,11 +82,11 @@
         <pref key="ref@bundle:Castren">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,160,90</Object>
         </pref>
     </prefGroup>
     <prefList key="CommentViewer.Columns.Hidden">
@@ -97,13 +100,13 @@
         <Int>1</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>100000</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>0</Long>
+        <Long>102616</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="orth@S1">
@@ -132,6 +135,9 @@
         <Int>1</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
@@ -140,9 +146,6 @@
     </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type2 : orthT</String>
-    </pref>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>ref@S1</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -176,8 +179,11 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@S1</String>
+    </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>-200</Long>
+        <Long>98617</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type2">
@@ -188,6 +194,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>10000</Long>
+        <Long>110000</Long>
     </pref>
 </preferences>

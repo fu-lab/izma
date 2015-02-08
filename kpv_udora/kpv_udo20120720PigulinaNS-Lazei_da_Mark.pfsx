@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
-    <pref key="MediaTime">
-        <Long>0</Long>
-    </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@NSP-F-1956</String>
-        <String>ref@NTP-M-1986</String>
         <String>orth@NSP-F-1956</String>
         <String>word@NSP-F-1956</String>
         <String>phonet-IPA@NSP-F-1956</String>
+        <String>ref@NTP-M-1986</String>
         <String>orth@NTP-M-1986</String>
         <String>phonet-IPA@NTP-M-1986</String>
         <String>part</String>
     </prefList>
-    <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">160,0,90</Object>
+    <prefGroup key="Text-to-Speech alignment">
+        <pref key="model">
+            <String>English</String>
         </pref>
-        <pref key="ref@NSP-F-1956">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,90,0</Object>
+        <pref key="audio">
+            <String>///Users/niko/kom/kpv_udora/kpv_udo20120720PigulinaNS-Lazei_da_Mark/kpv_udo20120720PigulinaNS-Lazei_da_Mark.wav</String>
         </pref>
     </prefGroup>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>0</Int>
-    </pref>
-    <prefList key="TranscriptionTable.HiddenTiers"/>
-    <pref key="MediaControlRate">
-        <Float>1.0</Float>
+        <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap"/>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,774</Object>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
@@ -57,20 +59,89 @@
             <Object class="java.awt.Color">0,90,0</Object>
         </pref>
     </prefGroup>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">0,22</Object>
-    </pref>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>ref@NSP-F-1956</String>
+        <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
         <Long>0</Long>
     </pref>
-    <pref key="TimeScaleBeginTime">
-        <Long>160</Long>
-    </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>2</Int>
+        <Int>1</Int>
+    </pref>
+    <pref key="MediaTime">
+        <Long>0</Long>
+    </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="ref@NSP-F-1956">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+    </prefGroup>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>100.0</Float>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@NSP-F-1956</String>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+    </prefGroup>
+    <pref key="TimeScaleBeginTime">
+        <Long>0</Long>
+    </pref>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
         <Long>0</Long>

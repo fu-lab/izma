@@ -1,11 +1,5 @@
-# This is one way to do this. However, I think it is better to read data directly from the
+# We read the metadata directly from the
 # database. This is possible by using JCDB connection.
-
-# library(plyr)
-# kpv_corpus_meta <- read.csv("./../../kpv_corpus_meta.csv", header=F)
-# kpv_corpus_meta <- rename(kpv_corpus_meta, c("V1" = "Speaker", "V2" = "Sex", "V3" = "Birthyear", "V4" = "lat", "V5" = "lon", "V6" = "attr.foreign", "V7" = "Rec.year"))
-# kpv_corpus_meta <- unique(kpv_corpus_meta)
-# kpv_corpus_meta <- tbl_dt(kpv_corpus_meta)
 
 # So the idea is to create a database connection. First we need library RJDBC.
 
@@ -19,35 +13,69 @@ drv <- JDBC("com.filemaker.jdbc.Driver", "/Library/Java/Extensions/fmjdbc.jar", 
 
 pv <- dbConnect(drv, "jdbc:filemaker://localhost:2399/permic_varieties?user=Admin")
 
-# Instead of doing fancy stuff with SQL we simply read ALL of the tables into R
-# and use dplyr for data wrangling purposes. I don't know if this is inelegant or
-# otherwise primitive approach, but it is very easy and works! I probably have to learn
-# SQL in some point anyway, but for now I think dplyr makes data exploring very much fun.
-# I think with an actual MySQL (or similar) database it would be possible to connect even more
-# directly to the databases, but for now this is cool enough.
-#
-# Please notice that I wrap the data frames into local data tables with tbl_df function from dplyr
-
 library(dplyr)
 
 actors <- tbl_df(dbGetQuery(pv, "SELECT  * FROM actors"))
+
 sessions <- tbl_df(dbGetQuery(pv, "SELECT  * FROM sessions"))
 actor.links <- tbl_df(dbGetQuery(pv, "SELECT  * FROM actor_links"))
-OSM_POR <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_POR"))
-OSM_POR <- OSM_POR %>% rename(lat_por = lat) %>% rename(lon_por = lon)
-OSM_rec <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_Rec_place"))
-OSM_rec <- OSM_rec %>% rename(lat_rec = lat) %>% rename(lon_rec = lon) %>% rename(RecPlace_OSM_ID = OSM_ID)
+
+OSM_por <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_POR")) %>% 
+        select(OSM_ID, lat, lon) %>% 
+        rename(lat_por = lat) %>% 
+        rename(lon_por = lon)
+
+OSM_rec <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_Rec_place")) %>% 
+        select(OSM_ID, lat, lon) %>% 
+        rename(lat_rec = lat) %>% 
+        rename(lon_rec = lon)
+
+OSM_birth <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_Birthplace")) %>% 
+        select(OSM_ID, lat, lon) %>% 
+        rename(lat_birth = lat) %>% 
+        rename(lon_birth = lon)
+
 project <- tbl_df(dbGetQuery(pv, "SELECT * FROM fieldwork"))
+
 project$Project_title <- project$Project_name
+
 # Next we join the tables
+#OSM <- OSM_rec$OSM_ID
+#OSM <- as.data.frame(OSM)
+#OSM[duplicated(OSM),]
+#filter(OSM_rec, duplicated(OSM_rec))
 
 kpv.meta <- left_join(actor.links, actors)
 kpv.meta <- left_join(kpv.meta, sessions)
-kpv.meta <- left_join(kpv.meta, OSM_rec)
-kpv.meta <- left_join(kpv.meta, project)
 
-project.contact.session <- kpv.meta %>% select(Session_name, Project_Contact_ID) %>% unique() %>% rename(Actor_ID = Project_Contact_ID)
-project.contact.session <- left_join(project.contact.session, actors) %>% select(Session_name, Actor_ID, Actor_fullname, Address, Email, Organisation)
+kpv.meta
+
+kpv.meta <- kpv.meta %>% filter(ELAN_file == TRUE) %>% select(Naming_convention, Session_name, Birthtime_year, Recording_year, PlaceofRes_OSM_ID, RecPlace_OSM_ID, Birthplace_OSM_ID, Sex, Attr_Foreign_researcher, ELAN_file, Style, Genre, Mode, Aligned, Title)
+
+
+OSM_rec <- OSM_rec %>% rename(RecPlace_OSM_ID = OSM_ID)
+kpv.meta <- left_join(kpv.meta, OSM_rec)
+
+# View(kpv.meta)
+
+OSM_por <- OSM_por %>% rename(PlaceofRes_OSM_ID = OSM_ID)
+kpv.meta <- left_join(kpv.meta, OSM_por)
+
+OSM_birth <- OSM_birth %>% rename(Birthplace_OSM_ID = OSM_ID)
+kpv.meta$Birthplace_OSM_ID <- as.character(kpv.meta$Birthplace_OSM_ID)
+kpv.meta <- left_join(kpv.meta, OSM_birth)
+kpv.meta
+###
+
+# project
+
+# kpv.meta <- left_join(kpv.meta, project)
+
+#project.contact.session <- kpv.meta %>% select(Session_name, Project_Contact_ID) %>% unique() %>% rename(Actor_ID = Project_Contact_ID)
+#project.contact.session <- left_join(project.contact.session, actors) %>% select(Session_name, Actor_ID, Actor_fullname, Address, Email, Organisation)
+
+
+# kpv.meta %>% filter(Session_name == "kpv_izva20140328-1Varysh") %>% select(Actor_fullname, Session_name, lat_rec, lon_rec)
 
 
 kpv.meta$Date <- kpv.meta$Session_name
@@ -135,7 +163,7 @@ kpv.meta$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", kpv.meta$Age_group, per
 
 # Check the verb count()
 
-rm(actors, actor.links, OSM_POR, OSM_rec, project, sessions)
+rm(actors, actor.links, OSM_por, OSM_rec, project, sessions, OSM_birth)
 
 # One thing we have done regularly in Freiburg is to export IMDI XML directly
 # from FileMaker Pro. Joshua Wilbur has been perfecting this for a long time,
@@ -180,6 +208,6 @@ rm(actors, actor.links, OSM_POR, OSM_rec, project, sessions)
 
 dbDisconnect(pv)
 rm(pv, drv)
-rm(project.contact.session)
-
+kpv.corpus
 # save(kpv.meta, file = "/Users/niko/apps/corpus-app/data/kpv.meta.rda")
+

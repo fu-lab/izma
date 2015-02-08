@@ -21,6 +21,7 @@
 # to connect participant and session specific metadata with the content of
 # word-tiers.
 
+oldwd <- getwd()
 setwd("~niko/Desktop/github/data/izma")
 
 # These packages will be used
@@ -273,4 +274,4 @@ rm(kpv.corpus.orthT, kpv.corpus.refT, kpv.corpus.TS, kpv.corpus.wordT, Token1, T
 kpv.corpus
 
 save(kpv.corpus, file = "/Users/niko/FRorpus-dashboard/data/kpv_corpus.rds")
-
+setwd(oldwd)
