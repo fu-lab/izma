@@ -20,11 +20,11 @@
         <Float>94.0</Float>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">0,90,90</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">0,90,90</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">0,0,90</Object>
@@ -326,7 +326,7 @@
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>1117963</Long>
+        <Long>1171355</Long>
     </pref>
     <prefList key="ExportPraatDialog.selectedTiers">
         <String>ref@JAI-M-1939</String>
@@ -378,7 +378,7 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>1114783</Long>
+        <Long>1166188</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>note(part)</String>
