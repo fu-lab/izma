@@ -3,15 +3,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@AVM-F-1943</String>
-        <String>ft-eng@AVM-F-1943</String>
-        <String>ft-fin@AVM-F-1943</String>
         <String>orth@AVM-F-1943</String>
         <String>word@AVM-F-1943</String>
+        <String>ft-eng@AVM-F-1943</String>
+        <String>ft-fin@AVM-F-1943</String>
         <String>ref@NTP-M-1986</String>
         <String>ft-eng@NTP-M-1986</String>
-        <String>ft-fin@NTP-M-1986</String>
         <String>orth@NTP-M-1986</String>
         <String>word@NTP-M-1986</String>
+        <String>ft-fin@NTP-M-1986</String>
         <String>part</String>
     </prefList>
     <prefGroup key="Text-to-Speech alignment">
@@ -70,13 +70,13 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>1369960</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>1373051</Long>
+        <Long>1911213</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ref@NTP-M-1986">
@@ -141,13 +141,13 @@
         <String>ref@AVM-F-1943</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>1370511</Long>
+        <Long>1904745</Long>
     </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
     </pref>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>1369970</Long>
     </pref>
 </preferences>
