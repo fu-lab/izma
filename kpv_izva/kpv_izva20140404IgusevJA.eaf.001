@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-12-19T17:50:41+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2015-02-16T18:46:00+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.wav"/>
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.m4v" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20140404IgushevJA/kpv_izva20140404IgushevJA.m4v"/>
@@ -1798,14 +1798,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts1789" TIME_VALUE="2789895"/>
         <TIME_SLOT TIME_SLOT_ID="ts1790" TIME_VALUE="2791553"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="part(spoken)T" TIER_ID="part">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="partT" TIER_ID="part">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts221" TIME_SLOT_REF2="ts223">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="JAI-M-1939" TIER_ID="ref@JAI-M-1939">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="JAI-M-1939" TIER_ID="ref@JAI-M-1939">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts12">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -7084,7 +7084,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1251" ANNOTATION_REF="a425">
-                <ANNOTATION_VALUE>Ме бара вӧлі волывла каникулъяс сэтчӧ Ижмаас - татшӧм ногӧн олім ми . </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ме бара вӧлі волывла каникулъяс сэтчӧ Ижмаас - татшӧм ногӧн оліс- олім ми . </ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -7104,7 +7104,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1255" ANNOTATION_REF="a429">
-                <ANNOTATION_VALUE>И вот сы - вӧлі Москваадз ветлӧдлам .</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>И вот сы - вӧлі Москваӧдз ветлӧдлам .</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -37952,107 +37952,107 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1916" ANNOTATION_REF="a1245">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And then I wrote a request, that I start to study as an aspirant in Academy, I have to study onward, and so they let me.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1917" ANNOTATION_REF="a1246">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>They let me, and I went to Syktyvkar, here.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1918" ANNOTATION_REF="a1247">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>I started to study here, to live, I lived here two years, three.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1919" ANNOTATION_REF="a1248">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And my family lives in Gam, because wife was working in the kindergarten, and the children where also in the kindergarten.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1920" ANNOTATION_REF="a1249">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>They came here to me during the holidays,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1921" ANNOTATION_REF="a1250">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>on holidays.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1922" ANNOTATION_REF="a1251">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And I also came on holidays there to Izhma - we lived this way.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1923" ANNOTATION_REF="a1252">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>All together three years.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1924" ANNOTATION_REF="a1253">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Then I went to study, from here my scientific supervisor was Vasilyi Ilyich Lytkin, professor, he lived in Moscow,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1925" ANNOTATION_REF="a1254">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>has to come there, in library, Moscow, to work in Lenin's library.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1926" ANNOTATION_REF="a1255">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And so it was going to Moscow.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1927" ANNOTATION_REF="a1256">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And this way</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1928" ANNOTATION_REF="a1257">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>three years passed by, then here, when I defended my dissertation</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1929" ANNOTATION_REF="a1258">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>here, I started to work here, then</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1930" ANNOTATION_REF="a1259">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>I took my family from Gam to here.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1931" ANNOTATION_REF="a1260">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>In Gam my family was living altogether seven years, I lived three years, then</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1932" ANNOTATION_REF="a1261">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>after marrying three years there, then they grew older, it was seven years in Gam, since the time of arrival.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1933" ANNOTATION_REF="a1262">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>I knew</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1934" ANNOTATION_REF="a1263">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>life in Gam.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1935" ANNOTATION_REF="a1264">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>With the schoolchildren? Aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1936" ANNOTATION_REF="a1265">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yes, yes, yes, aha.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -42955,7 +42955,7 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@JAI-M-1939" PARTICIPANT="JAI-M-1939" TIER_ID="pos@JAI-M-1939"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@JAI-M-1939" PARTICIPANT="JAI-M-1939" TIER_ID="lg(word)@JAI-M-1939"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@JAI-M-1939" PARTICIPANT="JAI-M-1939" TIER_ID="note(word)@JAI-M-1939"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="NTP-M-1986" TIER_ID="ref@NTP-M-1986">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="NTP-M-1986" TIER_ID="ref@NTP-M-1986">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a179" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -52696,27 +52696,27 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3212" ANNOTATION_REF="a2989">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Mm.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3213" ANNOTATION_REF="a2990">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Understood, yes, I there, I there</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3214" ANNOTATION_REF="a2991">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>and one good friend of mine is from Gam, and there</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3215" ANNOTATION_REF="a2992">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>for one day we visited the school.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3216" ANNOTATION_REF="a2993">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And there we also talked with the schoolchildren and teachers too.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -54540,8 +54540,8 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="lg(word)@NTP-M-1986"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@NTP-M-1986" PARTICIPANT="NTP-M-1986" TIER_ID="note(word)@NTP-M-1986"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="part(spoken)T" TIME_ALIGNABLE="true"/>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref(spoken)T" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="partT" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE EXT_REF="er1" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="geoT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="bioT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="commentT" TIME_ALIGNABLE="true"/>
