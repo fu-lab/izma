@@ -53,11 +53,11 @@ library(dplyr)
 # n shows practically the number of files in xmlfiles object. dat is an empty storage for
 # the data that is being read in.
 
-xmlfiles_all <- list.files(path=".", pattern="*.eaf$", recursive=TRUE, full.names=TRUE)
+xmlfiles_all <- list.files(path = ".", pattern = "*.eaf$", recursive = TRUE, full.names = TRUE)
 xmlfiles <- xmlfiles_all[ !grepl("kpv_novyje", xmlfiles_all)]
 xmlfiles <- xmlfiles[! grepl("meta", xmlfiles)]
 
-xmlfiles_closed <- list.files(path="../closed", pattern="*.eaf$", recursive=TRUE, full.names=TRUE)
+xmlfiles_closed <- list.files(path = "../closed", pattern = "*.eaf$", recursive = TRUE, full.names = TRUE)
 xmlfiles_closed <- xmlfiles_closed[ !grepl("kpv_novyje|kpv_kolva", xmlfiles_closed)]
 
 xmlfiles <- c(xmlfiles, xmlfiles_closed)
@@ -245,6 +245,13 @@ kpv.wordcount <- kpv.corpus %>% count(Token) %>% arrange(desc(n))
 kpv.corpus <- left_join(kpv.corpus, kpv.wordcount)
 kpv.corpus <- kpv.corpus %>% rename(Wordcount = n)
 
+backup <- kpv.corpus
+kpv.corpus$Count <- nrow(kpv.corpus)
+
+kpv.corpus$Frequency <- (kpv.corpus$Wordcount / nrow(kpv.corpus))
+
+# kpv.corpus %>% select(Token, Wordcount, Frequency) %>% arrange(desc(Frequency)) %>% distinct() %>% View()
+
 kpv.speakercount <- kpv.corpus %>% count(Session_name) %>% arrange(desc(n))
 kpv.corpus <- left_join(kpv.corpus, kpv.speakercount)
 kpv.corpus <- kpv.corpus %>% rename(Speakercount = n)
@@ -271,7 +278,7 @@ rm(kpv.corpus.orthT, kpv.corpus.refT, kpv.corpus.TS, kpv.corpus.wordT, Token1, T
 
 # save(kpv.corpus, file = "/Users/niko/apps/corpus-app/data/kpv.corpus.rda")
 ######
-kpv.corpus
 
 save(kpv.corpus, file = "/Users/niko/FRorpus-dashboard/data/kpv_corpus.rds")
 setwd(oldwd)
+
