@@ -100,20 +100,20 @@
         <Int>1</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>100000</Long>
+        <Long>120000</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>102616</Long>
+        <Long>120000</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
-        <pref key="orth@S1">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="orth@S1">
+            <Object class="java.awt.Color">160,0,90</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">160,0,0</Object>
@@ -121,11 +121,11 @@
         <pref key="ref@S1">
             <Object class="java.awt.Color">160,0,90</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,160,90</Object>
         </pref>
         <pref key="orth(orig)@S1">
             <Object class="java.awt.Color">160,0,90</Object>
@@ -146,6 +146,9 @@
     </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type2 : orthT</String>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@S1</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -179,11 +182,8 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>ref@S1</String>
-    </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>98617</Long>
+        <Long>117561</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type2">
@@ -194,6 +194,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>110000</Long>
+        <Long>130000</Long>
     </pref>
 </preferences>
