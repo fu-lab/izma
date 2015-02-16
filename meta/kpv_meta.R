@@ -95,6 +95,20 @@ kpv.meta$Age_group <- gsub("^(7)(\\d)$|^80$", "70-80", kpv.meta$Age_group, perl=
 kpv.meta$Age_group <- gsub("^(8)(\\d)$|^90$", "80-90", kpv.meta$Age_group, perl=TRUE)
 kpv.meta$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", kpv.meta$Age_group, perl=TRUE)
 
+# kpv.corpus$Birth_dec <- kpv.corpus$Birthyear
+# 
+# kpv.meta$Birth_dec <- gsub("^[\\d]$|^10$", "1-10", kpv.meta$Birth_dec, perl=TRUE)
+# kpv.meta$Birth_dec <- gsub("^(1)(\\d)$|^20$", "10-20", kpv.meta$Birth_dec, perl=TRUE)
+# kpv.meta$Birth_dec <- gsub("^(2)(\\d)$|^30$", "20-30", kpv.meta$Birth_dec, perl=TRUE)
+# kpv.meta$Birth_dec <- gsub("^(3)(\\d)$|^40$", "30-40", kpv.meta$Birth_dec, perl=TRUE)
+# kpv.meta$Birth_dec <- gsub("^(4)(\\d)$|^50$", "40-50", kpv.meta$Birth_dec, perl=TRUE)
+# kpv.meta$Birth_dec <- gsub("^(5)(\\d)$|^60$", "50-60", kpv.meta$Birth_dec, perl=TRUE)
+# kpv.meta$Birth_dec <- gsub("^(6)(\\d)$|^70$", "60-70", kpv.meta$Birth_dec, perl=TRUE)
+# kpv.meta$Birth_dec <- gsub("^(7)(\\d)$|^80$", "70-80", kpv.meta$Birth_dec, perl=TRUE)
+# kpv.meta$Birth_dec <- gsub("^(8)(\\d)$|^90$", "80-90", kpv.meta$Birth_dec, perl=TRUE)
+# kpv.meta$Birth_dec <- gsub("^(9)(\\d)$|^100$", "90-100", kpv.meta$Birth_dec, perl=TRUE)
+
+
 # Now we can pick which elements we like and work with them onward. I select the files that are in Github.
 # Then I throw away the foreign researchers as we are not so interested about ourselves.
 # Please see that we can't merge this object with the transcription data from ELAN files before we have
