@@ -72,7 +72,7 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>6231</Long>
+        <Long>709235</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -86,7 +86,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>6230</Long>
+        <Long>709235</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -137,12 +137,12 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>6070</Long>
+        <Long>703752</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>8043</Long>
+        <Long>711211</Long>
     </pref>
 </preferences>
