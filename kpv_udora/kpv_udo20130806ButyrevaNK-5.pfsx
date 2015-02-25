@@ -21,7 +21,10 @@
     </prefList>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
-            <String>English</String>
+            <String>Dutch</String>
+        </pref>
+        <pref key="output">
+            <String>/Users/niko/Desktop/text-to-speech-test.csv</String>
         </pref>
         <pref key="audio">
             <String>///Users/niko/kom/kpv_udora/kpv_udo20130806ButyrevaNK-5/kpv_udo20130806ButyrevaNK-5.wav</String>
@@ -42,8 +45,11 @@
         <String>Creation Date</String>
         <String>Modification Date</String>
     </prefList>
+    <pref key="SignalViewer.VerticalZoomLevel">
+        <Int>300</Int>
+    </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>70</Int>
+        <Int>128</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap"/>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
@@ -54,7 +60,7 @@
         <Float>5.0</Float>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
-        <Int>4</Int>
+        <Int>5</Int>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@NTP-M-1986">
@@ -72,7 +78,7 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>709235</Long>
+        <Long>45056</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -86,12 +92,15 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>709235</Long>
+        <Long>45055</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
@@ -137,12 +146,15 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>703752</Long>
+        <Long>40369</Long>
+    </pref>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>380</Int>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>711211</Long>
+        <Long>47043</Long>
     </pref>
 </preferences>

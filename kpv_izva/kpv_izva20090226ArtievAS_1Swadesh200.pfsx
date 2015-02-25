@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>ref@ASA-M-1958</String>
+        <String>orth@ASA-M-1958</String>
+        <String>note@ASA-M-1958</String>
+        <String>word@ASA-M-1958</String>
+        <String>ft-eng@ASA-M-1958</String>
+        <String>ft-rus@ASA-M-1958</String>
+        <String>ref@RB-M-1971</String>
+        <String>orth@RB-M-1971</String>
+        <String>note@RB-M-1971</String>
+        <String>word@RB-M-1971</String>
+        <String>ft-eng@RB-M-1971</String>
+        <String>ft-rus@RB-M-1971</String>
+        <String>ref@LK-F-1985</String>
+        <String>orth@LK-F-1985</String>
+        <String>note@LK-F-1985</String>
+        <String>word@LK-F-1985</String>
+        <String>ft-eng@LK-F-1985</String>
+        <String>ft-rus@LK-F-1985</String>
+    </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <prefGroup key="Text-to-Speech alignment">
+        <pref key="model">
+            <String>English</String>
+        </pref>
+        <pref key="audio">
+            <String>///Users/niko/kom/kpv_izva/kpv_izva20090226ArtievAS_1Swadesh200/IZM090226ArtievAS_1Swadesh200.wav</String>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>158</Int>
+    </pref>
+    <prefGroup key="TranscriptionTable.TierMap">
+        <prefList key="ref@LK-F-1985">
+            <String>orth@LK-F-1985</String>
+            <String>ft-eng@LK-F-1985</String>
+        </prefList>
+        <prefList key="ref@ASA-M-1958">
+            <String>orth@ASA-M-1958</String>
+            <String>ft-eng@ASA-M-1958</String>
+        </prefList>
+        <prefList key="ref@RB-M-1971">
+            <String>orth@RB-M-1971</String>
+            <String>ft-eng@RB-M-1971</String>
+        </prefList>
+    </prefGroup>
+    <prefList key="TranscriptionTable.NonEditableTiers"/>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
+    </pref>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
+    </pref>
+    <prefList key="TranscriptionTable.ColumnTypes">
+        <String>orthT</String>
+        <String>ft-engT</String>
+    </prefList>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>7</Int>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="ref@LK-F-1985">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="ref@ASA-M-1958">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="ref@RB-M-1971">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+    </prefGroup>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@ASA-M-1958</String>
+    </pref>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,23</Object>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveRow">
+        <Int>53</Int>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>57350</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>2</Int>
+    </pref>
+    <pref key="MediaTime">
+        <Long>57350</Long>
+    </pref>
+    <prefGroup key="TranscriptionMode.Temp.TierColors">
+        <pref key="ref@LK-F-1985">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="ft-eng@LK-F-1985">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="orth@LK-F-1985">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="ref@ASA-M-1958">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="orth@RB-M-1971">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ft-eng@RB-M-1971">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="orth@ASA-M-1958">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="ft-eng@ASA-M-1958">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="ref@RB-M-1971">
+            <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+    </prefGroup>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>100.0</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="TranscriptionTable.LastActiveColumn">
+        <String>Type1 : orthT</String>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@ASA-M-1958</String>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+    </prefGroup>
+    <pref key="SignalViewer.StereoMode">
+        <Int>3</Int>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>0</Long>
+    </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type2">
+            <Int>425</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>425</Int>
+        </pref>
+    </prefGroup>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
+    <pref key="SelectionEndTime">
+        <Long>57898</Long>
+    </pref>
+</preferences>
