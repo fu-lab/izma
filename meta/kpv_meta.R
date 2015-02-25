@@ -20,19 +20,19 @@ actors <- tbl_df(dbGetQuery(pv, "SELECT  * FROM actors"))
 sessions <- tbl_df(dbGetQuery(pv, "SELECT  * FROM sessions"))
 actor.links <- tbl_df(dbGetQuery(pv, "SELECT  * FROM actor_links"))
 
-OSM_por <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_POR")) %>% 
-        select(OSM_ID, lat, lon) %>% 
-        rename(lat_por = lat) %>% 
+OSM_por <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_POR")) %>%
+        select(OSM_ID, lat, lon) %>%
+        rename(lat_por = lat) %>%
         rename(lon_por = lon)
 
-OSM_rec <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_Rec_place")) %>% 
-        select(OSM_ID, lat, lon) %>% 
-        rename(lat_rec = lat) %>% 
+OSM_rec <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_Rec_place")) %>%
+        select(OSM_ID, lat, lon) %>%
+        rename(lat_rec = lat) %>%
         rename(lon_rec = lon)
 
-OSM_birth <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_Birthplace")) %>% 
-        select(OSM_ID, lat, lon) %>% 
-        rename(lat_birth = lat) %>% 
+OSM_birth <- tbl_df(dbGetQuery(pv, "SELECT * FROM OSM_ID_Birthplace")) %>%
+        select(OSM_ID, lat, lon) %>%
+        rename(lat_birth = lat) %>%
         rename(lon_birth = lon)
 
 project <- tbl_df(dbGetQuery(pv, "SELECT * FROM fieldwork"))
@@ -96,7 +96,7 @@ kpv.meta$Age_group <- gsub("^(8)(\\d)$|^90$", "80-90", kpv.meta$Age_group, perl=
 kpv.meta$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", kpv.meta$Age_group, perl=TRUE)
 
 # kpv.corpus$Birth_dec <- kpv.corpus$Birthyear
-# 
+#
 # kpv.meta$Birth_dec <- gsub("^[\\d]$|^10$", "1-10", kpv.meta$Birth_dec, perl=TRUE)
 # kpv.meta$Birth_dec <- gsub("^(1)(\\d)$|^20$", "10-20", kpv.meta$Birth_dec, perl=TRUE)
 # kpv.meta$Birth_dec <- gsub("^(2)(\\d)$|^30$", "20-30", kpv.meta$Birth_dec, perl=TRUE)
@@ -126,7 +126,7 @@ kpv.meta$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", kpv.meta$Age_group, per
 #         distinct(Actor_ID) %>%
 #         arrange(Age) %>%
 #         mutate(Age_group = Age)
-# 
+#
 # actor.data$Age_group <- gsub("^[\\d]$|^10$", "1-10", actor.data$Age_group, perl=TRUE)
 # actor.data$Age_group <- gsub("^(1)(\\d)$|^20$", "10-20", actor.data$Age_group, perl=TRUE)
 # actor.data$Age_group <- gsub("^(2)(\\d)$|^30$", "20-30", actor.data$Age_group, perl=TRUE)
@@ -137,7 +137,7 @@ kpv.meta$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", kpv.meta$Age_group, per
 # actor.data$Age_group <- gsub("^(7)(\\d)$|^80$", "70-80", actor.data$Age_group, perl=TRUE)
 # actor.data$Age_group <- gsub("^(8)(\\d)$|^90$", "80-90", actor.data$Age_group, perl=TRUE)
 # actor.data$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", actor.data$Age_group, perl=TRUE)
-# 
+#
 # actor.data <- actor.data %>% select(-Age, -Birthtime_year, -Recording_year)
 
 # saveRDS(actor.data, "/Users/niko/Desktop/github/data/izma/izva-stats-app/data/actor_data.rds")
@@ -149,7 +149,7 @@ kpv.meta$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", kpv.meta$Age_group, per
 #         mutate(Age = Recording_year - Birthtime_year) %>%
 #         select(-Actor_ID) %>%
 #         arrange(Age)
-# 
+#
 # session.data
 
 
@@ -157,19 +157,19 @@ kpv.meta$Age_group <- gsub("^(9)(\\d)$|^100$", "90-100", kpv.meta$Age_group, per
 # finally, but I also understood that ggplot2 likes data in the long format, in
 # which it originally was in.
 
-# actor.data.app <- 
+# actor.data.app <-
 #         actor.data %>%
 #         group_by(Age_group, Dialect) %>%
 #         tally(sort = TRUE)
-# 
+#
 # actor.data.izva <- filter(actor.data.app, Dialect=="Iźva Dialect")
 # actor.data.udora <- filter(actor.data.app, Dialect=="Udora Dialect")
 # actor.data.app <- merge(actor.data.izva, actor.data.udora, by="Age_group")
-# actor.data.app <- actor.data.app %>% 
+# actor.data.app <- actor.data.app %>%
 #         select(Age_group, n.x, n.y) %>%
 #         rename(Iźva_Dialect = n.x)
-# 
-# actor.data.app <- actor.data.app %>% 
+#
+# actor.data.app <- actor.data.app %>%
 #         select(Age_group, Iźva_Dialect, n.y) %>%
 #         rename(Udora_Dialect = n.y) %>%
 #         mutate(All = Iźva_Dialect + Udora_Dialect)
@@ -191,21 +191,21 @@ rm(actors, actor.links, OSM_por, OSM_rec, project, sessions, OSM_birth)
 # who uses FileMaker has to be tech savvy enough to make sure the data doesn't stay
 # in FileMaker. That said, I think it is a very good tool for entering new data.
 
-# However, in essence what it does is to store data into tables. There is just 
-# little relational database magic there at the background with unique ID's and 
-# stuff like that which keeps it really together and protects the integrity of 
-# your data. It's not that we would need all fanciness of the most advanced 
+# However, in essence what it does is to store data into tables. There is just
+# little relational database magic there at the background with unique ID's and
+# stuff like that which keeps it really together and protects the integrity of
+# your data. It's not that we would need all fanciness of the most advanced
 # databases for our data. But to have a relational data model at the background
 # does give a great help.
 
 # Despite this it is perfectly possible to mimic the way the data is stored in a
-# database in a spreadsheet program. This is actually what I've suggested to my 
+# database in a spreadsheet program. This is actually what I've suggested to my
 # friends. If you make sure that you give each actor and session a unique ID, it
 # is very easy to import this later into a database and then into IMDI.
 
-# But I was thinking that as I tell people to use spreadsheet programs as one 
-# solution to keep track of their metadata, then I should maybe think some more 
-# straightforward way to get that metadata directly into IMDI/CMDI. One way is 
+# But I was thinking that as I tell people to use spreadsheet programs as one
+# solution to keep track of their metadata, then I should maybe think some more
+# straightforward way to get that metadata directly into IMDI/CMDI. One way is
 # of course to read the spreadsheets into R, reformat them with dplyr, turn that
 # into an XML object, save that, apply an XSLT. Voila. And this same route could
 # also be used to export from FileMaker as well, as we now have this nice
@@ -213,8 +213,8 @@ rm(actors, actor.links, OSM_por, OSM_rec, project, sessions, OSM_birth)
 
 # Basically the script should send IMDI/CMDI XML into the folders where the rest
 # of the session files are stored. At the same time it should actually also copy
-# the ELAN files from GitHub into those same folders. There must be a timestamp 
-# somewhere indicating the exact export time. The archived versions will 
+# the ELAN files from GitHub into those same folders. There must be a timestamp
+# somewhere indicating the exact export time. The archived versions will
 # certainly be somewhat behind from the files we work with. However, we could
 # maybe update them once a week, as an example.
 
@@ -222,6 +222,20 @@ rm(actors, actor.links, OSM_por, OSM_rec, project, sessions, OSM_birth)
 
 dbDisconnect(pv)
 rm(pv, drv)
-kpv.corpus
-# save(kpv.meta, file = "/Users/niko/apps/corpus-app/data/kpv.meta.rda")
+
+kpv.meta %>%
+        rename(Speaker = Naming_convention) %>%
+        rename(Birthtime = Birthtime_year) %>%
+        rename(Rectime = Recording_year) %>%
+        rename(Attr_foreign = Attr_Foreign_researcher) %>%
+        select(-PlaceofRes_OSM_ID, -RecPlace_OSM_ID, -Birthplace_OSM_ID) -> kpv.meta
+
+kpv.meta$lat_rec <- as.numeric(kpv.meta$lat_rec)
+kpv.meta$lon_rec <- as.numeric(kpv.meta$lon_rec)
+kpv.meta$lat_por <- as.numeric(kpv.meta$lat_por)
+kpv.meta$lon_por <- as.numeric(kpv.meta$lon_por)
+kpv.meta$lat_birth <- as.numeric(kpv.meta$lat_birth)
+kpv.meta$lon_birth <- as.numeric(kpv.meta$lon_birth)
+
+save(kpv.meta, file = "/Users/niko/R/package/FRelan/vignettes//kpv.meta.rda")
 
