@@ -92,7 +92,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>45055</Long>
+        <Long>0</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -109,9 +109,6 @@
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
-    </pref>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>ref@NKB-F-1935</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -145,14 +142,17 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
-    <pref key="TimeScaleBeginTime">
-        <Long>40369</Long>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@NKB-F-1935</String>
     </pref>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>380</Int>
+    <pref key="TimeScaleBeginTime">
+        <Long>40269</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
+    </pref>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>260</Int>
     </pref>
     <pref key="SelectionEndTime">
         <Long>47043</Long>

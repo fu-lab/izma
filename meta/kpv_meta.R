@@ -238,4 +238,5 @@ kpv.meta$lat_birth <- as.numeric(kpv.meta$lat_birth)
 kpv.meta$lon_birth <- as.numeric(kpv.meta$lon_birth)
 
 save(kpv.meta, file = "/Users/niko/R/package/FRelan/vignettes//kpv.meta.rda")
-
+meta_kpv <- kpv.meta
+rm(kpv.meta)
