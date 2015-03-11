@@ -23,9 +23,6 @@
         <String>ft-eng@NTP-M-1986</String>
         <String>ft-rus@NTP-M-1986</String>
     </prefList>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
-    </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
             <String>English</String>
@@ -34,6 +31,9 @@
             <String>///Users/niko/kom/kpv_izva/kpv_izva20140324-1businessman-b/kpv_izva20140324-1businessman-b.wav</String>
         </pref>
     </prefGroup>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -75,22 +75,22 @@
         <String>Tier</String>
     </pref>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="MediaControlVolume">
-        <Float>1.0</Float>
-    </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
+    </pref>
+    <pref key="MediaControlVolume">
+        <Float>1.0</Float>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>orthT</String>
         <String>ft-engT</String>
         <String>ft-rusT</String>
     </prefList>
-    <pref key="LayoutManager.SelectedTabIndex">
-        <Int>4</Int>
-    </pref>
     <pref key="TimeLineViewer.ZoomLevel">
         <Float>136.0</Float>
+    </pref>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>4</Int>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@MSF-F-1969">
@@ -114,16 +114,13 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveRow">
-        <Int>574</Int>
+        <Int>587</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>1633038</Long>
+        <Long>1664860</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>1</Int>
-    </pref>
-    <pref key="MediaTime">
-        <Long>1633036</Long>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="orth@OMT-M-1961">
@@ -175,6 +172,9 @@
             <Object class="java.awt.Color">160,0,90</Object>
         </pref>
     </prefGroup>
+    <pref key="MediaTime">
+        <Long>1664860</Long>
+    </pref>
     <prefList key="ExportPraatDialog.selectedTiers">
         <String>orth@OMT-M-1961</String>
     </prefList>
@@ -182,17 +182,17 @@
         <Int>1</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
-    <pref key="MediaControlRate">
-        <Float>1.0</Float>
-    </pref>
     <pref key="TimeLineViewer.ReducedTierHeight">
         <Boolean>true</Boolean>
     </pref>
-    <pref key="SignalViewer.ZoomLevel">
-        <Float>136.0</Float>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>136.0</Float>
     </pref>
     <prefList key="ExportPraatDialog.TierOrder">
         <String>ref@OMT-M-1961</String>
@@ -218,9 +218,6 @@
     </prefList>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type1 : orthT</String>
-    </pref>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>ref@OMT-M-1961</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -254,11 +251,17 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@OMT-M-1961</String>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>1662389</Long>
+    </pref>
     <prefList key="ExportPraatDialog.LastSelectedItems">
         <String>OMT-M-1961</String>
     </prefList>
-    <pref key="TimeScaleBeginTime">
-        <Long>1628948</Long>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -271,9 +274,6 @@
             <Int>282</Int>
         </pref>
     </prefGroup>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
-    </pref>
     <prefList key="ExportPraatDialog.HiddenTiers">
         <String>ref@OMT-M-1961</String>
         <String>word@OMT-M-1961</String>
@@ -296,6 +296,6 @@
         <String>ft-rus@NTP-M-1986</String>
     </prefList>
     <pref key="SelectionEndTime">
-        <Long>1635813</Long>
+        <Long>1670948</Long>
     </pref>
 </preferences>

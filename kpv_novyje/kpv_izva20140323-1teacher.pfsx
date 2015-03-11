@@ -82,6 +82,9 @@
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
+    <pref key="SignalViewer.VerticalZoomLevel">
+        <Int>300</Int>
+    </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>70</Int>
     </pref>
@@ -97,7 +100,7 @@
         <Int>4</Int>
     </pref>
     <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@VPC-M-1993</String>
+        <String>ref@S1</String>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@NTP-M-1986">
@@ -126,13 +129,13 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>928206</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>3</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>582848</Long>
+        <Long>1638740</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="geo">
@@ -165,7 +168,7 @@
         <Float>1.0</Float>
     </pref>
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,774</Object>
+        <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>100.0</Float>
@@ -177,13 +180,13 @@
         <Int>2</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>569760</Long>
+        <Long>1627540</Long>
     </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="LayoutManager.MediaAreaHeight">
         <Int>183</Int>
     </pref>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>932330</Long>
     </pref>
 </preferences>

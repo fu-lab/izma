@@ -61,9 +61,12 @@
         <String>translit-LAT@XIX-F-19XX</String>
         <String>note(ref)@XIX-F-19XX</String>
         <String>orth@XIX-F-19XX</String>
-        <String>phonet-IPA@XIX-F-19XX</String>
-        <String>phonol-LAT@XIX-F-19XX</String>
         <String>word@XIX-F-19XX</String>
+        <String>lemma@XIX-F-19XX</String>
+        <String>morph@XIX-F-19XX</String>
+        <String>pos@XIX-F-19XX</String>
+        <String>lg(word)@XIX-F-19XX</String>
+        <String>note(word)@XIX-F-19XX</String>
         <String>ft-eng@XIX-F-19XX</String>
         <String>ft-deu@XIX-F-19XX</String>
         <String>ft-nob@XIX-F-19XX</String>
@@ -73,38 +76,52 @@
         <String>ft-fin@XIX-F-19XX</String>
         <String>note(orth)@XIX-F-19XX</String>
         <String>lg(orth)@XIX-F-19XX</String>
-        <String>lemma@XIX-F-19XX</String>
-        <String>morph@XIX-F-19XX</String>
-        <String>pos@XIX-F-19XX</String>
-        <String>lg(word)@XIX-F-19XX</String>
-        <String>note(word)@XIX-F-19XX</String>
+        <String>phonet-IPA@XIX-F-19XX</String>
+        <String>phonol-LAT@XIX-F-19XX</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
-    <pref key="SignalViewer.VerticalZoomLevel">
-        <Int>300</Int>
-    </pref>
+    <prefGroup key="Text-to-Speech alignment">
+        <pref key="model">
+            <String>English</String>
+        </pref>
+        <pref key="audio">
+            <String>///Users/niko/kom/kpv_izva/kpv_izva20111208Saranpaul-3/kpv_izva20111208Saranpaul-3.wav</String>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>70</Int>
     </pref>
+    <pref key="SignalViewer.VerticalZoomLevel">
+        <Int>300</Int>
+    </pref>
     <prefGroup key="TranscriptionTable.TierMap"/>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="TM.SignalViewer.ZoomLevel">
-        <Float>5.0</Float>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
     </pref>
-    <prefList key="SegmentationViewer.HiddenTiers"/>
-    <pref key="LayoutManager.SelectedTabIndex">
-        <Int>4</Int>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
+    <prefList key="SegmentationViewer.HiddenTiers"/>
     <pref key="TimeLineViewer.ZoomLevel">
         <Float>69.0</Float>
     </pref>
-    <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@NTP-M-1986</String>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>4</Int>
     </pref>
     <prefGroup key="TierColors">
         <pref key="geo">
@@ -122,13 +139,20 @@
         <pref key="ref@XIX-F-19XX">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">160,0,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,160,90</Object>
         </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
     </prefGroup>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@S1</String>
+    </pref>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,23</Object>
     </pref>
@@ -136,7 +160,7 @@
         <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>3</Int>
+        <Int>1</Int>
     </pref>
     <prefList key="SegmentationViewer.TierOrder">
         <String>part</String>
@@ -147,9 +171,6 @@
         <String>comment</String>
         <String>ref@XIX-F-19XX</String>
     </prefList>
-    <pref key="MediaTime">
-        <Long>716221</Long>
-    </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="geo">
             <Object class="java.awt.Color">90,90,160</Object>
@@ -167,6 +188,9 @@
             <Object class="java.awt.Color">90,160,90</Object>
         </pref>
     </prefGroup>
+    <pref key="MediaTime">
+        <Long>146135</Long>
+    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -177,22 +201,57 @@
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
-    <pref key="SignalViewer.ZoomLevel">
-        <Float>69.0</Float>
-    </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>69.0</Float>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>part</String>
     </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+    </prefGroup>
     <pref key="SignalViewer.StereoMode">
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>709244</Long>
+        <Long>98116</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
     <pref key="SelectionEndTime">
         <Long>0</Long>
     </pref>
