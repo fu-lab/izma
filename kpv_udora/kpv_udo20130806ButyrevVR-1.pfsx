@@ -80,7 +80,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>906998</Long>
+        <Long>906996</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -133,8 +133,11 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <pref key="LayoutManager.ControlPanelWidth">
+        <Int>240</Int>
+    </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>899055</Long>
+        <Long>895796</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
