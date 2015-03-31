@@ -56,6 +56,9 @@
         <String>phonet-IPA@EVV-M-1933</String>
         <String>phonol-LAT@EVV-M-1933</String>
     </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
             <String>English</String>
@@ -64,9 +67,6 @@
             <String>///Users/niko/kom/kpv_izva/kpv_izva19661025-kotus13757_3a/kpv_izva19661025-kotus13757_3a.wav</String>
         </pref>
     </prefGroup>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
-    </pref>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -83,44 +83,41 @@
         <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
-        <prefList key="ref@APM-F-1893">
-            <String>ref@APM-F-1893</String>
-            <String>orth@APM-F-1893</String>
-        </prefList>
         <prefList key="ref@EVV-M-1933">
             <String>ref@EVV-M-1933</String>
             <String>orth@EVV-M-1933</String>
         </prefList>
+        <prefList key="ref@APM-F-1893">
+            <String>ref@APM-F-1893</String>
+            <String>orth@APM-F-1893</String>
+        </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="TM.SignalViewer.ZoomLevel">
-        <Float>5.0</Float>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>refT</String>
         <String>orthT</String>
     </prefList>
-    <pref key="TimeLineViewer.ZoomLevel">
-        <Float>50.0</Float>
-    </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>6</Int>
     </pref>
-    <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@APM-F-1893</String>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>50.0</Float>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="geo">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
         <pref key="ref@APM-F-1893">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
         <pref key="ref@EVV-M-1933">
             <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">0,0,160</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">90,160,90</Object>
@@ -132,6 +129,9 @@
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
     </prefGroup>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@APM-F-1893</String>
+    </pref>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
         <String>Recipient</String>
@@ -143,40 +143,40 @@
         <Int>63</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>335350</Long>
+        <Long>296993</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
+    </pref>
+    <pref key="MediaTime">
+        <Long>0</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="orth@APM-F-1893">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
-        <pref key="ref@EVV-M-1933">
-            <Object class="java.awt.Color">90,0,0</Object>
+        <pref key="geo">
+            <Object class="java.awt.Color">0,0,160</Object>
         </pref>
         <pref key="ref@APM-F-1893">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
-        <pref key="geo">
-            <Object class="java.awt.Color">0,0,160</Object>
+        <pref key="ref@EVV-M-1933">
+            <Object class="java.awt.Color">90,0,0</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">90,160,90</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">160,0,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,0,160</Object>
         </pref>
         <pref key="orth@EVV-M-1933">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
     </prefGroup>
-    <pref key="MediaTime">
-        <Long>335350</Long>
-    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -184,23 +184,20 @@
         <Float>50.0</Float>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
-    <pref key="MediaControlRate">
-        <Float>1.0</Float>
-    </pref>
     <pref key="TimeLineViewer.ReducedTierHeight">
         <Boolean>true</Boolean>
     </pref>
-    <pref key="SignalViewer.ZoomLevel">
-        <Float>50.0</Float>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>50.0</Float>
+    </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type2 : orthT</String>
-    </pref>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>part</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -234,14 +231,14 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
     <pref key="LayoutManager.ControlPanelWidth">
         <Int>213</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>322869</Long>
-    </pref>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
+        <Long>288449</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type2">
@@ -251,7 +248,10 @@
             <Int>425</Int>
         </pref>
     </prefGroup>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
     <pref key="SelectionEndTime">
-        <Long>338048</Long>
+        <Long>300765</Long>
     </pref>
 </preferences>
