@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
-    <pref key="MediaTime">
-        <Long>24071</Long>
-    </pref>
-    <prefList key="MultiTierViewer.TierOrder"/>
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>ref@AZA-F-1940</String>
+        <String>phonet-UPA@AZA-F-1940</String>
+        <String>phonol-CYR@AZA-F-1940</String>
+        <String>translit-LAT@AZA-F-1940</String>
+        <String>note(ref)@AZA-F-1940</String>
+        <String>orth@AZA-F-1940</String>
+        <String>word@AZA-F-1940</String>
+        <String>lemma@AZA-F-1940</String>
+        <String>morph@AZA-F-1940</String>
+        <String>pos@AZA-F-1940</String>
+        <String>lg(word)@AZA-F-1940</String>
+        <String>note(word)@AZA-F-1940</String>
+        <String>ft-eng@AZA-F-1940</String>
+        <String>ft-deu@AZA-F-1940</String>
+        <String>ft-nob@AZA-F-1940</String>
+        <String>ft-rus@AZA-F-1940</String>
+        <String>ft-swe@AZA-F-1940</String>
+        <String>ft-ling@AZA-F-1940</String>
+        <String>ft-fin@AZA-F-1940</String>
+        <String>note(orth)@AZA-F-1940</String>
+        <String>lg(orth)@AZA-F-1940</String>
+        <String>phonet-IPA@AZA-F-1940</String>
+        <String>phonol-LAT@AZA-F-1940</String>
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+    </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
@@ -20,14 +48,8 @@
         <String>Creation Date</String>
         <String>Modification Date</String>
     </prefList>
-    <pref key="MultiTierViewer.TierSortingMode">
-        <Int>1</Int>
-    </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>2</Int>
-    </pref>
-    <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>6</Int>
@@ -35,13 +57,47 @@
     <pref key="TimeLineViewer.ZoomLevel">
         <Float>70.0</Float>
     </pref>
-    <prefGroup key="TierColors"/>
+    <prefGroup key="TierColors">
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">160,90,160</Object>
+        </pref>
+        <pref key="ref@AZA-F-1940">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,160,0</Object>
+        </pref>
+    </prefGroup>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
         <String>Recipient</String>
     </prefList>
     <pref key="FrameLocation">
         <Object class="java.awt.Point">0,23</Object>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>20000</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="MediaTime">
+        <Long>20000</Long>
+    </pref>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="MediaControlRate">
+        <Float>1.6</Float>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -78,14 +134,8 @@
     <pref key="MultiTierViewer.ActiveTierName">
         <String>ref@AZA-F-1940</String>
     </pref>
-    <pref key="SelectionBeginTime">
-        <Long>20000</Long>
-    </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>-42</Long>
-    </pref>
-    <pref key="LayoutManager.CurrentMode">
-        <Int>1</Int>
+        <Long>20000</Long>
     </pref>
     <pref key="SelectionEndTime">
         <Long>30000</Long>

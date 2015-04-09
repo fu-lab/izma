@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2015-01-27T13:31:02+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2015-04-09T09:03:40+04:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:61ee3117-e199-49ca-8258-9415d9cf90e1</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">6773</PROPERTY>
@@ -4098,7 +4098,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="part(spoken)T" TIER_ID="part"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="partT" TIER_ID="part"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="geoT" TIER_ID="geo"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="bioT" TIER_ID="bio"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="commentT" TIER_ID="comment">
@@ -4181,7 +4181,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a598" ANNOTATION_REF="a14">
-                <ANNOTATION_VALUE>Öтчыд и пескыльтліс синлапъяссӧ, а казялӧма ыліті на гӧгралысь висьӧмсӧ.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтчыд и пескыльтліс синлапъяссӧ, а казялӧма ыліті на гӧгралысь висьӧмсӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4356,7 +4356,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a633" ANNOTATION_REF="a49">
-                <ANNOTATION_VALUE>Öні со кык лун сайын петіс аслас Харей-Вӧр сиктысь, веськӧдчис гожӧмсӧ чериа тыяс вылын коллявны.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧні со кык лун сайын петіс аслас Харей-Вӧр сиктысь, веськӧдчис гожӧмсӧ чериа тыяс вылын коллявны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4606,7 +4606,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a683" ANNOTATION_REF="a99">
-                <ANNOTATION_VALUE>Öні Саватей кутшӧмкӧ ногӧн на и аттьӧаліс ассьыс шудтӧм рӧксӧ, мый эз кутшӧмкӧ сімӧм нюр вылӧ сибды, а Югыд шор бокӧ, батьыслӧн радейтана местаӧ воис.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧні Саватей кутшӧмкӧ ногӧн на и аттьӧаліс ассьыс шудтӧм рӧксӧ, мый эз кутшӧмкӧ сімӧм нюр вылӧ сибды, а Югыд шор бокӧ, батьыслӧн радейтана местаӧ воис.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5396,7 +5396,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a841" ANNOTATION_REF="a257">
-                <ANNOTATION_VALUE>Савко думайтӧ: «Öні пӧръяла Мӧсейӧс, тэрыба тшапка чурвидзысь бедь помсӧ».</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Савко думайтӧ: «Ӧні пӧръяла Мӧсейӧс, тэрыба тшапка чурвидзысь бедь помсӧ».</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5501,7 +5501,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a862" ANNOTATION_REF="a278">
-                <ANNOTATION_VALUE>Öтчыд кыйӧдіс здук да Савко гусяліс батьыслысь патронтӧ.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтчыд кыйӧдіс здук да Савко гусяліс батьыслысь патронтӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5581,7 +5581,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a878" ANNOTATION_REF="a294">
-                <ANNOTATION_VALUE>– Öні маличатӧ пӧрччы да кымыньӧн вод дадь вылас.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>– Ӧні маличатӧ пӧрччы да кымыньӧн вод дадь вылас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5976,7 +5976,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a957" ANNOTATION_REF="a373">
-                <ANNOTATION_VALUE>Öти быклысь морӧссьыс лямкасӧ пӧрччис.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧти быклысь морӧссьыс лямкасӧ пӧрччис.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -6141,7 +6141,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a990" ANNOTATION_REF="a406">
-                <ANNOTATION_VALUE>Öтнаслы тундраті ветлыны эзджык на вӧв кивыв: стадаыс ичӧт, некымын дас кӧр, да и отсасьысьыс абу.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтнаслы тундраті ветлыны эзджык на вӧв кивыв: стадаыс ичӧт, некымын дас кӧр, да и отсасьысьыс абу.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -6231,7 +6231,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1008" ANNOTATION_REF="a424">
-                <ANNOTATION_VALUE>Öти жар гожӧмӧ холера висьӧм пӧрӧдіс вокъяслысь став кӧрсӧ.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧти жар гожӧмӧ холера висьӧм пӧрӧдіс вокъяслысь став кӧрсӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -6301,7 +6301,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1022" ANNOTATION_REF="a438">
-                <ANNOTATION_VALUE>Öтнас челядьыскӧд и коли Дарья гӧтырыс.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтнас челядьыскӧд и коли Дарья гӧтырыс.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -6441,7 +6441,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1050" ANNOTATION_REF="a466">
-                <ANNOTATION_VALUE>Öтка чом дорын кык нывбаба да нёль кага кияснаныс ӧвтчӧмӧн колльӧдісны сійӧс ылі туйӧ.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтка чом дорын кык нывбаба да нёль кага кияснаныс ӧвтчӧмӧн колльӧдісны сійӧс ылі туйӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -6706,7 +6706,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1103" ANNOTATION_REF="a519">
-                <ANNOTATION_VALUE>Öтитор падмӧдіс вокъясӧс: олӧмыс пӧ вежсьӧ, мӧд сикас лад лэптӧны, дзескӧдӧны озыр йӧзӧс, мырддьӧны нажӧвитӧм озырлунсӧ.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтитор падмӧдіс вокъясӧс: олӧмыс пӧ вежсьӧ, мӧд сикас лад лэптӧны, дзескӧдӧны озыр йӧзӧс, мырддьӧны нажӧвитӧм озырлунсӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -6746,7 +6746,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1111" ANNOTATION_REF="a527">
-                <ANNOTATION_VALUE>Öдйӧ мыйӧнкӧ шковга плешкад, ёна кӧ скӧрмӧдан».</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧдйӧ мыйӧнкӧ шковга плешкад, ёна кӧ скӧрмӧдан».</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -7011,7 +7011,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1164" ANNOTATION_REF="a580">
-                <ANNOTATION_VALUE>Öти гожся асылӧ Саватей кыліс вертолётлысь шы.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧти гожся асылӧ Саватей кыліс вертолётлысь шы.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -7031,7 +7031,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1168" ANNOTATION_REF="a584">
-                <ANNOTATION_VALUE>Чеччис Саватей, гез кузяыс кайис мыльк вылӧ: «Öні аддзас».</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Чеччис Саватей, гез кузяыс кайис мыльк вылӧ: «Ӧні аддзас».</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -8147,7 +8147,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1391" ANNOTATION_REF="a598">
-                <ANNOTATION_VALUE>Öтчыд</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтчыд</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10417,7 +10417,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1845" ANNOTATION_REF="a633">
-                <ANNOTATION_VALUE>Öні</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧні</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -12902,7 +12902,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2342" ANNOTATION_REF="a683">
-                <ANNOTATION_VALUE>Öні</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧні</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -19522,7 +19522,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3666" ANNOTATION_REF="a841" PREVIOUS_ANNOTATION="a3665">
-                <ANNOTATION_VALUE>Öні</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧні</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -20407,7 +20407,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3843" ANNOTATION_REF="a862">
-                <ANNOTATION_VALUE>Öтчыд</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтчыд</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -20902,7 +20902,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3942" ANNOTATION_REF="a878" PREVIOUS_ANNOTATION="a3941">
-                <ANNOTATION_VALUE>Öні</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧні</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -24417,7 +24417,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a4645" ANNOTATION_REF="a957">
-                <ANNOTATION_VALUE>Öти</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧти</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -26362,7 +26362,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5034" ANNOTATION_REF="a990">
-                <ANNOTATION_VALUE>Öтнаслы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтнаслы</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -27397,7 +27397,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5241" ANNOTATION_REF="a1008">
-                <ANNOTATION_VALUE>Öти</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧти</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -28077,7 +28077,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5377" ANNOTATION_REF="a1022">
-                <ANNOTATION_VALUE>Öтнас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтнас</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -29202,7 +29202,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5602" ANNOTATION_REF="a1050">
-                <ANNOTATION_VALUE>Öтка</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтка</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -31877,7 +31877,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6137" ANNOTATION_REF="a1103">
-                <ANNOTATION_VALUE>Öтитор</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧтитор</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -32347,7 +32347,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6231" ANNOTATION_REF="a1111">
-                <ANNOTATION_VALUE>Öдйӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧдйӧ</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -34847,7 +34847,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6731" ANNOTATION_REF="a1164">
-                <ANNOTATION_VALUE>Öти</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧти</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -35042,7 +35042,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6770" ANNOTATION_REF="a1168" PREVIOUS_ANNOTATION="a6769">
-                <ANNOTATION_VALUE>Öні</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧні</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -35076,7 +35076,7 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@JVR-M-1937" PARTICIPANT="JVR-M-1937" TIER_ID="lg(word)@JVR-M-1937"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@JVR-M-1937" PARTICIPANT="JVR-M-1937" TIER_ID="note(word)@JVR-M-1937"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="part(spoken)T" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="partT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE EXT_REF="er1" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="geoT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="bioT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="commentT" TIME_ALIGNABLE="true"/>

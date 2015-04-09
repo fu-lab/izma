@@ -109,11 +109,11 @@
         <Int>7</Int>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">160,0,0</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">160,90,160</Object>
@@ -121,11 +121,11 @@
         <pref key="ref@VPC-M-1993">
             <Object class="java.awt.Color">0,160,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,160</Object>
         </pref>
         <pref key="ref@AFH-M-1958">
             <Object class="java.awt.Color">160,90,0</Object>

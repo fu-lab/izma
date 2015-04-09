@@ -48,7 +48,7 @@ project$Project_title <- project$Project_name
 kpv.meta <- left_join(actor.links, actors)
 kpv.meta <- left_join(kpv.meta, sessions)
 
-kpv.meta
+####
 
 kpv.meta <- kpv.meta %>% filter(ELAN_file == TRUE) %>% select(Naming_convention, Session_name, Birthtime_year, Recording_year, PlaceofRes_OSM_ID, RecPlace_OSM_ID, Birthplace_OSM_ID, Sex, Attr_Foreign_researcher, ELAN_file, Style, Genre, Mode, Aligned, Title)
 

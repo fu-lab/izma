@@ -24,7 +24,7 @@
             <String>English</String>
         </pref>
         <pref key="audio">
-            <String>///Users/niko/kom/kpv_udora/kpv_udo20130806ButyrevaNK-5/kpv_udo20130806ButyrevaNK-5.wav</String>
+            <String>///Users/niko/kom/kpv_udora/kpv_udo20130806ButyrevaNK-5/kpv_udo20130806ButyrevaNK-5.WAV</String>
         </pref>
     </prefGroup>
     <pref key="LayoutManager.VisibleMultiTierViewer">
@@ -43,7 +43,7 @@
         <String>Modification Date</String>
     </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>70</Int>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap"/>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
@@ -86,7 +86,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>2877331</Long>
+        <Long>2949759</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -137,7 +137,7 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>2876150</Long>
+        <Long>2938550</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>

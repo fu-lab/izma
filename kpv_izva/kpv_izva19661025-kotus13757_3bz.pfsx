@@ -125,6 +125,9 @@
         <String>phonet-IPA@APK-F-1913</String>
         <String>phonol-LAT@APK-F-1913</String>
     </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
             <String>English</String>
@@ -133,9 +136,6 @@
             <String>///Users/niko/kom/kpv_izva/kpv_izva19661025-kotus13757_3bz/kpv_izva19661025-kotus13757_3bz.wav</String>
         </pref>
     </prefGroup>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
-    </pref>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -148,21 +148,21 @@
         <String>Creation Date</String>
         <String>Modification Date</String>
     </prefList>
-    <pref key="SignalViewer.VerticalZoomLevel">
-        <Int>200</Int>
-    </pref>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>70</Int>
+    </pref>
+    <pref key="SignalViewer.VerticalZoomLevel">
+        <Int>200</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@Kolva-unknown">
             <String>orth@Kolva-unknown</String>
         </prefList>
-        <prefList key="ref@EVV-M-1933">
-            <String>orth@EVV-M-1933</String>
-        </prefList>
         <prefList key="ref@APM-F-1893">
             <String>orth@APM-F-1893</String>
+        </prefList>
+        <prefList key="ref@EVV-M-1933">
+            <String>orth@EVV-M-1933</String>
         </prefList>
         <prefList key="ref@APK-F-1913">
             <String>orth@APK-F-1913</String>
@@ -172,24 +172,21 @@
         </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="TM.SignalViewer.ZoomLevel">
-        <Float>5.0</Float>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
     <prefList key="SegmentationViewer.HiddenTiers"/>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>orthT</String>
     </prefList>
-    <pref key="TimeLineViewer.ZoomLevel">
-        <Float>119.0</Float>
-    </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>0</Int>
     </pref>
-    <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@APM-F-1893</String>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>119.0</Float>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@Kolva-unknown">
@@ -210,16 +207,19 @@
         <pref key="ref@APK-F-1913">
             <Object class="java.awt.Color">0,160,90</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">0,160,0</Object>
+        <pref key="ref@FAR-F-1905">
+            <Object class="java.awt.Color">90,90,0</Object>
         </pref>
         <pref key="part">
             <Object class="java.awt.Color">160,0,160</Object>
         </pref>
-        <pref key="ref@FAR-F-1905">
-            <Object class="java.awt.Color">90,90,0</Object>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,160,0</Object>
         </pref>
     </prefGroup>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@APM-F-1893</String>
+    </pref>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
         <String>Recipient</String>
@@ -231,7 +231,7 @@
         <Int>1</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>1180</Long>
+        <Long>0</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -247,6 +247,9 @@
         <String>ref@FAR-F-1905</String>
         <String>ref@APK-F-1913</String>
     </prefList>
+    <pref key="MediaTime">
+        <Long>255010</Long>
+    </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="orth@FAR-F-1905">
             <Object class="java.awt.Color">90,90,0</Object>
@@ -291,9 +294,6 @@
             <Object class="java.awt.Color">90,160,0</Object>
         </pref>
     </prefGroup>
-    <pref key="MediaTime">
-        <Long>1180</Long>
-    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -301,23 +301,20 @@
         <Float>149.0</Float>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
-    <pref key="MediaControlRate">
-        <Float>1.0</Float>
-    </pref>
     <pref key="TimeLineViewer.ReducedTierHeight">
         <Boolean>true</Boolean>
     </pref>
-    <pref key="SignalViewer.ZoomLevel">
-        <Float>119.0</Float>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>119.0</Float>
+    </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type1 : orthT</String>
-    </pref>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>part</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -351,21 +348,24 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
     <pref key="LayoutManager.ControlPanelWidth">
         <Int>213</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>-84</Long>
+        <Long>249507</Long>
+    </pref>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type1">
             <Int>845</Int>
         </pref>
     </prefGroup>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
-    </pref>
     <pref key="SelectionEndTime">
-        <Long>2925</Long>
+        <Long>0</Long>
     </pref>
 </preferences>

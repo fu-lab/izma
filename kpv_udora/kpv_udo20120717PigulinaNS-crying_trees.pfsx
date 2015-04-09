@@ -38,7 +38,7 @@
         <String>Modification Date</String>
     </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>70</Int>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@NTP-M-1986">
@@ -83,13 +83,13 @@
         <Int>1</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>540</Long>
+        <Long>91500</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>8751</Long>
+        <Long>91500</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="orth@NSP-F-1956">
@@ -124,6 +124,9 @@
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type1 : orthT</String>
     </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@NSP-F-1956</String>
+    </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
             <Int>75</Int>
@@ -156,22 +159,19 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>ref@NSP-F-1956</String>
-    </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>2100</Long>
+        <Long>91500</Long>
     </pref>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
-    </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type1">
             <Int>850</Int>
         </pref>
     </prefGroup>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
     <pref key="SelectionEndTime">
-        <Long>2920</Long>
+        <Long>95720</Long>
     </pref>
 </preferences>
