@@ -117,11 +117,11 @@
         <Int>7</Int>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@LK-F-1985">
-            <Object class="java.awt.Color">160,0,90</Object>
-        </pref>
         <pref key="ref@VPK-F-19XX">
             <Object class="java.awt.Color">0,90,90</Object>
+        </pref>
+        <pref key="ref@LK-F-1985">
+            <Object class="java.awt.Color">160,0,90</Object>
         </pref>
         <pref key="ref@MR-M-1971">
             <Object class="java.awt.Color">160,0,160</Object>
@@ -141,7 +141,7 @@
         <Int>40</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>104641</Long>
+        <Long>366466</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -193,7 +193,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>104640</Long>
+        <Long>366465</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -247,7 +247,7 @@
         <String>ref@VPK-F-19XX</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>100709</Long>
+        <Long>361865</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
@@ -287,6 +287,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>108138</Long>
+        <Long>369065</Long>
     </pref>
 </preferences>

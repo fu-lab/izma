@@ -2,7 +2,7 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <pref key="MediaTime">
-        <Long>0</Long>
+        <Long>40000</Long>
     </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@IXA-M-18XX</String>
@@ -56,6 +56,9 @@
     </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>2</Int>
+    </pref>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
@@ -123,15 +126,15 @@
         </pref>
     </prefGroup>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>40000</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>160</Long>
+        <Long>38200</Long>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>50000</Long>
     </pref>
 </preferences>

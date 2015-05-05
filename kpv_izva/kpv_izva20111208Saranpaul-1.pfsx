@@ -145,7 +145,7 @@
         <Long>200938</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>2</Int>
+        <Int>1</Int>
     </pref>
     <pref key="MediaTime">
         <Long>200936</Long>
@@ -252,7 +252,7 @@
         <Int>218</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>191800</Long>
+        <Long>197563</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>

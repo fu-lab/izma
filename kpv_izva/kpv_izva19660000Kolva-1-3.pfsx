@@ -19,11 +19,11 @@
         <pref key="bio">
             <Object class="java.awt.Color">90,0,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,160,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,160,160</Object>
         </pref>
         <pref key="ref@UAK-F-1896">
             <Object class="java.awt.Color">0,0,160</Object>
@@ -36,7 +36,7 @@
         <Int>40</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>22660</Long>
+        <Long>75240</Long>
     </pref>
     <pref key="ExportRecogTiersDialog.SelectTiersMode">
         <String>Tier</String>
@@ -91,7 +91,7 @@
         <Int>263</Int>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>35700</Long>
+        <Long>79443</Long>
     </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
@@ -223,11 +223,11 @@
         <pref key="bio">
             <Object class="java.awt.Color">90,0,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">90,160,160</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">90,160,160</Object>
         </pref>
         <pref key="ref@UAK-F-1896">
             <Object class="java.awt.Color">0,0,160</Object>
@@ -237,7 +237,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>23386</Long>
+        <Long>119418</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -274,14 +274,14 @@
         <pref key="attack_time">
             <Float>1000.0</Float>
         </pref>
-        <pref key="source_audio">
-            <String>///Users/niko/Documents/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3.wav</String>
+        <pref key="threshold">
+            <Float>0.0</Float>
         </pref>
         <pref key="release_time">
             <Float>1000.0</Float>
         </pref>
-        <pref key="threshold">
-            <Float>0.0</Float>
+        <pref key="source_audio">
+            <String>///Users/niko/Documents/kpv_izva/kpv_izva19660000Kolva-1-3/kpv_izva19660000Kolva-1-3.wav</String>
         </pref>
     </prefGroup>
     <prefList key="TranscriptionTable.HiddenTiers"/>
@@ -335,7 +335,7 @@
         <String>part</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>13730</Long>
+        <Long>109762</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>part</String>

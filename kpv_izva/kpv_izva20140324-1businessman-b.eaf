@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-12-15T15:37:15+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2015-04-15T11:26:16+04:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_izva/kpv_izva20140324-1businessman-b/kpv_izva20140324-1businessman-b.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_izva/kpv_izva20140324-1businessman-b/kpv_izva20140324-1businessman-b.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:fd470753-fc3b-49a9-89e0-25a9f004d862</PROPERTY>
@@ -4010,7 +4010,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1012" ANNOTATION_REF="a79">
-                <ANNOTATION_VALUE>И сы бӧрын уже кудзке вот определённэй перелом , бергэдче и </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>И сы бӧрын уже кудзке вот определённэй перелом , бергедче и </ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4180,7 +4180,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1044" ANNOTATION_REF="a115">
-                <ANNOTATION_VALUE>тэнэ нуэдэны кудз том кадрэс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>тэнэ нуэдэны кудз том кадрес</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4370,7 +4370,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1076" ANNOTATION_REF="a154">
-                <ANNOTATION_VALUE>ижемецъяс ная , комияс ная , налэн выйым кутшемке патриотическэй чувство .</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ижемецъяс ная , комияс ная , налэн выйым кутшемке патриотическей чувство .</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4690,7 +4690,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1138" ANNOTATION_REF="a219">
-                <ANNOTATION_VALUE>финансэвей , но экономическей частьыс более кокниджык , финансэвэй .</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>финансэвей , но экономическей частьыс более кокниджык , финансэвей .</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -8972,7 +8972,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a7733" ANNOTATION_REF="a1012" PREVIOUS_ANNOTATION="a7732">
-                <ANNOTATION_VALUE>бергэдче</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>бергедче</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10412,7 +10412,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a8021" ANNOTATION_REF="a1044" PREVIOUS_ANNOTATION="a8020">
-                <ANNOTATION_VALUE>кадрэс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>кадрес</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11907,7 +11907,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a8320" ANNOTATION_REF="a1076" PREVIOUS_ANNOTATION="a8319">
-                <ANNOTATION_VALUE>патриотическэй</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>патриотическей</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -15302,7 +15302,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a8999" ANNOTATION_REF="a1138" PREVIOUS_ANNOTATION="a8998">
-                <ANNOTATION_VALUE>финансэвэй</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>финансэвей</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -31655,7 +31655,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="refT" PARTICIPANT="MSF-F-1969" TIER_ID="ref@MSF-F-1969">
+    <TIER LINGUISTIC_TYPE_REF="refT" PARTICIPANT="MSF-F-1968" TIER_ID="ref@MSF-F-1968">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a647" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts3">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -31947,7 +31947,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@MSF-F-1969" PARTICIPANT="MSF-F-1969" TIER_ID="orth@MSF-F-1969">
+    <TIER LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@MSF-F-1968" PARTICIPANT="MSF-F-1968" TIER_ID="orth@MSF-F-1968">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a684" ANNOTATION_REF="a647">
                 <ANNOTATION_VALUE>И ми Изьва керкаас мӧдам ӧні мыйке карны , выль сборник лэдзны -</ANNOTATION_VALUE>
@@ -32239,7 +32239,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@MSF-F-1969" PARTICIPANT="MSF-F-1969" TIER_ID="word@MSF-F-1969">
+    <TIER LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@MSF-F-1968" PARTICIPANT="MSF-F-1968" TIER_ID="word@MSF-F-1968">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6607" ANNOTATION_REF="a684">
                 <ANNOTATION_VALUE>И</ANNOTATION_VALUE>
@@ -34386,7 +34386,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@MSF-F-1969" PARTICIPANT="MSF-F-1969" TIER_ID="ft-eng@MSF-F-1969">
+    <TIER LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@MSF-F-1968" PARTICIPANT="MSF-F-1968" TIER_ID="ft-eng@MSF-F-1968">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a758" ANNOTATION_REF="a684">
                 <ANNOTATION_VALUE>In the Iz'va House we will now do something, to publish a new book.</ANNOTATION_VALUE>
@@ -34678,7 +34678,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@MSF-F-1969" PARTICIPANT="MSF-F-1969" TIER_ID="ft-rus@MSF-F-1969">
+    <TIER LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@MSF-F-1968" PARTICIPANT="MSF-F-1968" TIER_ID="ft-rus@MSF-F-1968">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a795" ANNOTATION_REF="a684">
                 <ANNOTATION_VALUE>И мы сейчас в Ижемском доме будем новый сборник выпускать -</ANNOTATION_VALUE>

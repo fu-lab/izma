@@ -21,23 +21,23 @@
         <Float>351.0</Float>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@MSF-F-1969">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
         <pref key="ref@PVR-M-1978">
             <Object class="java.awt.Color">90,160,160</Object>
         </pref>
-        <pref key="geo">
-            <Object class="java.awt.Color">160,0,0</Object>
-        </pref>
         <pref key="ref@NTP-M-1986">
             <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">160,0,0</Object>
         </pref>
         <pref key="ref@VPC-M-1993">
             <Object class="java.awt.Color">0,160,160</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ref@MSF-F-1968">
+            <Object class="java.awt.Color">160,0,90</Object>
         </pref>
         <pref key="part">
             <Object class="java.awt.Color">0,160,0</Object>
@@ -56,7 +56,7 @@
         <Int>770</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>1001904</Long>
+        <Long>3448674</Long>
     </pref>
     <prefList key="SegmentationViewer.TierOrder">
         <String>default</String>
@@ -89,7 +89,7 @@
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>1005215</Long>
+        <Long>3451349</Long>
     </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
@@ -153,24 +153,6 @@
         <String>note(orth)@VPR-M-1948</String>
         <String>lg(orth)@VPR-M-1948</String>
         <String>phonet-IPA@VPR-M-1948</String>
-        <String>ref@MSF-F-1969</String>
-        <String>phonet-UPA@MSF-F-1969</String>
-        <String>phonol-CYR@MSF-F-1969</String>
-        <String>note(ref)@MSF-F-1969</String>
-        <String>orth@MSF-F-1969</String>
-        <String>word@MSF-F-1969</String>
-        <String>lemma@MSF-F-1969</String>
-        <String>morph@MSF-F-1969</String>
-        <String>pos@MSF-F-1969</String>
-        <String>lg(word)@MSF-F-1969</String>
-        <String>note(word)@MSF-F-1969</String>
-        <String>ft-eng@MSF-F-1969</String>
-        <String>ft-rus@MSF-F-1969</String>
-        <String>ft-ling@MSF-F-1969</String>
-        <String>ft-fin@MSF-F-1969</String>
-        <String>note(orth)@MSF-F-1969</String>
-        <String>lg(orth)@MSF-F-1969</String>
-        <String>phonet-IPA@MSF-F-1969</String>
         <String>ref@PVR-M-1978</String>
         <String>phonet-UPA@PVR-M-1978</String>
         <String>phonol-CYR@PVR-M-1978</String>
@@ -189,6 +171,24 @@
         <String>note(orth)@PVR-M-1978</String>
         <String>lg(orth)@PVR-M-1978</String>
         <String>phonet-IPA@PVR-M-1978</String>
+        <String>ref@MSF-F-1968</String>
+        <String>phonet-UPA@MSF-F-1968</String>
+        <String>phonol-CYR@MSF-F-1968</String>
+        <String>note(ref)@MSF-F-1968</String>
+        <String>orth@MSF-F-1968</String>
+        <String>word@MSF-F-1968</String>
+        <String>lemma@MSF-F-1968</String>
+        <String>morph@MSF-F-1968</String>
+        <String>pos@MSF-F-1968</String>
+        <String>lg(word)@MSF-F-1968</String>
+        <String>note(word)@MSF-F-1968</String>
+        <String>ft-eng@MSF-F-1968</String>
+        <String>ft-rus@MSF-F-1968</String>
+        <String>ft-ling@MSF-F-1968</String>
+        <String>ft-fin@MSF-F-1968</String>
+        <String>note(orth)@MSF-F-1968</String>
+        <String>lg(orth)@MSF-F-1968</String>
+        <String>phonet-IPA@MSF-F-1968</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
@@ -335,7 +335,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>6720</Long>
+        <Long>3448674</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -386,7 +386,7 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>6450</Long>
+        <Long>3448674</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">

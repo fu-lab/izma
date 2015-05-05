@@ -109,17 +109,17 @@
         <Int>7</Int>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="geo">
-            <Object class="java.awt.Color">90,90,0</Object>
-        </pref>
         <pref key="ref@NTP-M-1986">
             <Object class="java.awt.Color">160,0,0</Object>
         </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">160,90,160</Object>
+        <pref key="geo">
+            <Object class="java.awt.Color">90,90,0</Object>
         </pref>
         <pref key="ref@VPC-M-1993">
             <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">160,90,160</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">0,90,160</Object>
@@ -139,13 +139,13 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>1305836</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>0</Long>
+        <Long>1305835</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -195,12 +195,12 @@
         <Int>233</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>-40</Long>
+        <Long>1300665</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>1308901</Long>
     </pref>
 </preferences>

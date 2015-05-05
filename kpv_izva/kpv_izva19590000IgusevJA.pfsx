@@ -90,11 +90,11 @@
         <pref key="ref@JAI-M-1939">
             <Object class="java.awt.Color">160,0,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">0,160,0</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">0,160,0</Object>
         </pref>
     </prefGroup>
     <prefList key="CommentViewer.Columns.Hidden">
@@ -108,13 +108,13 @@
         <Int>79</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>986086</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>688068</Long>
+        <Long>986085</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ft-rus@JAI-M-1939">
@@ -214,7 +214,7 @@
         <Int>236</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>674802</Long>
+        <Long>985794</Long>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>Recognizer for detecting longer segments with a lower amplitude than a given treshold</String>
@@ -231,6 +231,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>990303</Long>
     </pref>
 </preferences>

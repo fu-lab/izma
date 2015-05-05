@@ -79,11 +79,11 @@
         <pref key="ref@bundle:Castren">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
-        <pref key="comment">
-            <Object class="java.awt.Color">90,160,160</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">90,160,160</Object>
         </pref>
     </prefGroup>
     <prefList key="CommentViewer.Columns.Hidden">
@@ -97,13 +97,13 @@
         <Int>1</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>190000</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>0</Long>
+        <Long>194000</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="geo">
@@ -141,6 +141,18 @@
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type2 : orthT</String>
     </pref>
+    <prefList key="ExportToolbox.selectedTiers">
+        <String>ELANBegin</String>
+        <String>ELANEnd</String>
+        <String>ELANParticipant</String>
+        <String>ref</String>
+        <String>orth</String>
+        <String>word</String>
+        <String>lemma</String>
+        <String>morph</String>
+        <String>pos</String>
+        <String>ft-rus</String>
+    </prefList>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>ref@S1</String>
     </pref>
@@ -177,7 +189,7 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>0</Long>
+        <Long>182800</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type2">
@@ -188,6 +200,6 @@
         </pref>
     </prefGroup>
     <pref key="SelectionEndTime">
-        <Long>10000</Long>
+        <Long>200000</Long>
     </pref>
 </preferences>

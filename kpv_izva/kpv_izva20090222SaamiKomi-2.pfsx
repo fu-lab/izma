@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
-    <pref key="ActiveVideoRecognizerName">
-        <String>Human motion analysis and annotation</String>
-    </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>ref@ANA</String>
         <String>orth@ANA</String>
@@ -38,6 +35,12 @@
         <String>note(orth)@AAZ-M-1940</String>
         <String>note(ref)@AAZ-M-1940</String>
     </prefList>
+    <pref key="ActiveVideoRecognizerName">
+        <String>Human motion analysis and annotation</String>
+    </pref>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
             <String>English</String>
@@ -46,9 +49,18 @@
             <String>///Users/niko/kom/kpv_izva/kpv_izva20090222SaamiKomi-2/kpv_kola090222SaamiKomi-2.wav</String>
         </pref>
     </prefGroup>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
-    </pref>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
     <prefGroup key="Human motion analysis and annotation">
         <pref key="output_video_resolution">
             <String>half</String>
@@ -76,18 +88,6 @@
             <Float>30.0</Float>
         </pref>
     </prefGroup>
-    <prefList key="CommentViewer.Columns.Order">
-        <String>Start Time</String>
-        <String>End Time</String>
-        <String>Tier</String>
-        <String>Initials</String>
-        <String>Comment</String>
-        <String>Thread</String>
-        <String>Sender</String>
-        <String>Recipient</String>
-        <String>Creation Date</String>
-        <String>Modification Date</String>
-    </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>70</Int>
     </pref>
@@ -123,6 +123,9 @@
         <String>ft-engT</String>
         <String>ft-rusT</String>
     </prefList>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>350.0</Float>
+    </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
     </pref>
@@ -151,13 +154,10 @@
         <Int>546</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>527920</Long>
+        <Long>545333</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
-    </pref>
-    <pref key="MediaTime">
-        <Long>540640</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ft-rus@MR-M-1971">
@@ -209,21 +209,30 @@
             <Object class="java.awt.Color">0,160,0</Object>
         </pref>
     </prefGroup>
+    <pref key="MediaTime">
+        <Long>545333</Long>
+    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
     <pref key="TimeLineViewer.ReducedTierHeight">
         <Boolean>true</Boolean>
     </pref>
-    <pref key="MediaControlRate">
-        <Float>1.0</Float>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>350.0</Float>
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type1 : orthT</String>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>ref@LK</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -257,18 +266,23 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>ref@LK</String>
-    </pref>
     <pref key="LayoutManager.ControlPanelWidth">
         <Int>332</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>533456</Long>
+        <Long>546527</Long>
     </pref>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
-    </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>281</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>282</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>282</Int>
+        </pref>
+    </prefGroup>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>word@ANA</String>
         <String>pos@ANA</String>
@@ -281,18 +295,10 @@
         <String>word@LK-F-1985</String>
         <String>word@MR-M-1971</String>
     </prefList>
-    <prefGroup key="TranscriptionTable.ColumnWidth">
-        <pref key="Type3">
-            <Int>281</Int>
-        </pref>
-        <pref key="Type2">
-            <Int>282</Int>
-        </pref>
-        <pref key="Type1">
-            <Int>282</Int>
-        </pref>
-    </prefGroup>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
     <pref key="SelectionEndTime">
-        <Long>530296</Long>
+        <Long>549896</Long>
     </pref>
 </preferences>

@@ -147,13 +147,13 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>1202063</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>51625</Long>
+        <Long>1202061</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -197,7 +197,7 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>44060</Long>
+        <Long>1199139</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>phonet-UPA@VVF-F-1957</String>
@@ -247,6 +247,6 @@
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>1207575</Long>
     </pref>
 </preferences>

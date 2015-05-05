@@ -113,11 +113,11 @@
         <String>ref@APK-F-1913</String>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="ref@EVV-M-1933">
-            <Object class="java.awt.Color">90,0,160</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@EVV-M-1933">
+            <Object class="java.awt.Color">90,0,160</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">90,160,90</Object>
@@ -143,7 +143,7 @@
         <Int>149</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>847500</Long>
+        <Long>143875</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -178,7 +178,7 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="MediaTime">
-        <Long>847500</Long>
+        <Long>149056</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -238,7 +238,7 @@
         <Int>213</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>839235</Long>
+        <Long>144360</Long>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type2">
@@ -252,6 +252,6 @@
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>849805</Long>
+        <Long>151131</Long>
     </pref>
 </preferences>

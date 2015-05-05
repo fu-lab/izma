@@ -20,7 +20,7 @@
             <String>English</String>
         </pref>
         <pref key="audio">
-            <String>///Users/niko/kom/kpv_udora/kpv_udo20130726PigulinaNS-3-hemp_beer/kpv_udo20130726PigulinaNS-3-hemp_beer.wav</String>
+            <String>///Volumes/backup/kpv/kpv_udora/kpv_udo20130726PigulinaNS-3-hemp_beer/kpv_udo20130726PigulinaNS-3-hemp_beer.wav</String>
         </pref>
     </prefGroup>
     <pref key="LayoutManager.VisibleMultiTierViewer">
@@ -48,6 +48,9 @@
     </pref>
     <pref key="TM.SignalViewer.ZoomLevel">
         <Float>5.0</Float>
+    </pref>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>119.0</Float>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
@@ -82,12 +85,15 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>180973</Long>
+        <Long>28075</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
@@ -95,7 +101,7 @@
         <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>100.0</Float>
+        <Float>119.0</Float>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>ref@NSP-F-1956</String>
@@ -133,12 +139,12 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>177560</Long>
+        <Long>22153</Long>
     </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="ActiveAudioRecognizerName">
         <String>Text-to-Speech alignment</String>
     </pref>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
     <pref key="SelectionEndTime">
         <Long>180777</Long>
     </pref>

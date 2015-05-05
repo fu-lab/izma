@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <pref key="ActiveVideoRecognizerName">
+        <String>Human motion analysis and annotation</String>
+    </pref>
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>ref@OVH-F-1963</String>
+        <String>phonet-UPA@OVH-F-1963</String>
+        <String>phonol-CYR@OVH-F-1963</String>
+        <String>translit-LAT@OVH-F-1963</String>
+        <String>note(ref)@OVH-F-1963</String>
+        <String>orth@OVH-F-1963</String>
+        <String>word@OVH-F-1963</String>
+        <String>note(word)@OVH-F-1963</String>
+        <String>lemma@OVH-F-1963</String>
+        <String>morph@OVH-F-1963</String>
+        <String>pos@OVH-F-1963</String>
+        <String>lg(word)@OVH-F-1963</String>
+        <String>ft-eng@OVH-F-1963</String>
+        <String>ft-deu@OVH-F-1963</String>
+        <String>ft-nob@OVH-F-1963</String>
+        <String>ft-rus@OVH-F-1963</String>
+        <String>ft-swe@OVH-F-1963</String>
+        <String>ft-ling@OVH-F-1963</String>
+        <String>ft-fin@OVH-F-1963</String>
+        <String>note(orth)@OVH-F-1963</String>
+        <String>lg(orth)@OVH-F-1963</String>
+        <String>phonet-IPA@OVH-F-1963</String>
+        <String>phonol-LAT@OVH-F-1963</String>
+        <String>ref@OPK-F-1947</String>
+        <String>phonet-UPA@OPK-F-1947</String>
+        <String>phonol-CYR@OPK-F-1947</String>
+        <String>translit-LAT@OPK-F-1947</String>
+        <String>note(ref)@OPK-F-1947</String>
+        <String>orth@OPK-F-1947</String>
+        <String>word@OPK-F-1947</String>
+        <String>note(word)@OPK-F-1947</String>
+        <String>lemma@OPK-F-1947</String>
+        <String>morph@OPK-F-1947</String>
+        <String>pos@OPK-F-1947</String>
+        <String>lg(word)@OPK-F-1947</String>
+        <String>ft-eng@OPK-F-1947</String>
+        <String>ft-deu@OPK-F-1947</String>
+        <String>ft-nob@OPK-F-1947</String>
+        <String>ft-rus@OPK-F-1947</String>
+        <String>ft-swe@OPK-F-1947</String>
+        <String>ft-ling@OPK-F-1947</String>
+        <String>ft-fin@OPK-F-1947</String>
+        <String>note(orth)@OPK-F-1947</String>
+        <String>lg(orth)@OPK-F-1947</String>
+        <String>phonet-IPA@OPK-F-1947</String>
+        <String>phonol-LAT@OPK-F-1947</String>
+        <String>ref@GFK-F-1935</String>
+        <String>phonet-UPA@GFK-F-1935</String>
+        <String>phonol-CYR@GFK-F-1935</String>
+        <String>translit-LAT@GFK-F-1935</String>
+        <String>note(ref)@GFK-F-1935</String>
+        <String>orth@GFK-F-1935</String>
+        <String>word@GFK-F-1935</String>
+        <String>note(word)@GFK-F-1935</String>
+        <String>lemma@GFK-F-1935</String>
+        <String>morph@GFK-F-1935</String>
+        <String>pos@GFK-F-1935</String>
+        <String>lg(word)@GFK-F-1935</String>
+        <String>ft-eng@GFK-F-1935</String>
+        <String>ft-deu@GFK-F-1935</String>
+        <String>ft-nob@GFK-F-1935</String>
+        <String>ft-rus@GFK-F-1935</String>
+        <String>ft-swe@GFK-F-1935</String>
+        <String>ft-ling@GFK-F-1935</String>
+        <String>ft-fin@GFK-F-1935</String>
+        <String>note(orth)@GFK-F-1935</String>
+        <String>lg(orth)@GFK-F-1935</String>
+        <String>phonet-IPA@GFK-F-1935</String>
+        <String>phonol-LAT@GFK-F-1935</String>
+        <String>ref@MPK-F-1944</String>
+        <String>phonet-UPA@MPK-F-1944</String>
+        <String>phonol-CYR@MPK-F-1944</String>
+        <String>translit-LAT@MPK-F-1944</String>
+        <String>note(ref)@MPK-F-1944</String>
+        <String>orth@MPK-F-1944</String>
+        <String>word@MPK-F-1944</String>
+        <String>note(word)@MPK-F-1944</String>
+        <String>lemma@MPK-F-1944</String>
+        <String>morph@MPK-F-1944</String>
+        <String>pos@MPK-F-1944</String>
+        <String>lg(word)@MPK-F-1944</String>
+        <String>ft-eng@MPK-F-1944</String>
+        <String>ft-deu@MPK-F-1944</String>
+        <String>ft-nob@MPK-F-1944</String>
+        <String>ft-rus@MPK-F-1944</String>
+        <String>ft-swe@MPK-F-1944</String>
+        <String>ft-ling@MPK-F-1944</String>
+        <String>ft-fin@MPK-F-1944</String>
+        <String>note(orth)@MPK-F-1944</String>
+        <String>lg(orth)@MPK-F-1944</String>
+        <String>phonet-IPA@MPK-F-1944</String>
+        <String>phonol-LAT@MPK-F-1944</String>
+        <String>ref@Vertep_choir</String>
+        <String>phonet-UPA@Vertep_choir</String>
+        <String>phonol-CYR@Vertep_choir</String>
+        <String>translit-LAT@Vertep_choir</String>
+        <String>note(ref)@Vertep_choir</String>
+        <String>orth@Vertep_choir</String>
+        <String>word@Vertep_choir</String>
+        <String>note(word)@Vertep_choir</String>
+        <String>lemma@Vertep_choir</String>
+        <String>morph@Vertep_choir</String>
+        <String>pos@Vertep_choir</String>
+        <String>lg(word)@Vertep_choir</String>
+        <String>ft-eng@Vertep_choir</String>
+        <String>ft-deu@Vertep_choir</String>
+        <String>ft-nob@Vertep_choir</String>
+        <String>ft-rus@Vertep_choir</String>
+        <String>ft-swe@Vertep_choir</String>
+        <String>ft-ling@Vertep_choir</String>
+        <String>ft-fin@Vertep_choir</String>
+        <String>note(orth)@Vertep_choir</String>
+        <String>lg(orth)@Vertep_choir</String>
+        <String>phonet-IPA@Vertep_choir</String>
+        <String>phonol-LAT@Vertep_choir</String>
+        <String>ref@IMC-F-1939</String>
+        <String>phonet-UPA@IMC-F-1939</String>
+        <String>phonol-CYR@IMC-F-1939</String>
+        <String>translit-LAT@IMC-F-1939</String>
+        <String>note(ref)@IMC-F-1939</String>
+        <String>orth@IMC-F-1939</String>
+        <String>word@IMC-F-1939</String>
+        <String>note(word)@IMC-F-1939</String>
+        <String>lemma@IMC-F-1939</String>
+        <String>morph@IMC-F-1939</String>
+        <String>pos@IMC-F-1939</String>
+        <String>lg(word)@IMC-F-1939</String>
+        <String>ft-eng@IMC-F-1939</String>
+        <String>ft-deu@IMC-F-1939</String>
+        <String>ft-nob@IMC-F-1939</String>
+        <String>ft-rus@IMC-F-1939</String>
+        <String>ft-swe@IMC-F-1939</String>
+        <String>ft-ling@IMC-F-1939</String>
+        <String>ft-fin@IMC-F-1939</String>
+        <String>note(orth)@IMC-F-1939</String>
+        <String>lg(orth)@IMC-F-1939</String>
+        <String>phonet-IPA@IMC-F-1939</String>
+        <String>phonol-LAT@IMC-F-1939</String>
+        <String>ref@MSF-F-1969</String>
+        <String>phonet-UPA@MSF-F-1969</String>
+        <String>phonol-CYR@MSF-F-1969</String>
+        <String>translit-LAT@MSF-F-1969</String>
+        <String>note(ref)@MSF-F-1969</String>
+        <String>orth@MSF-F-1969</String>
+        <String>word@MSF-F-1969</String>
+        <String>note(word)@MSF-F-1969</String>
+        <String>lemma@MSF-F-1969</String>
+        <String>morph@MSF-F-1969</String>
+        <String>pos@MSF-F-1969</String>
+        <String>lg(word)@MSF-F-1969</String>
+        <String>ft-eng@MSF-F-1969</String>
+        <String>ft-deu@MSF-F-1969</String>
+        <String>ft-nob@MSF-F-1969</String>
+        <String>ft-rus@MSF-F-1969</String>
+        <String>ft-swe@MSF-F-1969</String>
+        <String>ft-ling@MSF-F-1969</String>
+        <String>ft-fin@MSF-F-1969</String>
+        <String>note(orth)@MSF-F-1969</String>
+        <String>lg(orth)@MSF-F-1969</String>
+        <String>phonet-IPA@MSF-F-1969</String>
+        <String>phonol-LAT@MSF-F-1969</String>
+        <String>ref@VPC-M-1993</String>
+        <String>phonet-UPA@VPC-M-1993</String>
+        <String>phonol-CYR@VPC-M-1993</String>
+        <String>translit-LAT@VPC-M-1993</String>
+        <String>note(ref)@VPC-M-1993</String>
+        <String>orth@VPC-M-1993</String>
+        <String>word@VPC-M-1993</String>
+        <String>note(word)@VPC-M-1993</String>
+        <String>lemma@VPC-M-1993</String>
+        <String>morph@VPC-M-1993</String>
+        <String>pos@VPC-M-1993</String>
+        <String>lg(word)@VPC-M-1993</String>
+        <String>ft-eng@VPC-M-1993</String>
+        <String>ft-deu@VPC-M-1993</String>
+        <String>ft-nob@VPC-M-1993</String>
+        <String>ft-rus@VPC-M-1993</String>
+        <String>ft-swe@VPC-M-1993</String>
+        <String>ft-ling@VPC-M-1993</String>
+        <String>ft-fin@VPC-M-1993</String>
+        <String>note(orth)@VPC-M-1993</String>
+        <String>lg(orth)@VPC-M-1993</String>
+        <String>phonet-IPA@VPC-M-1993</String>
+        <String>phonol-LAT@VPC-M-1993</String>
+    </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <prefGroup key="Text-to-Speech alignment">
+        <pref key="model">
+            <String>English</String>
+        </pref>
+        <pref key="audio">
+            <String>///Users/niko/kom/kpv_izva/kpv_izva20140324-5dom_tradicii-c/kpv_izva20140324-5dom_tradicii-c.wav</String>
+        </pref>
+    </prefGroup>
+    <prefGroup key="Human motion analysis and annotation">
+        <pref key="output_video_resolution">
+            <String>half</String>
+        </pref>
+        <pref key="background_image">
+            <String>false</String>
+        </pref>
+        <pref key="use_single_cluster">
+            <String>false</String>
+        </pref>
+        <pref key="speed_threshold">
+            <String>normal</String>
+        </pref>
+        <pref key="logging_level">
+            <String>normal</String>
+        </pref>
+        <prefGroup key="input_xml"/>
+        <pref key="use_rest_position">
+            <String>false</String>
+        </pref>
+        <pref key="change_threshold">
+            <Float>30.0</Float>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>70</Int>
+    </pref>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>90.0</Float>
+    </pref>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>1</Int>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="ref@OVH-F-1963">
+            <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="ref@MSF-F-1969">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="ref@OPK-F-1947">
+            <Object class="java.awt.Color">160,160,90</Object>
+        </pref>
+        <pref key="geo">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="bio">
+            <Object class="java.awt.Color">90,0,90</Object>
+        </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
+        <pref key="ref@MPK-F-1944">
+            <Object class="java.awt.Color">0,0,160</Object>
+        </pref>
+        <pref key="ref@IMC-F-1939">
+            <Object class="java.awt.Color">160,0,160</Object>
+        </pref>
+        <pref key="comment">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+        <pref key="ref@Vertep_choir">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ref@GFK-F-1935">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Sender</String>
+        <String>Recipient</String>
+    </prefList>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,23</Object>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>0</Long>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="MediaTime">
+        <Long>911385</Long>
+    </pref>
+    <pref key="MultiTierViewer.TierSortingMode">
+        <Int>1</Int>
+    </pref>
+    <pref key="TimeLineViewer.ReducedTierHeight">
+        <Boolean>true</Boolean>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,773</Object>
+    </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>90.0</Float>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Modification Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
+        </pref>
+        <pref key="Tier">
+            <Int>75</Int>
+        </pref>
+        <pref key="Creation Date">
+            <Int>75</Int>
+        </pref>
+        <pref key="Initials">
+            <Int>75</Int>
+        </pref>
+        <pref key="Comment">
+            <Int>75</Int>
+        </pref>
+        <pref key="End Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Start Time">
+            <Int>75</Int>
+        </pref>
+        <pref key="Recipient">
+            <Int>0</Int>
+        </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
+    </prefGroup>
+    <pref key="LayoutManager.ControlPanelWidth">
+        <Int>356</Int>
+    </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>908111</Long>
+    </pref>
+    <prefList key="MultiTierViewer.HiddenTiers">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>phonet-UPA@OVH-F-1963</String>
+        <String>phonol-CYR@OVH-F-1963</String>
+        <String>translit-LAT@OVH-F-1963</String>
+        <String>note(ref)@OVH-F-1963</String>
+        <String>note(word)@OVH-F-1963</String>
+        <String>lemma@OVH-F-1963</String>
+        <String>morph@OVH-F-1963</String>
+        <String>pos@OVH-F-1963</String>
+        <String>lg(word)@OVH-F-1963</String>
+        <String>ft-deu@OVH-F-1963</String>
+        <String>ft-nob@OVH-F-1963</String>
+        <String>ft-swe@OVH-F-1963</String>
+        <String>ft-ling@OVH-F-1963</String>
+        <String>ft-fin@OVH-F-1963</String>
+        <String>note(orth)@OVH-F-1963</String>
+        <String>lg(orth)@OVH-F-1963</String>
+        <String>phonet-IPA@OVH-F-1963</String>
+        <String>phonol-LAT@OVH-F-1963</String>
+        <String>phonet-UPA@OPK-F-1947</String>
+        <String>phonol-CYR@OPK-F-1947</String>
+        <String>translit-LAT@OPK-F-1947</String>
+        <String>note(ref)@OPK-F-1947</String>
+        <String>note(word)@OPK-F-1947</String>
+        <String>lemma@OPK-F-1947</String>
+        <String>morph@OPK-F-1947</String>
+        <String>pos@OPK-F-1947</String>
+        <String>lg(word)@OPK-F-1947</String>
+        <String>ft-deu@OPK-F-1947</String>
+        <String>ft-nob@OPK-F-1947</String>
+        <String>ft-swe@OPK-F-1947</String>
+        <String>ft-ling@OPK-F-1947</String>
+        <String>ft-fin@OPK-F-1947</String>
+        <String>note(orth)@OPK-F-1947</String>
+        <String>lg(orth)@OPK-F-1947</String>
+        <String>phonet-IPA@OPK-F-1947</String>
+        <String>phonol-LAT@OPK-F-1947</String>
+        <String>phonet-UPA@GFK-F-1935</String>
+        <String>phonol-CYR@GFK-F-1935</String>
+        <String>translit-LAT@GFK-F-1935</String>
+        <String>note(ref)@GFK-F-1935</String>
+        <String>note(word)@GFK-F-1935</String>
+        <String>lemma@GFK-F-1935</String>
+        <String>morph@GFK-F-1935</String>
+        <String>pos@GFK-F-1935</String>
+        <String>lg(word)@GFK-F-1935</String>
+        <String>ft-deu@GFK-F-1935</String>
+        <String>ft-nob@GFK-F-1935</String>
+        <String>ft-swe@GFK-F-1935</String>
+        <String>ft-ling@GFK-F-1935</String>
+        <String>ft-fin@GFK-F-1935</String>
+        <String>note(orth)@GFK-F-1935</String>
+        <String>lg(orth)@GFK-F-1935</String>
+        <String>phonet-IPA@GFK-F-1935</String>
+        <String>phonol-LAT@GFK-F-1935</String>
+        <String>phonet-UPA@MPK-F-1944</String>
+        <String>phonol-CYR@MPK-F-1944</String>
+        <String>translit-LAT@MPK-F-1944</String>
+        <String>note(ref)@MPK-F-1944</String>
+        <String>note(word)@MPK-F-1944</String>
+        <String>lemma@MPK-F-1944</String>
+        <String>morph@MPK-F-1944</String>
+        <String>pos@MPK-F-1944</String>
+        <String>lg(word)@MPK-F-1944</String>
+        <String>ft-deu@MPK-F-1944</String>
+        <String>ft-nob@MPK-F-1944</String>
+        <String>ft-swe@MPK-F-1944</String>
+        <String>ft-ling@MPK-F-1944</String>
+        <String>ft-fin@MPK-F-1944</String>
+        <String>note(orth)@MPK-F-1944</String>
+        <String>lg(orth)@MPK-F-1944</String>
+        <String>phonet-IPA@MPK-F-1944</String>
+        <String>phonol-LAT@MPK-F-1944</String>
+        <String>phonet-UPA@Vertep_choir</String>
+        <String>phonol-CYR@Vertep_choir</String>
+        <String>translit-LAT@Vertep_choir</String>
+        <String>note(ref)@Vertep_choir</String>
+        <String>note(word)@Vertep_choir</String>
+        <String>lemma@Vertep_choir</String>
+        <String>morph@Vertep_choir</String>
+        <String>pos@Vertep_choir</String>
+        <String>lg(word)@Vertep_choir</String>
+        <String>ft-deu@Vertep_choir</String>
+        <String>ft-nob@Vertep_choir</String>
+        <String>ft-swe@Vertep_choir</String>
+        <String>ft-ling@Vertep_choir</String>
+        <String>ft-fin@Vertep_choir</String>
+        <String>note(orth)@Vertep_choir</String>
+        <String>lg(orth)@Vertep_choir</String>
+        <String>phonet-IPA@Vertep_choir</String>
+        <String>phonol-LAT@Vertep_choir</String>
+        <String>phonet-UPA@IMC-F-1939</String>
+        <String>phonol-CYR@IMC-F-1939</String>
+        <String>translit-LAT@IMC-F-1939</String>
+        <String>note(ref)@IMC-F-1939</String>
+        <String>note(word)@IMC-F-1939</String>
+        <String>lemma@IMC-F-1939</String>
+        <String>morph@IMC-F-1939</String>
+        <String>pos@IMC-F-1939</String>
+        <String>lg(word)@IMC-F-1939</String>
+        <String>ft-deu@IMC-F-1939</String>
+        <String>ft-nob@IMC-F-1939</String>
+        <String>ft-swe@IMC-F-1939</String>
+        <String>ft-ling@IMC-F-1939</String>
+        <String>ft-fin@IMC-F-1939</String>
+        <String>note(orth)@IMC-F-1939</String>
+        <String>lg(orth)@IMC-F-1939</String>
+        <String>phonet-IPA@IMC-F-1939</String>
+        <String>phonol-LAT@IMC-F-1939</String>
+        <String>phonet-UPA@MSF-F-1969</String>
+        <String>phonol-CYR@MSF-F-1969</String>
+        <String>translit-LAT@MSF-F-1969</String>
+        <String>note(ref)@MSF-F-1969</String>
+        <String>note(word)@MSF-F-1969</String>
+        <String>lemma@MSF-F-1969</String>
+        <String>morph@MSF-F-1969</String>
+        <String>pos@MSF-F-1969</String>
+        <String>lg(word)@MSF-F-1969</String>
+        <String>ft-deu@MSF-F-1969</String>
+        <String>ft-nob@MSF-F-1969</String>
+        <String>ft-swe@MSF-F-1969</String>
+        <String>ft-ling@MSF-F-1969</String>
+        <String>ft-fin@MSF-F-1969</String>
+        <String>note(orth)@MSF-F-1969</String>
+        <String>lg(orth)@MSF-F-1969</String>
+        <String>phonet-IPA@MSF-F-1969</String>
+        <String>phonol-LAT@MSF-F-1969</String>
+        <String>phonet-UPA@VPC-M-1993</String>
+        <String>phonol-CYR@VPC-M-1993</String>
+        <String>translit-LAT@VPC-M-1993</String>
+        <String>note(ref)@VPC-M-1993</String>
+        <String>note(word)@VPC-M-1993</String>
+        <String>lemma@VPC-M-1993</String>
+        <String>morph@VPC-M-1993</String>
+        <String>pos@VPC-M-1993</String>
+        <String>lg(word)@VPC-M-1993</String>
+        <String>ft-deu@VPC-M-1993</String>
+        <String>ft-nob@VPC-M-1993</String>
+        <String>ft-swe@VPC-M-1993</String>
+        <String>ft-ling@VPC-M-1993</String>
+        <String>ft-fin@VPC-M-1993</String>
+        <String>note(orth)@VPC-M-1993</String>
+        <String>lg(orth)@VPC-M-1993</String>
+        <String>phonet-IPA@VPC-M-1993</String>
+        <String>phonol-LAT@VPC-M-1993</String>
+    </prefList>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
+    <pref key="SelectionEndTime">
+        <Long>0</Long>
+    </pref>
+</preferences>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-11-18T19:30:33+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2015-04-23T17:43:15+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Volumes/data/kpv/kpv_udora/_kpv_udo_data/kpv_udora_KOTUS/kpv_udo19620830KOTUSKonovalovVA-1/kpv_udo19620830KOTUSKonovalovVA-1.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../Documents/kpv_udora/kpv_udora_KOTUS/kpv_udo19620830KOTUSKonovalovVA-1/2136_1az.wav"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/niko/kom/kpv_udora/kpv_udo19620830KOTUSKonovalovVA-1/kpv_udo19620830KOTUSKonovalovVA-1.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../../../kom/kpv_udora/kpv_udo19620830KOTUSKonovalovVA-1/kpv_udo19620830KOTUSKonovalovVA-1.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:30b77c32-5982-4f45-8710-a88beac1818d</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">3400</PROPERTY>
     </HEADER>
@@ -585,14 +585,14 @@
         <TIME_SLOT TIME_SLOT_ID="ts577" TIME_VALUE="1010971"/>
         <TIME_SLOT TIME_SLOT_ID="ts578" TIME_VALUE="1011018"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="part(spoken)T" TIER_ID="part">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="partT" TIER_ID="part">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts577">
                 <ANNOTATION_VALUE>  </ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="AJV-M-1933" TIER_ID="ref@AJV-M-1933">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="AJV-M-1933" TIER_ID="ref@AJV-M-1933">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts5">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -667,7 +667,7 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="geoT" TIER_ID="geo"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="bioT" TIER_ID="bio"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="commentT" TIER_ID="comment"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="MVP-F-1936" TIER_ID="ref@MVP-F-1936">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="MVP-F-1936" TIER_ID="ref@MVP-F-1936">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts3">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -689,7 +689,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="VAK-M-1880" TIER_ID="ref@VAK-M-1880">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="VAK-M-1880" TIER_ID="ref@VAK-M-1880">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts6" TIME_SLOT_REF2="ts7">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -1996,72 +1996,72 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@AJV-M-1933" PARTICIPANT="AJV-M-1933" TIER_ID="orth@AJV-M-1933">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a290" ANNOTATION_REF="a2">
-                <ANNOTATION_VALUE>но висьтав висьтав</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Но висьтав висьтав.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a291" ANNOTATION_REF="a3">
-                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мм.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a292" ANNOTATION_REF="a4">
-                <ANNOTATION_VALUE>??? ???</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a293" ANNOTATION_REF="a5">
-                <ANNOTATION_VALUE>вӧйпсьӧм бӧрті</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вӧйпсьӧм бӧрті…</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a294" ANNOTATION_REF="a6">
-                <ANNOTATION_VALUE>но мед мед , водзӧ и висьтав</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Но мед мед, водзӧ и висьтав.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a295" ANNOTATION_REF="a7">
-                <ANNOTATION_VALUE>вӧйпсьӧм бӧрті пӧ юрдоныс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вӧйпсьӧм бӧрті пӧ юрдоныс?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a296" ANNOTATION_REF="a8">
-                <ANNOTATION_VALUE>но висьтав висьтав мый верман</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Но висьтав висьтав мый верман!</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a297" ANNOTATION_REF="a9">
-                <ANNOTATION_VALUE>колӧ колӧ , ставыс и колӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>колӧ колӧ, ставыс и колӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a298" ANNOTATION_REF="a10">
-                <ANNOTATION_VALUE>колӧ колӧ , колӧ сійӧ и сэтшӧм торъесыс колӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>колӧ колӧ, колӧ сійӧ и сэтшӧм торъесыс колӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a299" ANNOTATION_REF="a11">
-                <ANNOTATION_VALUE>висьтав висьтав</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>висьтав висьтав.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a300" ANNOTATION_REF="a12">
-                <ANNOTATION_VALUE>мм дугӧдлы , дугӧд</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм, дугӧдлы, дугӧд.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a301" ANNOTATION_REF="a13">
-                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Да, да, да.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a302" ANNOTATION_REF="a14">
-                <ANNOTATION_VALUE>висьтав висьтав</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>висьтав висьтав!</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a303" ANNOTATION_REF="a15">
-                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Но кутшӧм?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -2094,27 +2094,27 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@VAK-M-1880" PARTICIPANT="VAK-M-1880" TIER_ID="orth@VAK-M-1880">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a308" ANNOTATION_REF="a20">
-                <ANNOTATION_VALUE>м</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мм.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a309" ANNOTATION_REF="a21">
-                <ANNOTATION_VALUE>так важӧн нывъес вӧлі пукӧны кудель босьтасны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Так важӧн нывъес вӧлі пукӧны кудель босьтасны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a310" ANNOTATION_REF="a22">
-                <ANNOTATION_VALUE>да юкӧртчасны ёрта-ёрт ордын пукны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Да юкӧртчасны ёрта-ёрт ордын пукны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a311" ANNOTATION_REF="a23">
-                <ANNOTATION_VALUE>ӧти ордын да мӧд ордын</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ӧти ордын да мӧд ордын.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a312" ANNOTATION_REF="a24">
-                <ANNOTATION_VALUE>а зонъес пыравыласны пуканіна и мӧдасны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А зонъес пыравыласны пуканіна и мӧдасны</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2124,32 +2124,32 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a314" ANNOTATION_REF="a26">
-                <ANNOTATION_VALUE>ворсны накӧд , играйтны шутитны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ворсны накӧд, играйтны шутитны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a315" ANNOTATION_REF="a27">
-                <ANNOTATION_VALUE>пом</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Пом.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a316" ANNOTATION_REF="a28">
-                <ANNOTATION_VALUE>а коді кодлы колӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А коді кодлы колӧ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a317" ANNOTATION_REF="a29">
-                <ANNOTATION_VALUE>так сы дінӧ сія и пуксяс , ??? ???</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>так сы дінӧ сія и пуксяс, ??? бердас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a318" ANNOTATION_REF="a30">
-                <ANNOTATION_VALUE>мӧдас ??? ???сны да биӧн сотны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мӧдас ??? ???сны да биӧн сотны,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a319" ANNOTATION_REF="a31">
-                <ANNOTATION_VALUE>а важӧн ӧд биыд из вӧв , лампа</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а важӧн ӧд биыд из вӧв, лампа,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2159,67 +2159,67 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a321" ANNOTATION_REF="a33">
-                <ANNOTATION_VALUE>пукӧны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>пукӧны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a322" ANNOTATION_REF="a34">
-                <ANNOTATION_VALUE>сартаса бисӧ сійӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сартаса бисӧ сійӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a323" ANNOTATION_REF="a35">
-                <ANNOTATION_VALUE>нарӧшнӧ сэн морт пукалӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Нарӧшнӧ сэн морт пукалӧ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a324" ANNOTATION_REF="a36">
-                <ANNOTATION_VALUE>видзӧ , а нывъес</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>видзӧ, а нывъес</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a325" ANNOTATION_REF="a37">
-                <ANNOTATION_VALUE>ныв дас кымын матысь юкӧртчиласны да сія ??? пуксясны да и печкӧны весис</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ныв дас кымын матысь юкӧртчиласны да сія ??? пуксясны да и печкӧны весис.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a326" ANNOTATION_REF="a38">
-                <ANNOTATION_VALUE>а зонъес пуксьӧны коді кодлы колӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А зонъес пуксьӧны коді кодлы колӧ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a327" ANNOTATION_REF="a39">
-                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a328" ANNOTATION_REF="a40">
-                <ANNOTATION_VALUE>вот</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вот.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a329" ANNOTATION_REF="a41">
-                <ANNOTATION_VALUE>сія</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сія</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a330" ANNOTATION_REF="a42">
-                <ANNOTATION_VALUE>ньӧжъяндзиӧн да ньӧжъяндзиӧн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ньӧжъяндзиӧн да ньӧжъяндзиӧн,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a331" ANNOTATION_REF="a43">
-                <ANNOTATION_VALUE>кӧнешнӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>кӧнешнӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a332" ANNOTATION_REF="a44">
-                <ANNOTATION_VALUE>а ме лично ачым кӧ так</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А ме лично ачым кӧ так,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a333" ANNOTATION_REF="a45">
-                <ANNOTATION_VALUE>морт конериндзи вӧлі , раминдзи вӧлі</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>морт конериндзи вӧлі, раминдзи вӧлі,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2229,142 +2229,142 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a335" ANNOTATION_REF="a47">
-                <ANNOTATION_VALUE>и оланнаджык вӧлі ???лӧн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>и оланнаджык вӧлі ???лӧн.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a336" ANNOTATION_REF="a48">
-                <ANNOTATION_VALUE>а мен сійӧ сьӧлӧмлы колӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А мен сійӧ сьӧлӧмлы колӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a337" ANNOTATION_REF="a49">
-                <ANNOTATION_VALUE>ме сыкӧдджык сы дінӧджык пукся да муй да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ме сыкӧдджык сы дінӧджык пукся да муй да.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a338" ANNOTATION_REF="a50">
-                <ANNOTATION_VALUE>сыкӧдджык мӧда мм образайтчыны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сыкӧдджык мӧда мм образайтчыны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a339" ANNOTATION_REF="a51">
-                <ANNOTATION_VALUE>сійӧ постепенно да постепенно да года два кымын ми сыкӧд знакомитчим</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сійӧ постепенно да постепенно да года два кымын ми сыкӧд знакомитчим,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a340" ANNOTATION_REF="a52">
-                <ANNOTATION_VALUE>гашкӧ и бурджык</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>гашкӧ и бурджык,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a341" ANNOTATION_REF="a53">
-                <ANNOTATION_VALUE>на конец ми знакомӧсь лоим и сія пӧ-жалі непрӧч меысь мӧдіс лоны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>на конец ми знакомӧсь лоим и сія пӧжалі непрӧч меысь мӧдіс лоны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a342" ANNOTATION_REF="a54">
-                <ANNOTATION_VALUE>непрӧч</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Непрӧч.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a343" ANNOTATION_REF="a55">
-                <ANNOTATION_VALUE>отназди колӧ мунны тувса вӧрӧ ветлӧвлам нортӧн , ылӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Отназди колӧ мунны тувса вӧрӧ ветлӧвлам нортӧн, ылӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a344" ANNOTATION_REF="a56">
-                <ANNOTATION_VALUE>километров до сто кыскасьлам</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Километров до сто кыскасьлам.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a345" ANNOTATION_REF="a57">
-                <ANNOTATION_VALUE>вокыс мӧдӧ вӧрӧ , а ме как раз</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вокыс мӧдӧ вӧрӧ, а ме как раз,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a346" ANNOTATION_REF="a58">
-                <ANNOTATION_VALUE>мӧді , ысті корасьны , кӧсъя гӧтрасьны , самой</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мӧді, ысті корасьны, кӧсъя гӧтрасьны, самой</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a347" ANNOTATION_REF="a59">
-                <ANNOTATION_VALUE>мм февральӧ месячӧ начала февряля</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм, февральӧ месячӧ начала февряля.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a348" ANNOTATION_REF="a60">
-                <ANNOTATION_VALUE>м , ладна</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Тс, ладна,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a349" ANNOTATION_REF="a61">
-                <ANNOTATION_VALUE>ысті зять нима миян пӧрысиндзи вӧлі Облан , хозяин да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ысті зять нима миян пӧрысиндзи вӧлі Облан, хозяин да,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a350" ANNOTATION_REF="a62">
-                <ANNOTATION_VALUE>зятьӧн шуам да сійӧ ысті корасьны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>зятьӧн шуам да сійӧ ысті корасьны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a351" ANNOTATION_REF="a63">
-                <ANNOTATION_VALUE>менӧ ӧд кажитӧны , оз сетны , ме пӧ конер</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Менӧ ӧд кажитӧны, оз сетны, ме пӧ конер,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a352" ANNOTATION_REF="a64">
-                <ANNOTATION_VALUE>да мыйкӧ , нылыд на том</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да мыйкӧ, нылыд на том.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a353" ANNOTATION_REF="a65">
-                <ANNOTATION_VALUE>сія на том , даскыкъясмыс ара вӧліс , да ме нин кызьвит ломӧдіс лоны , тырны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сія на том, даскыкъясмыс ара вӧліс, да ме нин кызьвит во мӧдіс лоны, тырны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a354" ANNOTATION_REF="a66">
-                <ANNOTATION_VALUE>так олӧ на пӧ мед , а ми эськӧ нин ёрта-ёртным пӧжалі и знакомӧсь</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Так олӧ на пӧ мед, а ми эськӧ нин ёрта-ёртным пӧжалі и знакомӧсь.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a355" ANNOTATION_REF="a67">
-                <ANNOTATION_VALUE>пӧжалі непрӧчкӧд</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Пӧжалі непрӧчкӧд.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a356" ANNOTATION_REF="a68">
-                <ANNOTATION_VALUE>но миян ???тісны менӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Но миян ӧтлажитісны менӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a357" ANNOTATION_REF="a69">
-                <ANNOTATION_VALUE>сія сэсся мем лои гаштӧм</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сія сэсся мен лои гаштӧм.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a358" ANNOTATION_REF="a70">
-                <ANNOTATION_VALUE>а нывкӧд век знаком</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А нывкӧд век знаком.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a359" ANNOTATION_REF="a71">
-                <ANNOTATION_VALUE>и сы бӧрын нӧшта ёнджыка знакомӧсь лоим , вокыс ветлі вӧрӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>И сы бӧрын нӧшта ёнджыка знакомӧсь лоим, вокыс ветлі вӧрӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a360" ANNOTATION_REF="a72">
-                <ANNOTATION_VALUE>вӧрись воис</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вӧрись воис.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a361" ANNOTATION_REF="a73">
-                <ANNOTATION_VALUE>ме</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ме,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a362" ANNOTATION_REF="a74">
-                <ANNOTATION_VALUE>сэсся тулыс лои</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся тулыс лои,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2374,502 +2374,502 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a364" ANNOTATION_REF="a76">
-                <ANNOTATION_VALUE>иг рӧзнитчылӧ , век знаком , кымын знаком</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>иг рӧзнитчылӧ, век знаком, кымын знаком.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a365" ANNOTATION_REF="a77">
-                <ANNOTATION_VALUE>майын месячӧ ме сэсся каи ачым личнӧ первӧйӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Майын месячӧ ме сэсся каи ачым личнӧ первӧйӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a366" ANNOTATION_REF="a78">
-                <ANNOTATION_VALUE>мм вӧлӧстӧ петі да кутшӧмкӧ праздник лун койд ли , мый ли вӧлі воскресение ли </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мм, вӧлӧстӧ петі да кутшӧмкӧ праздник лун койд ли, мый ли вӧлі воскресение ли.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a367" ANNOTATION_REF="a79">
-                <ANNOTATION_VALUE>пыри ачым личнӧ да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Пыри ачым личнӧ да,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a368" ANNOTATION_REF="a80">
-                <ANNOTATION_VALUE>сэсся мед меся важ сёрни пан- панны локті</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся мед меся важ сёрни пан- панны локті.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a369" ANNOTATION_REF="a81">
-                <ANNOTATION_VALUE>май гӧг- гӧтрасян сёрни панны , муй кудь тіянлы ладнӧ ловӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Май гӧг- гӧтрасян сёрни панны, муй кудь тіянлы ладнӧ ловӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a370" ANNOTATION_REF="a82">
-                <ANNOTATION_VALUE>а сэтчӧдз ми нин , ме дажӧ иг пыравлы вӧлі кӧ гортаныс сёрнитны , прӧста нылыс дінӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А сэтчӧдз ми нин, ме дажӧ иг пыравлы вӧлі кӧ гортаныс сёрнитны, прӧста нылыс дінӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a371" ANNOTATION_REF="a83">
-                <ANNOTATION_VALUE>наеслӧн вӧлі</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Наеслӧн вӧлі</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a372" ANNOTATION_REF="a84">
-                <ANNOTATION_VALUE>кык комнатаын олӧны да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>кык комнатаын олӧны да,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a373" ANNOTATION_REF="a85">
-                <ANNOTATION_VALUE>ӧти комнатаыс мукӧд дыръяыс и пустӧ , а ми пукалам сэтӧн и кыкӧн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ӧти комнатаыс мукӧд дыръяыс и пустӧ, а ми пукалам сэтӧн и кыкӧн,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a374" ANNOTATION_REF="a86">
-                <ANNOTATION_VALUE>семяыс вӧліс тӧдӧны нин</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>семяыс вӧліс тӧдӧны нин.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a375" ANNOTATION_REF="a87">
-                <ANNOTATION_VALUE>вокъесыс ставыс мамыс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вокъесыс, ставыс мамыс,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a376" ANNOTATION_REF="a88">
-                <ANNOTATION_VALUE>а батьыс из вӧв нин</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а батьыс из вӧв нин.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a377" ANNOTATION_REF="a89">
-                <ANNOTATION_VALUE>на- значит</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>На- значит,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a378" ANNOTATION_REF="a90">
-                <ANNOTATION_VALUE>мм</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a379" ANNOTATION_REF="a91">
-                <ANNOTATION_VALUE>миян сэсся аддзӧны штӧ ми рӧзнитчыны ог вермӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Миян сэсся аддзӧны штӧ ми рӧзнитчыны ог вермӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a380" ANNOTATION_REF="a92">
-                <ANNOTATION_VALUE>кыкнаным любитчим</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ныкнаным любитчим,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a381" ANNOTATION_REF="a93">
-                <ANNOTATION_VALUE>сёрниӧн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сёрниӧн,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a382" ANNOTATION_REF="a94">
-                <ANNOTATION_VALUE>сэсся мӧдісны сӧгласитчыны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся мӧдісны сӧгласитчыны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a383" ANNOTATION_REF="a95">
-                <ANNOTATION_VALUE>сӧгласитчыны мӧдісны вот</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сӧгласитчыны мӧдісны вот.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a384" ANNOTATION_REF="a96">
-                <ANNOTATION_VALUE>сэсся ме гортӧ лэччи сэтісь пу- сёрнитысь ??? да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сэсся ме гортӧ лэччи сэтісь пу- сёрнитысь ??? да.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a385" ANNOTATION_REF="a97">
-                <ANNOTATION_VALUE>мӧд асывнас настояше бӧрла этия зятьтӧ сійӧ ыстіс да вежаньӧс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мӧд асывнас настояше бӧрла этія зятьтӧ сійӧ ыстіс да вежаньӧс,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a386" ANNOTATION_REF="a98">
-                <ANNOTATION_VALUE>ысті вежан да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ысті вежан да,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a387" ANNOTATION_REF="a99">
-                <ANNOTATION_VALUE>вот</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>вот.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a388" ANNOTATION_REF="a100">
-                <ANNOTATION_VALUE>наедӧ мӧдісны офичиальнӧй корасны сэсся настояше на виду</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Наедӧ мӧдісны офичиальнӧй корасны сэсся настояше на виду.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a389" ANNOTATION_REF="a101">
-                <ANNOTATION_VALUE>мед нин надежнӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мед нин надежнӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a390" ANNOTATION_REF="a102">
-                <ANNOTATION_VALUE>а важӧн вӧлі татшӧм тор на</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А важӧн вӧлі татшӧм тор на.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a391" ANNOTATION_REF="a103">
-                <ANNOTATION_VALUE>коді абуджык зэв зонмыс кӧ озджык надейтчы ёна</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Коді абуджык зэв зонмыс кӧ озджык надейтчы ёна,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a392" ANNOTATION_REF="a104">
-                <ANNOTATION_VALUE>нылыс сэсся весь корӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>нылыс сэсся весь корӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a393" ANNOTATION_REF="a105">
-                <ANNOTATION_VALUE>заранея штӧ бы мед надежда ловас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Заранея штӧ бы мед надежда ловас,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a394" ANNOTATION_REF="a106">
-                <ANNOTATION_VALUE>ме пыра да прӧшша моз ло</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ме пыра да прӧшша моз ло.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a395" ANNOTATION_REF="a107">
-                <ANNOTATION_VALUE>сія мем сетіс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сія мем сетіс,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a396" ANNOTATION_REF="a108">
-                <ANNOTATION_VALUE>весь ме кори первӧй корӧсьӧм бӧрті да мем сетіс сэсся весь сія</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>весь ме кори первӧй корӧсьӧм бӧрті да мем сетіс сэсся весь сія,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a397" ANNOTATION_REF="a109">
-                <ANNOTATION_VALUE>зэв ыджыд бур пукӧвӧй од кутшӧмкӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>зэв ыджыд бур пукӧвӧй од кутшӧмкӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a398" ANNOTATION_REF="a110">
-                <ANNOTATION_VALUE>вай юпка бурӧс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вай юпка бурӧс,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a399" ANNOTATION_REF="a111">
-                <ANNOTATION_VALUE>значит ме надежнӧй сэсся нин</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>значит ме надежнӧй сэсся нин.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a400" ANNOTATION_REF="a112">
-                <ANNOTATION_VALUE>чайтас то мый меным тая шедӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Чайтас то мый меным тая шедӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a401" ANNOTATION_REF="a113">
-                <ANNOTATION_VALUE>на конеч ме иг мӧд повны , значит</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>На конеч ме иг мӧд повны, значит,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a402" ANNOTATION_REF="a114">
-                <ANNOTATION_VALUE>меам надежда виим меам тӧлькӧ то гашкӧ ме сайӧ шедӧ нин тайӧ меным</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Меам надежда вийим меам тӧлькӧ то гашкӧ ме сайӧ шедӧ нин тайӧ меным.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a403" ANNOTATION_REF="a115">
-                <ANNOTATION_VALUE>а оз надейтчыны йӧзыс , ме конериндзи а рамендзи да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А оз надейтчыны йӧзыс, ме конериндзи а рамендзи да,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a404" ANNOTATION_REF="a116">
-                <ANNOTATION_VALUE>а сія бурджык да красавичаджык да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а сія бурджык да красавичаджык да.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a405" ANNOTATION_REF="a117">
-                <ANNOTATION_VALUE>оз надейтчыны йӧзыс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Оз надейтчыны йӧзыс.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a406" ANNOTATION_REF="a118">
-                <ANNOTATION_VALUE>но сэсся</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Но сэсся,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a407" ANNOTATION_REF="a119">
-                <ANNOTATION_VALUE>мен , миян лои ӧтлаысьны татшӧм свадьба</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мен, миян лои ӧтлаысьны татшӧм свадьба.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a408" ANNOTATION_REF="a120">
-                <ANNOTATION_VALUE>первӧйӧ миян</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Первӧйӧ миян,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a409" ANNOTATION_REF="a121">
-                <ANNOTATION_VALUE>лоас сійӧ комиӧнкӧ висьтавны так</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>лоас сійӧ комиӧнкӧ висьтавны так,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a410" ANNOTATION_REF="a122">
-                <ANNOTATION_VALUE>войпсьӧм</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>вӧйпсьӧм.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a411" ANNOTATION_REF="a123">
-                <ANNOTATION_VALUE>ки ытшкӧм значит</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ки ытшкӧм значит</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a412" ANNOTATION_REF="a124">
-                <ANNOTATION_VALUE>первӧй основаыс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>первӧй основаыс.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a413" ANNOTATION_REF="a125">
-                <ANNOTATION_VALUE>вежань да вежай зонлӧн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вежань да вежай зонлӧн,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a414" ANNOTATION_REF="a126">
-                <ANNOTATION_VALUE>но наеда сэсся сэтчӧ корасны тожӧ некымын рӧд- мм ближнейсӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>но наеда сэсся сэтчӧ корасны тожӧ некымын рӧд- мм ближнейсӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a415" ANNOTATION_REF="a127">
-                <ANNOTATION_VALUE>сія ки ытшкан четверг , вина сэні юасны , зонлысь</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сія ки ытшкан четверг, вина сэні юасны, зонлысь.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a416" ANNOTATION_REF="a128">
-                <ANNOTATION_VALUE>и сэн юрдон сылы шуасны значит</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>И сэн юрдон сылы шуасны значит.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a417" ANNOTATION_REF="a129">
-                <ANNOTATION_VALUE>мм муй мытта вина , ведра вина</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мм, муй мыдта вина, ведра вина.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a418" ANNOTATION_REF="a130">
-                <ANNOTATION_VALUE>юрдон</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Юрдон.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a419" ANNOTATION_REF="a131">
-                <ANNOTATION_VALUE>сія юрдон пуктаныс сэн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сія юрдон пуктаныс сэні,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a420" ANNOTATION_REF="a132">
-                <ANNOTATION_VALUE>сы вӧрын сійӧ юрдонсӧ вӧйпсьӧм бӧртіыс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сы вӧрын сійӧ юрдонсӧ вӧйпсьӧм бӧртіыс,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a421" ANNOTATION_REF="a133">
-                <ANNOTATION_VALUE>али ки кутӧм бӧрті</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>али ки кутӧм бӧрті.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a422" ANNOTATION_REF="a134">
-                <ANNOTATION_VALUE>эх ?</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>эх?</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a423" ANNOTATION_REF="a135">
-                <ANNOTATION_VALUE>мм вунӧді нин</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Мм, вунӧді нин.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a424" ANNOTATION_REF="a136">
-                <ANNOTATION_VALUE>вӧйпсьӧм бӧрті</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вӧйпсьӧм бӧрті,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a425" ANNOTATION_REF="a137">
-                <ANNOTATION_VALUE>сійӧ винасӧ сылысь жӧныклысь юасны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сійӧ винасӧ сылысь жӧныклысь юасны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a426" ANNOTATION_REF="a138">
-                <ANNOTATION_VALUE>сэсса локтӧныс свадьба</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсса локтӧныс свадьба.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a427" ANNOTATION_REF="a139">
-                <ANNOTATION_VALUE>мм сы бӧрын</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм, сы бӧрын,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a428" ANNOTATION_REF="a140">
-                <ANNOTATION_VALUE>мӧд пӧв , мед настояшия морт кызь кымын</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мӧд пӧв, мед настояшия морт кызь кымын</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a429" ANNOTATION_REF="a141">
-                <ANNOTATION_VALUE>юкӧртчасны свадьба жӧниклӧн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>юкӧртчасны свадьба жӧниклӧн,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a430" ANNOTATION_REF="a142">
-                <ANNOTATION_VALUE>локтӧны пызан гӧгӧр стречайтӧны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>локтӧны пызан гӧгӧр стречайтӧны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a431" ANNOTATION_REF="a143">
-                <ANNOTATION_VALUE>а сэн эх кор кӧлысьыс локтӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а сэн эх кор кӧлысьыс локтӧ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a432" ANNOTATION_REF="a144">
-                <ANNOTATION_VALUE>сэк нарӧшнӧй виимӧсь мыйкӧяс , Молоёль</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэк нарӧшнӧй вийимӧсь мыйкӧяс, Молоёль,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a433" ANNOTATION_REF="a145">
-                <ANNOTATION_VALUE>сэн залпон ліӧны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэн залпон ліӧны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a434" ANNOTATION_REF="a146">
-                <ANNOTATION_VALUE>пищалыс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Пищалыс.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a435" ANNOTATION_REF="a147">
-                <ANNOTATION_VALUE>колостаян</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Колостаян.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a436" ANNOTATION_REF="a148">
-                <ANNOTATION_VALUE>вот</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вот.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a437" ANNOTATION_REF="a149">
-                <ANNOTATION_VALUE>свадьба дінӧ сэсся свадьба пырас керкаас и стречайтӧны тадз</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Свадьба дінӧ сэсся свадьба пырас керкаас и стречайтӧны тадз.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a438" ANNOTATION_REF="a150">
-                <ANNOTATION_VALUE>сэн виим дружка</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сэн виим дружка.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a439" ANNOTATION_REF="a151">
-                <ANNOTATION_VALUE>эх тоыс вежай мыйкӧлӧн , нывлӧн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Эх тоыс вежай мыйкӧлӧн, нывлӧн.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a440" ANNOTATION_REF="a152">
-                <ANNOTATION_VALUE>сія оз лэдз первӧйӧ , а дружка сія и зять морт вӧдзын</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сія оз лэдз первӧйӧ, а дружка сія и зять морт вӧдзын,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a441" ANNOTATION_REF="a153">
-                <ANNOTATION_VALUE>медсьӧн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>медсьӧн.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a442" ANNOTATION_REF="a154">
-                <ANNOTATION_VALUE>оз лэдз , но сэн найӧда мӧдасны сёрнитны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Оз лэдз, но сэн найӧда мӧдасны сёрнитны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a443" ANNOTATION_REF="a155">
-                <ANNOTATION_VALUE>код пӧ локтӧ да сія вот стречайтны мӧдас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Код пӧ локтӧ да сія вот стречайтны мӧдас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a444" ANNOTATION_REF="a156">
-                <ANNOTATION_VALUE>вот тайӧ свадьба ???</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вот тайӧ свадьба поежана.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a445" ANNOTATION_REF="a157">
-                <ANNOTATION_VALUE>локтӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Локтӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a446" ANNOTATION_REF="a158">
-                <ANNOTATION_VALUE>эх</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Эх.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a447" ANNOTATION_REF="a159">
-                <ANNOTATION_VALUE>и сія выстыпӧ , ме пӧ ӧсыптӧг жырӧ мм</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>И сія вӧйсьтыпӧ, ме пӧ ӧсыптӧг жырӧ, мм,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a448" ANNOTATION_REF="a160">
-                <ANNOTATION_VALUE>жирйыс сімӧма да оз вӧссьы пӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>жирйыс сімӧма да оз вӧссьы пӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a449" ANNOTATION_REF="a161">
-                <ANNOTATION_VALUE>а сэн найӧ сёрнитӧны на нӧшта</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А сэн найӧ сёрнитӧны на нӧшта,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a450" ANNOTATION_REF="a162">
-                <ANNOTATION_VALUE>мм ме в- быдӧнас и ог куж висьтавнысӧ , интересная</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм, ме в- быдӧнас и ог куж висьтавнысӧ, интересная.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a451" ANNOTATION_REF="a163">
-                <ANNOTATION_VALUE>а свадьба ??? висьтала та ме час свадьба ??? сэн кутшӧмкӧ кыв нӧшта виим ме сійӧ вунӧдӧма да ог тӧд</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>А свадьба поежана висьтала та ме час свадьба поежана сэн кутшӧмкӧ кыв нӧшта вийим ме сійӧ вунӧдӧма да ог тӧд.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a452" ANNOTATION_REF="a164">
-                <ANNOTATION_VALUE>ладнӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ладнӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a453" ANNOTATION_REF="a165">
-                <ANNOTATION_VALUE>сэсся ме пӧ ӧскала ме бы ??? вӧйсты</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сэсся ме пӧ ӧскала ме бы жиртӧ вӧйсьты,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a454" ANNOTATION_REF="a166">
-                <ANNOTATION_VALUE>ылӧ вӧйстас , а сылы вӧйтча бутылка вина</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ылӧ вӧйсьтас, а сылы вӧйтча бутылка вина</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a455" ANNOTATION_REF="a167">
-                <ANNOTATION_VALUE>зэбтас дружкалӧн , дружка сійӧ вӧдзӧн мунӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>зэбтас дружкалӧн, дружка сійӧ вӧдзӧн мунӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a456" ANNOTATION_REF="a168">
-                <ANNOTATION_VALUE>сія ыбӧссӧ вӧйстас бутылка вина сылы мыйтчас пажалуйста пызан сайӧ , сэсся пырасны гӧгӧр пуксясны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сія ыбӧссӧ вӧйсьтас бутылка вина сылы мыйтчас пажалуйста пызан сайӧ, сэсся пырасны гӧгӧр пуксясны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a457" ANNOTATION_REF="a169">
-                <ANNOTATION_VALUE>сэн сэсся , а невеста сія сэки</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сэн сэсся, а невеста сія сэки,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a458" ANNOTATION_REF="a170">
-                <ANNOTATION_VALUE>мм м м сія вежань вайӧдас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм, м, м, сія вежань вайӧдас</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a459" ANNOTATION_REF="a171">
-                <ANNOTATION_VALUE>да платуйтчӧй</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да платуйтчӧй,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a460" ANNOTATION_REF="a172">
-                <ANNOTATION_VALUE>пызан дорӧ матыстас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>пызан дорӧ матыстас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a461" ANNOTATION_REF="a173">
-                <ANNOTATION_VALUE>сэсся жӧник петалӧ сылы вӧйтча</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся жӧник петалӧ сылы вӧйтча,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a462" ANNOTATION_REF="a174">
-                <ANNOTATION_VALUE>сійӧ мм м</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сійӧ, мм, м,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a463" ANNOTATION_REF="a175">
-                <ANNOTATION_VALUE>босьтас киӧдыс пуксьӧдас ортча сэтчӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>босьтас киӧдыс пуксьӧдас ортча сэтчӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2879,77 +2879,77 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a465" ANNOTATION_REF="a177">
-                <ANNOTATION_VALUE>мыйкӧ гӧсьтитасны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мыйкӧ гӧсьтитасны,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a466" ANNOTATION_REF="a178">
-                <ANNOTATION_VALUE>мм юкын</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>мм, юкын.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a467" ANNOTATION_REF="a179">
-                <ANNOTATION_VALUE>сэсся платуйтчӧй мӧдас бӧрдӧдны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся платуйтчӧй мӧдас бӧрдӧдны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a468" ANNOTATION_REF="a180">
-                <ANNOTATION_VALUE>невеста сувтас пуксяс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>невеста сувтас пуксяс,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a469" ANNOTATION_REF="a181">
-                <ANNOTATION_VALUE>эстчӧ мыйкӧас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>эстчӧ мыйкӧас,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a470" ANNOTATION_REF="a182">
-                <ANNOTATION_VALUE>лавичас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>лавичас,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a471" ANNOTATION_REF="a183">
-                <ANNOTATION_VALUE>бӧкӧвӧй лавичас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>бӧкӧвӧй лавичас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a472" ANNOTATION_REF="a184">
-                <ANNOTATION_VALUE>сэн мӧдас сійӧ бӧрдӧдны , сія интереснӧй зэн быдсяма торсӧ сэн муй кужӧны найӧда бӧрдӧдӧны кудз мунӧ да мыйкӧ мый да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэн мӧдас сійӧ бӧрдӧдны, сія интереснӧй зэв быдсяма торсӧ сэн муй кужӧны найӧда бӧрдӧдӧны кудз мунӧ да мыйкӧ мый да.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a473" ANNOTATION_REF="a185">
-                <ANNOTATION_VALUE>айӧ тіян корасны штӧ первӧйӧ коді пырас , сійӧ тай бӧр лоас косавны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>айӧ тіян корасны штӧ первӧйӧ коді пырас, сійӧ тай бӧр лоас косавны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a474" ANNOTATION_REF="a186">
-                <ANNOTATION_VALUE>сія пуксяс пырас да оз джодж кузяыс пуксьӧ , а джодж вомалас бӧкас пуксяс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сія пуксяс пырас да оз джодж кузяыс пуксьӧ, а джодж вомалас бӧкас пуксяс.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a475" ANNOTATION_REF="a187">
-                <ANNOTATION_VALUE>сія бӧрла примета , кутшӧмкӧ важъя стариннӧй</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сія бӧрла примета, кутшӧмкӧ важъя стариннӧй.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a476" ANNOTATION_REF="a188">
-                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a477" ANNOTATION_REF="a189">
-                <ANNOTATION_VALUE>сэсся свадьба мунӧ сэн кнагина мӧдас сія кнагина шуйсьыны мӧдас , невеста</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся свадьба мунӧ сэн кнагина мӧдас сія кнагина шуйсьыны мӧдас, невеста.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a478" ANNOTATION_REF="a190">
-                <ANNOTATION_VALUE>сія мӧдас по родням ветлӧдлыны ас родняыслы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сія мӧдас по родням ветлӧдлыны ас родняыслы,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a479" ANNOTATION_REF="a191">
-                <ANNOTATION_VALUE>ныв чукӧркӧт</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ныв чукӧркӧт.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2959,27 +2959,27 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a481" ANNOTATION_REF="a193">
-                <ANNOTATION_VALUE>толька тэ дугӧдлы мед бӧрын сёрнитыштам да вӧліс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>толька тэ дугӧдлы мед бӧрын сёрнитыштам да вӧліс.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a482" ANNOTATION_REF="a194">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Да.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a483" ANNOTATION_REF="a195">
-                <ANNOTATION_VALUE>эн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>эн!</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a484" ANNOTATION_REF="a196">
-                <ANNOTATION_VALUE>???шт</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>дугдышт…</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a485" ANNOTATION_REF="a197">
-                <ANNOTATION_VALUE>сэсся тырмас тэныд</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся тырмас тэныд.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -2989,52 +2989,52 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a487" ANNOTATION_REF="a199">
-                <ANNOTATION_VALUE>локтіс невестаыс и мм</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>локтіс невестаыс и, мм,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a488" ANNOTATION_REF="a200">
-                <ANNOTATION_VALUE>свадьба тайӧ ки кутан свадьбаӧ локті невеста ордын</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>свадьба тайӧ ки кутан свадьбаӧ локті невеста ордын.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a489" ANNOTATION_REF="a201">
-                <ANNOTATION_VALUE>может кызь кымын чукӧртчас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>может кызь кымын чукӧртчас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a490" ANNOTATION_REF="a202">
-                <ANNOTATION_VALUE>свадьбаӧ вежай да вежань да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>свадьбаӧ вежай да вежань да,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a491" ANNOTATION_REF="a203">
-                <ANNOTATION_VALUE>дружка да зятьес да сэтӧн и</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>дружка да зятьес да сэтӧн и,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a492" ANNOTATION_REF="a204">
-                <ANNOTATION_VALUE>сійӧ мыйкӧсӧ висьталі нин ыбӧсыд кудз пырӧны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сійӧ мыйкӧсӧ висьталі нин ыбӧсыд кудз пырӧны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a493" ANNOTATION_REF="a205">
-                <ANNOTATION_VALUE>невестаыс вежань вайӧдас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>невестаыс вежань вайӧдас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a494" ANNOTATION_REF="a206">
-                <ANNOTATION_VALUE>вежань</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>вежань.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a495" ANNOTATION_REF="a207">
-                <ANNOTATION_VALUE>сійӧ жӧник петалӧ сылы вӧйтча сувтасны найӧсда соль дорӧ да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сійӧ жӧник петалӧ сылы вӧйтча сувтасны найӧсда соль дорӧ да,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a496" ANNOTATION_REF="a208">
-                <ANNOTATION_VALUE>сійӧ пыртас сэсся</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сійӧ пыртас сэсся.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3044,102 +3044,102 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a498" ANNOTATION_REF="a210">
-                <ANNOTATION_VALUE>ортча пук- подушка вылӧ орчча пуксясны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ортча пук- подушка вылӧ орчча пуксясны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a499" ANNOTATION_REF="a211">
-                <ANNOTATION_VALUE>сэн сэсся гӧсьтитасны кӧнешнӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэн сэсся гӧсьтитасны кӧнешнӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a500" ANNOTATION_REF="a212">
-                <ANNOTATION_VALUE>свадьба мунӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>свадьба мунӧ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a501" ANNOTATION_REF="a213">
-                <ANNOTATION_VALUE>таыс невеста сувтас пызан сайысь</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>таыс невеста сувтас пызан сайысь,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a502" ANNOTATION_REF="a214">
-                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a503" ANNOTATION_REF="a215">
-                <ANNOTATION_VALUE>платуйтчӧй кӧть мунасны бӧрдны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>платуйтчӧй кӧть мӧдасны бӧрдны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a504" ANNOTATION_REF="a216">
-                <ANNOTATION_VALUE>сэн ???са бӧрдӧдасны кӧлысь котырсӧ , мм , критикуйтасны первӧйӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Сэн друг бы бӧрдӧдасны кӧлысь котырсӧ, мм, критикуйтасны первӧйӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a505" ANNOTATION_REF="a217">
-                <ANNOTATION_VALUE>свадьбасӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>свадьбасӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a506" ANNOTATION_REF="a218">
-                <ANNOTATION_VALUE>а бӧрнас сэсся и ошкыны мӧдасны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а бӧрнас сэсся и ошкыны мӧдасны,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a507" ANNOTATION_REF="a219">
-                <ANNOTATION_VALUE>сэтшӧм интереснӧй наеслӧн асланыс виим</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэтшӧм интереснӧй наеслӧн асланыс вийим.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a508" ANNOTATION_REF="a220">
-                <ANNOTATION_VALUE>майкӧ бӧрдӧдан сьыланкыв</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>майкӧ бӧрдӧдан сьыланкыв.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a509" ANNOTATION_REF="a221">
-                <ANNOTATION_VALUE>??? но ме сійӧ кӧнешнӧ ог куж</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вроди, но ме сійӧ кӧнешнӧ ог куж.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a510" ANNOTATION_REF="a222">
-                <ANNOTATION_VALUE>сія платуйтчӧй сӧмын кужӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сія платуйтчӧй сӧмын кужӧ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a511" ANNOTATION_REF="a223">
-                <ANNOTATION_VALUE>коді бӧрдӧдӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>коді бӧрдӧдӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a512" ANNOTATION_REF="a224">
-                <ANNOTATION_VALUE>кхм</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Кхм.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a513" ANNOTATION_REF="a225">
-                <ANNOTATION_VALUE>сэсся свадьба мунӧ гортас , сы бӧрын невеста пондас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся свадьба мунӧ гортас, сы бӧрын невеста пондас,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a514" ANNOTATION_REF="a226">
-                <ANNOTATION_VALUE>по родням своим</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>по родням своим,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a515" ANNOTATION_REF="a227">
-                <ANNOTATION_VALUE>ведлӧдлыны бӧрдӧдчыны , сылы подарки сетӧны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ведлӧдлыны бӧрдӧдчыны, сылы подарки сетӧны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a516" ANNOTATION_REF="a228">
-                <ANNOTATION_VALUE>гӧсьтитны сійӧ нывъескӧт чукӧртчасны да ветлӧдлӧны по своим родням</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>гӧсьтитны сійӧ нывъескӧт чукӧртчасны да ветлӧдлӧны по своим родням.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a517" ANNOTATION_REF="a229">
-                <ANNOTATION_VALUE>сылы подарки пӧдаритӧны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сылы подарки пӧдаритӧны.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3149,27 +3149,27 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a519" ANNOTATION_REF="a231">
-                <ANNOTATION_VALUE>на дінӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>на дінӧ.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a520" ANNOTATION_REF="a232">
-                <ANNOTATION_VALUE>за тем ковмас сія бӧраыс человек таысь и днеи</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>за тем ковмас сія бӧраыс человек таысь и днеи,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a521" ANNOTATION_REF="a233">
-                <ANNOTATION_VALUE>ээ , десять колӧ времяыс нин</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ээ, десять колӧ времяыс нин.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a522" ANNOTATION_REF="a234">
-                <ANNOTATION_VALUE>сы кузьта свадьбаыс мм мунны мӧдас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сы кузьта свадьбаыс, мм, мунны мӧдас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a523" ANNOTATION_REF="a235">
-                <ANNOTATION_VALUE>сы бӧрын на завтра ковмас есьли венецӧ мунны вот татшӧм лунӧ венец</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сы бӧрын на завтра ковмас есьли венецӧ мунны вот татшӧм лунӧ венец.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3179,62 +3179,62 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a525" ANNOTATION_REF="a237">
-                <ANNOTATION_VALUE>невесталы жӧник ваяс ужин</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>невесталы жӧник ваяс ужинь.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a526" ANNOTATION_REF="a238">
-                <ANNOTATION_VALUE>некымын морт вежай да вежань да зять да морт нёль вит сӧмын сэки</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>некымын морт вежай да вежань да зять да морт нёль вит сӧмын сэки.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a527" ANNOTATION_REF="a239">
-                <ANNOTATION_VALUE>ваясны сылы ужин , ныв ужин</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ваясны сылы ужинь, ныв ужинь.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a528" ANNOTATION_REF="a240">
-                <ANNOTATION_VALUE>а сэн мыйкӧ кушаньӧн разнӧйӧ кушаньӧн то</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а сэн мыйкӧ кушаньӧн разнӧйӧ кушаньӧн то.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a529" ANNOTATION_REF="a241">
-                <ANNOTATION_VALUE>ӧти тор мӧд тор</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ӧти тор мӧд тор.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a530" ANNOTATION_REF="a242">
-                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a531" ANNOTATION_REF="a243">
-                <ANNOTATION_VALUE>хлеб соль мыйкӧыс сэн мм-</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>хлеб, соль мыйкӧыс сэн мм-,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a532" ANNOTATION_REF="a244">
-                <ANNOTATION_VALUE>кушаньӧ кутшӧмкӧ , разнӧй</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>кушаньӧ кутшӧмкӧ, разнӧй.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a533" ANNOTATION_REF="a245">
-                <ANNOTATION_VALUE>сія ныв ужин</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сія ныв ужинь.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a534" ANNOTATION_REF="a246">
-                <ANNOTATION_VALUE>но мый разнӧй кужаньясӧн ???</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>но мый разнӧй кужаньясӧн, шестнӧй.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a535" ANNOTATION_REF="a247">
-                <ANNOTATION_VALUE>сэн бӧр- бӧрла сія бӧрдӧдыштас сійӧ ужинсӧ невеста</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэн бӧр- бӧрла сія бӧрдӧдыштас сійӧ ужиньсӧ невеста.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a536" ANNOTATION_REF="a248">
-                <ANNOTATION_VALUE>сэсь свадьба бӧр пони свадьба , бӧр гортас локтӧ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсь свадьба бӧр пони свадьба, бӧр гортас локтӧ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3244,72 +3244,72 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a538" ANNOTATION_REF="a250">
-                <ANNOTATION_VALUE>венецӧ мӧдасны бӧрла ыджыд свадьбаӧн юкӧртчасны человек два ??? близка</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>венецӧ мӧдасны бӧрла ыджыд свадьбаӧн юкӧртчасны человек два седма близка.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a539" ANNOTATION_REF="a251">
-                <ANNOTATION_VALUE>иногда бурджык</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>иногда бурджык,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a540" ANNOTATION_REF="a252">
-                <ANNOTATION_VALUE>вот</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>вот.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a541" ANNOTATION_REF="a253">
-                <ANNOTATION_VALUE>венецӧ каасны венецайтчасны сэсся</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>венецӧ каасны венецайтчасны сэсся.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a542" ANNOTATION_REF="a254">
-                <ANNOTATION_VALUE>поп венецайтас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>поп венецайтас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a543" ANNOTATION_REF="a255">
-                <ANNOTATION_VALUE>чунькытш вежас вичкоын жӧнык невесталысь</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>чунькытш вежас вичкоын жӧнык невесталысь.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a544" ANNOTATION_REF="a256">
-                <ANNOTATION_VALUE>а на лои , гӧгӧрын бергӧдлас ,</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>а на лои, гӧгӧрын бергӧдлас,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a545" ANNOTATION_REF="a257">
-                <ANNOTATION_VALUE>юр вылас венец пуктас , да вӧлісана лои гӧгӧрыс бергӧдлас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>юр вылас венец пуктас, да вӧлісана лои гӧгӧрыс бергӧдлас.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a546" ANNOTATION_REF="a258">
-                <ANNOTATION_VALUE>куимысь бергӧдлас сэсся сувтӧдас , значит</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>куимысь бергӧдлас сэсся сувтӧдас, значит,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a547" ANNOTATION_REF="a259">
-                <ANNOTATION_VALUE>лои законнӧй по старому венец</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>лои законнӧй по старому венец.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a548" ANNOTATION_REF="a260">
-                <ANNOTATION_VALUE>да</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a549" ANNOTATION_REF="a261">
-                <ANNOTATION_VALUE>сэсся свадьбасӧ лэччас гортас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся свадьбасӧ лэччас гортас,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a550" ANNOTATION_REF="a262">
-                <ANNOTATION_VALUE>ӧбедайтас сія свадьба чукӧрнас пызан сайын</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ӧбедайтас сія свадьба чукӧрнас пызан сайын,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a551" ANNOTATION_REF="a263">
-                <ANNOTATION_VALUE>сэсся жӧник , сэсся нин сія лоӧ гозъя</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>сэсся жӧник, сэсся нин сія лоӧ гозъя</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3329,7 +3329,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a555" ANNOTATION_REF="a267">
-                <ANNOTATION_VALUE>корны да в родня гӧсти , но гӧсьтитасны сэн</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>корны да в родня гӧсти, но гӧсьтитасны сэн</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3359,7 +3359,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a561" ANNOTATION_REF="a283">
-                <ANNOTATION_VALUE>м пируйтны корас , сэсся сы вӧрын вӧліс юкӧртчасны пируйтны</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>м пируйтны корас, сэсся сы вӧрын вӧліс юкӧртчасны пируйтны</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3374,7 +3374,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a564" ANNOTATION_REF="a286">
-                <ANNOTATION_VALUE>пом , но ӧти тор на вунӧди тай</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>пом, но ӧти тор на вунӧди тай</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10724,7 +10724,7 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@VAK-M-1880" PARTICIPANT="VAK-M-1880" TIER_ID="pos@VAK-M-1880"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@VAK-M-1880" PARTICIPANT="VAK-M-1880" TIER_ID="lg(word)@VAK-M-1880"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@VAK-M-1880" PARTICIPANT="VAK-M-1880" TIER_ID="note(word)@VAK-M-1880"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref(spoken)T" PARTICIPANT="XXX-F-18XX" TIER_ID="ref@XXX-F-18XX">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="XXX-F-18XX" TIER_ID="ref@XXX-F-18XX">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a271" TIME_SLOT_REF1="ts238" TIME_SLOT_REF2="ts239">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
@@ -10780,12 +10780,12 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@XXX-F-18XX" PARTICIPANT="XXX-F-18XX" TIER_ID="orth@XXX-F-18XX">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1908" ANNOTATION_REF="a271">
-                <ANNOTATION_VALUE>??? ??? ???</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1909" ANNOTATION_REF="a272">
-                <ANNOTATION_VALUE>вӧйтти ??? ??? ???</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Вӧйтти кыдь бы юрдон…</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10800,7 +10800,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1912" ANNOTATION_REF="a275">
-                <ANNOTATION_VALUE>вӧйтӧм бӧрті</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>вӧйтӧм бӧрті…</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10810,12 +10810,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1914" ANNOTATION_REF="a277">
-                <ANNOTATION_VALUE>хех</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>хех…</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1915" ANNOTATION_REF="a278">
-                <ANNOTATION_VALUE>ай-яй-яй</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>ай-яй-яй!</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10825,7 +10825,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1917" ANNOTATION_REF="a280">
-                <ANNOTATION_VALUE>детинаыс здоровайтас</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>детинаыс здоровайтас!</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -10961,8 +10961,8 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@XXX-F-18XX" PARTICIPANT="XXX-F-18XX" TIER_ID="pos@XXX-F-18XX"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@XXX-F-18XX" PARTICIPANT="XXX-F-18XX" TIER_ID="lg(word)@XXX-F-18XX"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@XXX-F-18XX" PARTICIPANT="XXX-F-18XX" TIER_ID="note(word)@XXX-F-18XX"/>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="part(spoken)T" TIME_ALIGNABLE="true"/>
-    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref(spoken)T" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="partT" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="refT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE EXT_REF="er1" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="geoT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="bioT" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="commentT" TIME_ALIGNABLE="true"/>

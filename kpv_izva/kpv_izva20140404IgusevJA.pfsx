@@ -17,7 +17,7 @@
         <String>ft-rusT</String>
     </prefList>
     <pref key="TimeLineViewer.ZoomLevel">
-        <Float>94.0</Float>
+        <Float>194.0</Float>
     </pref>
     <prefGroup key="TierColors">
         <pref key="geo">
@@ -32,11 +32,11 @@
         <pref key="ref@JAI-M-1939">
             <Object class="java.awt.Color">160,0,90</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">160,90,0</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">0,90,0</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,90,0</Object>
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
@@ -46,7 +46,7 @@
         <Int>440</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>500</Long>
+        <Long>310238</Long>
     </pref>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
@@ -58,10 +58,10 @@
         <String>ft-eng@JAI-M-1939</String>
     </pref>
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,773</Object>
+        <Object class="java.awt.Dimension">1280,777</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
-        <Float>94.0</Float>
+        <Float>194.0</Float>
     </pref>
     <pref key="SubTitleViewer.TierName-1">
         <String>orth@JAI-M-1939</String>
@@ -187,7 +187,7 @@
         <String>note(word)@NTP-M-1986</String>
     </prefList>
     <pref key="SelectionEndTime">
-        <Long>1000</Long>
+        <Long>311376</Long>
     </pref>
     <pref key="ActiveVideoRecognizerName">
         <String>Human motion analysis and annotation</String>
@@ -326,7 +326,7 @@
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>1171355</Long>
+        <Long>331493</Long>
     </pref>
     <prefList key="ExportPraatDialog.selectedTiers">
         <String>ref@JAI-M-1939</String>
@@ -378,7 +378,7 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>1166188</Long>
+        <Long>328357</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>note(part)</String>

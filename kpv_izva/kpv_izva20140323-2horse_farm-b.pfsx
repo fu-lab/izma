@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
-    <pref key="ActiveVideoRecognizerName">
-        <String>Human motion analysis and annotation</String>
-    </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>part</String>
         <String>note(part)</String>
@@ -128,6 +125,12 @@
         <String>phonet-IPA@MVF-F-1984</String>
         <String>phonol-LAT@MVF-F-1984</String>
     </prefList>
+    <pref key="ActiveVideoRecognizerName">
+        <String>Human motion analysis and annotation</String>
+    </pref>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
             <String>English</String>
@@ -136,21 +139,9 @@
             <String>///Users/niko/kom/kpv_izva/kpv_izva20140323-2horse_farm-b/kpv_izva20140323-2horse_farm-b.wav</String>
         </pref>
     </prefGroup>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    <pref key="WaveFormViewer.ActiveURL">
+        <String>file:///Users/niko/kom/kpv_izva/kpv_izva20140323-2horse_farm-b/kpv_izva20140323-2horse_farm-b.wav</String>
     </pref>
-    <prefList key="CommentViewer.Columns.Order">
-        <String>Start Time</String>
-        <String>End Time</String>
-        <String>Tier</String>
-        <String>Initials</String>
-        <String>Comment</String>
-        <String>Thread</String>
-        <String>Sender</String>
-        <String>Recipient</String>
-        <String>Creation Date</String>
-        <String>Modification Date</String>
-    </prefList>
     <prefGroup key="Human motion analysis and annotation">
         <pref key="output_video_resolution">
             <String>half</String>
@@ -175,8 +166,20 @@
             <Float>30.0</Float>
         </pref>
     </prefGroup>
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Start Time</String>
+        <String>End Time</String>
+        <String>Tier</String>
+        <String>Initials</String>
+        <String>Comment</String>
+        <String>Thread</String>
+        <String>Sender</String>
+        <String>Recipient</String>
+        <String>Creation Date</String>
+        <String>Modification Date</String>
+    </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>126</Int>
+        <Int>114</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@AXH-M-1979">
@@ -206,55 +209,55 @@
         </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="TM.SignalViewer.ZoomLevel">
-        <Float>5.0</Float>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>orthT</String>
         <String>ft-rusT</String>
         <String>ft-engT</String>
     </prefList>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>1</Int>
+    </pref>
     <pref key="TimeLineViewer.ZoomLevel">
         <Float>109.0</Float>
-    </pref>
-    <pref key="LayoutManager.SelectedTabIndex">
-        <Int>0</Int>
-    </pref>
-    <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@VPC-M-1993</String>
     </pref>
     <prefGroup key="TierColors">
         <pref key="ref@AXH-M-1979">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
-        <pref key="geo">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
         <pref key="ref@NTP-M-1986">
             <Object class="java.awt.Color">160,160,0</Object>
         </pref>
-        <pref key="ref@VPC-M-1993">
-            <Object class="java.awt.Color">90,0,0</Object>
+        <pref key="geo">
+            <Object class="java.awt.Color">0,160,160</Object>
         </pref>
         <pref key="bio">
             <Object class="java.awt.Color">0,0,160</Object>
         </pref>
+        <pref key="ref@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
         <pref key="ref@MVF-F-1984">
             <Object class="java.awt.Color">0,160,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">160,160,90</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,160,90</Object>
         </pref>
         <pref key="ref@ISF-F-19XX">
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
     </prefGroup>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@VPC-M-1993</String>
+    </pref>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
         <String>Recipient</String>
@@ -265,11 +268,17 @@
     <pref key="TranscriptionTable.LastActiveRow">
         <Int>383</Int>
     </pref>
+    <pref key="GridViewer.TierName">
+        <String>orth@AXH-M-1979</String>
+    </pref>
     <pref key="SelectionBeginTime">
-        <Long>486758</Long>
+        <Long>306588</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
+    </pref>
+    <pref key="MediaTime">
+        <Long>310858</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ft-rus@ISF-F-19XX">
@@ -281,11 +290,11 @@
         <pref key="orth@ISF-F-19XX">
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
-        <pref key="ref@NTP-M-1986">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
         <pref key="geo">
             <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="ref@NTP-M-1986">
+            <Object class="java.awt.Color">160,160,0</Object>
         </pref>
         <pref key="orth@NTP-M-1986">
             <Object class="java.awt.Color">160,160,0</Object>
@@ -314,40 +323,37 @@
         <pref key="orth@MVF-F-1984">
             <Object class="java.awt.Color">0,160,0</Object>
         </pref>
-        <pref key="bio">
-            <Object class="java.awt.Color">0,0,160</Object>
-        </pref>
         <pref key="ref@VPC-M-1993">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
-        <pref key="orth@VPC-M-1993">
-            <Object class="java.awt.Color">90,0,0</Object>
+        <pref key="bio">
+            <Object class="java.awt.Color">0,0,160</Object>
         </pref>
         <pref key="ft-rus@AXH-M-1979">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
+        <pref key="orth@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,0</Object>
+        </pref>
         <pref key="ft-eng@ISF-F-19XX">
             <Object class="java.awt.Color">160,90,90</Object>
-        </pref>
-        <pref key="ft-eng@VPC-M-1993">
-            <Object class="java.awt.Color">90,0,0</Object>
         </pref>
         <pref key="ft-eng@NTP-M-1986">
             <Object class="java.awt.Color">160,160,0</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">160,160,90</Object>
+        <pref key="ft-eng@VPC-M-1993">
+            <Object class="java.awt.Color">90,0,0</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,160,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,160,90</Object>
         </pref>
         <pref key="ft-eng@AXH-M-1979">
             <Object class="java.awt.Color">90,0,90</Object>
         </pref>
     </prefGroup>
-    <pref key="MediaTime">
-        <Long>489748</Long>
-    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
@@ -355,20 +361,23 @@
         <Float>109.0</Float>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
+    </pref>
     <pref key="TimeLineViewer.ReducedTierHeight">
         <Boolean>true</Boolean>
     </pref>
-    <pref key="MediaControlRate">
-        <Float>1.0</Float>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1280,997</Object>
     </pref>
     <pref key="SignalViewer.ZoomLevel">
         <Float>109.0</Float>
     </pref>
-    <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1280,773</Object>
-    </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type3 : ft-engT</String>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -402,11 +411,31 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>part</String>
+    <pref key="LayoutManager.ControlPanelWidth">
+        <Int>198</Int>
+    </pref>
+    <pref key="TextViewer.TierName">
+        <String>orth@AXH-M-1979</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>501836</Long>
+        <Long>306285</Long>
+    </pref>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
+    </pref>
+    <prefGroup key="TranscriptionTable.ColumnWidth">
+        <pref key="Type3">
+            <Int>281</Int>
+        </pref>
+        <pref key="Type2">
+            <Int>282</Int>
+        </pref>
+        <pref key="Type1">
+            <Int>282</Int>
+        </pref>
+    </prefGroup>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>309</Int>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers">
         <String>part</String>
@@ -507,24 +536,7 @@
         <String>phonet-IPA@MVF-F-1984</String>
         <String>phonol-LAT@MVF-F-1984</String>
     </prefList>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>65</Int>
-    </pref>
-    <prefGroup key="TranscriptionTable.ColumnWidth">
-        <pref key="Type3">
-            <Int>281</Int>
-        </pref>
-        <pref key="Type2">
-            <Int>282</Int>
-        </pref>
-        <pref key="Type1">
-            <Int>282</Int>
-        </pref>
-    </prefGroup>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
-    </pref>
     <pref key="SelectionEndTime">
-        <Long>510854</Long>
+        <Long>310860</Long>
     </pref>
 </preferences>

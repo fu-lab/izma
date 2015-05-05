@@ -50,7 +50,10 @@ kpv.meta <- left_join(kpv.meta, sessions)
 
 ####
 
-kpv.meta <- kpv.meta %>% filter(ELAN_file == TRUE) %>% select(Naming_convention, Session_name, Birthtime_year, Recording_year, PlaceofRes_OSM_ID, RecPlace_OSM_ID, Birthplace_OSM_ID, Sex, Attr_Foreign_researcher, ELAN_file, Style, Genre, Mode, Aligned, Title)
+### I removed the filter for ELAN files so we get the whole corpus
+
+kpv.meta <- kpv.meta %>% # filter(ELAN_file == TRUE) %>%
+        select(Naming_convention, Session_name, Birthtime_year, Actor_firstname, Actor_patronym, Actor_surname, Recording_year, PlaceofRes_OSM_ID, RecPlace_OSM_ID, Birthplace_OSM_ID, Sex, Attr_Foreign_researcher, ELAN_file, Style, Genre, Mode, Aligned, Title)
 
 
 OSM_rec <- OSM_rec %>% rename(RecPlace_OSM_ID = OSM_ID)

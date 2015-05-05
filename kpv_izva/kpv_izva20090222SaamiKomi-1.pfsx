@@ -159,13 +159,13 @@
         <Int>5</Int>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>13938</Long>
+        <Long>169021</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
     <pref key="MediaTime">
-        <Long>242721</Long>
+        <Long>169020</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ft-rus@MR-M-1971">
@@ -284,7 +284,7 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>229112</Long>
+        <Long>159641</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefGroup key="TranscriptionTable.ColumnWidth">
@@ -311,6 +311,6 @@
         <String>Text-to-Speech alignment</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>16472</Long>
+        <Long>171205</Long>
     </pref>
 </preferences>
