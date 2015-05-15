@@ -52,9 +52,6 @@
         <String>note(orth)@VAK-M-1880</String>
         <String>lg(orth)@VAK-M-1880</String>
     </prefList>
-    <pref key="LayoutManager.VisibleMultiTierViewer">
-        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
-    </pref>
     <prefGroup key="Text-to-Speech alignment">
         <pref key="model">
             <String>English</String>
@@ -63,6 +60,9 @@
             <String>///Users/niko/kom/kpv_udora/kpv_udo19620830KOTUSKonovalovVA-2/kpv_udo19620830KOTUSKonovalovVA-2.wav</String>
         </pref>
     </prefGroup>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -75,11 +75,11 @@
         <String>Creation Date</String>
         <String>Modification Date</String>
     </prefList>
-    <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>131</Int>
-    </pref>
     <pref key="SignalViewer.VerticalZoomLevel">
         <Int>500</Int>
+    </pref>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>131</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap">
         <prefList key="ref@MVP-F-1936">
@@ -99,19 +99,25 @@
         </prefList>
     </prefGroup>
     <prefList key="TranscriptionTable.NonEditableTiers"/>
-    <pref key="TM.SignalViewer.ZoomLevel">
-        <Float>5.0</Float>
-    </pref>
     <pref key="MediaControlVolume">
         <Float>1.0</Float>
+    </pref>
+    <pref key="TM.SignalViewer.ZoomLevel">
+        <Float>5.0</Float>
     </pref>
     <prefList key="TranscriptionTable.ColumnTypes">
         <String>orthT</String>
         <String>ft-engT</String>
         <String>ft-rusT</String>
     </prefList>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>133.0</Float>
+    </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>4</Int>
+    </pref>
+    <pref key="SegmentationViewer.ActiveTier">
+        <String>ref@AJV-M-1933</String>
     </pref>
     <prefGroup key="TierColors">
         <pref key="geo">
@@ -123,22 +129,19 @@
         <pref key="ref@MVP-F-1936">
             <Object class="java.awt.Color">160,90,160</Object>
         </pref>
-        <pref key="ref@VAK-M-1880">
-            <Object class="java.awt.Color">0,0,90</Object>
-        </pref>
         <pref key="part">
             <Object class="java.awt.Color">160,90,90</Object>
         </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,0,160</Object>
         </pref>
+        <pref key="ref@VAK-M-1880">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
         <pref key="ref@AJV-M-1933">
             <Object class="java.awt.Color">160,160,90</Object>
         </pref>
     </prefGroup>
-    <pref key="SegmentationViewer.ActiveTier">
-        <String>ref@AJV-M-1933</String>
-    </pref>
     <prefList key="CommentViewer.Columns.Hidden">
         <String>Sender</String>
         <String>Recipient</String>
@@ -153,7 +156,10 @@
         <Long>327036</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
-        <Int>2</Int>
+        <Int>1</Int>
+    </pref>
+    <pref key="MediaTime">
+        <Long>337598</Long>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="ft-eng@AJV-M-1933">
@@ -192,11 +198,11 @@
         <pref key="ft-eng@MVP-F-1936">
             <Object class="java.awt.Color">160,90,160</Object>
         </pref>
-        <pref key="part">
-            <Object class="java.awt.Color">160,90,90</Object>
-        </pref>
         <pref key="comment">
             <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="part">
+            <Object class="java.awt.Color">160,90,90</Object>
         </pref>
         <pref key="ref@AJV-M-1933">
             <Object class="java.awt.Color">160,160,90</Object>
@@ -205,37 +211,31 @@
             <Object class="java.awt.Color">160,160,90</Object>
         </pref>
     </prefGroup>
-    <pref key="MediaTime">
-        <Long>327035</Long>
-    </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
-    <pref key="MediaControlRate">
-        <Float>1.0</Float>
-    </pref>
     <pref key="TimeLineViewer.ReducedTierHeight">
         <Boolean>true</Boolean>
     </pref>
-    <pref key="SignalViewer.ZoomLevel">
-        <Float>133.0</Float>
+    <pref key="MediaControlRate">
+        <Float>1.0</Float>
     </pref>
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1280,773</Object>
     </pref>
+    <pref key="SignalViewer.ZoomLevel">
+        <Float>133.0</Float>
+    </pref>
     <pref key="TranscriptionTable.LastActiveColumn">
         <String>Type1 : orthT</String>
     </pref>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>part</String>
-    </pref>
     <prefGroup key="CommentViewer.Columns">
-        <pref key="Sender">
-            <Int>0</Int>
-        </pref>
         <pref key="Modification Date">
             <Int>75</Int>
+        </pref>
+        <pref key="Sender">
+            <Int>0</Int>
         </pref>
         <pref key="Tier">
             <Int>75</Int>
@@ -246,27 +246,69 @@
         <pref key="Initials">
             <Int>75</Int>
         </pref>
-        <pref key="Start Time">
+        <pref key="Comment">
             <Int>75</Int>
         </pref>
         <pref key="End Time">
             <Int>75</Int>
         </pref>
-        <pref key="Comment">
-            <Int>75</Int>
-        </pref>
-        <pref key="Thread">
+        <pref key="Start Time">
             <Int>75</Int>
         </pref>
         <pref key="Recipient">
             <Int>0</Int>
         </pref>
+        <pref key="Thread">
+            <Int>75</Int>
+        </pref>
     </prefGroup>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>part</String>
+    </pref>
     <pref key="SignalViewer.StereoMode">
         <Int>3</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>324509</Long>
+        <Long>335763</Long>
+    </pref>
+    <prefList key="MultiTierViewer.HiddenTiers">
+        <String>part</String>
+        <String>note(part)</String>
+        <String>note(ref)@AJV-M-1933</String>
+        <String>lemma@AJV-M-1933</String>
+        <String>morph@AJV-M-1933</String>
+        <String>pos@AJV-M-1933</String>
+        <String>lg(word)@AJV-M-1933</String>
+        <String>note(word)@AJV-M-1933</String>
+        <String>ft-fin@AJV-M-1933</String>
+        <String>note(orth)@AJV-M-1933</String>
+        <String>lg(orth)@AJV-M-1933</String>
+        <String>geo</String>
+        <String>note(geo)</String>
+        <String>bio</String>
+        <String>note(bio)</String>
+        <String>comment</String>
+        <String>note(ref)@MVP-F-1936</String>
+        <String>lemma@MVP-F-1936</String>
+        <String>morph@MVP-F-1936</String>
+        <String>pos@MVP-F-1936</String>
+        <String>lg(word)@MVP-F-1936</String>
+        <String>note(word)@MVP-F-1936</String>
+        <String>ft-fin@MVP-F-1936</String>
+        <String>note(orth)@MVP-F-1936</String>
+        <String>lg(orth)@MVP-F-1936</String>
+        <String>note(ref)@VAK-M-1880</String>
+        <String>lemma@VAK-M-1880</String>
+        <String>morph@VAK-M-1880</String>
+        <String>pos@VAK-M-1880</String>
+        <String>lg(word)@VAK-M-1880</String>
+        <String>note(word)@VAK-M-1880</String>
+        <String>ft-fin@VAK-M-1880</String>
+        <String>note(orth)@VAK-M-1880</String>
+        <String>lg(orth)@VAK-M-1880</String>
+    </prefList>
+    <pref key="ActiveAudioRecognizerName">
+        <String>Text-to-Speech alignment</String>
     </pref>
     <prefGroup key="TranscriptionTable.ColumnWidth">
         <pref key="Type3">
@@ -279,9 +321,6 @@
             <Int>282</Int>
         </pref>
     </prefGroup>
-    <pref key="ActiveAudioRecognizerName">
-        <String>Text-to-Speech alignment</String>
-    </pref>
     <pref key="SelectionEndTime">
         <Long>331838</Long>
     </pref>
